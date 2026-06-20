@@ -33,6 +33,8 @@ jobs:
           if [ -f logo.png ]; then cp logo.png _site/; fi
           if [ -d data ]; then cp -R data _site/; fi
           if [ -d assets ]; then cp -R assets _site/; fi
+          if [ -d styles ]; then cp -R styles _site/; fi
+          if [ -d js ]; then cp -R js _site/; fi
           if [ -f CNAME ]; then cp CNAME _site/; fi
           touch _site/.nojekyll
 
