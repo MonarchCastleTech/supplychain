@@ -1,15 +1,15 @@
-# Roadmap: Monarch Castle Technologies â "Best in the World"
+# Roadmap: Monarch Castle Technologies â "Best in the World"
 
 **Created:** 2026-06-20
 **Granularity:** fine
 **Mode:** mvp
-**Core Value:** Investors trust every number and instantly grasp supply-chain structure, concentration, and risk â credibility first, then beauty, then unique depth.
+**Core Value:** Investors trust every number and instantly grasp supply-chain structure, concentration, and risk â credibility first, then beauty, then unique depth.
 
-This roadmap preserves the approved spec's mandatory ordering: **Foundation first â Trust â Storytelling/Visual â Depth of intelligence â Performance/Accessibility/Launch last.** Trust precedes all visual polish (credibility-first hard constraint from the spec risk register).
+This roadmap preserves the approved spec's mandatory ordering: **Foundation first â Trust â Storytelling/Visual â Depth of intelligence â Performance/Accessibility/Launch last.** Trust precedes all visual polish (credibility-first hard constraint from the spec risk register).
 
 **Standing hard constraints (apply to every phase):**
 - The existing 103-test suite stays green throughout; new behavior gets new tests.
-- Real, sourced data only â nothing fabricated; every major figure traceable to a reachable source.
+- Real, sourced data only â nothing fabricated; every major figure traceable to a reachable source.
 - Buildless static site preserved; GitHub-Pages direct serve and the weekly auto-update Actions pipeline keep working.
 - No login; public investor audience.
 
@@ -19,7 +19,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 - [ ] **Phase 2: Provenance & Source Linking** - Every major figure tagged observed/estimated with a reachable inline source link
 - [ ] **Phase 3: Confidence, Methodology & Freshness** - Confidence scoring, Methodology view, freshness indicator, and trust-math tests
 - [ ] **Phase 4: Design System & Smooth Motion** - Consistent design tokens applied site-wide and jank-free D3 transitions
-- [ ] **Phase 5: Hero Moment & Investor Narrative** - First-30s guided hero and marketâconcentrationâriskâopportunity flow, with non-regression tests
+- [ ] **Phase 5: Hero Moment & Investor Narrative** - First-30s guided hero and marketâconcentrationâriskâopportunity flow, with non-regression tests
 - [ ] **Phase 6: Concentration & Risk Analytics** - Per-company/sector concentration scoring and single-point-of-failure bottleneck analytics on real data
 - [ ] **Phase 7: Scenario Stress-Tests** - At least one real-data scenario stress-test with downstream impact, all analytics carrying provenance and tests
 - [ ] **Phase 8: Interaction Performance** - Memoized filter/style interactions with no full simulation restart
@@ -46,25 +46,29 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 **UI hint**: yes
 
 ### Phase 2: Provenance & Source Linking
-**Goal**: No investor sees a major number without knowing whether it is observed or estimated and where it came from â the credibility foundation laid before any other trust feature.
+**Goal**: No investor sees a major number without knowing whether it is observed or estimated and where it came from â the credibility foundation laid before any other trust feature.
 **Mode:** mvp
 **Depends on**: Phase 1
 **Requirements**: TRUST-01, TRUST-02
 **Success Criteria** (what must be TRUE):
   1. Every displayed major figure shows a provenance badge tagging it `observed` or `estimated`.
   2. Each figure exposes a reachable inline source link (e.g., SEC filing, annual report) on hover or click that resolves to a real source.
-  3. No figure is fabricated or unsourced â provenance is driven by the existing real `data/` JSON contract, which remains unchanged.
+  3. No figure is fabricated or unsourced â provenance is driven by the existing real `data/` JSON contract, which remains unchanged.
   4. The 103-test suite stays green with provenance rendering in place.
-**Plans**: TBD
+**Plans**: 4 plans
+- [ ] 02-01-PLAN.md — Implement data-driven trust core (provenanceFor/badgeHtml/renderProvenanceBadge) + register provenance test (TRUST-01/02)
+- [ ] 02-02-PLAN.md — Wire badges into viz: node/link tooltips, $cap stat bar, verified-node class (TRUST-01/02)
+- [ ] 02-03-PLAN.md — Wire badges into ui: company card, compare grid, source drawer + fix src.t→title bug (TRUST-01/02)
+- [ ] 02-04-PLAN.md — Register trust-wiring test, full-suite green gate, browser human-verify checkpoint (TRUST-01/02)
 **UI hint**: yes
 
 ### Phase 3: Confidence, Methodology & Freshness
-**Goal**: Investors can judge how much to trust each figure and the dataset as a whole â quantified confidence, an explained methodology, and a verifiable freshness guarantee.
+**Goal**: Investors can judge how much to trust each figure and the dataset as a whole â quantified confidence, an explained methodology, and a verifiable freshness guarantee.
 **Mode:** mvp
 **Depends on**: Phase 2
 **Requirements**: TRUST-03, TRUST-04, TRUST-05, TRUST-06
 **Success Criteria** (what must be TRUE):
-  1. A confidence score (0â100%) is computed per figure, weighted by source type and age decay, and shown in tooltips.
+  1. A confidence score (0â100%) is computed per figure, weighted by source type and age decay, and shown in tooltips.
   2. A dedicated Methodology view explains data sources, confidence weighting, and known limits.
   3. A visible "last verified / data freshness" indicator is tied to the auto-update pipeline timestamp and stays accurate after a weekly refresh.
   4. New tests cover provenance tagging and confidence-scoring math, and the full suite stays green.
@@ -72,7 +76,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 **UI hint**: yes
 
 ### Phase 4: Design System & Smooth Motion
-**Goal**: The trusted experience looks world-class and moves smoothly â a consistent visual language and jank-free D3 motion that never destroys the user's mental map.
+**Goal**: The trusted experience looks world-class and moves smoothly â a consistent visual language and jank-free D3 motion that never destroys the user's mental map.
 **Mode:** mvp
 **Depends on**: Phase 3
 **Requirements**: STORY-01, STORY-03
@@ -91,25 +95,25 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 **Requirements**: STORY-02, STORY-04, STORY-05
 **Success Criteria** (what must be TRUE):
   1. A first-time visitor sees a "first 30 seconds" guided hero moment that auto-reveals the global map with narration.
-  2. An investor narrative flow guides the user market â concentration â risk â opportunity.
+  2. An investor narrative flow guides the user market â concentration â risk â opportunity.
   3. Storytelling/hero behavior is covered by non-regression tests, and the full suite stays green.
 **Plans**: TBD
 **UI hint**: yes
 
 ### Phase 6: Concentration & Risk Analytics
-**Goal**: Investors instantly grasp where supply-chain risk concentrates â quantified concentration and the critical single points of failure in the network, on real data.
+**Goal**: Investors instantly grasp where supply-chain risk concentrates â quantified concentration and the critical single points of failure in the network, on real data.
 **Mode:** mvp
 **Depends on**: Phase 5
 **Requirements**: DEPTH-01, DEPTH-02
 **Success Criteria** (what must be TRUE):
   1. A supply-chain concentration score is computed and displayed per company/sector using real data only.
   2. Risk and bottleneck analytics highlight critical single points of failure in the network.
-  3. Each displayed analytic carries provenance consistent with the Phase 2â3 trust layer (no unsourced derived numbers).
+  3. Each displayed analytic carries provenance consistent with the Phase 2â3 trust layer (no unsourced derived numbers).
 **Plans**: TBD
 **UI hint**: yes
 
 ### Phase 7: Scenario Stress-Tests
-**Goal**: Investors can explore "what if" disruptions and see downstream impact â the uniquely deep capability that distinguishes the site, on real data with full provenance.
+**Goal**: Investors can explore "what if" disruptions and see downstream impact â the uniquely deep capability that distinguishes the site, on real data with full provenance.
 **Mode:** mvp
 **Depends on**: Phase 6
 **Requirements**: DEPTH-03, DEPTH-04
@@ -121,31 +125,31 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 **UI hint**: yes
 
 ### Phase 8: Interaction Performance
-**Goal**: Filtering and styling the visualization feels immediate â simple changes never trigger an expensive full simulation restart.
+**Goal**: Filtering and styling the visualization feels immediate â simple changes never trigger an expensive full simulation restart.
 **Mode:** mvp
 **Depends on**: Phase 7
 **Requirements**: PERF-01
 **Success Criteria** (what must be TRUE):
-  1. Filter and style interactions are memoized â no full simulation restart for simple filter/style changes.
+  1. Filter and style interactions are memoized â no full simulation restart for simple filter/style changes.
   2. Interaction latency improves measurably against the Phase 1 performance baseline.
   3. The 103-test suite plus all phase tests stay green after the performance refactor.
 **Plans**: TBD
 **UI hint**: yes
 
 ### Phase 9: Mobile & Keyboard Accessibility
-**Goal**: Every investor can use the full experience â whether on a phone or entirely from the keyboard.
+**Goal**: Every investor can use the full experience â whether on a phone or entirely from the keyboard.
 **Mode:** mvp
 **Depends on**: Phase 8
 **Requirements**: PERF-02, PERF-03
 **Success Criteria** (what must be TRUE):
   1. The site is fully usable on mobile (responsive layout, working touch interactions).
-  2. A complete keyboard-only journey covers search â filter â select â reset.
+  2. A complete keyboard-only journey covers search â filter â select â reset.
   3. The full test suite stays green and the accessibility (ARIA) baseline is preserved or improved.
 **Plans**: TBD
 **UI hint**: yes
 
 ### Phase 10: SEO, Social Cards & Launch Gate
-**Goal**: The site is discoverable, shareable, and verifiably ready â a final gate confirms credibility, quality, and performance targets before launch.
+**Goal**: The site is discoverable, shareable, and verifiably ready â a final gate confirms credibility, quality, and performance targets before launch.
 **Mode:** mvp
 **Depends on**: Phase 9
 **Requirements**: PERF-04, PERF-05
@@ -161,7 +165,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation (Safety-Net Modularization) | 3/3 | Complete   | 2026-06-20 |
-| 2. Provenance & Source Linking | 0/0 | Not started | - |
+| 2. Provenance & Source Linking | 0/4 | Planned | - |
 | 3. Confidence, Methodology & Freshness | 0/0 | Not started | - |
 | 4. Design System & Smooth Motion | 0/0 | Not started | - |
 | 5. Hero Moment & Investor Narrative | 0/0 | Not started | - |
