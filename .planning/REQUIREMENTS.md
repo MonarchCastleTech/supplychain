@@ -12,7 +12,7 @@ Requirements for this milestone ("best in the world"). Each maps to roadmap phas
 - [ ] **FOUND-01**: Inline CSS is extracted into versioned `styles/` files with no visual change to the rendered site
 - [ ] **FOUND-02**: Inline JavaScript is extracted into ES modules under `js/` (data, viz, ui, trust, state) with `index.html` reduced to a semantic shell
 - [ ] **FOUND-03**: The full existing test suite (103 tests) passes unchanged after modularization
-- [ ] **FOUND-04**: A performance + Lighthouse baseline is captured and recorded in the repo
+- [x] **FOUND-04**: A performance + Lighthouse baseline is captured and recorded in the repo
 - [ ] **FOUND-05**: The site renders byte-for-byte equivalently (no user-visible regression) and the GitHub-Pages static deploy still works
 
 ### Trust
@@ -74,7 +74,7 @@ Deferred to future milestones.
 | FOUND-01 | Phase 1 | Pending |
 | FOUND-02 | Phase 1 | Pending |
 | FOUND-03 | Phase 1 | Pending |
-| FOUND-04 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Complete |
 | FOUND-05 | Phase 1 | Pending |
 | TRUST-01 | Phase 2 | Pending |
 | TRUST-02 | Phase 2 | Pending |

@@ -40,7 +40,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
   4. The site renders byte-for-byte equivalently to today (no user-visible regression).
   5. A performance + Lighthouse baseline is captured and recorded in the repo for later comparison.
 **Plans**: 3 plans
-- [ ] 01-01-PLAN.md — Pre-extraction Lighthouse/perf baseline + tooling (FOUND-04)
+- [x] 01-01-PLAN.md — Pre-extraction Lighthouse/perf baseline + tooling (FOUND-04)
 - [ ] 01-02-PLAN.md — Extract CSS + JS modules, semantic-shell index.html, window.* shim (FOUND-01/02/03)
 - [ ] 01-03-PLAN.md — Deploy workflow copies styles/+js/, post-extraction parity + baseline (FOUND-05/04)
 **UI hint**: yes
@@ -160,7 +160,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation (Safety-Net Modularization) | 0/3 | Planned | - |
+| 1. Foundation (Safety-Net Modularization) | 1/3 | In Progress|  |
 | 2. Provenance & Source Linking | 0/0 | Not started | - |
 | 3. Confidence, Methodology & Freshness | 0/0 | Not started | - |
 | 4. Design System & Smooth Motion | 0/0 | Not started | - |
