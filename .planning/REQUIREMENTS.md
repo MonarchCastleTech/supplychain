@@ -69,17 +69,39 @@ Deferred to future milestones.
 
 ## Traceability
 
-Populated during roadmap creation.
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (to be mapped by roadmapper) | | Pending |
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| FOUND-05 | Phase 1 | Pending |
+| TRUST-01 | Phase 2 | Pending |
+| TRUST-02 | Phase 2 | Pending |
+| TRUST-03 | Phase 3 | Pending |
+| TRUST-04 | Phase 3 | Pending |
+| TRUST-05 | Phase 3 | Pending |
+| TRUST-06 | Phase 3 | Pending |
+| STORY-01 | Phase 4 | Pending |
+| STORY-03 | Phase 4 | Pending |
+| STORY-02 | Phase 5 | Pending |
+| STORY-04 | Phase 5 | Pending |
+| STORY-05 | Phase 5 | Pending |
+| DEPTH-01 | Phase 6 | Pending |
+| DEPTH-02 | Phase 6 | Pending |
+| DEPTH-03 | Phase 7 | Pending |
+| DEPTH-04 | Phase 7 | Pending |
+| PERF-01 | Phase 8 | Pending |
+| PERF-02 | Phase 9 | Pending |
+| PERF-03 | Phase 9 | Pending |
+| PERF-04 | Phase 10 | Pending |
+| PERF-05 | Phase 10 | Pending |
 
 **Coverage:**
 - v1 requirements: 25 total
-- Mapped to phases: TBD (roadmapper)
-- Unmapped: TBD
+- Mapped to phases: 25/25 ✓
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-06-20*
-*Last updated: 2026-06-20 after initial definition*
+*Last updated: 2026-06-20 after roadmap creation (traceability mapped)*
