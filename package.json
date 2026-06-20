@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "node --test tests/index-ui-integrity.test.mjs tests/no-xx-country-codes.test.mjs tests/profile-link-metadata.test.mjs tests/supply-chain-research-quality.test.mjs tests/auto-update-script.test.mjs tests/provenance.test.mjs tests/viz-provenance-wiring.test.mjs tests/ui-provenance-wiring.test.mjs"
+    "test": "node --test tests/index-ui-integrity.test.mjs tests/no-xx-country-codes.test.mjs tests/profile-link-metadata.test.mjs tests/supply-chain-research-quality.test.mjs tests/auto-update-script.test.mjs tests/provenance.test.mjs tests/viz-provenance-wiring.test.mjs tests/ui-provenance-wiring.test.mjs tests/trust-wiring.test.mjs"
   },
   "keywords": [],
   "author": "",
