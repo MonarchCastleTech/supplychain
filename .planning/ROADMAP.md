@@ -72,7 +72,11 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
   2. A dedicated Methodology view explains data sources, confidence weighting, and known limits.
   3. A visible "last verified / data freshness" indicator is tied to the auto-update pipeline timestamp and stays accurate after a weekly refresh.
   4. New tests cover provenance tagging and confidence-scoring math, and the full suite stays green.
-**Plans**: TBD
+**Plans**: 4 plans
+- [ ] 03-01-PLAN.md — [BLOCKING] restore rich served data/top100-map.js, quarantine weekly updater, register Phase-3 tests + data-shape guard (TRUST-05/06)
+- [ ] 03-02-PLAN.md — confidenceScore in js/trust + sourceYear in js/data + viz tooltip score wiring + remove viz #lastUpdated dup (TRUST-03/05/06)
+- [ ] 03-03-PLAN.md — accessible Methodology modal + freshness single-owner + methodology/freshness tests (TRUST-04/05/06)
+- [ ] 03-04-PLAN.md — full-suite green gate + render smoke + human visual verify (TRUST-03/04/05/06)
 **UI hint**: yes
 
 ### Phase 4: Design System & Smooth Motion
@@ -166,7 +170,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 |-------|----------------|--------|-----------|
 | 1. Foundation (Safety-Net Modularization) | 3/3 | Complete   | 2026-06-20 |
 | 2. Provenance & Source Linking | 4/4 | Complete   | 2026-06-20 |
-| 3. Confidence, Methodology & Freshness | 0/0 | Not started | - |
+| 3. Confidence, Methodology & Freshness | 0/4 | Planned | - |
 | 4. Design System & Smooth Motion | 0/0 | Not started | - |
 | 5. Hero Moment & Investor Narrative | 0/0 | Not started | - |
 | 6. Concentration & Risk Analytics | 0/0 | Not started | - |
