@@ -252,20 +252,29 @@ function generateChangeReport(oldData, newData) {
 
 /**
  * Write data files
+ *
+ * QUARANTINE GUARD (see 03-RESEARCH.md Pitfall 1):
+ * This weekly updater produces only the FLAT {snapshot_date, last_auto_update,
+ * update_source, companies:[...]} shape — it carries NO meta/layers/countries/
+ * nodes/links/profiles. Historically it overwrote the browser-served
+ * `data/top100-map.js` with that flat shape, which silently broke the live app
+ * (DATA.meta/DATA.profiles undefined → no paint, "Unknown" freshness).
+ *
+ * The served `data/top100-map.js` is the RICH shape and is owned exclusively by
+ * `scripts/generate-top100-data.mjs` (which emits both top100-map.json and the
+ * rich top100-map.js from the same payload). The weekly market-cap refresh must
+ * therefore write ONLY to the side file `data/top100-map-updated.json` and MUST
+ * NEVER touch `data/top100-map.js`. Do not re-add a top100-map.js write here.
  */
 function writeDataFiles(data) {
   console.log('💾 Writing data files...');
-  
-  // Write JSON data file
+
+  // Write JSON side file ONLY. The browser-served data/top100-map.js (rich shape)
+  // is intentionally NOT written here — see QUARANTINE GUARD above (Pitfall 1).
   const jsonPath = join(DATA_DIR, 'top100-map-updated.json');
   writeFileSync(jsonPath, JSON.stringify(data, null, 2));
-  
-  // Write JS file for D3 visualization
-  const jsPath = join(DATA_DIR, 'top100-map.js');
-  const jsContent = `// Auto-generated market cap data - ${new Date().toISOString()}\nwindow.SUPPLY_MAP_DATA = ${JSON.stringify(data, null, 2)};`;
-  writeFileSync(jsPath, jsContent);
-  
-  console.log(`✅ Data files updated: ${data.companies.length} companies`);
+
+  console.log(`✅ Data side file updated: ${data.companies.length} companies (served top100-map.js left untouched)`);
 }
 
 /**
