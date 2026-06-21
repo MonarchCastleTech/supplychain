@@ -426,13 +426,10 @@ function render() {
   document.getElementById("fConfidence").value = STATE.filters.confidence;
   document.getElementById("fType").value = STATE.filters.type;
   document.getElementById("fVerified").value = STATE.filters.verified;
-  
-  // Update footer with last updated timestamp
-  const footerEl = document.getElementById('lastUpdated');
-  if (footerEl && DATA.meta?.lastUpdated) {
-    footerEl.textContent = DATA.meta.lastUpdated;
-  }
-  
+
+  // #lastUpdated is owned solely by js/ui updateStatusIndicator (RESEARCH Pitfall 2:
+  // dual-owner freshness hazard). The viz no longer writes it.
+
   updateCompanyCard();
   updateCompareButton();
 
