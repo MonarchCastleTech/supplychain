@@ -1,13 +1,13 @@
-#companyCard{position:fixed;right:12px;top:92px;z-index:120;width:300px;background:linear-gradient(180deg, rgba(18,18,18,0.98) 0%, rgba(10,10,10,0.96) 100%);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.08);padding:12px;display:none;pointer-events:auto;box-shadow:0 8px 32px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.3);border-radius:8px;max-height:calc(100vh - 120px);overflow-y:auto}
+#companyCard{position:fixed;right:var(--space-6);top:92px;z-index:120;width:300px;background:linear-gradient(180deg, rgba(18,18,18,0.98) 0%, rgba(10,10,10,0.96) 100%);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.08);padding:var(--space-6);display:none;pointer-events:auto;box-shadow:var(--shadow-lg);border-radius:var(--radius-xl);max-height:calc(100vh - 120px);overflow-y:auto}
 #companyCard::-webkit-scrollbar{width:6px}
 #companyCard::-webkit-scrollbar-track{background:rgba(255,255,255,0.03)}
 #companyCard::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:3px}
 #companyCard .cTop{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,0.06)}
-#companyCard .cLogoWrap{width:50px;height:50px;border:1px solid rgba(255,255,255,0.08);background:#0f0f0f;display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,0.3)}
+#companyCard .cLogoWrap{width:50px;height:50px;border:1px solid rgba(255,255,255,0.08);background:var(--color-surface);display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:var(--radius-lg);box-shadow:var(--shadow-sm)}
 #companyCard .cLogo{width:100%;height:100%;object-fit:contain;display:none}
 #companyCard .cLogoFallback{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:'Bricolage Grotesque',sans-serif;font-size:16px;font-weight:700;color:#ddd;background:linear-gradient(135deg,#1a1a1a,#2a2a2a)}
-#companyCard .cName{font-family:'Bricolage Grotesque',sans-serif;font-size:15px;font-weight:700;line-height:1.05;background:linear-gradient(135deg, #fff 0%, #d0d0d0 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-#companyCard .cSym{font-size:9px;color:#9a9a9a;letter-spacing:.7px;text-transform:uppercase;margin-top:3px}
+#companyCard .cName{font-family:var(--font-display);font-size:15px;font-weight:var(--fw-bold);line-height:var(--lh-tight);background:linear-gradient(135deg, #fff 0%, #d0d0d0 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+#companyCard .cSym{font-size:var(--fs-sm);color:#9a9a9a;letter-spacing:.7px;text-transform:uppercase;margin-top:3px}
 #companyCard .cStats{display:flex;gap:8px;margin-top:8px;font-size:8px;color:#666;background:rgba(255,255,255,0.03);padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.05)}
 #companyCard .cStat{background:rgba(255,255,255,0.05);padding:2px 6px;border-radius:3px;border:1px solid rgba(255,255,255,0.08)}
 #companyCard .cStat b{background:linear-gradient(135deg, #4caf50 0%, #45a049 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
@@ -23,9 +23,9 @@
 #companyCard .cRiskBadge.medium{color:#ffd899;border-color:#6a5125;background:linear-gradient(135deg, rgba(106,81,37,0.3) 0%, rgba(106,81,37,0.1) 100%)}
 #companyCard .cRiskBadge.low{color:#9fdbac;border-color:#2a5a35;background:linear-gradient(135deg, rgba(42,90,53,0.3) 0%, rgba(42,90,53,0.1) 100%)}
 .credit-rating{display:inline-flex;align-items:center;gap:4px;padding:3px 6px;border-radius:3px;font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px}
-.credit-rating.sp{background:rgba(232,69,60,0.15);color:#e8453c;border:1px solid rgba(232,69,60,0.3)}
+.credit-rating.sp{background:rgba(232,69,60,0.15);color:var(--color-accent);border:1px solid rgba(232,69,60,0.3)}
 .credit-rating.moodys{background:rgba(76,136,204,0.15);color:#4c88cc;border:1px solid rgba(76,136,204,0.3)}
-.credit-rating.fitch{background:rgba(156,39,176,0.15);color:#9c27b0;border:1px solid rgba(156,39,176,0.3)}
+.credit-rating.fitch{background:rgba(156,39,176,0.15);color:var(--color-purple);border:1px solid rgba(156,39,176,0.3)}
 .credit-rating-grade{font-weight:700;min-width:20px;text-align:center}
 #companyCard .cMuted{font-size:8px;color:#777;line-height:1.45}
 #companyCard .cList{display:flex;flex-direction:column;gap:3px;margin-top:4px}
@@ -38,20 +38,20 @@
 #companyCard .cActions button:hover{border-color:var(--acc);color:var(--acc)}
 body.profile-mode #ly,body.card-visible #ly{top:220px}
 /* Enhanced Tooltip */
-#tt{position:fixed;z-index:300;background:linear-gradient(180deg, rgba(20,20,20,0.98) 0%, rgba(12,12,12,0.96) 100%);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);box-shadow:0 8px 32px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.4);border-radius:8px;max-width:500px;padding:12px 14px;display:none}
-#tt .tn{font-family:'Bricolage Grotesque',sans-serif;font-size:16px;font-weight:700;color:#fff;margin-bottom:6px;line-height:1.2;text-shadow:0 1px 2px rgba(0,0,0,0.3)}
+#tt{position:fixed;z-index:300;background:linear-gradient(180deg, rgba(20,20,20,0.98) 0%, rgba(12,12,12,0.96) 100%);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1);box-shadow:0 8px 32px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.4);border-radius:var(--radius-xl);max-width:500px;padding:var(--space-6) 14px;display:none}
+#tt .tn{font-family:var(--font-display);font-size:16px;font-weight:var(--fw-bold);color:var(--color-text-bright);margin-bottom:var(--space-3);line-height:var(--lh-base);text-shadow:0 1px 2px rgba(0,0,0,0.3)}
 #tt .tf{font-size:9px;color:#777;letter-spacing:.7px;text-transform:uppercase;margin-bottom:8px}
 #tt .td{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}
 #tt .td-col{display:flex;flex-direction:column;gap:6px}
 #tt .td-item{display:flex;align-items:flex-start;gap:6px;font-size:10px}
 #tt .td-label{color:#888;text-transform:uppercase;font-size:8px;letter-spacing:0.5px;min-width:70px}
 #tt .td-value{color:#ddd;font-weight:500}
-#tt .source-link{color:#86b7ff;text-decoration:none;border-bottom:1px solid rgba(134,183,255,0.3);transition:all 0.2s}
+#tt .source-link{color:var(--color-link);text-decoration:none;border-bottom:1px solid rgba(134,183,255,0.3);transition:all var(--dur-base)}
 #tt .source-link:hover{color:#a8d0ff;border-bottom-color:rgba(134,183,255,0.6)}
-#tt .confidence-badge{display:inline-block;padding:2px 6px;border-radius:3px;font-size:8px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px}
-.confidence-high{background:rgba(76,175,80,0.2);color:#66bb6a;border:1px solid rgba(76,175,80,0.4)}
-.confidence-medium{background:rgba(255,193,7,0.2);color:#ffb300;border:1px solid rgba(255,193,7,0.4)}
-.confidence-low{background:rgba(158,158,158,0.2);color:#9e9e9e;border:1px solid rgba(158,158,158,0.4)}
+#tt .confidence-badge{display:inline-block;padding:var(--space-1) var(--space-3);border-radius:var(--radius-sm);font-size:var(--fs-xs);font-weight:var(--fw-semibold);text-transform:uppercase;letter-spacing:0.3px}
+.confidence-high{background:rgba(76,175,80,0.2);color:var(--color-observed);border:1px solid rgba(76,175,80,0.4)}
+.confidence-medium{background:rgba(255,193,7,0.2);color:var(--color-estimated);border:1px solid rgba(255,193,7,0.4)}
+.confidence-low{background:rgba(158,158,158,0.2);color:var(--color-unknown);border:1px solid rgba(158,158,158,0.4)}
 #tt .ts{margin-top:8px;padding-top:8px;border-top:1px solid #222;font-size:10px;color:#888}
 #tt .tc{margin-top:6px;font-size:9px;color:#888}
 #tt .tv{margin-top:4px;font-size:9px;color:var(--green);display:flex;align-items:center;gap:4px}
