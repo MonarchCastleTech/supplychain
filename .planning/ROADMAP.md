@@ -20,7 +20,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 - [x] **Phase 3: Confidence, Methodology & Freshness** - Confidence scoring, Methodology view, freshness indicator, and trust-math tests (completed 2026-06-21)
 - [x] **Phase 4: Design System & Smooth Motion** - Consistent design tokens applied site-wide and jank-free D3 transitions
 - [x] **Phase 5: Hero Moment & Investor Narrative** - First-30s guided hero and marketâconcentrationâriskâopportunity flow, with non-regression tests (completed 2026-06-21)
-- [ ] **Phase 6: Concentration & Risk Analytics** - Per-company/sector concentration scoring and single-point-of-failure bottleneck analytics on real data
+- [x] **Phase 6: Concentration & Risk Analytics** - Per-company/sector concentration scoring and single-point-of-failure bottleneck analytics on real data (completed 2026-06-21)
 - [ ] **Phase 7: Scenario Stress-Tests** - At least one real-data scenario stress-test with downstream impact, all analytics carrying provenance and tests
 - [ ] **Phase 8: Interaction Performance** - Memoized filter/style interactions with no full simulation restart
 - [ ] **Phase 9: Mobile & Keyboard Accessibility** - Full mobile usability and a complete keyboard-only journey
@@ -125,8 +125,8 @@ Plans:
 **Plans**: 3 plans
 Plans:
 - [x] 06-01-PLAN.md — Wave 0 test gate + pure js/analytics: company/sector concentration + supplier criticality (DEPTH-01, DEPTH-02)
-- [ ] 06-02-PLAN.md — Derived provenance branch + profile concentration badge, chokepoints panel + graph highlight, Methodology copy (DEPTH-01, DEPTH-02)
-- [ ] 06-03-PLAN.md — Full-suite green + Playwright integration smoke + human-verify gate (DEPTH-01, DEPTH-02)
+- [x] 06-02-PLAN.md — Derived provenance branch + profile concentration badge, chokepoints panel + graph highlight, Methodology copy (DEPTH-01, DEPTH-02)
+- [x] 06-03-PLAN.md — Full-suite green + Playwright integration smoke + human-verify gate (DEPTH-01, DEPTH-02)
 **UI hint**: yes
 
 ### Phase 7: Scenario Stress-Tests
@@ -186,7 +186,7 @@ Plans:
 | 3. Confidence, Methodology & Freshness | 4/4 | Complete   | 2026-06-21 |
 | 4. Design System & Smooth Motion | 4/4 | Complete   | 2026-06-21 |
 | 5. Hero Moment & Investor Narrative | 3/3 | Complete   | 2026-06-21 |
-| 6. Concentration & Risk Analytics | 1/3 | In Progress|  |
+| 6. Concentration & Risk Analytics | 3/3 | Complete   | 2026-06-21 |
 | 7. Scenario Stress-Tests | 0/0 | Not started | - |
 | 8. Interaction Performance | 0/0 | Not started | - |
 | 9. Mobile & Keyboard Accessibility | 0/0 | Not started | - |
