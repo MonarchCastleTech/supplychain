@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T01:14:53.442Z"
+last_updated: "2026-06-21T04:11:17.944Z"
 progress:
   total_phases: 10
   completed_phases: 3
   total_plans: 15
-  completed_plans: 12
+  completed_plans: 13
   percent: 30
 ---
 
@@ -25,11 +25,11 @@ progress:
 ## Current Position
 
 Phase: 04 (Design System & Smooth Motion) — EXECUTING
-Plan: 2 of 4 (Plan 04-01 complete)
+Plan: 3 of 4 (Plans 04-01, 04-02 complete)
 **Phase:** 04 — Design System & Smooth Motion — EXECUTING
-**Plan:** 04-01 complete — 1 of 4 plans done
+**Plan:** 04-02 complete — 2 of 4 plans done
 **Status:** Executing Phase 04
-**Progress:** [████████░░] 80%
+**Progress:** [█████████░] 87%
 
 ## Performance Metrics
 
@@ -60,6 +60,8 @@ Plan: 2 of 4 (Plan 04-01 complete)
 | Phase-3 gate (03-04) | npm test = 178 pass / 0 fail; render smoke PASS (100 nodes painted, Confidence% + methodology modal + live freshness, 0 console errors) |
 | Phase 04 P01 | ~10min | 2 tasks | 4 files |
 | Token-scaffold gate (04-01) | npm test = 191 tests / 186 pass / 5 fail — 178 prior green, 8 new green, 5 INTENDED Wave 0 RED (migration evidence + buildSimulation/updateGraph + nodes/links re-bind + mental-map carry + reduced-motion; closed by Plans 02/03) |
+| Phase 04 P02 | ~12min | 2 tasks | 3 files |
+| Token-migration gate (04-02) | npm test = 191 tests / 187 pass / 4 fail — migration-evidence now GREEN (layout=19/components=25/theme=17 var(--)); theme.css prefers-reduced-motion present; trust-hue contract preserved; 4 remaining RED are Plan-03 viz refactor |
 
 ## Accumulated Context
 
@@ -100,6 +102,8 @@ Plan: 2 of 4 (Plan 04-01 complete)
 - 04-01: design tokens defined in base.css :root (loads first) NOT theme.css — cascade resolves for every consumer incl. theme.css; honors 'single source of truth in CSS' against real <link> order (RESEARCH note). Full set: color surfaces/text/brand/status + semantic trust (--color-observed #66bb6a/estimated #ffb300/unknown #9e9e9e), type (--fs-2xs..2xl,--fw-*,--lh-*,fonts), spacing (--space-1..8), radii (--radius-xs..2xl), elevation (--shadow-sm/md/lg/up), motion (--dur-fastest/fast/base/slow,--ease-standard/emphasized).
 - 04-01: the 7 legacy vars kept as ALIASES with byte-identical resolved values (A3 cross-check) — --green→--color-success(#4caf50) NOT --color-observed(#66bb6a); zero rendered-color change this plan, consumers migrate in Plan 02.
 - 04-01: GATE LANDMINE closed up front — tests/design-tokens.test.mjs + tests/viz-motion.test.mjs authored AND registered in scripts.test in Task 0 (16 unique .test.mjs). 5 assertions are INTENDED Wave 0 RED: migration evidence (layout=9/theme=2 var(--), need ≥10 → Plan 02), buildSimulation/updateGraph split + nodes/links re-bind + mental-map carry + viz matchMedia (→ Plan 03), theme.css prefers-reduced-motion (→ Plan 02). npm test = 191 / 186 pass / 5 RED.
+- 04-02: token migration is EXACT-VALUE-PRESERVING — a literal is swapped to var(--token) only when the token resolves byte-identical (#222→--color-border, #1a1a1a→--color-surface-raised, #0f0f0f→--color-surface, #fff→--color-text-bright, #888→--color-text-muted, #505050→--color-text-dim, fs/space/radius/shadow tokens, 0.2s→--dur-base, 0.15s→--dur-fast, 0.05s→--dur-fastest, cubic-bezier(0.4,0,0.2,1)→--ease-standard). #111 (no exact surface token), 3px #bar gap (no 3px spacing token), #666/#777 (no exact dim token) LEFT as literals. layout=19, components=25, theme=17 var(--); zero rendered change.
+- 04-02: .confidence-* color: mapped to SEMANTIC trust tokens --color-observed/estimated/unknown (values #66bb6a/#ffb300/#9e9e9e, identical to prior literals); rgba(76,175,80,...)/rgba(255,193,7,...)/rgba(158,158,158,...) background/border literals kept byte-identical (T-04-03 mitigated, design-tokens rgba assertions still GREEN). No selector/#id renamed (T-04-04). theme.css gained @media (prefers-reduced-motion: reduce) block zeroing transitions/animations + explicit transition:none/animation:none on .node/.link/#companyCard/#tt/.modal (T-04-05; CSS half of STORY-03). npm test = 191 / 187 pass / 4 fail — migration-evidence now GREEN; 4 remaining RED are Plan-03 viz refactor (buildSimulation/updateGraph + nodes/links re-bind + mental-map carry + viz matchMedia).
 
 ### Standing Constraints
 
@@ -118,9 +122,9 @@ Plan: 2 of 4 (Plan 04-01 complete)
 
 ## Session Continuity
 
-**Last action:** Completed 04-01-PLAN.md — design-token foundation + Wave 0 test scaffolding. Defined the full :root token set + 7 legacy aliases in styles/base.css (3021355) and authored + registered tests/design-tokens.test.mjs and tests/viz-motion.test.mjs in package.json scripts.test (d00e7cd). npm test = 191 tests / 186 pass / 5 fail — 178 prior green, 8 new green, 5 INTENDED Wave 0 RED (migration evidence → Plan 02; buildSimulation/updateGraph + nodes/links re-bind + mental-map carry + viz matchMedia → Plan 03; theme.css reduced-motion → Plan 02). Zero visual change (legacy aliases resolve identical values). **Phase 04 — 1 of 4 plans done.**
+**Last action:** Completed 04-02-PLAN.md — token migration + reduced-motion CSS. Migrated styles/layout.css (19 var(--)) + styles/components.css (25 var(--)) to consume base.css tokens with exact-value-preserving swaps, preserving the .confidence-* trust contract (semantic tokens for color:, byte-identical rgba backgrounds/borders) (f98d66e); migrated styles/theme.css (17 var(--)) and appended a @media (prefers-reduced-motion: reduce) block (622a01e). npm test = 191 tests / 187 pass / 4 fail — migration-evidence now GREEN; 4 remaining RED are all Plan-03 viz refactor (buildSimulation/updateGraph + nodes/links re-bind + mental-map carry + viz matchMedia). Zero intended visual change. STORY-01 token application complete site-wide; CSS half of STORY-03 (reduced-motion) in place. **Phase 04 — 2 of 4 plans done.**
 
-**Next step:** Execute 04-02-PLAN.md — migrate layout/components/theme literals to var(--token) + add the theme.css prefers-reduced-motion block (closes migration-evidence + theme reduced-motion RED assertions).
+**Next step:** Execute 04-03-PLAN.md — refactor js/viz/index.js to build-once / update-on-change (buildSimulation/updateGraph, simulation.nodes(/force("link").links( re-bind, mental-map position carry, gentle alphaTarget reheat) + add the matchMedia('(prefers-reduced-motion: reduce)') guard — closes the remaining 4 viz-motion REDs.
 
 ---
 *State initialized: 2026-06-20*
