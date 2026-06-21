@@ -16,7 +16,8 @@ import assert from "node:assert/strict";
 import { chromium } from "playwright";
 import { createServer } from "http-server";
 
-const NODE_SETTLE_MS = 20000; // generous: D3 settles ~15s; we gate on selectors
+const NODE_SETTLE_MS = 30000; // generous: D3 settles ~15s and cold-starts slower under full-suite load; we gate on selectors
+const CARD_MS = 12000; // profile open after tap/Enter (headroom for chromium cold start)
 
 let server;
 let base;
@@ -123,7 +124,7 @@ test("PERF-02 mobile 390x844: mobile sheet reachable + node tap opens profile", 
     });
     assert.notEqual(nodeIndex, -1, "expected at least one node not covered by a fixed overlay at 390x844");
     await page.locator("#canvas .node").nth(nodeIndex).tap();
-    await page.waitForSelector("#companyCard", { state: "visible", timeout: 8000 });
+    await page.waitForSelector("#companyCard", { state: "visible", timeout: CARD_MS });
     assert.ok(await page.isVisible("#companyCard"), "#companyCard should open after tapping a node");
 
     await ctx.close();
@@ -156,7 +157,7 @@ test("PERF-03 keyboard-only: '/' focuses search, type+Enter selects, Escape rese
 
     // Enter selects the suggestion -> openProfile -> #companyCard becomes visible.
     await page.keyboard.press("Enter");
-    await page.waitForSelector("#companyCard", { state: "visible", timeout: 8000 });
+    await page.waitForSelector("#companyCard", { state: "visible", timeout: CARD_MS });
     assert.ok(await page.isVisible("#companyCard"), "Enter should select a company and open #companyCard");
 
     // Move focus out of the input (Tab, keyboard-only) so the global Escape
