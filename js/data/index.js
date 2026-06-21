@@ -3,8 +3,10 @@
 // Reads window.SUPPLY_MAP_DATA / window.CREDIT_RATINGS (frozen data contract; never mutated).
 import { STATE } from "../state.js";
 
-const DATA = window.SUPPLY_MAP_DATA;
-const CREDIT_RATINGS = window.CREDIT_RATINGS || { ratingsBySymbol: {}, meta: {} };
+// `window` exists in the browser; under node:test (pure-helper imports like sourceYear)
+// it does not, so read defensively. Browser behavior is unchanged.
+const DATA = (typeof window !== "undefined" ? window.SUPPLY_MAP_DATA : undefined) || { countries: {}, profiles: {}, nodes: [], links: [], meta: {} };
+const CREDIT_RATINGS = (typeof window !== "undefined" ? window.CREDIT_RATINGS : undefined) || { ratingsBySymbol: {}, meta: {} };
 
 function escapeHtml(input) {
   return String(input || "")
@@ -72,6 +74,18 @@ function parseYearsFromSources(profile) {
     uniqueYears.forEach((year) => yearCounts.set(year, (yearCounts.get(year) || 0) + 1));
   }
   return [...yearCounts.entries()].sort((a, b) => b[0] - a[0]);
+}
+
+// Resolve a single source's usable publication year (Phase 03-02). Mirrors the
+// parseYearsFromSources regex/bounds. Future years (> nowYear) and pre-1990 years
+// are filtered so a spurious/future date never decays — or inflates — a score.
+// Returns the max plausible year, or null when none parses.
+function sourceYear(src, nowYear) {
+  const text = `${src?.id || ""} ${src?.title || ""} ${src?.url || ""}`;
+  const matches = (text.match(/(19|20)\d{2}/g) || [])
+    .map(Number)
+    .filter((y) => y >= 1990 && y <= nowYear);
+  return matches.length ? Math.max(...matches) : null;
 }
 
 function computeProfileRisk(profile) {
@@ -220,7 +234,7 @@ const COUNTRY_CAPITAL_BY_CODE = {
 
 export {
   DATA, CREDIT_RATINGS, SEARCH_TARGETS, SHARED_SUPPLIER_OVERLAP, HQ_CITY_BY_SYMBOL, COUNTRY_CAPITAL_BY_CODE,
-  escapeHtml, normalizeEntityLabel, buildSharedSupplierOverlapIndex, getTopOverlap, parseYearsFromSources,
+  escapeHtml, normalizeEntityLabel, buildSharedSupplierOverlapIndex, getTopOverlap, parseYearsFromSources, sourceYear,
   computeProfileRisk, ratingText, getRatingsForSymbol, asCountryName, graphForMode, getInitials,
   formatMarketCap, logoCandidatesForSymbol, flagCdnCode,
 };

@@ -45,6 +45,38 @@ export function provenanceFor(input, ctx = {}) {
   return { tag };
 }
 
+// Confidence weighting (Phase 03-02). Base weights by provenance tag; an exponential
+// half-life age decay (floored) is applied only when a real source year is resolvable.
+// Defensible + bounded: observed > estimated > unknown; unknown is an explicit floor.
+const SOURCE_WEIGHTS = { observed: 90, estimated: 65, unknown: 25 };
+const HALF_LIFE_YEARS = 4;
+const MIN_AGE_MULT = 0.5;
+
+/**
+ * Compute a bounded 0–100 confidence score for a figure. PURE — no DOM, no fabrication.
+ * Reuses provenanceFor for the tag + resolved source (never re-parses confidence here).
+ * unknown tag OR no resolved source -> the unknown floor (no fabricated high score).
+ * Age decay applies ONLY when ctx.sourceYear is a finite number AND ctx.now is set;
+ * absence of a year is not staleness (mult=1), and future years are clamped (ageYears>=0).
+ * @param {object} input  node/link/marketcap record (see provenanceFor)
+ * @param {object} ctx    { sourceIndex?, meta?, sourceYear?: number|null, now?: number }
+ * @returns {number} integer in [0,100]
+ */
+export function confidenceScore(input, ctx = {}) {
+  const prov = provenanceFor(input, ctx);
+  if (prov.tag === "unknown" || !prov.source) {
+    return SOURCE_WEIGHTS.unknown; // explicit floor — never decayed up or down
+  }
+  const base = SOURCE_WEIGHTS[prov.tag] ?? SOURCE_WEIGHTS.unknown;
+  const year = ctx.sourceYear;
+  let mult = 1; // no parseable year (or no reference "now") => no penalty AND no bonus
+  if (typeof year === "number" && Number.isFinite(year) && ctx.now) {
+    const ageYears = Math.max(0, ctx.now - year); // future-year guard: never negative age
+    mult = Math.max(MIN_AGE_MULT, Math.pow(0.5, ageYears / HALF_LIFE_YEARS));
+  }
+  return Math.max(0, Math.min(100, Math.round(base * mult)));
+}
+
 /**
  * Build the accessible badge HTML for a provenance result. PURE — returns a string.
  * Reuses existing .confidence-* / .source-link CSS. Escapes title; only emits the
