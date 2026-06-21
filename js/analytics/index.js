@@ -50,12 +50,20 @@ export function companyConcentration(symbol, opts = {}) {
     sharedThreshold = 1, // a supplier is a shared single-point when fan-in > this
     profiles = DATA.profiles,
     fanIn = buildSupplierFanIn(profiles),
+    excludeSuppliers, // NEW: Set<normalizedLabel> | string[] | undefined (additive)
   } = opts;
 
   const p = profiles?.[symbol];
   if (!p) return null;
 
-  const uniq = [...supplierSet(p)];
+  // Additive filter: undefined => no change (242 legacy tests stay byte-identical).
+  const exclude =
+    excludeSuppliers instanceof Set
+      ? excludeSuppliers
+      : Array.isArray(excludeSuppliers)
+        ? new Set(excludeSuppliers)
+        : null;
+  const uniq = [...supplierSet(p)].filter((s) => !exclude || !exclude.has(s));
   const k = uniq.length;
   const hhi = k ? 1 / k : 1; // equal-weight Herfindahl (no per-supplier volume in data)
   const sharedCount = uniq.filter((s) => (fanIn.get(s)?.size || 0) > sharedThreshold).length;
@@ -132,3 +140,90 @@ export function supplierCriticality(opts = {}) {
     .sort((a, b) => b.fanIn - a.fanIn || a.supplier.localeCompare(b.supplier));
   return typeof limit === "number" ? ranked.slice(0, limit) : ranked;
 }
+
+// Pure scenario engine (DEPTH-03). DOM-free, unit-testable. Computes the DIRECT
+// downstream impact of disabling one or more suppliers.
+//   - SINGLE-HOP ONLY: a company is "impacted" iff it loses >= 1 distinct
+//     supplier. Multi-hop cascade is deferred (out of scope for v1).
+//   - HHI (1/k) is the monotonic delta metric reported as concentrationBefore/
+//     After — NOT the composite score, which is non-monotonic under removal
+//     (removing a shared single-point lowers sharedFrac). See 07-RESEARCH Pitfall 1.
+//   - "market cap exposed" is the combined market cap of impacted firms — an
+//     EXPOSURE figure, never a dollar-loss estimate.
+//
+// disruption: { disableSuppliers?: string[], disableSupplier?: string } — labels
+//   are normalized (normalizeEntityLabel) to match buildSupplierFanIn keys exactly.
+// ctx: { profiles = DATA.profiles, nodes = DATA.nodes, fanIn = buildSupplierFanIn(profiles) }
+export function runScenario(disruption = {}, ctx = {}) {
+  const { profiles = DATA.profiles, nodes = DATA.nodes, fanIn } = ctx;
+  const fan = fanIn || buildSupplierFanIn(profiles);
+
+  // 1. Normalize the disabled-supplier set (accept both shapes).
+  const disabled = new Set(
+    [
+      ...(disruption.disableSuppliers || []),
+      ...(disruption.disableSupplier ? [disruption.disableSupplier] : []),
+    ]
+      .map((s) => normalizeEntityLabel(s))
+      .filter(Boolean)
+  );
+
+  // 2. marketcap lookup by symbol (top-level nodes carry marketcap; profiles do not).
+  const mcap = {};
+  for (const n of nodes || []) if (n && n.symbol != null) mcap[n.symbol] = n.marketcap || 0;
+
+  // 3. Candidate impacted symbols = union of fan-in sets of the disabled labels.
+  const candidates = new Set();
+  for (const label of disabled) for (const sym of fan.get(label) || []) candidates.add(sym);
+
+  const impactedCompanies = [];
+  let totalMarketCapExposed = 0;
+  for (const symbol of candidates) {
+    const before = companyConcentration(symbol, { profiles, fanIn: fan });
+    if (!before) continue;
+    const after = companyConcentration(symbol, { profiles, fanIn: fan, excludeSuppliers: disabled });
+    const lostSuppliers = [...disabled].filter((d) => (fan.get(d) || new Set()).has(symbol));
+    if (lostSuppliers.length === 0) continue; // "impacted" = loses >= 1 supplier
+    const share = before.suppliers ? lostSuppliers.length / before.suppliers : 0;
+    const severity = share >= 0.5 ? "high" : share >= 0.25 ? "medium" : "low";
+    impactedCompanies.push({
+      symbol,
+      company: profiles?.[symbol]?.company || symbol,
+      marketcap: mcap[symbol] || 0,
+      lostSuppliers,
+      suppliersBefore: before.suppliers,
+      suppliersAfter: after.suppliers,
+      concentrationBefore: before.hhi, // HHI (1/k), monotonic
+      concentrationAfter: after.hhi,
+      severity,
+    });
+    totalMarketCapExposed += mcap[symbol] || 0;
+  }
+  impactedCompanies.sort((a, b) => b.marketcap - a.marketcap || a.symbol.localeCompare(b.symbol));
+
+  return {
+    impactedCompanies,
+    totalMarketCapExposed,
+    supplierCount: [...disabled].filter((d) => fan.has(d)).length,
+    disabled: [...disabled],
+  };
+}
+
+// Curated scenario presets. The LABELS are the only hand-curated input; all
+// headline numbers (7 firms / $11.36T / HHI 0.20->0.25) are derived live by
+// runScenario from the frozen data. Re-derive only if data/top100-map.json changes.
+export const SCENARIO_PRESETS = {
+  TAIWAN_SEMI: {
+    id: "taiwan-semi",
+    label: "Taiwan semiconductor disruption",
+    disruption: {
+      disableSuppliers: [
+        "taiwan semiconductor manufacturing company (tsmc)",
+        "tsmc foundry capacity",
+        "tsmc (hbm4 and cowos collaboration)",
+        "tsmc n2 process technology",
+        "tsmc",
+      ],
+    },
+  },
+};
