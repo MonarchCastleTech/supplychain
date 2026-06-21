@@ -156,7 +156,7 @@ Plans:
   3. The 103-test suite plus all phase tests stay green after the performance refactor.
 **Plans**: 4 plans
 Plans:
-- [ ] 08-01-PLAN.md — Wave 0 register tests + _memo helper/seams + memoize fan-in/concentration/criticality/scenario (PERF-01)
+- [x] 08-01-PLAN.md — Wave 0 register tests + _memo helper/seams + memoize fan-in/concentration/criticality/scenario (PERF-01)
 - [ ] 08-02-PLAN.md — No-restart invariant guard over simple filter/style/highlight handlers; bReset allow-listed (PERF-01)
 - [ ] 08-03-PLAN.md — Node micro-bench (cold vs warm) + recorded latency improvement under docs/perf/ (PERF-01 SC2)
 - [ ] 08-04-PLAN.md — Full-suite green gate + registration proof + human-verify immediacy checkpoint (PERF-01)
@@ -197,7 +197,7 @@ Plans:
 | 5. Hero Moment & Investor Narrative | 3/3 | Complete   | 2026-06-21 |
 | 6. Concentration & Risk Analytics | 3/3 | Complete   | 2026-06-21 |
 | 7. Scenario Stress-Tests | 3/3 | Complete   | 2026-06-21 |
-| 8. Interaction Performance | 0/4 | Planned | - |
+| 8. Interaction Performance | 1/4 | In Progress|  |
 | 9. Mobile & Keyboard Accessibility | 0/0 | Not started | - |
 | 10. SEO, Social Cards & Launch Gate | 0/0 | Not started | - |
 
