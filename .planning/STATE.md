@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T00:00:00.000Z"
+last_updated: "2026-06-21T00:38:14.964Z"
 progress:
   total_phases: 10
   completed_phases: 2
   total_plans: 11
-  completed_plans: 9
-  percent: 22
+  completed_plans: 10
+  percent: 20
 ---
 
 # Project State: Monarch Castle Technologies — Market Intelligence
@@ -25,11 +25,11 @@ progress:
 ## Current Position
 
 Phase: 03 (Confidence, Methodology & Freshness) — EXECUTING
-Plan: 03-02 complete (confidenceScore + sourceYear + viz tooltip score wiring + viz #lastUpdated dup removed) — 2 of 4 done
+Plan: 03-03 complete — 3 of 4 plans done
 **Phase:** 03 — Confidence, Methodology & Freshness — EXECUTING
-**Plan:** 03-02 complete — 2 of 4 plans done
+**Plan:** 03-03 complete — 3 of 4 plans done
 **Status:** Executing Phase 03
-**Progress:** [██████░░░░] 22%
+**Progress:** [█████████░] 91%
 
 ## Performance Metrics
 
@@ -55,6 +55,7 @@ Plan: 03-02 complete (confidenceScore + sourceYear + viz tooltip score wiring + 
 | Phase 03 P01 | 25m | 3 tasks | 8 files |
 | Phase 03 P02 | ~18m | 3 tasks | 5 files |
 | Confidence-score regression (03-02) | npm test = 168 pass / 0 fail (151 + 13 confidence-score + 5 viz-confidence-wiring − 2 placeholders) |
+| Phase 03 P03 | 12min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,9 @@ Plan: 03-02 complete (confidenceScore + sourceYear + viz tooltip score wiring + 
 - 03-02: viz showTooltip (FK d.sourceId??d.sf) + showLinkTooltip (FK d.sf) render ' · Confidence: ${score}%' on the .tf line after badgeHtml; nowYear derives live from DATA.meta.generatedAt (getUTCFullYear), never hardcoded; score interpolated numeric-only (T-03-03 control).
 - 03-02: viz render() #lastUpdated write DELETED — js/ui updateStatusIndicator (js/ui/index.js:735) is now the sole #lastUpdated owner (RESEARCH Pitfall 2 dual-owner hazard, viz-side half; Plan 03 owns the ui-side confirmation + freshness test).
 - 03-02: Rule-3 blocking fix — guarded js/data top-level window reads (typeof window!=='undefined' ? ... : empty-shape fallback) so sourceYear imports under node:test; browser unchanged. npm test = 168 pass / 0 fail.
+- 03-03: accessible #methodologyModal (role=dialog, aria-modal, focus trap, ESC + close) reuses the existing openModal/closeModal/trapFocus + global keydown infra; reachable via a #bMethodology control-bar button next to Help. Close wired via addEventListener in wireUI (no inline-onclick window shim). Modal CSS reuses #helpModal selectors (appended #methodologyModal to each rule) — hidden by default, minimal accessible styling, no design-system polish (Phase-4 deferral).
+- 03-03: methodology copy is REAL/honest — 407 sources, 120 high / 3,447 medium qualifiers, ~131 dated sources, exponential ~4yr half-life decay (no date => no decay), observed/estimated/unknown semantics, 75 dangling source FKs + estimated relationships + weekly market-cap auto-update. No fabricated stats.
+- 03-03: js/ui updateStatusIndicator confirmed as the SOLE live #lastUpdated owner (reads window.SUPPLY_MAP_DATA.meta.generatedAt each call; js/viz writes it 0 times) — no code change needed, only the freshness-wiring regression test. npm test = 178 pass / 0 fail.
 
 ### Standing Constraints
 
@@ -106,9 +110,9 @@ Plan: 03-02 complete (confidenceScore + sourceYear + viz tooltip score wiring + 
 
 ## Session Continuity
 
-**Last action:** Completed 03-02-PLAN.md — pure DOM-free confidenceScore(input,ctx) in js/trust (90/65/25 base x half-life-4yr age decay floored 0.5, unknown floor, future/no-year guards; reuses provenanceFor) + sourceYear(src,nowYear) in js/data (f82a3af); wired live 'Confidence: NN%' into viz node + link tooltips next to the Phase-2 badge with nowYear from DATA.meta.generatedAt (bb7ec79); removed the duplicate viz #lastUpdated write so js/ui is the sole owner (2ad9c5f). 13 confidence-score + 6 viz-confidence-wiring tests; npm test = 168 pass / 0 fail. **Phase 03 — 2 of 4 plans done.**
+**Last action:** Completed 03-03-PLAN.md — accessible #methodologyModal (role=dialog, aria-modal, focus trap, ESC + close) with honest real-fact copy (407 sources, 120 high / 3,447 medium qualifiers, ~131 dated sources, ~4yr half-life decay, observed/estimated/unknown, 75 dangling FKs) + reachable #bMethodology control-bar button; openMethodology/closeMethodology + wireUI bindings + ESC branch in js/ui; CSS reuses helpModal selectors (c174b18). Confirmed js/ui updateStatusIndicator is the sole live #lastUpdated owner (viz writes 0 times) + freshness regression test (eea71c3). 7 methodology + 5 freshness wiring tests; npm test = 178 pass / 0 fail. **Phase 03 — 3 of 4 plans done.**
 
-**Next step:** Execute 03-03-PLAN.md (accessible Methodology modal + freshness single-owner ui-side confirmation + methodology/freshness tests).
+**Next step:** Execute the remaining Phase 03 plan (4 of 4), then `/gsd:verify-work`.
 
 ---
 *State initialized: 2026-06-20*
