@@ -42,8 +42,8 @@ Requirements for this milestone ("best in the world"). Each maps to roadmap phas
 ### Performance & Launch
 
 - [x] **PERF-01**: Filter and style interactions are memoized — no full simulation restart for simple filter/style changes
-- [ ] **PERF-02**: The site is fully usable on mobile (responsive layout, touch interactions)
-- [ ] **PERF-03**: A complete keyboard-only journey covers search → filter → select → reset
+- [x] **PERF-02**: The site is fully usable on mobile (responsive layout, touch interactions)
+- [x] **PERF-03**: A complete keyboard-only journey covers search → filter → select → reset
 - [ ] **PERF-04**: SEO/meta tags and social share cards are present and valid
 - [ ] **PERF-05**: A final verification gate confirms Lighthouse targets met and all tests green before launch
 
@@ -92,8 +92,8 @@ Deferred to future milestones.
 | DEPTH-03 | Phase 7 | Complete |
 | DEPTH-04 | Phase 7 | Complete |
 | PERF-01 | Phase 8 | Complete |
-| PERF-02 | Phase 9 | Pending |
-| PERF-03 | Phase 9 | Pending |
+| PERF-02 | Phase 9 | Complete |
+| PERF-03 | Phase 9 | Complete |
 | PERF-04 | Phase 10 | Pending |
 | PERF-05 | Phase 10 | Pending |
 
