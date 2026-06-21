@@ -3,14 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T13:37:53.682Z"
+last_updated: "2026-06-21T16:35:10.625Z"
 progress:
   total_phases: 10
   completed_phases: 8
-  total_plans: 28
-  completed_plans: 28
-  percent: 80
-  note: "28/28 plans across phases 1-8 complete (100% of plans-to-date); 8/10 phases done"
+  total_plans: 31
+  completed_plans: 29
+  percent: 81
 ---
 
 # Project State: Monarch Castle Technologies — Market Intelligence
@@ -19,17 +18,18 @@ progress:
 
 **Core Value:** Investors trust every number and instantly grasp supply-chain structure, concentration, and risk — credibility first, then beauty, then unique depth.
 
-**Current Focus:** Phase 09 — Mobile & Keyboard Accessibility (next)
+**Current Focus:** Phase 09 — Mobile & Keyboard Accessibility
 
 **Mode:** mvp | **Granularity:** fine
 
 ## Current Position
 
-Phase: 08 (Interaction Performance) — COMPLETE (4 of 4 plans done)
-**Phase:** 08 — Interaction Performance — COMPLETE
-**Plan:** 08-04 complete — Phase-8 integration gate GREEN: `npm test` 275/275; both phase test files registered AND executed (T-08-06 mitigated); anchors unchanged in-run (GILD=36, NVDA=12, fan-in top=4, Taiwan 7/$11.36T); latency record present (~60× cold→warm); perceptual-immediacy human-verify auto-approved on the recorded micro-bench + opacity-only invariant. PERF-01 SC1+SC2+SC3 satisfied. No source edits.
-**Status:** Phase 08 complete — ready for Phase 09
-**Progress:** [██████████] 100% of plans-to-date (28/28); 8/10 phases
+Phase: 09 (Mobile & Keyboard Accessibility) — EXECUTING
+Plan: 2 of 3
+**Phase:** 09 — Mobile & Keyboard Accessibility — EXECUTING
+**Plan:** 09-01 complete — PERF-02 mobile responsive layout: #chokepointsPanel/#scenarioPanel now position:fixed (no header overlap on any viewport), extended @media(max-width:768px) covers panels+filter+hero+modals, 4 mobile-sheet controls (Method/Tour/Chokepts/Scenario) wired via wireMobile. npm test = 283 tests / 282 pass / 0 fail / 1 skipped (Playwright placeholder deferred to 09-03). Both new test files registered.
+**Status:** Executing Phase 09
+**Progress:** [██████████] 29/29 plans-to-date; 8/10 phases
 
 ## Performance Metrics
 
@@ -84,6 +84,8 @@ Phase: 08 (Interaction Performance) — COMPLETE (4 of 4 plans done)
 | Phase 08 P03 | 7min | 2 tasks | 2 files |
 | Interaction latency (08-03, PERF-01 SC2) | Node cold-vs-warm micro-bench (100 profile opens + 50 criticality + 50 scenario, median-of-5): cold ≈166ms → warm ≈2.8ms, ≈60× faster, warm fan-in builds=1 (199 hits); anchors live-confirmed GILD=36/NVDA=12/Taiwan=7; recorded in docs/perf/interaction-2026-06-21.md with the local-no-paint (NO_FCP) caveat; 275/275 green |
 | Phase 08 P04 | 3min | 1 tasks | 0 files |
+| Phase 09 P01 | ~3min | 3 tasks | 5 files |
+| Mobile responsive gate (09-01, PERF-02) | npm test = 283 tests / 282 pass / 0 fail / 1 skipped (275 prior + 8 a11y subtests; 1 skipped = registered Playwright placeholder for 09-03). #chokepointsPanel/#scenarioPanel position:fixed (no #top/#bar overlap); @media(max-width:768px) covers panels+#filterPanel+#heroOverlay+modals; 4 wired mobile-sheet controls reachable ≤768px. index-ui-integrity + design-tokens green (NEW IDs + existing tokens only). |
 
 ## Accumulated Context
 
@@ -139,6 +141,7 @@ Phase: 08 (Interaction Performance) — COMPLETE (4 of 4 plans done)
 - 08-02: tests/no-restart-invariant.test.mjs locks the "simple change never restarts the sim / re-renders the graph" invariant at the SOURCE level (no source edits — research confirmed every simple-change path is already opacity-only). bodyOf(src,signature) brace-matches and slices each handler body; BANNED = [/\bd3\.forceSimulation\s*\(/, /\.alpha\s*\(/, /\.restart\s*\(/, /\bupdateGraph\s*\(/, /\brender\s*\(/]. Guarded bodies: applyFilters/resetFilters/highlightChokepoints (js/ui), highlightBy/resetHighlight (js/viz), inline bLabels/bBottlenecks onclicks, bFlow (proven bare toggleParticles()), keydown l/f/b cases (sliced case→break;). ALLOW-LIST proof: asserts js/ui DOES match /alpha\(0\.22\)\.restart\(\)/ so bReset's intentional reheat (and render()/updateGraph() view-change paths) are NOT banned and cannot be silently deleted. Guard proven to BITE: injecting STATE.simulation.alpha(1).restart() into applyFilters failed the test (AssertionError /\.alpha\s*\(/); source restored byte-identical (git diff empty). 12 assertions GREEN; npm test = 275 pass / 0 fail (263 prior + 12). No deviations. T-08-03 mitigated (scoped slices + explicit allow-list); T-08-04 accepted (future new handlers must be added to the guard set).
 - 08-03: PERF-01 SC2 interaction-latency recorded via a Node cold-vs-warm micro-bench (docs/perf/_interaction-bench.cjs — ESM analytics imported into CJS via dynamic import(pathToFileURL); NOT in scripts.test). Workload = 100 companyConcentration profile opens + 50 supplierCriticality + 50 runScenario(TAIWAN_SEMI), median-of-5 with warmup. COLD = __resetAnalyticsCache() before EVERY call (fan-in rebuilt each time, models pre-memo eager default-arg cost); WARM = reset once → memoized. Result: cold ≈166ms → warm ≈2.8ms (≈60× faster), warm fanIn builds=1 / 199 hits (criticality 1/49, scenario 1/49) — the Plan-01 memoization win quantified. Bench re-prints live anchors (GILD=36/NVDA=12/Taiwan=7) so the record self-verifies (threat T-08-05 mitigated). Recorded in docs/perf/interaction-2026-06-21.md (112 lines): method + results + SC2 conclusion + the honest CAVEAT — page doesn't paint locally (committed snapshot lacks nodes/links/profiles → NO_FCP per baseline-2026-06-20.md), so the Node micro-bench is the AUTHORITATIVE SC2 measure (08-RESEARCH Pitfall 4 / OQ2); Playwright _perf-capture.cjs remains best-effort needing synthetic-data injection. No source touched, data frozen, no value changes. Tasks: feat 27118a6 (bench) → docs 6c3f769 (record). npm test = 275 pass / 0 fail. No deviations.
 - 08-04: Phase-8 integration gate GREEN (verification-only, NO source edits). `npm test` = 275 pass / 0 fail (257 prior + 6 analytics-memo + 12 no-restart-invariant). REGISTRATION PROOF (T-08-06 mitigated): both tests/analytics-memo.test.mjs + tests/no-restart-invariant.test.mjs are in package.json scripts.test (24 files) AND demonstrably execute (targeted node --test run of both = 55 assertions green); `GATE OK` printed (registration + latency-record accessSync). ANCHORS unchanged in-run (caching changed cost not value): GILD=36, NVDA=12, top chokepoint fan-in "credit and risk data inputs"=4 (histogram {1:439,2:13,3:5,4:1}), runScenario(TAIWAN_SEMI)→7 firms / totalMarketCapExposed===11360589871184 ($11.36T) / k 5→4 / HHI 0.20→0.25, single 'tsmc'→KLAC. NO-RESTART guard green in-run: all simple-change bodies (applyFilters/resetFilters/highlightChokepoints/highlightBy/resetHighlight/bLabels/bBottlenecks/bFlow/keydown l,f,b) opacity-only; bReset's alpha(0.22).restart() allow-listed (guard's bite proven+recorded in 08-02). Latency record docs/perf/interaction-2026-06-21.md present (~60× cold→warm, fan-in built once). Perceptual-immediacy human-verify (gate=blocking) ⚡ AUTO-APPROVED under AUTO_MODE — visual/perceptual gate, NOT a package-legitimacy blocking-human gate; the "feels immediate" sign-off rests honestly on the recorded ~60× micro-bench + the source-level opacity-only invariant because the committed snapshot doesn't paint locally (documented NO_FCP). Buildless preserved, data frozen, no packages installed (T-08-SC N/A). PERF-01 SC1+SC2+SC3 satisfied. Phase 8 complete (4/4). No deviations.
+- 09-01: PERF-02 mobile responsive layout. layout.css: #chokepointsPanel/#scenarioPanel got position:fixed + Phase-4 tokens (--space-5/6, --radius-lg, --color-surface-raised), docked bottom-left with distinct bottom offsets — they previously had ZERO CSS and rendered in static flow overlapping #top/#bar on every viewport. theme.css: EXTENDED the existing @media(max-width:768px) block (no duplicate) so the two panels become left/right-inset bottom-anchored with bounded max-height, #filterPanel + #heroOverlay get usable full-width insets, and help/methodology modals get mobile content width + #compareModal .grid collapses to 1 column. index.html: 4 NEW static <button> IDs (#mMethodology/#mTour/#mChokepoints/#mScenario, textContent only — T-09-01 no-innerHTML) in #mobileSheet .mGrid. js/ui/index.js wireUI(): wireMobile each delegating to #bMethodology/#bTour/#bChokepoints/#bScenarioTaiwan (reuses auto-close). :focus-visible ring preserved; no new tokens. DEVIATION (Rule 3): the non-negotiable requires BOTH test files registered but tests/mobile-keyboard.spec.mjs (full Playwright journey) is authored in 09-03 — created it as a registered { skip:true } placeholder so scripts.test lists both files without breaking the suite. Tasks: test 141f483 → feat 357036d (CSS) → feat 598fd57 (sheet+wiring). npm test = 283 tests / 282 pass / 0 fail / 1 skipped. No other deviations.
 - 06-01: js/analytics/index.js is a pure DOM-free engine (mirrors js/trust). companyConcentration = round(100*(0.6*(1/k)+0.4*sharedFrac)), clamped [0,100], with the equal-weight HHI=1/k assumption stated in a module comment (dataset has no per-supplier volume; all l.v=2); wHHI/wShared/sharedThreshold are opts params for tunability. sectorConcentration groups by layers[node.y] (NOT profile.category) and reports reuse%=(slots-distinct)/slots + effectiveSuppliers=1/HHI — NOT raw HHI*100 (which is an uninterpretable 1-7). supplierCriticality ranks suppliers by real fan-in via buildSupplierFanIn (Map<label,Set<symbol>> mirroring the overlap index); top chokepoint='credit and risk data inputs'=4; deterministic localeCompare tie-break; never references the editorial d.bn flag (asserted at source level). Anchors test-locked: GILD=36, NVDA=12, Healthcare reuse 12%, Finance 9%, fan-in histogram {1:439,2:13,3:5,4:1}. Both test files registered in scripts.test (18→20). npm test = 231 pass / 0 fail (214 prior + 10 concentration + 7 criticality-wiring). No deviations.
 
 ### Standing Constraints
@@ -158,7 +161,9 @@ Phase: 08 (Interaction Performance) — COMPLETE (4 of 4 plans done)
 
 ## Session Continuity
 
-**Last action:** Completed 08-04-PLAN.md — the Phase-8 integration gate (PERF-01, Wave 3, verification-only). Ran `npm test` → exit 0, 275 pass / 0 fail / 0 skipped. Proved both phase test files (tests/analytics-memo.test.mjs + tests/no-restart-invariant.test.mjs) are registered in package.json scripts.test AND execute (targeted node --test of both = 55 green); gate's automated check printed `GATE OK` (registration + docs/perf/interaction-2026-06-21.md accessSync). Confirmed anchors unchanged in-run (GILD=36, NVDA=12, fan-in top "credit and risk data inputs"=4, Taiwan 7 firms / totalMarketCapExposed===11360589871184 / HHI 0.20→0.25, single 'tsmc'→KLAC) and the no-restart guard's opacity-only assertions green with bReset's reheat allow-listed. Latency record present (~60× cold→warm). Perceptual-immediacy human-verify (gate=blocking) auto-approved under AUTO_MODE on the recorded micro-bench + opacity-only invariant (page doesn't paint locally — documented NO_FCP). NO source edits, data frozen, no packages installed. PERF-01 SC1+SC2+SC3 satisfied; Phase 8 COMPLETE (4/4). No deviations. Next: Phase 9 (Mobile & Keyboard Accessibility, PERF-02/PERF-03).
+**Last action:** Completed 09-01-PLAN.md — PERF-02 mobile responsive layout + mobile-sheet controls (Phase 9, Wave 0/1). Authored + registered tests/mobile-keyboard-a11y.test.mjs (Node static asserts, RED on the unbuilt panel/sheet/css checks) plus a { skip:true } tests/mobile-keyboard.spec.mjs placeholder (full Playwright journey deferred to 09-03); both in package.json scripts.test (test 141f483). Gave #chokepointsPanel/#scenarioPanel position:fixed token layout in layout.css (they had ZERO CSS, overlapping the fixed #top/#bar) and extended the existing @media(max-width:768px) block in theme.css to cover the two panels + #filterPanel + #heroOverlay + help/methodology/compare modals (feat 357036d). Added 4 NEW #mobileSheet buttons (#mMethodology/#mTour/#mChokepoints/#mScenario, textContent only) wired via wireMobile to the toolbar buttons (feat 598fd57). :focus-visible ring + all existing IDs/inline bootstrap preserved (index-ui-integrity green); design-tokens green. npm test = 283 tests / 282 pass / 0 fail / 1 skipped. One Rule-3 deviation (placeholder spec so both files register without breaking the suite). Next: Phase 9 Plan 02.
+
+**Prior action:** Completed 08-04-PLAN.md — the Phase-8 integration gate (PERF-01, Wave 3, verification-only). Ran `npm test` → exit 0, 275 pass / 0 fail / 0 skipped. Proved both phase test files (tests/analytics-memo.test.mjs + tests/no-restart-invariant.test.mjs) are registered in package.json scripts.test AND execute (targeted node --test of both = 55 green); gate's automated check printed `GATE OK` (registration + docs/perf/interaction-2026-06-21.md accessSync). Confirmed anchors unchanged in-run (GILD=36, NVDA=12, fan-in top "credit and risk data inputs"=4, Taiwan 7 firms / totalMarketCapExposed===11360589871184 / HHI 0.20→0.25, single 'tsmc'→KLAC) and the no-restart guard's opacity-only assertions green with bReset's reheat allow-listed. Latency record present (~60× cold→warm). Perceptual-immediacy human-verify (gate=blocking) auto-approved under AUTO_MODE on the recorded micro-bench + opacity-only invariant (page doesn't paint locally — documented NO_FCP). NO source edits, data frozen, no packages installed. PERF-01 SC1+SC2+SC3 satisfied; Phase 8 COMPLETE (4/4). No deviations. Next: Phase 9 (Mobile & Keyboard Accessibility, PERF-02/PERF-03).
 
 **Prior action:** Completed 08-03-PLAN.md — the PERF-01 SC2 interaction-latency record (Wave 2). Authored docs/perf/_interaction-bench.cjs (feat 27118a6): a Node cold-vs-warm micro-benchmark that dynamic-imports the ESM analytics into CommonJS, loads the real data/top100-map.json, and times a 200-call interaction workload (100 companyConcentration profile opens + 50 supplierCriticality + 50 runScenario Taiwan) COLD (__resetAnalyticsCache() before every call → fan-in rebuilt each time) vs WARM (reset once → memoized), median-of-5 with warmup. Measured: cold ≈166ms → warm ≈2.8ms (≈60× faster), warm fan-in builds=1 (199 hits); anchors re-printed from the warm cache GILD=36/NVDA=12/Taiwan=7 (self-verifying, T-08-05). Recorded the result in docs/perf/interaction-2026-06-21.md (docs 6c3f769): method + results table + SC2 conclusion + the honest local-no-paint caveat (NO_FCP per baseline-2026-06-20.md → Node micro-bench is the authoritative SC2 measure, 08-RESEARCH Pitfall 4/OQ2). Bench kept OUT of scripts.test (tooling). No source edits, data frozen. npm test = 275 pass / 0 fail. No deviations. Next: Plan 08-04 (phase gate).
 
@@ -172,7 +177,7 @@ Phase: 08 (Interaction Performance) — COMPLETE (4 of 4 plans done)
 
 **Earlier action:** Completed 06-02-PLAN.md — the concentration display + chokepoints wiring plan. Added a branch-0 `derived` provenance tag to js/trust (provenanceFor + badgeHtml 'Derived', never 'Observed') under TDD (test aee630b → feat a0b60a7). Wired companyConcentration into the profile panel as 'Supplier concentration: NN/100' with a Derived badge (#cardConcentration), added a #chokepointsPanel listing supplierCriticality top-8 by real fan-in with a #bChokepoints highlightBy graph highlight + #bChokepointsReset, and documented both formulas (incl. the equal-weight HHI=1/k limit) in the Methodology modal (feat 0c3870c). NEW index.html IDs only; inline-bootstrap + all prior IDs intact (index-ui-integrity green). npm test = 242 pass / 0 fail (231 prior + 11 new). DEPTH-01 + DEPTH-02 display complete. No deviations.
 
-**Next step:** Phase 8 COMPLETE (4/4). Begin Phase 9 — Mobile & Keyboard Accessibility (PERF-02, PERF-03).
+**Next step:** Phase 9 Plan 01 COMPLETE (PERF-02 mobile layout). Begin Phase 9 Plan 02 (PERF-03 keyboard / hero focus-trap path).
 
 ---
 *State initialized: 2026-06-20*
