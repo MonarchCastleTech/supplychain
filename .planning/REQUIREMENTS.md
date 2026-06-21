@@ -26,9 +26,9 @@ Requirements for this milestone ("best in the world"). Each maps to roadmap phas
 
 ### Storytelling
 
-- [ ] **STORY-01**: A consistent design system (typography scale, color, depth, motion tokens) is applied site-wide
+- [x] **STORY-01**: A consistent design system (typography scale, color, depth, motion tokens) is applied site-wide
 - [ ] **STORY-02**: A first-time visitor sees a "first 30 seconds" guided hero moment that auto-reveals the global map with narration
-- [ ] **STORY-03**: D3 transitions are smooth with no jarring full-simulation restart on view changes
+- [x] **STORY-03**: D3 transitions are smooth with no jarring full-simulation restart on view changes
 - [ ] **STORY-04**: An investor narrative flow guides the user market → concentration → risk → opportunity
 - [ ] **STORY-05**: Storytelling/hero behavior is covered by non-regression tests
 
@@ -82,8 +82,8 @@ Deferred to future milestones.
 | TRUST-04 | Phase 3 | Complete |
 | TRUST-05 | Phase 3 | Complete |
 | TRUST-06 | Phase 3 | Complete |
-| STORY-01 | Phase 4 | Pending |
-| STORY-03 | Phase 4 | Pending |
+| STORY-01 | Phase 4 | Complete |
+| STORY-03 | Phase 4 | Complete |
 | STORY-02 | Phase 5 | Pending |
 | STORY-04 | Phase 5 | Pending |
 | STORY-05 | Phase 5 | Pending |

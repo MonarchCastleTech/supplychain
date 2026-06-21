@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T00:43:30.644Z"
+last_updated: "2026-06-21T01:14:53.442Z"
 progress:
   total_phases: 10
   completed_phases: 3
-  total_plans: 11
-  completed_plans: 11
+  total_plans: 15
+  completed_plans: 12
   percent: 30
 ---
 
@@ -18,18 +18,18 @@ progress:
 
 **Core Value:** Investors trust every number and instantly grasp supply-chain structure, concentration, and risk — credibility first, then beauty, then unique depth.
 
-**Current Focus:** Phase 03 — Confidence, Methodology & Freshness
+**Current Focus:** Phase 04 — Design System & Smooth Motion
 
 **Mode:** mvp | **Granularity:** fine
 
 ## Current Position
 
-Phase: 03 (Confidence, Methodology & Freshness) — COMPLETE
-Plan: 03-04 complete — 4 of 4 plans done
-**Phase:** 03 — Confidence, Methodology & Freshness — COMPLETE
-**Plan:** 03-04 complete — 4 of 4 plans done
-**Status:** Phase 03 complete — ready for /gsd:verify-work
-**Progress:** [██████████] 100%
+Phase: 04 (Design System & Smooth Motion) — EXECUTING
+Plan: 2 of 4 (Plan 04-01 complete)
+**Phase:** 04 — Design System & Smooth Motion — EXECUTING
+**Plan:** 04-01 complete — 1 of 4 plans done
+**Status:** Executing Phase 04
+**Progress:** [████████░░] 80%
 
 ## Performance Metrics
 
@@ -58,6 +58,8 @@ Plan: 03-04 complete — 4 of 4 plans done
 | Phase 03 P03 | 12min | 2 tasks | 5 files |
 | Phase 03 P04 | ~15min | 1 task + 1 checkpoint | 1 file |
 | Phase-3 gate (03-04) | npm test = 178 pass / 0 fail; render smoke PASS (100 nodes painted, Confidence% + methodology modal + live freshness, 0 console errors) |
+| Phase 04 P01 | ~10min | 2 tasks | 4 files |
+| Token-scaffold gate (04-01) | npm test = 191 tests / 186 pass / 5 fail — 178 prior green, 8 new green, 5 INTENDED Wave 0 RED (migration evidence + buildSimulation/updateGraph + nodes/links re-bind + mental-map carry + reduced-motion; closed by Plans 02/03) |
 
 ## Accumulated Context
 
@@ -95,6 +97,9 @@ Plan: 03-04 complete — 4 of 4 plans done
 - 03-03: methodology copy is REAL/honest — 407 sources, 120 high / 3,447 medium qualifiers, ~131 dated sources, exponential ~4yr half-life decay (no date => no decay), observed/estimated/unknown semantics, 75 dangling source FKs + estimated relationships + weekly market-cap auto-update. No fabricated stats.
 - 03-03: js/ui updateStatusIndicator confirmed as the SOLE live #lastUpdated owner (reads window.SUPPLY_MAP_DATA.meta.generatedAt each call; js/viz writes it 0 times) — no code change needed, only the freshness-wiring regression test. npm test = 178 pass / 0 fail.
 - 03-04: Phase-3 integration gate GREEN — docs/perf/_render-smoke-0304.cjs boots http-server (free port, real repo root, http:// not file://) and drives a REAL node hover. d3 CDN reachable this run, so the real page painted: 100 nodes / 186 links / 100 profiles, 100 circle.mc elements / 732 SVG els; tooltip shows .prov-badge + literal 'Confidence: NN%'; #bMethodology opens #methodologyModal and ESC closes it; footer #lastUpdated = live 'Feb 22, 2026'; ZERO console/page errors. npm test = 178 pass / 0 fail. The synthetic-dataset fallback was NOT needed (Plan 01's rich served data made the real paint work). Honest note: NVIDIA hovers as Unknown/25% (unknown floor) because its source FK is one of the documented 75 dangling references — working as designed; the smoke asserts the Confidence:NN% literal not a fixed value. Human-verify checkpoint auto-approved under AUTO_MODE (visual gate, not a package-legitimacy blocking-human gate).
+- 04-01: design tokens defined in base.css :root (loads first) NOT theme.css — cascade resolves for every consumer incl. theme.css; honors 'single source of truth in CSS' against real <link> order (RESEARCH note). Full set: color surfaces/text/brand/status + semantic trust (--color-observed #66bb6a/estimated #ffb300/unknown #9e9e9e), type (--fs-2xs..2xl,--fw-*,--lh-*,fonts), spacing (--space-1..8), radii (--radius-xs..2xl), elevation (--shadow-sm/md/lg/up), motion (--dur-fastest/fast/base/slow,--ease-standard/emphasized).
+- 04-01: the 7 legacy vars kept as ALIASES with byte-identical resolved values (A3 cross-check) — --green→--color-success(#4caf50) NOT --color-observed(#66bb6a); zero rendered-color change this plan, consumers migrate in Plan 02.
+- 04-01: GATE LANDMINE closed up front — tests/design-tokens.test.mjs + tests/viz-motion.test.mjs authored AND registered in scripts.test in Task 0 (16 unique .test.mjs). 5 assertions are INTENDED Wave 0 RED: migration evidence (layout=9/theme=2 var(--), need ≥10 → Plan 02), buildSimulation/updateGraph split + nodes/links re-bind + mental-map carry + viz matchMedia (→ Plan 03), theme.css prefers-reduced-motion (→ Plan 02). npm test = 191 / 186 pass / 5 RED.
 
 ### Standing Constraints
 
@@ -113,9 +118,9 @@ Plan: 03-04 complete — 4 of 4 plans done
 
 ## Session Continuity
 
-**Last action:** Completed 03-04-PLAN.md — Phase-3 integration gate. Authored docs/perf/_render-smoke-0304.cjs (http-server + Playwright, real served data, real node hover) (b80f442). Full suite green (npm test = 178 pass / 0 fail) and render smoke PASS: app paints with REAL data (100 nodes / 186 links / 100 profiles, 100 SVG node circles), node tooltip shows .prov-badge + 'Confidence: NN%', #methodologyModal opens on click / closes on ESC, footer freshness = live 'Feb 22, 2026', zero console/page errors. Human-verify checkpoint auto-approved under AUTO_MODE. **Phase 03 — 4 of 4 plans done; phase COMPLETE.**
+**Last action:** Completed 04-01-PLAN.md — design-token foundation + Wave 0 test scaffolding. Defined the full :root token set + 7 legacy aliases in styles/base.css (3021355) and authored + registered tests/design-tokens.test.mjs and tests/viz-motion.test.mjs in package.json scripts.test (d00e7cd). npm test = 191 tests / 186 pass / 5 fail — 178 prior green, 8 new green, 5 INTENDED Wave 0 RED (migration evidence → Plan 02; buildSimulation/updateGraph + nodes/links re-bind + mental-map carry + viz matchMedia → Plan 03; theme.css reduced-motion → Plan 02). Zero visual change (legacy aliases resolve identical values). **Phase 04 — 1 of 4 plans done.**
 
-**Next step:** Run `/gsd:verify-work` for Phase 03, then plan Phase 04 (Design System & Visual Polish).
+**Next step:** Execute 04-02-PLAN.md — migrate layout/components/theme literals to var(--token) + add the theme.css prefers-reduced-motion block (closes migration-evidence + theme reduced-motion RED assertions).
 
 ---
 *State initialized: 2026-06-20*

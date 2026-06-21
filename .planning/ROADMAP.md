@@ -91,7 +91,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
   4. The 103-test suite plus the trust tests stay green.
 **Plans**: 4 plans
 Plans:
-- [ ] 04-01-PLAN.md — Token set in base.css :root + register design-tokens & viz-motion tests (STORY-01/03)
+- [x] 04-01-PLAN.md — Token set in base.css :root + register design-tokens & viz-motion tests (STORY-01/03)
 - [ ] 04-02-PLAN.md — Migrate layout/components/theme to tokens + reduced-motion CSS block (STORY-01/03)
 - [ ] 04-03-PLAN.md — Build-once D3 motion: buildSimulation + updateGraph + position carry + matchMedia guard (STORY-03)
 - [ ] 04-04-PLAN.md — Full-suite green gate + render/motion smoke + human visual verify (STORY-01/03)
@@ -176,7 +176,7 @@ Plans:
 | 1. Foundation (Safety-Net Modularization) | 3/3 | Complete   | 2026-06-20 |
 | 2. Provenance & Source Linking | 4/4 | Complete   | 2026-06-20 |
 | 3. Confidence, Methodology & Freshness | 4/4 | Complete   | 2026-06-21 |
-| 4. Design System & Smooth Motion | 0/4 | Planned | - |
+| 4. Design System & Smooth Motion | 1/4 | In Progress|  |
 | 5. Hero Moment & Investor Narrative | 0/0 | Not started | - |
 | 6. Concentration & Risk Analytics | 0/0 | Not started | - |
 | 7. Scenario Stress-Tests | 0/0 | Not started | - |
