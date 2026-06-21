@@ -186,7 +186,10 @@ Plans:
   1. SEO/meta tags and social share cards are present and valid (verified by preview tooling).
   2. A final verification gate confirms Lighthouse targets met and all tests green before launch.
   3. The buildless static GitHub-Pages deploy and weekly auto-update pipeline are confirmed still working at launch.
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 10-01-PLAN.md — SEO/OG/Twitter/JSON-LD head tags + 1200x630 og-card.png + registered seo-social test (PERF-04)
+- [ ] 10-02-PLAN.md — Launch gate: npm test green + Lighthouse recorded + deploy/pipeline integrity + LAUNCH.md (PERF-05)
 **UI hint**: yes
 
 ## Progress
@@ -202,7 +205,7 @@ Plans:
 | 7. Scenario Stress-Tests | 3/3 | Complete   | 2026-06-21 |
 | 8. Interaction Performance | 4/4 | Complete   | 2026-06-21 |
 | 9. Mobile & Keyboard Accessibility | 3/3 | Complete   | 2026-06-21 |
-| 10. SEO, Social Cards & Launch Gate | 0/0 | Not started | - |
+| 10. SEO, Social Cards & Launch Gate | 0/2 | Planned | - |
 
 ---
 *Roadmap created: 2026-06-20*
