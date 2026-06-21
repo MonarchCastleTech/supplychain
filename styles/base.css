@@ -1,7 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --bg:#0a0a0a;--text:#d4d4d4;--dim:#505050;--acc:#e8453c;--blue:#4488cc;--green:#4caf50;--purple:#9c27b0;
+  /* color — surfaces (preserve current dark aesthetic) */
+  --color-bg:#0a0a0a; --color-surface:#0f0f0f; --color-surface-raised:#1a1a1a;
+  --color-border:#222; --color-border-subtle:rgba(255,255,255,0.08);
+  /* color — text */
+  --color-text:#d4d4d4; --color-text-bright:#ffffff; --color-text-muted:#888;
+  --color-text-dim:#505050; --color-text-faint:#333;
+  /* color — brand / accent */
+  --color-accent:#e8453c; --color-blue:#4488cc; --color-link:#86b7ff; --color-purple:#9c27b0;
+  /* color — status + SEMANTIC TRUST (must match .confidence-* hues) */
+  --color-observed:#66bb6a;  /* green   → confidence-high   */
+  --color-estimated:#ffb300; /* amber   → confidence-medium */
+  --color-unknown:#9e9e9e;   /* neutral → confidence-low    */
+  --color-success:#4caf50; --color-warning:#ff9800; --color-danger:#f44336;
+  /* type scale */
+  --fs-2xs:6px; --fs-xs:8px; --fs-sm:9px; --fs-base:10px; --fs-md:11px; --fs-lg:14px; --fs-xl:18px; --fs-2xl:20px;
+  --fw-light:300; --fw-regular:400; --fw-medium:500; --fw-semibold:600; --fw-bold:700;
+  --lh-tight:1.05; --lh-base:1.2; --lh-relaxed:1.5;
+  --font-mono:'JetBrains Mono',monospace; --font-display:'Bricolage Grotesque',sans-serif; --font-ui:'Inter',sans-serif;
+  /* spacing */
+  --space-1:2px; --space-2:4px; --space-3:6px; --space-4:8px; --space-5:10px; --space-6:12px; --space-7:16px; --space-8:24px;
+  /* radii */
+  --radius-xs:2px; --radius-sm:3px; --radius-md:4px; --radius-lg:6px; --radius-xl:8px; --radius-2xl:12px;
+  /* elevation */
+  --shadow-sm:0 2px 8px rgba(0,0,0,0.3);
+  --shadow-md:0 4px 20px rgba(0,0,0,0.4);
+  --shadow-lg:0 8px 32px rgba(0,0,0,0.4),0 2px 8px rgba(0,0,0,0.3);
+  --shadow-up:0 -4px 20px rgba(0,0,0,0.4);
+  /* motion */
+  --dur-fastest:50ms; --dur-fast:150ms; --dur-base:200ms; --dur-slow:400ms;
+  --ease-standard:cubic-bezier(0.4,0,0.2,1);
+  --ease-emphasized:cubic-bezier(0.2,0,0,1);
+  /* legacy aliases — keep existing rules resolving unchanged (zero visual change) */
+  --bg:var(--color-bg); --text:var(--color-text); --dim:var(--color-text-dim);
+  --acc:var(--color-accent); --blue:var(--color-blue); --green:var(--color-success); --purple:var(--color-purple);
 }
 html,body{background:var(--bg);color:var(--text);font-family:'JetBrains Mono',monospace;overflow:hidden;height:100vh;width:100vw;animation:pageFadeIn 0.4s ease forwards}
 @keyframes pageFadeIn{from{opacity:0}to{opacity:1}}
