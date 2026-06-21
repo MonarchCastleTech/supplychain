@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T07:07:01.220Z"
+last_updated: "2026-06-21T07:30:00.000Z"
 progress:
   total_phases: 10
   completed_phases: 5
   total_plans: 21
-  completed_plans: 19
-  percent: 50
+  completed_plans: 20
+  percent: 52
 ---
 
 # Project State: Monarch Castle Technologies — Market Intelligence
@@ -25,9 +25,9 @@ progress:
 ## Current Position
 
 Phase: 06 (Concentration & Risk Analytics) — EXECUTING
-Plan: 2 of 3
+Plan: 3 of 3
 **Phase:** 06 — Concentration & Risk Analytics — EXECUTING
-**Plan:** 06-01 complete — 1 of 3 plans done in Phase 06
+**Plan:** 06-02 complete — 2 of 3 plans done in Phase 06
 **Status:** Executing Phase 06
 **Progress:** [█████████░] 90%
 
@@ -71,6 +71,8 @@ Plan: 2 of 3
 | Phase 05 P03 | 9 | 3 tasks | 4 files |
 | Phase 06 P01 | ~20min | 3 tasks | 4 files |
 | Concentration-analytics gate (06-01) | npm test = 231 pass / 0 fail (214 prior + 10 concentration + 7 criticality-wiring); anchors GILD=36, NVDA=12, Healthcare reuse 12%, top chokepoint fan-in 4 |
+| Phase 06 P02 | ~15min | 2 tasks (1 TDD) | 4 files |
+| Concentration-display gate (06-02) | npm test = 242 pass / 0 fail (231 prior + 11 new: 6 derived-provenance + 5 ui/viz/html string-wiring); derived badge never renders Observed |
 
 ## Accumulated Context
 
@@ -118,6 +120,7 @@ Plan: 2 of 3
 - 05-01: Wave 0 gate — tests/narrative.test.mjs (7 assertions GREEN) + tests/hero-wiring.test.mjs (5 assertions INTENDED RED, closed by Plans 02 controller + 03 markup/main-wiring) registered in scripts.test (18 files). npm test = 203 / 198 pass / 5 RED (mirrors 04-01 Wave-0 pattern). Deviation: topSymbol prefers bn over the RESEARCH reference's global-max (Task-1 behavior), pinned by a fallback test.
 - 05-02: createHeroController({steps,controls,storage,reducedMotion,timers,render}) is PURE/DOM-free (RESEARCH Pattern 2) — single timerId state machine, STEP_MS=5500 (~5.5s/step, 4 steps ~22s within ~30s STORY-02). scheduleNext() returns BEFORE timers.setTimeout when reducedMotion() truthy (zero timers under reduced motion; show()/apply()/render still run so captions display; manual next() unaffected). play() always restarts at index 0 ignoring stored heroSeen (replay always allowed). stop()/skip() (skip is an alias of stop) = pause + storage.write('heroSeen','1') + resetHighlight + render(null,...) so the map is never left dimmed (Pitfall 4); end-of-autoplay and next()-past-last both route through stop(). pause/next/prev clear the single timerId via timers.clearTimeout (bounded autoplay, T-05-04 mitigated). Returns {play,pause,next,prev,skip,getIndex}.
 - 05-02: narrative suite 18/18 (+11 controller assertions: play schedules one timer, fire advances+re-arms, full autoplay stops+writes heroSeen, pause clears, next/prev bounds, next-past-last stop, skip teardown, reduced-motion zero-timer + manual next, replay). npm test = 214 / 210 pass / 4 fail — the controller-presence+reduced-motion hero-wiring assertion flipped GREEN; 4 remaining RED are Plan-03's #heroOverlay markup + main.js heroSeen/#bTour wiring. No deviations.
+- 06-02: js/trust provenanceFor gained a branch-0 `derived` tag (input.derived===true → {tag:'derived', note:'computed from N relationship(s)', source: ctx.methodologyUrl?{label:'Methodology',url}:undefined}); n defaults to 0 for missing/non-finite. badgeHtml maps derived→'Derived' (confidence-medium class), NEVER 'Observed' (test-enforced doesNotMatch); reuses the existing url.startsWith('http') guard + rel=noopener noreferrer so a non-http '#methodology' anchor degrades to label-only. js/ui: renderCardInsights renders 'Supplier concentration: NN/100 (HHI-based)' + the Derived badge into new #cardConcentration via companyConcentration(symbol,{profiles}); renderChokepoints() lists supplierCriticality({limit:8}) (escaped labels, integer fan-in) into #chokepointsList; #bChokepoints → highlightBy(d=>d.kind==='supplier' && chokepointSet.has(normalizeEntityLabel(d.l.split('\\n')[0]))), #bChokepointsReset → resetHighlight. js/viz unchanged (existing highlightBy already accepts arbitrary predicates). index.html: NEW IDs only (#cardConcentration, #chokepointsPanel/#chokepointsList, #bChokepoints/#bChokepointsReset); Methodology modal gained 'Supplier concentration (derived)' [C=round(100·(0.6·HHI+0.4·sharedFrac)), equal-weight HHI=1/k limit stated] + 'Critical chokepoints (derived)' [fan-in, top=4] sections. npm test = 242 pass / 0 fail (231 prior + 11 new). No deviations.
 - 06-01: js/analytics/index.js is a pure DOM-free engine (mirrors js/trust). companyConcentration = round(100*(0.6*(1/k)+0.4*sharedFrac)), clamped [0,100], with the equal-weight HHI=1/k assumption stated in a module comment (dataset has no per-supplier volume; all l.v=2); wHHI/wShared/sharedThreshold are opts params for tunability. sectorConcentration groups by layers[node.y] (NOT profile.category) and reports reuse%=(slots-distinct)/slots + effectiveSuppliers=1/HHI — NOT raw HHI*100 (which is an uninterpretable 1-7). supplierCriticality ranks suppliers by real fan-in via buildSupplierFanIn (Map<label,Set<symbol>> mirroring the overlap index); top chokepoint='credit and risk data inputs'=4; deterministic localeCompare tie-break; never references the editorial d.bn flag (asserted at source level). Anchors test-locked: GILD=36, NVDA=12, Healthcare reuse 12%, Finance 9%, fan-in histogram {1:439,2:13,3:5,4:1}. Both test files registered in scripts.test (18→20). npm test = 231 pass / 0 fail (214 prior + 10 concentration + 7 criticality-wiring). No deviations.
 
 ### Standing Constraints
@@ -137,9 +140,11 @@ Plan: 2 of 3
 
 ## Session Continuity
 
-**Last action:** Completed 06-01-PLAN.md — the pure concentration & criticality analytics engine. Created js/analytics/index.js (feat 6c8e0a2) with buildSupplierFanIn, companyConcentration (composite 0.6*(1/k)+0.4*sharedFrac, equal-weight HHI assumption stated), sectorConcentration (layers[node.y] grouping, reuse% + effectiveSuppliers=1/HHI), and supplierCriticality (fan-in ranking, top='credit and risk data inputs'=4, no d.bn). Wave 0 gate: registered tests/concentration.test.mjs + tests/criticality-wiring.test.mjs in package.json scripts.test (chore d398b1b, 18→20 files). TDD: concentration RED (test f92398a) → GREEN (feat 6c8e0a2); criticality tests (test 8a7aef8). Real anchors test-locked: GILD=36, NVDA=12, Healthcare reuse 12%, Finance 9%, fan-in histogram {1:439,2:13,3:5,4:1}. npm test = 231 pass / 0 fail (214 prior + 17 new). DEPTH-01 + DEPTH-02 complete. No deviations.
+**Last action:** Completed 06-02-PLAN.md — the concentration display + chokepoints wiring plan. Added a branch-0 `derived` provenance tag to js/trust (provenanceFor + badgeHtml 'Derived', never 'Observed') under TDD (test aee630b → feat a0b60a7). Wired companyConcentration into the profile panel as 'Supplier concentration: NN/100' with a Derived badge (#cardConcentration), added a #chokepointsPanel listing supplierCriticality top-8 by real fan-in with a #bChokepoints highlightBy graph highlight + #bChokepointsReset, and documented both formulas (incl. the equal-weight HHI=1/k limit) in the Methodology modal (feat 0c3870c). NEW index.html IDs only; inline-bootstrap + all prior IDs intact (index-ui-integrity green). npm test = 242 pass / 0 fail (231 prior + 11 new). DEPTH-01 + DEPTH-02 display complete. No deviations.
 
-**Next step:** Run 06-02-PLAN.md — the display/wiring plan: surface companyConcentration in the js/ui profile panel + a new chokepoints/sector panel, add a js/trust provenanceFor({derived:true,n}) branch + badgeHtml "Derived" label, wire a js/viz chokepoint highlight predicate, and add the concentration/criticality formula copy to the index.html Methodology modal. The pure engine is ready to import; criticality-wiring.test.mjs is the file Plan 02 extends with provenance/UI-wiring assertions.
+**Prior action:** Completed 06-01-PLAN.md — the pure concentration & criticality analytics engine. Created js/analytics/index.js (feat 6c8e0a2) with buildSupplierFanIn, companyConcentration (composite 0.6*(1/k)+0.4*sharedFrac, equal-weight HHI assumption stated), sectorConcentration (layers[node.y] grouping, reuse% + effectiveSuppliers=1/HHI), and supplierCriticality (fan-in ranking, top='credit and risk data inputs'=4, no d.bn). Wave 0 gate: registered tests/concentration.test.mjs + tests/criticality-wiring.test.mjs in package.json scripts.test (chore d398b1b, 18→20 files). TDD: concentration RED (test f92398a) → GREEN (feat 6c8e0a2); criticality tests (test 8a7aef8). Real anchors test-locked: GILD=36, NVDA=12, Healthcare reuse 12%, Finance 9%, fan-in histogram {1:439,2:13,3:5,4:1}. npm test = 231 pass / 0 fail (214 prior + 17 new). DEPTH-01 + DEPTH-02 complete. No deviations.
+
+**Next step:** Run 06-03-PLAN.md — the final Phase 06 plan (3 of 3). The derived-provenance + concentration display + chokepoints panel + Methodology copy are live; the analytics engine and trust vocabulary are fully wired into the UI.
 
 ---
 *State initialized: 2026-06-20*
