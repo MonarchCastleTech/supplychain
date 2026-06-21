@@ -21,6 +21,18 @@ function escapeHtml(input) {
  * @returns {{tag:'observed'|'estimated'|'unknown', source?:{label:string,url:string}}}
  */
 export function provenanceFor(input, ctx = {}) {
+  // 0. Derived figures (computed analytics: concentration, criticality). NEVER
+  //    'observed' — these are honestly tagged as derived aggregates, optionally
+  //    linking to the Methodology view for the formula. (Phase 06-02 / DEPTH-04)
+  if (input && input.derived === true) {
+    const n = Number.isFinite(input.n) ? input.n : 0;
+    return {
+      tag: "derived",
+      note: `computed from ${n} relationship${n === 1 ? "" : "s"}`,
+      source: ctx.methodologyUrl ? { label: "Methodology", url: ctx.methodologyUrl } : undefined,
+    };
+  }
+
   // 1. Market-cap figures -> dataset-level observed, sourced from meta.
   if (input && input.marketcap === true) {
     const url = ctx.meta?.source || ctx.meta?.top100_source_url;
@@ -86,8 +98,15 @@ export function confidenceScore(input, ctx = {}) {
  */
 export function badgeHtml(prov) {
   const tag = prov?.tag;
-  const label = tag === "observed" ? "Observed" : tag === "estimated" ? "Estimated" : "Unknown";
-  const cls = tag === "observed" ? "confidence-high" : tag === "estimated" ? "confidence-medium" : "confidence-low";
+  // derived is a first-class honest tag — NEVER mapped to the observed label.
+  const label =
+    tag === "observed" ? "Observed" :
+    tag === "derived" ? "Derived" :
+    tag === "estimated" ? "Estimated" : "Unknown";
+  const cls =
+    tag === "observed" ? "confidence-high" :
+    tag === "derived" ? "confidence-medium" :
+    tag === "estimated" ? "confidence-medium" : "confidence-low";
 
   const url = prov?.source?.url;
   const hasLink = Boolean(prov?.source) && typeof url === "string" && url.startsWith("http");
