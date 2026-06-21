@@ -36,8 +36,8 @@ Requirements for this milestone ("best in the world"). Each maps to roadmap phas
 
 - [x] **DEPTH-01**: A supply-chain concentration score is computed and displayed per company/sector on real data
 - [x] **DEPTH-02**: Risk and bottleneck analytics highlight critical single points of failure in the network
-- [ ] **DEPTH-03**: At least one scenario stress-test (e.g., "Taiwan semiconductor disruption") runs over real data and shows downstream impact
-- [ ] **DEPTH-04**: Every derived analytic carries provenance and is covered by tests
+- [x] **DEPTH-03**: At least one scenario stress-test (e.g., "Taiwan semiconductor disruption") runs over real data and shows downstream impact
+- [x] **DEPTH-04**: Every derived analytic carries provenance and is covered by tests
 
 ### Performance & Launch
 
@@ -89,8 +89,8 @@ Deferred to future milestones.
 | STORY-05 | Phase 5 | Complete |
 | DEPTH-01 | Phase 6 | Complete |
 | DEPTH-02 | Phase 6 | Complete |
-| DEPTH-03 | Phase 7 | Pending |
-| DEPTH-04 | Phase 7 | Pending |
+| DEPTH-03 | Phase 7 | Complete |
+| DEPTH-04 | Phase 7 | Complete |
 | PERF-01 | Phase 8 | Pending |
 | PERF-02 | Phase 9 | Pending |
 | PERF-03 | Phase 9 | Pending |

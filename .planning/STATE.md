@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T12:23:47.627Z"
+last_updated: "2026-06-21T12:45:57.370Z"
 progress:
   total_phases: 10
   completed_phases: 6
   total_plans: 24
-  completed_plans: 22
-  percent: 63
+  completed_plans: 23
+  percent: 60
 ---
 
 # Project State: Monarch Castle Technologies — Market Intelligence
@@ -29,7 +29,7 @@ Plan: 2 of 3 (07-01 complete)
 **Phase:** 06 — Concentration & Risk Analytics — EXECUTING
 **Plan:** 06-02 complete — 2 of 3 plans done in Phase 06
 **Status:** Executing Phase 07
-**Progress:** [█████████░] 90%
+**Progress:** [██████████] 96%
 
 ## Performance Metrics
 
@@ -75,6 +75,7 @@ Plan: 2 of 3 (07-01 complete)
 | Concentration-display gate (06-02) | npm test = 242 pass / 0 fail (231 prior + 11 new: 6 derived-provenance + 5 ui/viz/html string-wiring); derived badge never renders Observed |
 | Phase 07 P01 | ~8min | 3 tasks (TDD) | 3 files |
 | Scenario-engine gate (07-01) | npm test = 251 pass / 0 fail (242 prior + 9 new scenario unit); TAIWAN_SEMI → 7 firms / $11,360,589,871,184 exposed / HHI 0.20→0.25; single 'tsmc'→KLAC; excludeSuppliers proven additive |
+| Phase 07 P02 | 12min | 3 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -123,6 +124,7 @@ Plan: 2 of 3 (07-01 complete)
 - 05-02: createHeroController({steps,controls,storage,reducedMotion,timers,render}) is PURE/DOM-free (RESEARCH Pattern 2) — single timerId state machine, STEP_MS=5500 (~5.5s/step, 4 steps ~22s within ~30s STORY-02). scheduleNext() returns BEFORE timers.setTimeout when reducedMotion() truthy (zero timers under reduced motion; show()/apply()/render still run so captions display; manual next() unaffected). play() always restarts at index 0 ignoring stored heroSeen (replay always allowed). stop()/skip() (skip is an alias of stop) = pause + storage.write('heroSeen','1') + resetHighlight + render(null,...) so the map is never left dimmed (Pitfall 4); end-of-autoplay and next()-past-last both route through stop(). pause/next/prev clear the single timerId via timers.clearTimeout (bounded autoplay, T-05-04 mitigated). Returns {play,pause,next,prev,skip,getIndex}.
 - 05-02: narrative suite 18/18 (+11 controller assertions: play schedules one timer, fire advances+re-arms, full autoplay stops+writes heroSeen, pause clears, next/prev bounds, next-past-last stop, skip teardown, reduced-motion zero-timer + manual next, replay). npm test = 214 / 210 pass / 4 fail — the controller-presence+reduced-motion hero-wiring assertion flipped GREEN; 4 remaining RED are Plan-03's #heroOverlay markup + main.js heroSeen/#bTour wiring. No deviations.
 - 06-02: js/trust provenanceFor gained a branch-0 `derived` tag (input.derived===true → {tag:'derived', note:'computed from N relationship(s)', source: ctx.methodologyUrl?{label:'Methodology',url}:undefined}); n defaults to 0 for missing/non-finite. badgeHtml maps derived→'Derived' (confidence-medium class), NEVER 'Observed' (test-enforced doesNotMatch); reuses the existing url.startsWith('http') guard + rel=noopener noreferrer so a non-http '#methodology' anchor degrades to label-only. js/ui: renderCardInsights renders 'Supplier concentration: NN/100 (HHI-based)' + the Derived badge into new #cardConcentration via companyConcentration(symbol,{profiles}); renderChokepoints() lists supplierCriticality({limit:8}) (escaped labels, integer fan-in) into #chokepointsList; #bChokepoints → highlightBy(d=>d.kind==='supplier' && chokepointSet.has(normalizeEntityLabel(d.l.split('\\n')[0]))), #bChokepointsReset → resetHighlight. js/viz unchanged (existing highlightBy already accepts arbitrary predicates). index.html: NEW IDs only (#cardConcentration, #chokepointsPanel/#chokepointsList, #bChokepoints/#bChokepointsReset); Methodology modal gained 'Supplier concentration (derived)' [C=round(100·(0.6·HHI+0.4·sharedFrac)), equal-weight HHI=1/k limit stated] + 'Critical chokepoints (derived)' [fan-in, top=4] sections. npm test = 242 pass / 0 fail (231 prior + 11 new). No deviations.
+- 07-02: scenario UI slice shipped. index.html: #scenarioPanel (sibling of #chokepointsPanel, NEW IDs only — scenarioPanel/scenarioSummary/scenarioImpactList/scenarioProv/bScenarioTaiwan/scenarioChokepointSelect/bScenarioReset) with Taiwan preset button + generalized chokepoint <select> + reset; Methodology modal gained a 'Scenario stress-tests (derived)' block (single-hop/direct-dependents, HHI=1/k monotonic [composite excluded — non-monotonic], 'market cap exposed'=exposure NOT a loss estimate, Taiwan preset disables real TSMC label variants). js/ui: import runScenario+SCENARIO_PRESETS; renderScenario writes a LIVE headline (`${result.impactedCompanies.length} companies impacted · $${(totalMarketCapExposed/1e12).toFixed(2)}T market cap exposed` — no 7/11.36 literal anywhere, T-07-05 test-enforced) + escaped impact list (lost / before→after suppliers / before→after HHI) + #scenarioProv badge via badgeHtml(provenanceFor({derived:true,n})) (Derived, never Observed); highlightImpacted→highlightBy(n=>impacted.has(n.symbol)); runTaiwanScenario uses the bundled preset, runChokepointScenario(label) uses disableSupplier for the <select>; resetScenario clears summary/list/prov+select+resetHighlight. <select> options use textContent (safe), innerHTML path escaped via escapeHtml (T-07-03). tests/scenario-wiring.test.mjs registered (6 assertions). DEPTH-03+DEPTH-04 complete. npm test = 257 pass / 0 fail (251 prior + 6). index-ui-integrity 5/5. No deviations.
 - 07-01: js/analytics gained the pure DOM-free scenario engine. runScenario(disruption,ctx) is single-hop (a firm is "impacted" iff it loses ≥1 distinct supplier; cascade deferred); concentrationBefore/After report HHI=1/k (the MONOTONIC metric) NOT the composite score (composite is non-monotonic under removal — removing a shared single-point drops sharedFrac; 07-RESEARCH Pitfall 1). marketcap read from top-level ctx.nodes keyed by symbol (profiles do NOT carry marketcap; Pitfall 3). companyConcentration gained an ADDITIVE excludeSuppliers opt (Set|string[]|undefined→null): one filter line over uniq before k/HHI/sharedFrac; undefined leaves output byte-identical (242 prior green). SCENARIO_PRESETS.TAIWAN_SEMI bundles the 5 REAL normalized TSMC label variants (TSMC fragmented across distinct labels) — a single 'tsmc' hits only KLAC (Pitfall 2). Severity = share-of-suppliers-lost (≥0.5 high/≥0.25 medium/else low); Taiwan preset is "low" (1 of 5). "market cap exposed" = combined cap of impacted firms (exposure, NOT loss). tests/scenario.test.mjs (9 assertions, registered in scripts.test) pins real fixtures: 7 firms {NVDA,AAPL,AVGO,000660.KS,AMD,AMAT,KLAC}, totalMarketCapExposed===11360589871184 (derived live from fixture nodes then asserted equal to literal — proves not engine-baked), k 5→4 / HHI 0.20→0.25 after≥before, no-op safe, back-compat deep-equal. TDD: RED 925ee1b → GREEN c9d85ce. npm test = 251 pass / 0 fail. No deviations.
 - 06-01: js/analytics/index.js is a pure DOM-free engine (mirrors js/trust). companyConcentration = round(100*(0.6*(1/k)+0.4*sharedFrac)), clamped [0,100], with the equal-weight HHI=1/k assumption stated in a module comment (dataset has no per-supplier volume; all l.v=2); wHHI/wShared/sharedThreshold are opts params for tunability. sectorConcentration groups by layers[node.y] (NOT profile.category) and reports reuse%=(slots-distinct)/slots + effectiveSuppliers=1/HHI — NOT raw HHI*100 (which is an uninterpretable 1-7). supplierCriticality ranks suppliers by real fan-in via buildSupplierFanIn (Map<label,Set<symbol>> mirroring the overlap index); top chokepoint='credit and risk data inputs'=4; deterministic localeCompare tie-break; never references the editorial d.bn flag (asserted at source level). Anchors test-locked: GILD=36, NVDA=12, Healthcare reuse 12%, Finance 9%, fan-in histogram {1:439,2:13,3:5,4:1}. Both test files registered in scripts.test (18→20). npm test = 231 pass / 0 fail (214 prior + 10 concentration + 7 criticality-wiring). No deviations.
 
