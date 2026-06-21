@@ -13,7 +13,7 @@ import {
   showTooltip, showLinkTooltip, moveTooltip, highlightNode,
 } from "../viz/index.js";
 import { provenanceFor, renderProvenanceBadge, badgeHtml } from "../trust/index.js";
-import { companyConcentration, supplierCriticality } from "../analytics/index.js";
+import { companyConcentration, supplierCriticality, runScenario, SCENARIO_PRESETS } from "../analytics/index.js";
 /* global d3 */
 
 // Cached DOM element references + module-local mutable UI state.
@@ -40,6 +40,11 @@ const cardConcentration = document.getElementById("cardConcentration");
 const cardOverlap = document.getElementById("cardOverlap");
 const cardTimeline = document.getElementById("cardTimeline");
 const chokepointsListEl = document.getElementById("chokepointsList");
+const scenarioPanelEl = document.getElementById("scenarioPanel");
+const scenarioSummaryEl = document.getElementById("scenarioSummary");
+const scenarioImpactListEl = document.getElementById("scenarioImpactList");
+const scenarioProvEl = document.getElementById("scenarioProv");
+const scenarioChokepointSelectEl = document.getElementById("scenarioChokepointSelect");
 const cardSourcesBtn = document.getElementById("cardSourcesBtn");
 const provenanceDrawer = document.getElementById("provenanceDrawer");
 const provenanceItems = document.getElementById("provenanceItems");
@@ -659,6 +664,80 @@ function highlightChokepoints() {
   );
 }
 
+// --- Scenario stress-tests (DEPTH-03 / DEPTH-04) -------------------------
+// Run a what-if disruption via the pure runScenario engine and render the live
+// downstream impact (single-hop). The headline is DERIVED from the result
+// (impactedCompanies.length + totalMarketCapExposed) — never hardcoded — and
+// the output is badged "Derived" (never "Observed") with a Methodology link.
+// Every supplier/company label is escaped before innerHTML (T-07-03).
+
+// Render the impact summary + list + derived badge from a runScenario result.
+function renderScenario(result) {
+  if (scenarioSummaryEl) {
+    scenarioSummaryEl.textContent =
+      `${result.impactedCompanies.length} companies impacted · ` +
+      `$${(result.totalMarketCapExposed / 1e12).toFixed(2)}T market cap exposed`;
+  }
+  if (scenarioImpactListEl) {
+    if (!result.impactedCompanies.length) {
+      scenarioImpactListEl.innerHTML = `<div class="cMuted">No companies impacted by this disruption.</div>`;
+    } else {
+      scenarioImpactListEl.innerHTML = result.impactedCompanies
+        .map((c) => {
+          const before = c.suppliersBefore;
+          const after = c.suppliersAfter;
+          return `<div class="cItem"><span>${escapeHtml(c.company)} (${escapeHtml(c.symbol)})</span>` +
+            `<b>${c.lostSuppliers.length} lost · ${before}→${after} suppliers · ` +
+            `${c.concentrationBefore.toFixed(2)}→${c.concentrationAfter.toFixed(2)} HHI</b></div>`;
+        })
+        .join("");
+    }
+  }
+  if (scenarioProvEl) {
+    const n = result.impactedCompanies.reduce((s, c) => s + c.lostSuppliers.length, 0);
+    scenarioProvEl.innerHTML = badgeHtml(
+      provenanceFor({ derived: true, n }, { methodologyUrl: "#methodology" })
+    );
+  }
+}
+
+// Highlight the impacted company nodes in the global graph. Company nodes carry
+// .symbol; highlight only takes effect in global mode (mirrors chokepoints UX).
+function highlightImpacted(result) {
+  const impacted = new Set(result.impactedCompanies.map((c) => c.symbol));
+  highlightBy((n) => impacted.has(n.symbol));
+}
+
+// Run the bundled Taiwan semiconductor preset (5 real TSMC label variants).
+function runTaiwanScenario() {
+  const result = runScenario(SCENARIO_PRESETS.TAIWAN_SEMI.disruption, {
+    profiles: DATA.profiles,
+    nodes: DATA.nodes,
+  });
+  renderScenario(result);
+  highlightImpacted(result);
+}
+
+// Generalized chokepoint disruption: disable a single supplier label.
+function runChokepointScenario(label) {
+  if (!label) return;
+  const result = runScenario({ disableSupplier: label }, {
+    profiles: DATA.profiles,
+    nodes: DATA.nodes,
+  });
+  renderScenario(result);
+  highlightImpacted(result);
+}
+
+// Clear the scenario panel + graph highlight + select.
+function resetScenario() {
+  resetHighlight();
+  if (scenarioSummaryEl) scenarioSummaryEl.textContent = "No scenario run yet.";
+  if (scenarioImpactListEl) scenarioImpactListEl.innerHTML = "";
+  if (scenarioProvEl) scenarioProvEl.innerHTML = "";
+  if (scenarioChokepointSelectEl) scenarioChokepointSelectEl.value = "";
+}
+
 function toggleHelp(forceOpen) {
   const isOpen = helpModalEl?.style.display === "flex";
   const shouldOpen = typeof forceOpen === "boolean" ? forceOpen : !isOpen;
@@ -871,6 +950,25 @@ function wireUI() {
   document.getElementById("bChokepoints")?.addEventListener("click", highlightChokepoints);
   document.getElementById("bChokepointsReset")?.addEventListener("click", resetHighlight);
 
+  // Scenario stress-test panel: populate the chokepoint <select> from the real
+  // fan-in ranking (escaped labels), then wire the Taiwan preset + chokepoint
+  // disruption + reset. Highlight only takes effect in global mode.
+  if (scenarioChokepointSelectEl) {
+    supplierCriticality({ profiles: DATA.profiles, limit: 8 }).forEach((row) => {
+      const o = document.createElement("option");
+      o.value = row.supplier;
+      // textContent is inherently safe (no HTML parsing); escapeHtml is reserved
+      // for the innerHTML impact list (renderScenario) per T-07-03.
+      o.textContent = `${row.supplier} (${row.fanIn})`;
+      scenarioChokepointSelectEl.appendChild(o);
+    });
+    scenarioChokepointSelectEl.addEventListener("change", () => {
+      if (scenarioChokepointSelectEl.value) runChokepointScenario(scenarioChokepointSelectEl.value);
+    });
+  }
+  document.getElementById("bScenarioTaiwan")?.addEventListener("click", runTaiwanScenario);
+  document.getElementById("bScenarioReset")?.addEventListener("click", resetScenario);
+
   DATA.nodes.sort((a, b) => a.rank - b.rank).forEach((n) => {
     const o = document.createElement("option");
     o.value = n.symbol;
@@ -1075,4 +1173,5 @@ export {
   maybeShowOnboarding, updateStatusIndicator, renderTop10List, wireUI, jump,
   openMethodology, closeMethodology,
   renderChokepoints, highlightChokepoints,
+  renderScenario, highlightImpacted, runTaiwanScenario, runChokepointScenario, resetScenario,
 };
