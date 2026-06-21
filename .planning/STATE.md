@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T00:38:14.964Z"
+last_updated: "2026-06-21T00:43:30.644Z"
 progress:
   total_phases: 10
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 11
-  completed_plans: 10
-  percent: 20
+  completed_plans: 11
+  percent: 30
 ---
 
 # Project State: Monarch Castle Technologies — Market Intelligence
@@ -24,12 +24,12 @@ progress:
 
 ## Current Position
 
-Phase: 03 (Confidence, Methodology & Freshness) — EXECUTING
-Plan: 03-03 complete — 3 of 4 plans done
-**Phase:** 03 — Confidence, Methodology & Freshness — EXECUTING
-**Plan:** 03-03 complete — 3 of 4 plans done
-**Status:** Executing Phase 03
-**Progress:** [█████████░] 91%
+Phase: 03 (Confidence, Methodology & Freshness) — COMPLETE
+Plan: 03-04 complete — 4 of 4 plans done
+**Phase:** 03 — Confidence, Methodology & Freshness — COMPLETE
+**Plan:** 03-04 complete — 4 of 4 plans done
+**Status:** Phase 03 complete — ready for /gsd:verify-work
+**Progress:** [██████████] 100%
 
 ## Performance Metrics
 
@@ -56,6 +56,8 @@ Plan: 03-03 complete — 3 of 4 plans done
 | Phase 03 P02 | ~18m | 3 tasks | 5 files |
 | Confidence-score regression (03-02) | npm test = 168 pass / 0 fail (151 + 13 confidence-score + 5 viz-confidence-wiring − 2 placeholders) |
 | Phase 03 P03 | 12min | 2 tasks | 5 files |
+| Phase 03 P04 | ~15min | 1 task + 1 checkpoint | 1 file |
+| Phase-3 gate (03-04) | npm test = 178 pass / 0 fail; render smoke PASS (100 nodes painted, Confidence% + methodology modal + live freshness, 0 console errors) |
 
 ## Accumulated Context
 
@@ -92,6 +94,7 @@ Plan: 03-03 complete — 3 of 4 plans done
 - 03-03: accessible #methodologyModal (role=dialog, aria-modal, focus trap, ESC + close) reuses the existing openModal/closeModal/trapFocus + global keydown infra; reachable via a #bMethodology control-bar button next to Help. Close wired via addEventListener in wireUI (no inline-onclick window shim). Modal CSS reuses #helpModal selectors (appended #methodologyModal to each rule) — hidden by default, minimal accessible styling, no design-system polish (Phase-4 deferral).
 - 03-03: methodology copy is REAL/honest — 407 sources, 120 high / 3,447 medium qualifiers, ~131 dated sources, exponential ~4yr half-life decay (no date => no decay), observed/estimated/unknown semantics, 75 dangling source FKs + estimated relationships + weekly market-cap auto-update. No fabricated stats.
 - 03-03: js/ui updateStatusIndicator confirmed as the SOLE live #lastUpdated owner (reads window.SUPPLY_MAP_DATA.meta.generatedAt each call; js/viz writes it 0 times) — no code change needed, only the freshness-wiring regression test. npm test = 178 pass / 0 fail.
+- 03-04: Phase-3 integration gate GREEN — docs/perf/_render-smoke-0304.cjs boots http-server (free port, real repo root, http:// not file://) and drives a REAL node hover. d3 CDN reachable this run, so the real page painted: 100 nodes / 186 links / 100 profiles, 100 circle.mc elements / 732 SVG els; tooltip shows .prov-badge + literal 'Confidence: NN%'; #bMethodology opens #methodologyModal and ESC closes it; footer #lastUpdated = live 'Feb 22, 2026'; ZERO console/page errors. npm test = 178 pass / 0 fail. The synthetic-dataset fallback was NOT needed (Plan 01's rich served data made the real paint work). Honest note: NVIDIA hovers as Unknown/25% (unknown floor) because its source FK is one of the documented 75 dangling references — working as designed; the smoke asserts the Confidence:NN% literal not a fixed value. Human-verify checkpoint auto-approved under AUTO_MODE (visual gate, not a package-legitimacy blocking-human gate).
 
 ### Standing Constraints
 
@@ -110,9 +113,9 @@ Plan: 03-03 complete — 3 of 4 plans done
 
 ## Session Continuity
 
-**Last action:** Completed 03-03-PLAN.md — accessible #methodologyModal (role=dialog, aria-modal, focus trap, ESC + close) with honest real-fact copy (407 sources, 120 high / 3,447 medium qualifiers, ~131 dated sources, ~4yr half-life decay, observed/estimated/unknown, 75 dangling FKs) + reachable #bMethodology control-bar button; openMethodology/closeMethodology + wireUI bindings + ESC branch in js/ui; CSS reuses helpModal selectors (c174b18). Confirmed js/ui updateStatusIndicator is the sole live #lastUpdated owner (viz writes 0 times) + freshness regression test (eea71c3). 7 methodology + 5 freshness wiring tests; npm test = 178 pass / 0 fail. **Phase 03 — 3 of 4 plans done.**
+**Last action:** Completed 03-04-PLAN.md — Phase-3 integration gate. Authored docs/perf/_render-smoke-0304.cjs (http-server + Playwright, real served data, real node hover) (b80f442). Full suite green (npm test = 178 pass / 0 fail) and render smoke PASS: app paints with REAL data (100 nodes / 186 links / 100 profiles, 100 SVG node circles), node tooltip shows .prov-badge + 'Confidence: NN%', #methodologyModal opens on click / closes on ESC, footer freshness = live 'Feb 22, 2026', zero console/page errors. Human-verify checkpoint auto-approved under AUTO_MODE. **Phase 03 — 4 of 4 plans done; phase COMPLETE.**
 
-**Next step:** Execute the remaining Phase 03 plan (4 of 4), then `/gsd:verify-work`.
+**Next step:** Run `/gsd:verify-work` for Phase 03, then plan Phase 04 (Design System & Visual Polish).
 
 ---
 *State initialized: 2026-06-20*

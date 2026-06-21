@@ -17,7 +17,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 
 - [x] **Phase 1: Foundation (Safety-Net Modularization)** - Extract inline CSS/JS into modules with zero user-visible change, tests green, baseline captured (completed 2026-06-20)
 - [x] **Phase 2: Provenance & Source Linking** - Every major figure tagged observed/estimated with a reachable inline source link (completed 2026-06-20)
-- [ ] **Phase 3: Confidence, Methodology & Freshness** - Confidence scoring, Methodology view, freshness indicator, and trust-math tests
+- [x] **Phase 3: Confidence, Methodology & Freshness** - Confidence scoring, Methodology view, freshness indicator, and trust-math tests (completed 2026-06-21)
 - [ ] **Phase 4: Design System & Smooth Motion** - Consistent design tokens applied site-wide and jank-free D3 transitions
 - [ ] **Phase 5: Hero Moment & Investor Narrative** - First-30s guided hero and marketâconcentrationâriskâopportunity flow, with non-regression tests
 - [ ] **Phase 6: Concentration & Risk Analytics** - Per-company/sector concentration scoring and single-point-of-failure bottleneck analytics on real data
@@ -76,7 +76,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 - [x] 03-01-PLAN.md — [BLOCKING] restore rich served data/top100-map.js, quarantine weekly updater, register Phase-3 tests + data-shape guard (TRUST-05/06)
 - [x] 03-02-PLAN.md — confidenceScore in js/trust + sourceYear in js/data + viz tooltip score wiring + remove viz #lastUpdated dup (TRUST-03/05/06)
 - [x] 03-03-PLAN.md — accessible Methodology modal + freshness single-owner + methodology/freshness tests (TRUST-04/05/06)
-- [ ] 03-04-PLAN.md — full-suite green gate + render smoke + human visual verify (TRUST-03/04/05/06)
+- [x] 03-04-PLAN.md — full-suite green gate + render smoke + human visual verify (TRUST-03/04/05/06)
 **UI hint**: yes
 
 ### Phase 4: Design System & Smooth Motion
@@ -170,7 +170,7 @@ This roadmap preserves the approved spec's mandatory ordering: **Foundation firs
 |-------|----------------|--------|-----------|
 | 1. Foundation (Safety-Net Modularization) | 3/3 | Complete   | 2026-06-20 |
 | 2. Provenance & Source Linking | 4/4 | Complete   | 2026-06-20 |
-| 3. Confidence, Methodology & Freshness | 3/4 | In Progress|  |
+| 3. Confidence, Methodology & Freshness | 4/4 | Complete   | 2026-06-21 |
 | 4. Design System & Smooth Motion | 0/0 | Not started | - |
 | 5. Hero Moment & Investor Narrative | 0/0 | Not started | - |
 | 6. Concentration & Risk Analytics | 0/0 | Not started | - |
