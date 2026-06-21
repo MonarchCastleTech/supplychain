@@ -188,7 +188,7 @@ Plans:
   3. The buildless static GitHub-Pages deploy and weekly auto-update pipeline are confirmed still working at launch.
 **Plans**: 2 plans
 Plans:
-- [ ] 10-01-PLAN.md — SEO/OG/Twitter/JSON-LD head tags + 1200x630 og-card.png + registered seo-social test (PERF-04)
+- [x] 10-01-PLAN.md — SEO/OG/Twitter/JSON-LD head tags + 1200x630 og-card.png + registered seo-social test (PERF-04)
 - [ ] 10-02-PLAN.md — Launch gate: npm test green + Lighthouse recorded + deploy/pipeline integrity + LAUNCH.md (PERF-05)
 **UI hint**: yes
 
@@ -205,7 +205,7 @@ Plans:
 | 7. Scenario Stress-Tests | 3/3 | Complete   | 2026-06-21 |
 | 8. Interaction Performance | 4/4 | Complete   | 2026-06-21 |
 | 9. Mobile & Keyboard Accessibility | 3/3 | Complete   | 2026-06-21 |
-| 10. SEO, Social Cards & Launch Gate | 0/2 | Planned | - |
+| 10. SEO, Social Cards & Launch Gate | 1/2 | In Progress|  |
 
 ---
 *Roadmap created: 2026-06-20*

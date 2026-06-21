@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-21T17:14:54.119Z"
+last_updated: "2026-06-21T18:30:00.000Z"
 progress:
   total_phases: 10
   completed_phases: 9
-  total_plans: 31
-  completed_plans: 31
-  percent: 90
+  total_plans: 33
+  completed_plans: 33
+  percent: 97
 ---
 
 # Project State: Monarch Castle Technologies — Market Intelligence
@@ -18,18 +18,18 @@ progress:
 
 **Core Value:** Investors trust every number and instantly grasp supply-chain structure, concentration, and risk — credibility first, then beauty, then unique depth.
 
-**Current Focus:** Phase 09 — Mobile & Keyboard Accessibility
+**Current Focus:** Phase 10 — SEO, Social Cards & Launch Gate
 
 **Mode:** mvp | **Granularity:** fine
 
 ## Current Position
 
-Phase: 09 (Mobile & Keyboard Accessibility) — COMPLETE (3/3)
-Plan: 3 of 3 complete
+Phase: 10 (SEO, Social Cards & Launch Gate) — EXECUTING
+Plan: 2 of 2 (10-01 complete; 10-02 next)
 **Phase:** 09 — Mobile & Keyboard Accessibility — COMPLETE
 **Plan:** 09-03 complete — PERF-02 + PERF-03 Playwright gate. Authored the real tests/mobile-keyboard.spec.mjs (replacing the 09-01 skip placeholder): a 390x844 hasTouch context that taps a node → opens #companyCard + reaches #mobileSheet (PERF-02), a keyboard-only journey ('/'→type→Enter→Escape) with an accessible-name gate (PERF-03), and a hero focus-trap assertion (focus inside #heroOverlay on open, Tab stays trapped, never #bReset). Spec serves over a 127.0.0.1 ephemeral http-server (no file://), gates on selectors (not timeouts), and skips-with-note if chromium is absent (Node a11y test = structural fallback). Surfaced + fixed TWO real defects (Rule 1): (a) tapping a node did nothing on touch because d3.drag preventDefaults touchstart and suppresses the synthesized click — recovered the stationary touch tap in the drag end handler (js/viz/index.js); (b) hero focus-in no-opped because #heroSkip was focused synchronously before the overlay finished un-hiding — deferred to requestAnimationFrame so the trap engages (js/ui/index.js). npm test = 294 pass / 0 fail / 0 skipped (chromium present → Playwright ran). Human-verify checkpoint ⚡ auto-approved under AUTO_MODE.
-**Status:** Phase 09 complete — ready for Phase 10 (SEO + launch gate)
-**Progress:** [██████████] 100%
+**Status:** Executing Phase 10
+**Progress:** [██████████] 97%
 
 ## Performance Metrics
 
@@ -89,6 +89,8 @@ Plan: 3 of 3 complete
 | Phase 09 P02 | ~6min | 2 tasks | 4 files |
 | Keyboard/hero focus-trap gate (09-02, PERF-03) | npm test = 292 tests / 291 pass / 0 fail / 1 skipped (282 prior + 9 new: 5 hero-wiring PERF-03 + 4 a11y keyboard/ARIA). #heroOverlay routed through activeModal/trapFocus + central ESC switch via registerHeroOverlay/openHeroOverlay/closeHeroOverlay (focus→#heroSkip on open, Tab trap, restore on close); single ESC binding (main.js scoped handler removed). Keyboard journey search('/')→filter→select→reset(Escape) confirmed wired; new controls + 4 mobile-sheet buttons focusable + named; :focus-visible ring preserved. Autoplay/skip/replay + heroSeen/resetHighlight intact; no simulation.restart (PERF-01). |
 | Phase 09 P03 | ~35min | 2 tasks + 1 checkpoint | 3 files |
+| Phase 10 P01 | ~6min | 3 tasks | 5 files |
+| SEO/social metadata gate (10-01, PERF-04) | npm test = 301 pass / 0 fail (294 prior + 7 new seo-social). index.html `<head>` carries honest meta description + canonical (https://akgularda.github.io/supplychain/) + full og:* (type/site_name/title/description/url/image absolute + image:width 1200/height 630/alt) + twitter summary_large_image (card/title/description/image) + a parseable WebSite+Organization (Monarch Castle Technologies) application/ld+json block in `<head>`. Real 1200x630 assets/og-card.png rendered via the already-installed Playwright chromium (scripts/make-og-card.mjs is the reproducible generator; PNG is the committed deliverable). tests/seo-social.test.mjs (string/regex + PNG-header + deploy-workflow assertions) registered in scripts.test. index-ui-integrity 5/5 (JSON-LD typed in `<head>`, inline bootstrap is still the last attribute-less `<script>` before `</body>`; all asserted IDs intact). No new dependency. TDD: test d33ff2a (RED) → feat af8342d (tags GREEN) → feat efc6e36 (og-card GREEN). |
 | Playwright mobile/keyboard/focus-trap gate (09-03, PERF-02+PERF-03) | npm test = 294 pass / 0 fail / 0 skipped (291 prior + 3 real Playwright tests replacing the 1 skip placeholder). tests/mobile-keyboard.spec.mjs (served 127.0.0.1 ephemeral http-server, selector-gated, chromium-skip fallback): (1) 390x844 hasTouch — #mobileSheet reachable + 4 controls + node tap opens #companyCard; (2) keyboard-only '/'→type→Enter(select)→Escape(reset) + every new control aria-labeled; (3) Tour opens → focus inside #heroOverlay, 6× Tab trapped (never #bReset), Escape closes. TWO Rule-1 fixes the gate surfaced: js/viz/index.js touch-tap recovery in the d3.drag end handler (d3.drag preventDefaulted touchstart → tapping a node did nothing on touch) + .clickDistance; js/ui/index.js hero focus-in deferred to requestAnimationFrame (synchronous focus on the just-un-hidden overlay no-opped, defeating the trap). chromium present → Playwright ran (not skipped). Human-verify auto-approved under AUTO_MODE. Phase 9 complete (3/3). |
 
 ## Accumulated Context
@@ -166,7 +168,9 @@ Plan: 3 of 3 complete
 
 ## Session Continuity
 
-**Last action:** Completed 09-03-PLAN.md — PERF-02 + PERF-03 Playwright gate (Phase 9, Wave 3 — closes the phase, 3/3). Authored the real tests/mobile-keyboard.spec.mjs (234 lines, replacing the 09-01 { skip:true } placeholder): three browser tests served over a 127.0.0.1 ephemeral http-server, selector-gated, with a chromium-missing t.skip fallback. (1) PERF-02 390x844 hasTouch — taps #mobileToggle → #mobileSheet visible + 4 new controls present, then taps an overlay-free node → #companyCard opens; (2) PERF-03 keyboard-only — '/' focuses #q, type AAPL, Enter opens the profile, Tab+Escape resets, every new control has a non-empty aria-label; (3) PERF-03 focus trap — opening the Tour moves focus inside #heroOverlay and 6× Tab stays trapped (never #bReset), Escape closes. The gate surfaced TWO real defects, auto-fixed under Rule 1: js/viz/index.js (touch tap on a node did nothing — d3.drag preventDefaults touchstart, suppressing the synthesized click; recovered in the drag end handler + .clickDistance) and js/ui/index.js (hero focus-in no-opped because #heroSkip was focused synchronously before the overlay finished un-hiding; deferred to requestAnimationFrame). Tests run as a returning visitor (init script sets heroSeen/onboardingSeen) so the auto-tour doesn't cover the canvas. npm test = 294 pass / 0 fail / 0 skipped (chromium present → Playwright ran). Human-verify checkpoint ⚡ auto-approved under AUTO_MODE. Commit a8eed80. Phase 9 COMPLETE. Next: Phase 10 (SEO + launch gate).
+**Last action:** Completed 10-01-PLAN.md — PERF-04 SEO/social metadata (Phase 10, Wave 0/1). Authored + registered tests/seo-social.test.mjs RED (test d33ff2a): 7 string/regex + PNG-header + deploy-workflow assertions mirroring the index-ui-integrity raw-file pattern. Inserted the full SEO/OG/Twitter/JSON-LD tag block into index.html `<head>` after `<title>`/favicon (feat af8342d) — honest meta description (a market-intelligence visualization of top-100 supply chains, source-linked provenance + confidence, no live-data/hype claim), `<link rel="canonical">` + og:url + og:image + JSON-LD url all the verbatim absolute https://akgularda.github.io/supplychain/ base, og:image:width/height 1200/630, twitter summary_large_image, and a WebSite+Organization (Monarch Castle Technologies) application/ld+json block (typed, in `<head>`, never a bare `<script>` before `</body>`). Generated the real 1200x630 assets/og-card.png via the already-installed Playwright chromium (scripts/make-og-card.mjs renders a dark-theme card — eyebrow/title/subtitle + a supply-chain network SVG motif — at a 1200x630 viewport and screenshots it; PNG header verified exactly 1200x630; PNG is the committed deliverable, feat efc6e36). No new dependency added (Playwright already present). index-ui-integrity stayed 5/5 (asserted IDs + inline bootstrap untouched). npm test = 301 pass / 0 fail (294 prior + 7 new). No deviations. Next: Phase 10 Plan 02 (launch gate / LAUNCH.md / Lighthouse record — PERF-05).
+
+**Prior action:** Completed 09-03-PLAN.md — PERF-02 + PERF-03 Playwright gate (Phase 9, Wave 3 — closes the phase, 3/3). Authored the real tests/mobile-keyboard.spec.mjs (234 lines, replacing the 09-01 { skip:true } placeholder): three browser tests served over a 127.0.0.1 ephemeral http-server, selector-gated, with a chromium-missing t.skip fallback. (1) PERF-02 390x844 hasTouch — taps #mobileToggle → #mobileSheet visible + 4 new controls present, then taps an overlay-free node → #companyCard opens; (2) PERF-03 keyboard-only — '/' focuses #q, type AAPL, Enter opens the profile, Tab+Escape resets, every new control has a non-empty aria-label; (3) PERF-03 focus trap — opening the Tour moves focus inside #heroOverlay and 6× Tab stays trapped (never #bReset), Escape closes. The gate surfaced TWO real defects, auto-fixed under Rule 1: js/viz/index.js (touch tap on a node did nothing — d3.drag preventDefaults touchstart, suppressing the synthesized click; recovered in the drag end handler + .clickDistance) and js/ui/index.js (hero focus-in no-opped because #heroSkip was focused synchronously before the overlay finished un-hiding; deferred to requestAnimationFrame). Tests run as a returning visitor (init script sets heroSeen/onboardingSeen) so the auto-tour doesn't cover the canvas. npm test = 294 pass / 0 fail / 0 skipped (chromium present → Playwright ran). Human-verify checkpoint ⚡ auto-approved under AUTO_MODE. Commit a8eed80. Phase 9 COMPLETE. Next: Phase 10 (SEO + launch gate).
 
 **Prior action:** Completed 09-02-PLAN.md — PERF-03 keyboard accessibility + hero focus-trap (Phase 9, Wave 2). Routed #heroOverlay through the existing js/ui/index.js modal machinery via 3 minimal exported helpers: registerHeroOverlay(el, onEscape) (main.js hands in the overlay + skip callback), openHeroOverlay() (stores pre-open focus, sets activeModal=heroOverlayEl, moves focus to #heroSkip — escape one key away), closeHeroOverlay() (clears activeModal, restores focus). The central keydown ESC switch gained one branch (activeModal === heroOverlayEl → heroEscapeCallback()) so ESC is bound exactly once; the scoped ESC->skip handler in js/main.js was removed. heroRender now opens via openHeroOverlay() on the hidden→visible transition only (wasHidden guard, so manual Next/Prev keep focus inside) and closes via closeHeroOverlay() on render(null). The existing Tab branch trapFocus(e, activeModal) traps the hero with no change. Visibility/content stay owned by heroRender (o.hidden + textContent) so autoplay/reducedMotion timing is untouched; skip still writes heroSeen + resetHighlight via the controller; no simulation.restart (PERF-01). Extended tests/hero-wiring.test.mjs (+5 PERF-03) and tests/mobile-keyboard-a11y.test.mjs (+4: hero-trap wiring, search('/')→filter→select→reset(Escape) journey wired, every new control + 4 mobile-sheet buttons focusable+named, button:focus-visible --acc ring preserved). Commits: feat 9db8c6b (Task A) → test de9fda5 (Task B). npm test = 292 tests / 291 pass / 0 fail / 1 skipped. macro-site-accessibility.test.mjs is orphaned (not in scripts.test, macro-site/ fixtures absent in this checkout) — untouched, pre-existing ENOENT standalone, authoritative npm gate green. No deviations. Next: Phase 9 Plan 03 (full Playwright keyboard journey + phase gate).
 
@@ -186,7 +190,7 @@ Plan: 3 of 3 complete
 
 **Earlier action:** Completed 06-02-PLAN.md — the concentration display + chokepoints wiring plan. Added a branch-0 `derived` provenance tag to js/trust (provenanceFor + badgeHtml 'Derived', never 'Observed') under TDD (test aee630b → feat a0b60a7). Wired companyConcentration into the profile panel as 'Supplier concentration: NN/100' with a Derived badge (#cardConcentration), added a #chokepointsPanel listing supplierCriticality top-8 by real fan-in with a #bChokepoints highlightBy graph highlight + #bChokepointsReset, and documented both formulas (incl. the equal-weight HHI=1/k limit) in the Methodology modal (feat 0c3870c). NEW index.html IDs only; inline-bootstrap + all prior IDs intact (index-ui-integrity green). npm test = 242 pass / 0 fail (231 prior + 11 new). DEPTH-01 + DEPTH-02 display complete. No deviations.
 
-**Next step:** Phase 9 COMPLETE (3/3 — PERF-02 + PERF-03 closed). Begin Phase 10 (SEO + launch gate).
+**Next step:** Phase 10 Plan 01 COMPLETE (PERF-04 SEO/social metadata closed). Begin Phase 10 Plan 02 (PERF-05 launch gate — LAUNCH.md, Lighthouse record, workflow integrity confirmation).
 
 ---
 *State initialized: 2026-06-20*
