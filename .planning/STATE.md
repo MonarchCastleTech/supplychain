@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-last_updated: "2026-06-20T21:48:24.618Z"
+last_updated: "2026-06-21T00:00:00.000Z"
 progress:
   total_phases: 10
   completed_phases: 2
   total_plans: 11
-  completed_plans: 8
-  percent: 20
+  completed_plans: 9
+  percent: 22
 ---
 
 # Project State: Monarch Castle Technologies — Market Intelligence
@@ -25,11 +25,11 @@ progress:
 ## Current Position
 
 Phase: 03 (Confidence, Methodology & Freshness) — EXECUTING
-Plan: 3-04 complete (trust-wiring test registered + browser parity verified) — 4 of 4 done
-**Phase:** 02 — Provenance & Source Linking — COMPLETE
-**Plan:** 3-04 complete (trust-wiring test registered + browser parity verified) — 4 of 4 done
+Plan: 03-02 complete (confidenceScore + sourceYear + viz tooltip score wiring + viz #lastUpdated dup removed) — 2 of 4 done
+**Phase:** 03 — Confidence, Methodology & Freshness — EXECUTING
+**Plan:** 03-02 complete — 2 of 4 plans done
 **Status:** Executing Phase 03
-**Progress:** [███████░░░] 73%
+**Progress:** [██████░░░░] 22%
 
 ## Performance Metrics
 
@@ -53,6 +53,8 @@ Plan: 3-04 complete (trust-wiring test registered + browser parity verified) —
 | UI-wiring regression (02-03) | npm test = 141 pass / 0 fail (136 + 5 new ui-wiring) |
 | Phase 02 P04 | ~12min | 2 tasks | 3 files |
 | Phase 03 P01 | 25m | 3 tasks | 8 files |
+| Phase 03 P02 | ~18m | 3 tasks | 5 files |
+| Confidence-score regression (03-02) | npm test = 168 pass / 0 fail (151 + 13 confidence-score + 5 viz-confidence-wiring − 2 placeholders) |
 
 ## Accumulated Context
 
@@ -82,6 +84,10 @@ Plan: 3-04 complete (trust-wiring test registered + browser parity verified) —
 - 02-02: viz consumes the trust core — showTooltip/showLinkTooltip/updateStats/verified-node all call provenanceFor(d, {sourceIndex: STATE.sourceIndex, meta: DATA.meta}); the duplicated inline confidenceLower derivation is deleted. Both tooltips' "View Source" link now reads prov.source.url (no inline dangling-FK .url access).
 - 02-02: $cap (#sM) is Observed-badged from DATA.meta (companiesmarketcap.com) via a runtime-created .cap-prov span (no index.html edit); count aggregates #sN/#sL/#sC/#sY stay UNBADGED (RESEARCH Q1). verified-node class = (prov.tag==='observed' && prov.source), replacing the .includes('source') heuristic. npm test = 136 pass / 0 fail (131 + 5 new viz-wiring).
 - 02-03: ui consumes the trust core — updateCompanyCard renders an anchor badge (kind==='company' node) into a runtime-created #cardNameProv span (no index.html edit); showCompare 'Verified Entities' derived via provenanceFor (observed && resolving source), replacing the inline .includes('source'). src.t->title bug FIXED in openProvenance (drawer) + parseYearsFromSources (timeline) — all 407 sources have title, 0 have t; no test pinned the buggy fallback (OQ2 green). applyFilters .includes('source') left as out-of-scope optional centralization. npm test = 141 pass / 0 fail (136 + 5 new ui-wiring).
+- 03-02: confidenceScore(input,ctx) in js/trust is PURE — reuses provenanceFor for {tag,source}; SOURCE_WEIGHTS observed90/estimated65/unknown25; unknown tag OR unresolved source returns the floor (25) directly (never decayed/fabricated). Age decay mult=max(0.5, 0.5^(ageYears/4)) applied only when ctx.sourceYear finite AND ctx.now set; ageYears=max(0, now-year) (future-year guard); no year => mult 1 (absence != staleness). sourceYear(src,nowYear) in js/data resolves max plausible year in [1990,nowYear] over id+title+url, else null. FK->year stays in the viz caller to keep the score pure.
+- 03-02: viz showTooltip (FK d.sourceId??d.sf) + showLinkTooltip (FK d.sf) render ' · Confidence: ${score}%' on the .tf line after badgeHtml; nowYear derives live from DATA.meta.generatedAt (getUTCFullYear), never hardcoded; score interpolated numeric-only (T-03-03 control).
+- 03-02: viz render() #lastUpdated write DELETED — js/ui updateStatusIndicator (js/ui/index.js:735) is now the sole #lastUpdated owner (RESEARCH Pitfall 2 dual-owner hazard, viz-side half; Plan 03 owns the ui-side confirmation + freshness test).
+- 03-02: Rule-3 blocking fix — guarded js/data top-level window reads (typeof window!=='undefined' ? ... : empty-shape fallback) so sourceYear imports under node:test; browser unchanged. npm test = 168 pass / 0 fail.
 
 ### Standing Constraints
 
@@ -100,9 +106,9 @@ Plan: 3-04 complete (trust-wiring test registered + browser parity verified) —
 
 ## Session Continuity
 
-**Last action:** Completed 02-04-PLAN.md — added + registered tests/trust-wiring.test.mjs (3 cases: trust exports provenanceFor/badgeHtml/renderProvenanceBadge; viz + ui each import ../trust/index.js and call provenanceFor) closing the T-02-09 GATE LANDMINE (9251238); added reusable parity-verify Playwright harness docs/perf/_parity-verify-0204.cjs (f62de78). npm test = 144 pass / 0 fail. Browser parity (auto-approved checkpoint, served via http-server): observed/estimated/unknown badges render, $cap + SEC/IR source links resolve to real URLs, zero console errors. **Phase 02 complete — 4 of 4 plans done.**
+**Last action:** Completed 03-02-PLAN.md — pure DOM-free confidenceScore(input,ctx) in js/trust (90/65/25 base x half-life-4yr age decay floored 0.5, unknown floor, future/no-year guards; reuses provenanceFor) + sourceYear(src,nowYear) in js/data (f82a3af); wired live 'Confidence: NN%' into viz node + link tooltips next to the Phase-2 badge with nowYear from DATA.meta.generatedAt (bb7ec79); removed the duplicate viz #lastUpdated write so js/ui is the sole owner (2ad9c5f). 13 confidence-score + 6 viz-confidence-wiring tests; npm test = 168 pass / 0 fail. **Phase 03 — 2 of 4 plans done.**
 
-**Next step:** /gsd:verify-work for Phase 02 (provenance & source linking).
+**Next step:** Execute 03-03-PLAN.md (accessible Methodology modal + freshness single-owner ui-side confirmation + methodology/freshness tests).
 
 ---
 *State initialized: 2026-06-20*
