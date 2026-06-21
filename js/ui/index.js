@@ -1165,6 +1165,10 @@ function wireUI() {
   wireMobile("mHelp", () => toggleHelp(true));
   wireMobile("mSave", promptSaveView);
   wireMobile("mBookmarks", toggleBookmarks);
+  wireMobile("mMethodology", () => document.getElementById("bMethodology").click());
+  wireMobile("mTour", () => document.getElementById("bTour").click());
+  wireMobile("mChokepoints", () => document.getElementById("bChokepoints").click());
+  wireMobile("mScenario", () => document.getElementById("bScenarioTaiwan").click());
 }
 
 export {
