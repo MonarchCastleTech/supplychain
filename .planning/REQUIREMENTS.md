@@ -10,8 +10,8 @@ Requirements for this milestone. Each maps to a roadmap phase. Continues the no-
 ### Cascade (multi-hop scenario)
 
 - [x] **CASC-01**: `runScenario` propagates a disruption beyond direct dependents to second-order (multi-hop) downstream effects over the REAL graph, with a bounded, terminating traversal (no infinite loops, cycle-safe)
-- [ ] **CASC-02**: Cascade output distinguishes hop levels (e.g. direct vs. indirect impact) and the scenario panel shows a hop breakdown; impacted set + market-cap exposed reflect the multi-hop result, derived live (not hardcoded)
-- [ ] **CASC-03**: Cascade output keeps the honest `derived` provenance badge and the Methodology copy is updated to explain the multi-hop model, its bound, and its assumptions (replacing the v1.0 "single-hop only" note)
+- [x] **CASC-02**: Cascade output distinguishes hop levels (e.g. direct vs. indirect impact) and the scenario panel shows a hop breakdown; impacted set + market-cap exposed reflect the multi-hop result, derived live (not hardcoded)
+- [x] **CASC-03**: Cascade output keeps the honest `derived` provenance badge and the Methodology copy is updated to explain the multi-hop model, its bound, and its assumptions (replacing the v1.0 "single-hop only" note)
 - [x] **CASC-04**: New unit tests assert cascade correctness — termination on cycles, hop-count accuracy, multi-hop impact ⊇ single-hop impact, real fixtures — and the full suite stays green
 
 ### Integrity (dangling source FKs)
@@ -45,8 +45,8 @@ Deferred — tracked but not in this roadmap.
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | CASC-01 | Phase 11 | Complete |
-| CASC-02 | Phase 11 | Pending |
-| CASC-03 | Phase 11 | Pending |
+| CASC-02 | Phase 11 | Complete |
+| CASC-03 | Phase 11 | Complete |
 | CASC-04 | Phase 11 | Complete |
 | INTG-01 | Phase 12 | Pending |
 | INTG-02 | Phase 12 | Pending |

@@ -27,7 +27,7 @@ Full details: [milestones/v1.0-ROADMAP.md](milestones/v1.0-ROADMAP.md)
 
 ### v1.1 Depth & Integrity Polish (Phases 11–12)
 
-- [ ] **Phase 11: Multi-Hop Scenario Cascade** — Disruptions propagate through the real graph to second-order dependents, shown with a hop breakdown and honest derived provenance
+- [x] **Phase 11: Multi-Hop Scenario Cascade** — Disruptions propagate through the real graph to second-order dependents, shown with a hop breakdown and honest derived provenance (completed 2026-06-22)
 - [ ] **Phase 12: Source-FK Integrity & Workflow Fix** — Reconnect dangling source FKs that resolve to real sources (rest stay honestly Unknown) and fix the auto-update workflow quoting bug
 
 ## Phase Details
@@ -44,7 +44,7 @@ Full details: [milestones/v1.0-ROADMAP.md](milestones/v1.0-ROADMAP.md)
   4. New registered unit tests assert cascade correctness (cycle termination, hop-count accuracy, multi-hop impact ⊇ single-hop impact, against real fixtures) and the full suite (301 baseline) stays green
 **Plans**: 2 plans
 - [x] 11-01-PLAN.md — Extend runScenario with bounded cycle-safe maxHops BFS + 6-bridge selfLabels + cascade unit tests (CASC-01, CASC-04)
-- [ ] 11-02-PLAN.md — Scenario panel hop breakdown + maxHops:3 call sites + live headline + multi-hop methodology copy + wiring/smoke gate (CASC-02, CASC-03)
+- [x] 11-02-PLAN.md — Scenario panel hop breakdown + maxHops:3 call sites + live headline + multi-hop methodology copy + wiring/smoke gate (CASC-02, CASC-03)
 **UI hint**: yes
 
 ### Phase 12: Source-FK Integrity & Workflow Fix
@@ -73,7 +73,7 @@ Full details: [milestones/v1.0-ROADMAP.md](milestones/v1.0-ROADMAP.md)
 | 8. Interaction Performance | v1.0 | 4/4 | Complete | 2026-06-21 |
 | 9. Mobile & Keyboard Accessibility | v1.0 | 3/3 | Complete | 2026-06-21 |
 | 10. SEO, Social Cards & Launch Gate | v1.0 | 2/2 | Complete | 2026-06-21 |
-| 11. Multi-Hop Scenario Cascade | v1.1 | 1/2 | In Progress|  |
+| 11. Multi-Hop Scenario Cascade | v1.1 | 2/2 | Complete   | 2026-06-22 |
 | 12. Source-FK Integrity & Workflow Fix | v1.1 | 0/? | Not started | - |
 
 ---

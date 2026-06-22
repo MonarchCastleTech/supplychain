@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: Depth & Integrity Polish
 status: executing
-last_updated: "2026-06-22T03:22:51.274Z"
-last_activity: 2026-06-22 -- Phase 11 execution started
+last_updated: "2026-06-22T03:30:10.880Z"
+last_activity: 2026-06-22 -- Completed 11-02 (scenario UI hop breakdown + methodology); npm test 313 pass / 0 fail; multi-hop smoke PASS
 progress:
   total_phases: 2
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 50
 ---
 
@@ -25,10 +25,10 @@ progress:
 
 ## Current Position
 
-Phase: 11 (Multi-Hop Scenario Cascade) — EXECUTING
-Plan: 2 of 2
-Status: Executing Phase 11
-Last activity: 2026-06-22 -- Completed 11-01 (multi-hop cascade engine); npm test 310 pass / 0 fail
+Phase: 11 (Multi-Hop Scenario Cascade) — COMPLETE (2/2 plans)
+Plan: 2 of 2 — DONE
+Status: Phase 11 complete; ready for Phase 12 (Source-FK Integrity & Workflow Fix)
+Last activity: 2026-06-22 -- Completed 11-02 (scenario UI hop breakdown + methodology); npm test 313 pass / 0 fail; multi-hop smoke PASS
 
 ## v1.1 Phases
 
@@ -82,6 +82,7 @@ Last activity: 2026-06-22 -- Completed 11-01 (multi-hop cascade engine); npm tes
 Full v1.0 decision log and session continuity preserved in `.planning/milestones/v1.0-*`.
 
 </details>
+| Phase 11 P02 | 5min | 3 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -120,9 +121,9 @@ Full v1.0 decision log and session continuity preserved in `.planning/milestones
 
 ## Session Continuity
 
-**Last action:** Executed Plan 11-01 (multi-hop scenario cascade engine). Extended `runScenario` to a bounded cycle-safe multi-hop BFS (default maxHops:1, v1.0 byte-identical), added exported `buildSelfLabels` (the 6 real bridges), added per-entry `hop` + `byHop` + `maxHopReached`, and keyed the memo on maxHops. Authored + registered `tests/scenario-cascade.test.mjs`. `npm test` = 310 pass / 0 fail (301 baseline + 9 cascade). CASC-01 + CASC-04 complete.
+**Last action:** Executed Plan 11-02 (scenario UI hop breakdown + methodology). `#scenarioPanel` gained `#scenarioHopBreakdown` (additive id) rendering a "7 direct · 1 indirect" split; `renderScenario` derives the headline live ("8 companies impacted across 2 hop(s) · $13.28T exposed") from `impactedCompanies.length` + `maxHopReached` + `totalMarketCapExposed`; both call sites opt into `maxHops:3`; Methodology rewritten to the bounded cycle-safe multi-hop model while keeping the literal "direct dependents". Extended `tests/scenario-wiring.test.mjs` (3 new asserts). Added `docs/perf/_scenario-smoke-1102.cjs` multi-hop Playwright smoke — PASS over real served data (8 firms / $13.28T / 7 direct · 1 indirect / Derived badge / 8-node highlight / zero errors). `npm test` = 313 pass / 0 fail (310 + 3 wiring). CASC-02 + CASC-03 complete → Phase 11 done (CASC-01..04 all satisfied).
 
-**Next step:** Execute Plan 11-02 (scenario UI hop breakdown + methodology copy) with `/gsd:execute-phase 11`.
+**Next step:** Plan Phase 12 (Source-FK Integrity & Workflow Fix) with `/gsd:plan-phase 12`.
 
 ---
 *State initialized: 2026-06-20 · v1.1 position refreshed: 2026-06-22*
