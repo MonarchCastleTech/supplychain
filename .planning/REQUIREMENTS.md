@@ -42,16 +42,21 @@ Deferred — tracked but not in this roadmap.
 
 ## Traceability
 
-Populated during roadmap creation.
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (to be mapped by roadmapper) | | Pending |
+| CASC-01 | Phase 11 | Pending |
+| CASC-02 | Phase 11 | Pending |
+| CASC-03 | Phase 11 | Pending |
+| CASC-04 | Phase 11 | Pending |
+| INTG-01 | Phase 12 | Pending |
+| INTG-02 | Phase 12 | Pending |
+| INTG-03 | Phase 12 | Pending |
+| INFRA-01 | Phase 12 | Pending |
 
 **Coverage:**
 - v1.1 requirements: 8 total
-- Mapped to phases: TBD
-- Unmapped: TBD
+- Mapped to phases: 8/8 (100%)
+- Unmapped: 0
 
 ---
-*Requirements defined: 2026-06-22*
+*Requirements defined: 2026-06-22 · Traceability mapped: 2026-06-22*
