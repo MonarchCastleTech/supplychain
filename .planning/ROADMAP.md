@@ -57,7 +57,9 @@ Full details: [milestones/v1.0-ROADMAP.md](milestones/v1.0-ROADMAP.md)
   2. FKs with no real matching source remain at the honest Unknown floor, and the remaining-Unknown count is documented in the Methodology view
   3. New registered tests assert the resolved-vs-remaining counts and that zero fabricated sources were added; the `data/` JSON contract stays intact and the full suite stays green
   4. The `auto-update-data.yml` timestamp-echo quoting bug is fixed, the workflow remains valid, and the weekly cron schedule + GitHub-Pages deploy pipeline keep working (its data-validation tests intact)
-**Plans**: TBD
+**Plans**: 2 plans
+- [ ] 12-01-PLAN.md — resolveSourceId + CANONICAL_SHARED_SOURCES (swift-payments → verbatim real source), wire into the 3 sourceIndex builds, integrity test gate: 27 usages resolve / 48 stay Unknown, zero fabrication, data/ frozen (INTG-01, INTG-02, INTG-03)
+- [ ] 12-02-PLAN.md — Honest methodology copy (keep 75, add 27/48) + auto-update-data.yml timestamp quote fix + workflow test + full-suite gate + human-verify checkpoint (INTG-02, INFRA-01)
 
 ## Progress
 
@@ -74,7 +76,7 @@ Full details: [milestones/v1.0-ROADMAP.md](milestones/v1.0-ROADMAP.md)
 | 9. Mobile & Keyboard Accessibility | v1.0 | 3/3 | Complete | 2026-06-21 |
 | 10. SEO, Social Cards & Launch Gate | v1.0 | 2/2 | Complete | 2026-06-21 |
 | 11. Multi-Hop Scenario Cascade | v1.1 | 2/2 | Complete   | 2026-06-22 |
-| 12. Source-FK Integrity & Workflow Fix | v1.1 | 0/? | Not started | - |
+| 12. Source-FK Integrity & Workflow Fix | v1.1 | 0/2 | Planned | - |
 
 ---
 *Roadmap created: 2026-06-20 · v1.0 milestone shipped: 2026-06-21 · v1.1 phases added: 2026-06-22*
