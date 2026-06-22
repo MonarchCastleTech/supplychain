@@ -15,6 +15,17 @@ Investors trust every number and instantly grasp supply-chain structure, concent
 credibility first, then beauty, then unique depth. If everything else fails, the data must be
 trustworthy and traceable to a source.
 
+## Current Milestone: v1.1 Depth & Integrity Polish
+
+**Goal:** Deepen the scenario engine and tighten data integrity — without fabricating any data.
+
+**Target features:**
+- Multi-hop scenario cascade: disruptions propagate through the real graph to second-order dependents (bounded, terminating), shown with hop breakdown + honest derived provenance.
+- Partial dangling-FK cleanup: reconnect dangling source FKs that resolve to real existing sources; unresolvable ones stay honestly at the Unknown floor; documented in Methodology.
+- Fix the `auto-update-data.yml` timestamp-echo quoting bug (cosmetic, non-blocking).
+
+**Key context:** Volume-weighted HHI was considered but DEFERRED — the dataset has no per-supplier volume, so it can't be done without fabricating weights (violates the core no-fabrication rule). Stays in Active as blocked-on-real-data.
+
 ## Requirements
 
 ### Validated
@@ -36,12 +47,12 @@ trustworthy and traceable to a source.
 
 ### Active
 
-<!-- Next milestone candidates (deferred from v1.0 as honest, documented limits). -->
+<!-- v1.1 scope (in progress) + blocked-on-data items. -->
 
-- [ ] Per-supplier volume weighting so concentration uses true HHI (v1.0 used equal-weight 1/k — no volume in data)
-- [ ] Multi-hop cascade in scenario stress-tests (v1.0 ships single-hop direct-dependents only)
-- [ ] Backfill the ~75 dangling source FKs (currently degrade honestly to the Unknown confidence floor)
-- [ ] Fix the cosmetic timestamp-echo quoting bug in `auto-update-data.yml` (non-blocking, disclosed in LAUNCH.md)
+- [ ] **v1.1** Multi-hop cascade in scenario stress-tests (v1.0 shipped single-hop direct-dependents only)
+- [ ] **v1.1** Partial dangling-FK cleanup — reconnect FKs resolving to real sources; rest stay honestly Unknown
+- [ ] **v1.1** Fix the cosmetic timestamp-echo quoting bug in `auto-update-data.yml`
+- [ ] **Blocked (needs real data)** Per-supplier volume weighting for true HHI — dataset has no volume; cannot fabricate weights
 
 ### Out of Scope
 
@@ -105,4 +116,4 @@ The original "best supply-chain website in the world for investors" goal is deli
 (trust → wow → depth). See `LAUNCH.md` and `.planning/milestones/v1.0-*`.
 
 ---
-*Last updated: 2026-06-21 after v1.0 milestone*
+*Last updated: 2026-06-22 — v1.1 Depth & Integrity Polish started*
