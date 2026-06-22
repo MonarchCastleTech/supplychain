@@ -19,7 +19,6 @@ import {
   __resetAnalyticsCache,
   __memoStats,
 } from "../js/analytics/index.js";
-import { DATA } from "../js/data/index.js";
 
 const data = JSON.parse(readFileSync("data/top100-map.json", "utf8"));
 const profiles = data.profiles || {};
@@ -94,8 +93,10 @@ test("maxHops:3 impacted set is a superset of maxHops:1 (every hop-1 symbol pres
 
 // --- 5. selfLabels derives exactly the 6 real bridges -------------------------
 test("buildSelfLabels yields exactly the 6 real bridge owners {TSM,TCEHY,ASML,AZN,AMAT,LIN}", () => {
-  const fan = buildSupplierFanIn(DATA.profiles);
-  const selfLabels = buildSelfLabels(DATA.profiles, fan);
+  // Build from the JSON-loaded profiles: the thin js/data DATA carries the graph,
+  // not the full per-company profiles (those load from data/top100-map.json).
+  const fan = buildSupplierFanIn(profiles);
+  const selfLabels = buildSelfLabels(profiles, fan);
   const owners = [];
   for (const [sym, labels] of selfLabels) {
     if (labels && labels.length > 0) owners.push(sym);

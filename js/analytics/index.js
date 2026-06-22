@@ -25,6 +25,7 @@ import { DATA, normalizeEntityLabel } from "../data/index.js";
 const _caches = new Map(); // bucketName -> Map<key, value>
 const _stats = {
   fanIn: { builds: 0, hits: 0 },
+  selfLabels: { builds: 0, hits: 0 },
   concentration: { builds: 0, hits: 0 },
   criticality: { builds: 0, hits: 0 },
   scenario: { builds: 0, hits: 0 },
@@ -83,6 +84,7 @@ export function __memoStats() {
   // Return a shallow copy so callers cannot mutate the live counters.
   return {
     fanIn: { ..._stats.fanIn },
+    selfLabels: { ..._stats.selfLabels },
     concentration: { ..._stats.concentration },
     criticality: { ..._stats.criticality },
     scenario: { ..._stats.scenario },
@@ -121,6 +123,40 @@ function _buildSupplierFanInUncached(profiles = DATA.profiles) {
 export function buildSupplierFanIn(profiles = DATA.profiles) {
   const key = profiles === DATA.profiles ? "default" : _profilesTag(profiles);
   return _memo("fanIn", key, () => _buildSupplierFanInUncached(profiles));
+}
+
+// Bridge map for the multi-hop cascade (CASC-01): Map<symbol, label[]> of a
+// company's OWN identity labels that ALSO appear as supplier-label keys in fanIn.
+// A non-empty entry means "this company is itself an input/supplier another
+// company depends on" — the company->company edge that enables hop-2+. Matching
+// is EXACT (no alias map, no fabrication): the normalized company name, the
+// normalized symbol, and any parenthetical acronym in the company name, each
+// kept only if it is a real fanIn key. On the frozen data this yields exactly 6
+// bridges (TSM, TCEHY, ASML, AZN, AMAT, LIN — see 11-RESEARCH.md). normalizeEntityLabel
+// is the SAME normalization that builds fanIn keys, so labels match byte-for-byte.
+function _buildSelfLabelsUncached(profiles, fanIn) {
+  const selfLabels = new Map();
+  for (const sym of Object.keys(profiles || {})) {
+    const labels = new Set();
+    const name = profiles[sym]?.company || "";
+    const co = normalizeEntityLabel(name);
+    if (fanIn.has(co)) labels.add(co);
+    const s = normalizeEntityLabel(sym);
+    if (fanIn.has(s)) labels.add(s);
+    const m = name.match(/\(([^)]+)\)/); // e.g. "...(TSMC)"
+    if (m) {
+      const pn = normalizeEntityLabel(m[1]);
+      if (fanIn.has(pn)) labels.add(pn);
+    }
+    selfLabels.set(sym, [...labels]);
+  }
+  return selfLabels;
+}
+
+// Memoized like buildSupplierFanIn (same per-session lifetime; DATA.profiles frozen).
+export function buildSelfLabels(profiles = DATA.profiles, fanIn = buildSupplierFanIn(profiles)) {
+  const key = profiles === DATA.profiles ? "default" : _profilesTag(profiles);
+  return _memo("selfLabels", key, () => _buildSelfLabelsUncached(profiles, fanIn));
 }
 
 // Bounded [0,100] composite concentration for one company.
@@ -234,22 +270,36 @@ export function supplierCriticality(opts = {}) {
   });
 }
 
-// Pure scenario engine (DEPTH-03). DOM-free, unit-testable. Computes the DIRECT
-// downstream impact of disabling one or more suppliers.
-//   - SINGLE-HOP ONLY: a company is "impacted" iff it loses >= 1 distinct
-//     supplier. Multi-hop cascade is deferred (out of scope for v1).
+// Pure scenario engine (DEPTH-03 / CASC-01). DOM-free, unit-testable. Computes the
+// BOUNDED, CYCLE-SAFE multi-hop downstream cascade of disabling one or more suppliers.
+//   - MULTI-HOP MODEL: hop 1 = direct dependents of the disabled suppliers. If an
+//     impacted company is ITSELF a supplier-label another company depends on (a
+//     "bridge" — see buildSelfLabels), those dependents are impacted at hop 2, and
+//     so on. Traversal is CYCLE-SAFE (a visited `hopOf` set guarantees termination
+//     even on a cyclic graph) and BOUNDED (a `maxHops` counter). The two guarantees
+//     are independent. maxHops DEFAULTS TO 1: a default/maxHops:1 call reproduces
+//     the v1.0 single-hop result byte-identically. Multi-hop is a TRUE SUPERSET —
+//     it traverses ONLY real edges, so for most disruptions it equals single-hop
+//     (the real graph has just 6 bridge edges, max depth 3). No edges are fabricated.
 //   - HHI (1/k) is the monotonic delta metric reported as concentrationBefore/
 //     After — NOT the composite score, which is non-monotonic under removal
 //     (removing a shared single-point lowers sharedFrac). See 07-RESEARCH Pitfall 1.
-//   - "market cap exposed" is the combined market cap of impacted firms — an
-//     EXPOSURE figure, never a dollar-loss estimate.
+//   - "market cap exposed" is the combined market cap of impacted firms (ALL hops) —
+//     an EXPOSURE figure, never a dollar-loss estimate.
+//   - lostSuppliers semantics: for a hop-1 company it is the disabled labels that
+//     reached it (v1.0); for a hop>=2 company it is the WAVE labels (the bridge
+//     selfLabels of the prior-hop firm) that reached it — e.g. TSM lost "applied
+//     materials", not TSMC directly (11-RESEARCH A2).
 //
-// disruption: { disableSuppliers?: string[], disableSupplier?: string } — labels
-//   are normalized (normalizeEntityLabel) to match buildSupplierFanIn keys exactly.
-// ctx: { profiles = DATA.profiles, nodes = DATA.nodes, fanIn = buildSupplierFanIn(profiles) }
+// disruption: { disableSuppliers?: string[], disableSupplier?: string, maxHops?: number }
+//   labels are normalized (normalizeEntityLabel) to match buildSupplierFanIn keys.
+//   maxHops default 1; disruption.maxHops wins over ctx.maxHops.
+// ctx: { profiles = DATA.profiles, nodes = DATA.nodes, fanIn, selfLabels, maxHops }
 export function runScenario(disruption = {}, ctx = {}) {
   const { profiles = DATA.profiles, nodes = DATA.nodes, fanIn } = ctx;
   const fan = fanIn || buildSupplierFanIn(profiles);
+  const selfLabels = ctx.selfLabels || buildSelfLabels(profiles, fan);
+  const maxHops = Math.max(1, Number(disruption.maxHops ?? ctx.maxHops ?? 1));
 
   // 1. Normalize the disabled-supplier set (accept both shapes).
   const disabled = new Set(
@@ -261,32 +311,74 @@ export function runScenario(disruption = {}, ctx = {}) {
       .filter(Boolean)
   );
 
-  // Cache key is the NORMALIZED, SORTED disabled-label set (+ profiles tag),
-  // computed AFTER normalization so disableSuppliers:["tsmc"] and
-  // disableSupplier:"tsmc" collide on the same entry. Never key the raw arg.
-  const scenarioKey = `${[...disabled].sort().join(",")}|${_profilesTag(profiles)}`;
+  // Cache key is the NORMALIZED, SORTED disabled-label set (+ profiles tag + hop
+  // depth), computed AFTER normalization so disableSuppliers:["tsmc"] and
+  // disableSupplier:"tsmc" collide on the same entry. The |h${maxHops} suffix keeps
+  // a maxHops:1 and a maxHops:3 call as DISTINCT entries. Never key the raw arg.
+  const scenarioKey = `${[...disabled].sort().join(",")}|${_profilesTag(profiles)}|h${maxHops}`;
   return _memo("scenario", scenarioKey, () =>
-    _runScenarioCompute(disabled, profiles, nodes, fan)
+    _runScenarioCompute(disabled, profiles, nodes, fan, selfLabels, maxHops)
   );
 }
 
-function _runScenarioCompute(disabled, profiles, nodes, fan) {
+function _runScenarioCompute(disabled, profiles, nodes, fan, selfLabels, maxHops) {
   // 2. marketcap lookup by symbol (top-level nodes carry marketcap; profiles do not).
   const mcap = {};
   for (const n of nodes || []) if (n && n.symbol != null) mcap[n.symbol] = n.marketcap || 0;
 
-  // 3. Candidate impacted symbols = union of fan-in sets of the disabled labels.
-  const candidates = new Set();
-  for (const label of disabled) for (const sym of fan.get(label) || []) candidates.add(sym);
+  // 3. Bounded, cycle-safe BFS over hops. `hopOf` is the visited set AND the cycle
+  //    guard: a symbol is recorded exactly once, at the hop it is first reached.
+  //    `reachedBy` records the WAVE labels that first impacted each symbol (drives
+  //    per-hop lostSuppliers). `byHop` is the per-level breakdown.
+  const hopOf = new Map(); // symbol -> hop (visited set)
+  const reachedBy = new Map(); // symbol -> Set<label> in the wave that reached it
+  const byHop = {};
+  let frontier = new Set(disabled); // current wave of supplier-labels
+  let maxHopReached = 0;
 
+  for (let hop = 1; hop <= maxHops; hop++) {
+    const impactedThisHop = [];
+    for (const label of frontier) {
+      for (const sym of fan.get(label) || []) {
+        if (hopOf.has(sym)) continue; // already visited — cycle/dup guard
+        hopOf.set(sym, hop);
+        reachedBy.set(sym, new Set([label]));
+        impactedThisHop.push(sym);
+      }
+    }
+    if (impactedThisHop.length === 0) break; // nothing new -> terminate
+    byHop[hop] = impactedThisHop.slice();
+    maxHopReached = hop;
+
+    // Company->company bridge step: next wave = the impacted firms' OWN supplier
+    // labels (selfLabels), MINUS any already-disabled label (re-disable guard).
+    const next = new Set();
+    for (const sym of impactedThisHop) {
+      for (const l of selfLabels.get(sym) || []) {
+        if (!disabled.has(l)) next.add(l);
+      }
+    }
+    if (next.size === 0) break; // no bridge -> stop
+    frontier = next;
+  }
+
+  // 4. Enrich every visited symbol exactly as v1.0, plus `hop`.
   const impactedCompanies = [];
   let totalMarketCapExposed = 0;
-  for (const symbol of candidates) {
+  for (const [symbol, hop] of hopOf) {
     const before = companyConcentration(symbol, { profiles, fanIn: fan });
     if (!before) continue;
-    const after = companyConcentration(symbol, { profiles, fanIn: fan, excludeSuppliers: disabled });
-    const lostSuppliers = [...disabled].filter((d) => (fan.get(d) || new Set()).has(symbol));
-    if (lostSuppliers.length === 0) continue; // "impacted" = loses >= 1 supplier
+    // hop-1 firms lose the original disabled labels; hop>=2 firms lose the wave
+    // (bridge) labels that reached them (11-RESEARCH A2). exclude drives `after`.
+    const lostSuppliers =
+      hop === 1
+        ? [...disabled].filter((d) => (fan.get(d) || new Set()).has(symbol))
+        : [...(reachedBy.get(symbol) || [])].filter((d) =>
+            (fan.get(d) || new Set()).has(symbol)
+          );
+    if (lostSuppliers.length === 0) continue; // safety: must lose >= 1 supplier
+    const exclude = new Set(lostSuppliers);
+    const after = companyConcentration(symbol, { profiles, fanIn: fan, excludeSuppliers: exclude });
     const share = before.suppliers ? lostSuppliers.length / before.suppliers : 0;
     const severity = share >= 0.5 ? "high" : share >= 0.25 ? "medium" : "low";
     impactedCompanies.push({
@@ -299,6 +391,7 @@ function _runScenarioCompute(disabled, profiles, nodes, fan) {
       concentrationBefore: before.hhi, // HHI (1/k), monotonic
       concentrationAfter: after.hhi,
       severity,
+      hop,
     });
     totalMarketCapExposed += mcap[symbol] || 0;
   }
@@ -306,6 +399,8 @@ function _runScenarioCompute(disabled, profiles, nodes, fan) {
 
   return {
     impactedCompanies,
+    byHop,
+    maxHopReached,
     totalMarketCapExposed,
     supplierCount: [...disabled].filter((d) => fan.has(d)).length,
     disabled: [...disabled],
