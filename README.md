@@ -24,10 +24,10 @@
 
 ## 🖼️ Preview
 <!-- CODEX: drop product screenshots into docs/ -->
-![Supply Chain — main network view](docs/screenshot-1.png)
+<!-- ![Supply Chain — main network view](docs/screenshot-1.png) (screenshot pending) -->
 <!-- CODEX: full-page capture of the live D3 network graph at https://monarchcastletech.github.io/supplychain/ — show the top-100 companies laid out across economic layers with country colouring and the loaded map state. -->
 
-![Supply Chain — company profile detail](docs/screenshot-2.png)
+<!-- ![Supply Chain — company profile detail](docs/screenshot-2.png) (screenshot pending) -->
 <!-- CODEX: capture of an open company profile card (e.g. NVIDIA / NVDA) showing upstream inputs, services & risk, channels, and demand nodes, with a visible source link and confidence label on a relationship. -->
 
 ## 🧭 What it does
