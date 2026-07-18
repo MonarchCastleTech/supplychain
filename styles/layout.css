@@ -2,9 +2,10 @@
 #top>*{pointer-events:auto}
 #title{display:flex;align-items:center;gap:var(--space-5);font-family:var(--font-ui);font-size:var(--fs-lg);font-weight:var(--fw-medium);letter-spacing:-0.3px;line-height:1;text-shadow:0 1px 2px rgba(0,0,0,0.3);transition:filter var(--dur-base) ease}
 #title:hover{filter:brightness(1.1)}
-#title .logo{width:32px;height:32px;border-radius:var(--radius-md);box-shadow:var(--shadow-sm);object-fit:contain}
+#title .logo{width:96px;height:32px;border-radius:var(--radius-xs);box-shadow:var(--shadow-sm);object-fit:contain}
 #title .companyName{font-weight:var(--fw-medium);color:var(--color-text-bright)}
-#title .tagline{font-weight:var(--fw-regular);color:var(--color-text-muted)}
+#title .tagline{margin:0;font-family:var(--font-display);font-size:var(--fs-lg);font-weight:var(--fw-semibold);color:var(--color-text)}
+#title .endorsement{color:var(--color-accent);font-size:var(--fs-2xs);font-weight:var(--fw-semibold);letter-spacing:.08em;text-transform:uppercase}
 #title .separator{color:var(--color-text-dim);margin:0 var(--space-1)}
 #subtitle{position:fixed;top:var(--space-6);right:var(--space-7);font-size:var(--fs-sm);color:var(--dim);letter-spacing:.3px;font-weight:var(--fw-light);max-width:400px;text-align:right;background:rgba(10,10,10,0.9);padding:var(--space-4) var(--space-6);border:1px solid rgba(255,255,255,0.08);border-radius:var(--radius-lg);backdrop-filter:blur(8px)}
 .st{display:flex;gap:var(--space-7);text-align:center}
@@ -20,6 +21,14 @@
 #bar button:hover,#bar button.on,#bar select:hover{background:var(--color-surface-raised);border-color:var(--acc);color:var(--acc)}
 #bar .sep{width:1px;background:var(--color-surface-raised);align-self:stretch;margin:0 var(--space-2)}
 button:focus-visible,select:focus-visible,input:focus-visible{outline:1px solid var(--acc);outline-offset:1px}
+
+html,body{overflow-x:hidden}
+
+@media (max-width:640px){
+  #title .logo{width:82px;height:28px}
+  #title .companyName,#title .separator{display:none}
+  #title .endorsement{max-width:112px;line-height:1.25}
+}
 /* New Phase 5-7 panels: take them out of static flow so they no longer overlap
    the fixed #top header / #bar toolbar. Docked bottom-left on desktop, scrollable,
    stacked with distinct bottom offsets so the two panels never overlap each other. */

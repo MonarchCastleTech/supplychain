@@ -48,5 +48,7 @@ test("og:image file exists in assets/ at 1200x630", () => {
 
 test("deploy workflow ships the assets/ dir (carries og-card)", () => {
   const wf = fs.readFileSync(".github/workflows/deploy-pages.yml", "utf8");
-  assert.match(wf, /cp -R assets _site\//, "deploy must copy assets/ into _site");
+  const build = fs.readFileSync("scripts/build-static.mjs", "utf8");
+  assert.match(wf, /npm run build/, "deploy must run the versioned static build");
+  assert.match(build, /directories\s*=\s*\[[^\]]*['"]assets['"]/, "build must copy assets/ into _site");
 });

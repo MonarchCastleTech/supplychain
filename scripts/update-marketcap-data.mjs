@@ -6,7 +6,7 @@
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
-import { join, dirname } from 'path';
+import { join, dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -15,9 +15,13 @@ const DATA_DIR = join(ROOT_DIR, 'data');
 const BACKUP_DIR = join(DATA_DIR, 'backups');
 
 const CSV_URL = 'https://companiesmarketcap.com/?download=CSV';
+const CLI_ARGS = process.argv.slice(2);
+const DRY_RUN = CLI_ARGS.includes('--dry-run');
+const FIXTURE_ARG = CLI_ARGS.find((argument) => argument.startsWith('--fixture='));
+const FIXTURE_PATH = FIXTURE_ARG ? resolve(ROOT_DIR, FIXTURE_ARG.slice('--fixture='.length)) : null;
 
 // Ensure backup directory exists
-if (!existsSync(BACKUP_DIR)) {
+if (!DRY_RUN && !existsSync(BACKUP_DIR)) {
   mkdirSync(BACKUP_DIR, { recursive: true });
 }
 
@@ -25,6 +29,11 @@ if (!existsSync(BACKUP_DIR)) {
  * Fetch CSV from companiesmarketcap.com
  */
 async function fetchCSV() {
+  if (FIXTURE_PATH) {
+    console.log(`📥 Reading market cap fixture: ${FIXTURE_PATH}`);
+    return readFileSync(FIXTURE_PATH, 'utf8');
+  }
+
   console.log('📥 Downloading latest market cap data...');
   
   const response = await fetch(CSV_URL);
@@ -298,8 +307,8 @@ async function main() {
   try {
     console.log('🚀 Starting market cap data update...\n');
     
-    // Create backup first
-    createBackup();
+    // Create backup first for real updates. Dry runs are strictly read-only.
+    if (!DRY_RUN) createBackup();
     
     // Load existing data
     const existingData = loadExistingData();
@@ -318,8 +327,12 @@ async function main() {
     console.log('\n📋 Change Report:');
     console.log(report);
     
-    // Write updated files
-    writeDataFiles(mergedData);
+    // Write updated files only during a real update.
+    if (DRY_RUN) {
+      console.log('\n✅ Dry run complete; no files were written.');
+    } else {
+      writeDataFiles(mergedData);
+    }
     
     console.log('\n✅ Update completed successfully!');
     console.log(`📅 Snapshot date: ${mergedData.snapshot_date}`);

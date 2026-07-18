@@ -184,13 +184,14 @@
     </div>
   </div>
 
-  <div id="top">
+  <header id="top" aria-label="Supply Chain Intelligence header">
     <div>
       <div id="title">
         <img src="./assets/monarch-logo.png" alt="Monarch Castle Technologies" class="logo">
         <span class="companyName">Monarch Castle Technologies</span>
         <span class="separator">|</span>
-        <span class="tagline">Market Intelligence</span>
+        <h1 id="productTitle" class="tagline">Supply Chain Intelligence</h1>
+        <span class="endorsement">Part of Monarch Castle Technologies.</span>
       </div>
     </div>
     <div class="st">
@@ -200,9 +201,14 @@
       <span><b id="sY">0</b>layers</span>
       <span><b id="sM">$0T</b>cap</span>
     </div>
-  </div>
+  </header>
 
-  <div id="subtitle">Click any company node to open its dedicated supply-chain profile. Profile data includes relationship confidence and source references where available.</div>
+  <main id="application">
+  <div id="subtitle">
+    <span id="dynamicSubtitle">Click any company node to open its dedicated supply-chain profile.</span>
+    Estimated relationships are labeled and source-linked when evidence is available.
+    <strong>Deterministic scenario — not a prediction.</strong>
+  </div>
 
   <!-- Top 10 Compact Sidebar -->
   <div id="top10Sidebar" style="position:fixed;top:60px;left:12px;z-index:95;width:220px;max-height:calc(100vh - 80px);overflow-y:auto;display:none">
@@ -234,7 +240,7 @@
     <h3>Filters</h3>
     <div class="fg">
       <label>Confidence</label>
-      <select id="fConfidence">
+      <select id="fConfidence" aria-label="Filter by relationship confidence">
         <option value="all">All Levels</option>
         <option value="high">High (Disclosure)</option>
         <option value="medium">Medium (Source-backed)</option>
@@ -243,7 +249,7 @@
     </div>
     <div class="fg">
       <label>Entity Type</label>
-      <select id="fType">
+      <select id="fType" aria-label="Filter by entity type">
         <option value="all">All Types</option>
         <option value="supplier">Suppliers</option>
         <option value="service">Services</option>
@@ -253,7 +259,7 @@
     </div>
     <div class="fg">
       <label>Verification</label>
-      <select id="fVerified">
+      <select id="fVerified" aria-label="Filter by verification status">
         <option value="all">All</option>
         <option value="verified">Source-verified Only</option>
         <option value="inferred">Inferred Only</option>
@@ -356,16 +362,20 @@
 
   <div id="lg"></div>
   <div id="ly"></div>
-  <svg id="canvas" role="img" aria-label="Supply chain network visualization"></svg>
+  <p id="networkInstructions" class="sr-only">
+    Interactive supply-chain network. Use Tab to focus a node, then Enter or Space to open it.
+  </p>
+  <svg id="canvas" role="group" aria-describedby="networkInstructions" aria-label="Interactive supply chain network"></svg>
   <div id="hint">Global: click company to open profile · Scroll zoom · Drag pan · Press H for help</div>
-  <div id="footer" style="position:fixed;bottom:8px;left:12px;font-size:8px;color:#444;display:flex;align-items:center;gap:8px">
+  </main>
+  <footer id="footer">
     <span class="updateStatus">
       <span class="statusDot" id="updateStatusDot"></span>
       <span id="updateStatusText">Checking...</span>
     </span>
     <span>|</span>
     <span>Data updated: <span id="lastUpdated">--</span></span>
-  </div>
+  </footer>
   <button id="mobileToggle" type="button" aria-label="Open mobile controls">Controls</button>
   <div id="mobileSheet" role="dialog" aria-modal="true" aria-label="Mobile controls">
     <div class="mHead">
