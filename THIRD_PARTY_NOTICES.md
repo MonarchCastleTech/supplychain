@@ -10,4 +10,11 @@ Monarch Castle Technologies and Strategic Data Company of Ankara names and logos
 
 Review [FACTUAL_DATA_VERIFICATION.md](FACTUAL_DATA_VERIFICATION.md) and source metadata embedded with any dataset before copying or redistributing it. Upstream terms, attribution requirements, and source dates remain controlling. Absence of a separate data-license file must not be interpreted as a public-domain or MIT declaration.
 
+Rights review: Git shortlog attributes human-authored code to Arda Akgül; high-volume bot and GitHub Actions commits are automated data refreshes.
+
+Reviewed exclusions:
+
+- company, market-cap, and supply-chain datasets
+- logos, trademarks, screenshots, and external assets
+
 Generated analytical outputs can inherit restrictions or attribution duties from their inputs. Contributors must document a source and applicable terms before adding a third-party dataset or asset.

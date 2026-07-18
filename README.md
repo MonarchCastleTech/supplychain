@@ -121,7 +121,9 @@ The preview is maintained as a repository asset; the live interface or generated
 
 ## Data and methodology
 
-See [FACTUAL_DATA_VERIFICATION.md](FACTUAL_DATA_VERIFICATION.md) and the implementation files in this repository. Source dates, transformation steps, and known gaps must travel with analytical outputs.
+- [FACTUAL_DATA_VERIFICATION.md](FACTUAL_DATA_VERIFICATION.md)
+
+These repository-specific sources define the methodology or provenance boundary. Source dates, transformation steps, and known gaps must travel with analytical outputs.
 
 ## Update frequency
 
@@ -141,13 +143,9 @@ Run only in a trusted development environment and review repository-specific pre
 
 ## Architecture
 
-- `apple-touch-icon.png` — repository entry point or configuration.
-- `assets/` — implementation or data module.
-- `check-subtitle.js` — repository entry point or configuration.
-- `CLAUDE.md` — repository entry point or configuration.
-- `data/` — implementation or data module.
-- `DATA_VERIFICATION_PLAN.md` — repository entry point or configuration.
-- `FACTUAL_DATA_VERIFICATION.md` — repository entry point or configuration.
+- `js/` — repository-specific implementation, data, or configuration boundary.
+- `data/` — repository-specific implementation, data, or configuration boundary.
+- `scripts/` — repository-specific implementation, data, or configuration boundary.
 
 ## Tests
 
