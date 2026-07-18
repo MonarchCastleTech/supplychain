@@ -26,8 +26,8 @@ let nodeDragStart = null;
 
 // DOM render targets owned by viz.
 const tt = document.getElementById("tt");
-const titleEl = document.getElementById("title");
-const subtitleEl = document.getElementById("subtitle");
+const productTitleEl = document.getElementById("productTitle");
+const subtitleEl = document.getElementById("dynamicSubtitle");
 const hintEl = document.getElementById("hint");
 const legendEl = document.getElementById("lg");
 const layerEl = document.getElementById("ly");
@@ -499,6 +499,17 @@ function buildNodeChildren(sel) {
 // Wire the node-level drag + mouse/click handlers onto a node selection.
 function wireNodeHandlers(sel) {
   sel.attr("cursor", "pointer")
+    .attr("role", "button")
+    .attr("tabindex", 0)
+    .attr("aria-label", (d) => {
+      const label = d.name || d.n || d.symbol || d.id || "Supply-chain entity";
+      return `Open ${label}`;
+    })
+    .on("keydown", (ev, d) => {
+      if (ev.key !== "Enter" && ev.key !== " ") return;
+      ev.preventDefault();
+      activateNode(ev, d);
+    })
     .call(d3.drag()
       // clickDistance lets a near-stationary press still emit a real click (mouse).
       .clickDistance(TAP_SLOP)
@@ -674,9 +685,9 @@ function render() {
   STATE.layerMap = graph.layers;
   STATE.sourceIndex = graph.sourceIndex || {};
 
-  titleEl.innerHTML = STATE.mode === "global"
-    ? `<img src="./assets/monarch-logo.png" alt="Monarch Castle Technologies" class="logo"><span class="companyName">Monarch Castle Technologies</span><span class="separator">|</span><span class="tagline">Market Intelligence</span>`
-    : `<span>Company Profile</span> / ${STATE.symbol}`;
+  productTitleEl.textContent = STATE.mode === "global"
+    ? "Supply Chain Intelligence"
+    : `Supply Chain Intelligence — ${STATE.symbol} profile`;
   subtitleEl.textContent = graph.subtitle;
   hintEl.textContent = graph.hint;
   document.getElementById("bBack").style.display = STATE.mode === "profile" ? "inline-block" : "none";
