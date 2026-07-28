@@ -1,8 +1,8 @@
 #top{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;padding:var(--space-6) var(--space-7) var(--space-5);background:linear-gradient(180deg, rgba(15,15,15,0.98) 0%, rgba(10,10,10,0.95) 100%);backdrop-filter:blur(8px);box-shadow:0 1px 0 rgba(255,255,255,0.05), 0 4px 20px rgba(0,0,0,0.4);border-bottom:1px solid var(--color-surface-raised);pointer-events:none}
 #top>*{pointer-events:auto}
-#title{display:flex;align-items:center;gap:var(--space-5);font-family:var(--font-ui);font-size:var(--fs-lg);font-weight:var(--fw-medium);letter-spacing:-0.3px;line-height:1;text-shadow:0 1px 2px rgba(0,0,0,0.3);transition:filter var(--dur-base) ease}
-#title:hover{filter:brightness(1.1)}
-#title .logo{width:96px;height:32px;border-radius:var(--radius-xs);box-shadow:var(--shadow-sm);object-fit:contain}
+#title{display:flex;align-items:center;gap:var(--space-5);font-family:var(--font-ui);font-size:var(--fs-lg);font-weight:var(--fw-medium);letter-spacing:-0.3px;line-height:1;text-shadow:0 1px 2px rgba(0,0,0,0.3)}
+#title .logo{width:180px;height:44px;object-fit:contain}
+.visuallyHidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 #title .companyName{font-weight:var(--fw-medium);color:var(--color-text-bright)}
 #title .tagline{margin:0;font-family:var(--font-display);font-size:var(--fs-lg);font-weight:var(--fw-semibold);color:var(--color-text)}
 #title .endorsement{color:var(--color-accent);font-size:var(--fs-2xs);font-weight:var(--fw-semibold);letter-spacing:.08em;text-transform:uppercase}
@@ -25,7 +25,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:1px solid 
 html,body{overflow-x:hidden}
 
 @media (max-width:640px){
-  #title .logo{width:82px;height:28px}
+  #title .logo{width:132px;height:34px}
   #title .companyName,#title .separator{display:none}
   #title .endorsement{max-width:112px;line-height:1.25}
 }

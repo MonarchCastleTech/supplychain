@@ -10,6 +10,18 @@ const read = (relativePath) => fs.readFileSync(path.join(root, relativePath), 'u
 const hash = (relativePath) =>
   crypto.createHash('sha256').update(fs.readFileSync(path.join(root, relativePath))).digest('hex');
 
+test('header uses the official dark Supply Chain lockup', () => {
+  const html = read('index.html');
+  const css = read('styles/layout.css');
+  assert.match(html, /src="\.\/assets\/supplychain-logo-dark\.png"/);
+  assert.match(html, /alt="Supply Chain Intelligence"/);
+  assert.equal(
+    hash('assets/supplychain-logo-dark.png'),
+    '35dd5ba80c2768aec9942e1af64910871328bf24d55a04afbfba1c0f8146e01b',
+  );
+  assert.doesNotMatch(css, /#title:hover\{filter:brightness/);
+});
+
 test('rich dataset retains stable schema, provenance, and parseable update timestamps', () => {
   const data = JSON.parse(read('data/top100-map.json'));
 
@@ -40,12 +52,15 @@ test('scenario, estimate, and forecast language states the deterministic boundar
 });
 
 test('runtime displays the approved lockup and product endorsement', () => {
-  assert.equal(hash('assets/monarch-logo.png'), hash('docs/brand/organization-lockup.png'));
+  assert.equal(
+    hash('assets/supplychain-logo-dark.png'),
+    '35dd5ba80c2768aec9942e1af64910871328bf24d55a04afbfba1c0f8146e01b',
+  );
 
   const html = read('index.html');
   assert.match(
     html,
-    /<img[^>]+src=["']\.\/assets\/monarch-logo\.png["'][^>]+alt=["']Monarch Castle Technologies["']/i,
+    /<img[^>]+src=["']\.\/assets\/supplychain-logo-dark\.png["'][^>]+alt=["']Supply Chain Intelligence["']/i,
   );
   assert.match(html, /<h1[^>]*>Supply Chain Intelligence<\/h1>/);
   assert.match(html, /Part of Monarch Castle Technologies\./);
