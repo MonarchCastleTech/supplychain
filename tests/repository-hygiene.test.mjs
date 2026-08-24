@@ -19,7 +19,7 @@ test("MonarchCastleTech/supplychain exposes the complete repository documentatio
   assert.ok(match, "README must include the managed repository-hygiene block");
   assert.ok(contract.includes("Interactive market-cap & supply-chain intelligence map for the top 100 public companies — D3 dashboard with source-linked provenance, auto-updated weekly."), "README purpose must match the canonical registry");
   assert.match(contract, /lifecycle-active/);
-  assert.ok(contract.includes("https://monarchcastle.tech/supplychain/"));
+  assert.ok(contract.includes("https://monarchcastletech.github.io/supplychain/"));
   for (const heading of expectedHeadings) assert.ok(contract.includes(`## ${heading}`), `missing heading: ${heading}`);
   for (const evidence of methodologyEvidence) {
     assert.ok(existsSync(resolve(root, evidence)), `missing methodology evidence: ${evidence}`);
