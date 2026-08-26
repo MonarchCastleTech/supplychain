@@ -2,6 +2,10 @@
   #bar {
     display: none;
   }
+
+  #ly {
+    display: none;
+  }
   
   #companyCard {
     width: calc(100% - 16px);

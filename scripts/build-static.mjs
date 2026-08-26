@@ -6,7 +6,16 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const output = join(root, '_site');
-const files = ['index.html', 'favicon.svg', 'logo.png', 'CNAME'];
+const files = [
+  'index.html',
+  'favicon.ico',
+  'favicon.svg',
+  'apple-touch-icon.png',
+  'site.webmanifest',
+  'og-image.png',
+  'logo.png',
+  'CNAME',
+];
 const directories = ['data', 'assets', 'styles', 'js'];
 
 rmSync(output, { recursive: true, force: true });

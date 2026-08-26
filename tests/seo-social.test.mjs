@@ -4,8 +4,8 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 
 const html = fs.readFileSync("index.html", "utf8");
-const CANON = "https://akgularda.github.io/supplychain/";
-const IMG = "https://akgularda.github.io/supplychain/assets/og-card.png";
+const CANON = "https://monarchcastletech.github.io/supplychain/";
+const IMG = "https://monarchcastletech.github.io/supplychain/assets/og-card.png";
 
 test("meta description present and non-trivial", () => {
   const m = html.match(/<meta\s+name="description"\s+content="([^"]{40,})"\s*\/?>/i);
