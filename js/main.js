@@ -8,7 +8,7 @@ import { render, svg, highlightBy, resetHighlight } from "./viz/index.js";
 import "./trust/index.js";
 import {
   applyFilters, resetFilters, closeCompare, toggleHelp, loadView, deleteView, openCompanyProfile,
-  showFatalError, maybeShowOnboarding, updateStatusIndicator, renderTop10List, wireUI,
+  showFatalError, updateStatusIndicator, renderTop10List, wireUI,
   openGlobal, openProfile,
   registerHeroOverlay, openHeroOverlay, closeHeroOverlay,
 } from "./ui/index.js";
@@ -112,16 +112,8 @@ const heroController = createHeroController({
   render: heroRender,
 });
 
-// First-visit precedence (RESEARCH OQ1): hero plays first; the Quick-Start
-// Quick-Start onboarding is suppressed during a fresh-visit auto tour.
-const heroFirstVisit = safeReadFlag("heroSeen") !== "1";
-if (heroFirstVisit) {
-  heroController.play();
-} else {
-  maybeShowOnboarding();
-}
-
-// Replay control — always allowed, independent of heroSeen.
+// Keep the operational map unobstructed on first load. The guided tour starts
+// only after an explicit request and remains available on every visit.
 document.getElementById("bTour")?.addEventListener("click", () => heroController.play());
 // Overlay controls.
 document.getElementById("heroNext")?.addEventListener("click", () => heroController.next());

@@ -55,11 +55,13 @@ test("narrative controller honors reduced motion (Plan 02)", () => {
   );
 });
 
-test("main.js gates first-visit hero on heroSeen via safe storage flags (Plan 03)", () => {
+test("main.js keeps the map clear until the operator requests the tour", () => {
   assert.match(MAIN, /heroSeen/, "main.js must reference the heroSeen storage key");
   assert.match(MAIN, /safeReadFlag/, "main.js must read heroSeen via safeReadFlag");
   assert.match(MAIN, /safeWriteFlag/, "main.js must persist heroSeen via safeWriteFlag");
   assert.match(MAIN, /bTour/, "main.js must wire the #bTour replay control");
+  assert.doesNotMatch(MAIN, /heroFirstVisit/, "the tour must not cover the map automatically");
+  assert.doesNotMatch(MAIN, /maybeShowOnboarding\(\)/, "onboarding must not cover the map automatically");
 });
 
 // --- Plan 09-02 (PERF-03): hero overlay routed through the modal machinery ----

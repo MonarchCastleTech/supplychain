@@ -69,3 +69,8 @@ test("MonarchCastleTech/supplychain documents citation, rights, and HTTPS policy
     assert.ok([...allowedHttp].some((prefix) => prefix && link.startsWith(prefix)), `HTTP link lacks an explicit exception: ${link}`);
   }
 });
+
+test("scheduled data refresh keeps TLS verification enabled", () => {
+  const workflow = readFileSync(resolve(root, ".github", "workflows", "auto-update-data.yml"), "utf8");
+  assert.doesNotMatch(workflow, /NODE_TLS_REJECT_UNAUTHORIZED/, "refresh must never disable certificate verification");
+});

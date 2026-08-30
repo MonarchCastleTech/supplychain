@@ -23,23 +23,14 @@ jobs:
         with:
           node-version: '20'
       
-      - name: Install dependencies (if any)
-        run: |
-          if [ -f package.json ]; then
-            npm install
-          fi
-      
-      - name: Create backup timestamp
-        id: timestamp
-        run: echo "timestamp=$(date +%Y%m%d-%H%M%S) >> $GITHUB_OUTPUT"
+      - name: Install locked dependencies
+        run: npm ci
       
       - name: Download and parse latest CSV
         run: node scripts/update-marketcap-data.mjs
-        env:
-          NODE_TLS_REJECT_UNAUTHORIZED: '0'
 
       - name: Run data validation tests
-        run: node --test tests/no-xx-country-codes.test.mjs tests/profile-link-metadata.test.mjs tests/supply-chain-research-quality.test.mjs
+        run: npm test
       
       - name: Check for changes
         id: git-check
