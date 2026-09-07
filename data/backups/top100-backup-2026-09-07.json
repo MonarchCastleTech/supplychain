@@ -1,7 +1,7 @@
 {
-  "last_auto_update": "2026-09-07T11:36:46.764Z",
+  "last_auto_update": "2026-08-31T12:43:56.029Z",
   "update_source": "companiesmarketcap.com",
-  "snapshot_date": "2026-09-07",
+  "snapshot_date": "2026-08-31",
   "top100_source_url": "https://companiesmarketcap.com/?download=csv",
   "update_policy": "conservative_better_only",
   "companies": [
