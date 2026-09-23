@@ -11,7 +11,7 @@ import { provenanceFor, badgeHtml } from "../js/trust/index.js";
 // Rich dataset (test suite reads the JSON; the browser loads the thin .js).
 // Mirror tests/provenance.test.mjs:9 — pass profiles in explicitly so the pure
 // function never depends on `window`.
-const data = JSON.parse(fs.readFileSync("data/top100-map.json", "utf8"));
+const data = JSON.parse(fs.readFileSync("tests/fixtures/top100-map-2026-02.json", "utf8"));
 const profiles = data.profiles || {};
 
 // --- DEPTH-02: criticality ranking by real fan-in ------------------------

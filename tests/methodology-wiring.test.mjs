@@ -39,16 +39,11 @@ test("the modal has a labelled close control", () => {
   );
 });
 
-test("methodology copy states the REAL dataset facts (no fabrication)", () => {
-  // 407 total sources
-  assert.match(HTML, /\b407\b/, "must cite 407 sources");
-  // qualifier tiers: 120 high, 3,447 medium
-  assert.match(HTML, /\b120\b/, "must cite 120 high-qualifier figures");
-  assert.match(HTML, /3,?447/, "must cite 3,447 medium-qualifier figures");
-  // ~131 sources with parseable years
-  assert.match(HTML, /\b131\b/, "must cite ~131 sources with parseable years");
-  // 75 dangling source FKs (known limit)
-  assert.match(HTML, /\b75\b/, "must cite 75 dangling source references");
+test("methodology copy discloses current evidence limits", () => {
+  assert.match(HTML, /overview layout has no company-to-company edges/i);
+  assert.match(HTML, /source coverage differs by company/i);
+  assert.match(HTML, /research-pending profile/i);
+  assert.doesNotMatch(HTML, /all 100 companies have source-verified/i);
 });
 
 test("methodology copy explains weighting + decay + observed/estimated/unknown semantics", () => {

@@ -10,7 +10,7 @@ import {
 // Rich dataset (test suite reads the JSON; the browser loads the thin .js).
 // Mirror tests/provenance.test.mjs:9 — pass profiles/nodes/layers in explicitly
 // so the pure functions never depend on `window`.
-const data = JSON.parse(fs.readFileSync("data/top100-map.json", "utf8"));
+const data = JSON.parse(fs.readFileSync("tests/fixtures/top100-map-2026-02.json", "utf8"));
 const profiles = data.profiles || {};
 const nodes = data.nodes || [];
 const layers = data.layers || {};
@@ -30,7 +30,7 @@ test("companyConcentration unknown symbol returns null", () => {
   assert.equal(companyConcentration("__NOT_A_SYMBOL__", { profiles }), null);
 });
 
-// --- DEPTH-01: real anchors (computed from data/top100-map.json) ----------
+// --- DEPTH-01: real anchors (computed from tests/fixtures/top100-map-2026-02.json) ----------
 
 test("companyConcentration real anchors: GILD=36, NVDA=12", () => {
   const gild = companyConcentration("GILD", { profiles });

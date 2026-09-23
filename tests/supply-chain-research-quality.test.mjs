@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 
-const map = JSON.parse(fs.readFileSync("data/top100-map.json", "utf8"));
+const map = JSON.parse(fs.readFileSync("tests/fixtures/top100-map-2026-02.json", "utf8"));
 const profiles = map.profiles || {};
 
 function labelsFor(symbol) {

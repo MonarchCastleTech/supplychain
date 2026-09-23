@@ -6,8 +6,8 @@
 // Multi-hop is a TRUE SUPERSET enabled by exactly 6 real company-as-supplier bridge
 // edges (TSM, TCEHY, ASML, AZN, AMAT, LIN) — no edges fabricated.
 //
-// All real numbers are verified against data/top100-map.json (11-RESEARCH.md).
-// Fixture: data/top100-map.json (real frozen dataset). Never mutate.
+// All real numbers are verified against tests/fixtures/top100-map-2026-02.json (11-RESEARCH.md).
+// Fixture: tests/fixtures/top100-map-2026-02.json (real frozen dataset). Never mutate.
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -20,7 +20,7 @@ import {
   __memoStats,
 } from "../js/analytics/index.js";
 
-const data = JSON.parse(readFileSync("data/top100-map.json", "utf8"));
+const data = JSON.parse(readFileSync("tests/fixtures/top100-map-2026-02.json", "utf8"));
 const profiles = data.profiles || {};
 const nodes = data.nodes || [];
 
@@ -94,7 +94,7 @@ test("maxHops:3 impacted set is a superset of maxHops:1 (every hop-1 symbol pres
 // --- 5. selfLabels derives exactly the 6 real bridges -------------------------
 test("buildSelfLabels yields exactly the 6 real bridge owners {TSM,TCEHY,ASML,AZN,AMAT,LIN}", () => {
   // Build from the JSON-loaded profiles: the thin js/data DATA carries the graph,
-  // not the full per-company profiles (those load from data/top100-map.json).
+  // not the full per-company profiles (those load from tests/fixtures/top100-map-2026-02.json).
   const fan = buildSupplierFanIn(profiles);
   const selfLabels = buildSelfLabels(profiles, fan);
   const owners = [];

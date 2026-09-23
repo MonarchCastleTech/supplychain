@@ -102,19 +102,12 @@ test('shared portfolio tokens and mobile containment are explicit', () => {
   assert.match(base, /:focus-visible/);
 });
 
-test('data updater has a deterministic no-write dry-run contract', () => {
-  const packageJson = JSON.parse(read('package.json'));
-  const updater = read('scripts/update-marketcap-data.mjs');
+test('weekly workflow rebuilds the browser-served data', () => {
+  const generator = read('scripts/generate-top100-data.mjs');
   const workflow = read('.github/workflows/auto-update-data.yml');
-
-  assert.equal(
-    packageJson.scripts['update:data:dry'],
-    'node scripts/update-marketcap-data.mjs --dry-run --fixture=data/top100-marketcap.csv',
-  );
-  assert.match(updater, /--dry-run/);
-  assert.match(updater, /--fixture=/);
-  assert.match(updater, /Dry run complete; no files were written\./);
-  assert.match(workflow, /node scripts\/update-marketcap-data\.mjs/);
+  assert.match(generator, /OUTPUT_JS_PATH/);
+  assert.match(generator, /OUTPUT_JSON_PATH/);
+  assert.match(workflow, /node scripts\/generate-top100-data\.mjs/);
   assert.match(workflow, /git diff --quiet data\//);
 });
 

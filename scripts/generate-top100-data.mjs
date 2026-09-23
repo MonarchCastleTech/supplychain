@@ -54,6 +54,7 @@ const COUNTRY_CODE = {
   India: "IN",
   Brazil: "BR",
   Italy: "IT",
+  Ireland: "IE",
   Sweden: "SE",
   Norway: "NO",
   Belgium: "BE",

@@ -10,7 +10,7 @@ import {
 // Rich dataset (test suite reads the JSON; the browser loads the thin .js).
 // Mirror tests/criticality-wiring.test.mjs:14 — pass {profiles,nodes} in
 // explicitly so the pure engine never depends on `window`. Never mutate.
-const data = JSON.parse(readFileSync("data/top100-map.json", "utf8"));
+const data = JSON.parse(readFileSync("tests/fixtures/top100-map-2026-02.json", "utf8"));
 const profiles = data.profiles || {};
 const nodes = data.nodes || [];
 

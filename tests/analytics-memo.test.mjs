@@ -7,7 +7,7 @@
 //   __resetAnalyticsCache() — clears caches + zeroes stats (per-test isolation)
 //   __memoStats()           — { fanIn:{builds,hits}, concentration:{...}, ... }
 //
-// Fixture: data/top100-map.json (real frozen dataset; nodes + profiles). Never mutate.
+// Fixture: tests/fixtures/top100-map-2026-02.json (real frozen dataset; nodes + profiles). Never mutate.
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -21,7 +21,7 @@ import {
   __memoStats,
 } from "../js/analytics/index.js";
 
-const data = JSON.parse(readFileSync("data/top100-map.json", "utf8"));
+const data = JSON.parse(readFileSync("tests/fixtures/top100-map-2026-02.json", "utf8"));
 const profiles = data.profiles || {};
 const nodes = data.nodes || [];
 

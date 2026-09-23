@@ -1,7 +1,7 @@
 window.SUPPLY_MAP_DATA = {
   "meta": {
-    "generatedAt": "2026-09-23T19:54:07.601Z",
-    "lastUpdated": "Sep 23, 2026, 10:54 PM",
+    "generatedAt": "2026-09-23T20:03:06.408Z",
+    "lastUpdated": "Sep 23, 2026, 11:03 PM",
     "source": "https://companiesmarketcap.com/?download=csv",
     "count": 100,
     "profileCount": 100
@@ -75,8 +75,8 @@ window.SUPPLY_MAP_DATA = {
       "n": "Australia",
       "c": "#f1c40f"
     },
-    "XX": {
-      "n": "Global",
+    "IE": {
+      "n": "Ireland",
       "c": "#777777"
     },
     "ES": {
@@ -111,10 +111,6 @@ window.SUPPLY_MAP_DATA = {
       "n": "Italy",
       "c": "#27ae60"
     },
-    "IE": {
-      "n": "Global",
-      "c": "#777777"
-    },
     "IN": {
       "n": "India",
       "c": "#6c5ce7"
@@ -127,7 +123,7 @@ window.SUPPLY_MAP_DATA = {
   "nodes": [
     {
       "id": "nvda-1",
-      "l": "NVIDIA\nNVDA - 5.43T",
+      "l": "NVIDIA\nNVDA - 5.45T",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #1.",
@@ -135,14 +131,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 22,
       "rank": 1,
-      "marketcap": 5434523516928,
+      "marketcap": 5445389910016,
       "symbol": "NVDA",
       "company": "NVIDIA",
       "country": "United States"
     },
     {
       "id": "aapl-2",
-      "l": "Apple\nAAPL - 4.90T",
+      "l": "Apple\nAAPL - 4.92T",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #2.",
@@ -150,14 +146,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 21,
       "rank": 2,
-      "marketcap": 4902331351040,
+      "marketcap": 4918530277376,
       "symbol": "AAPL",
       "company": "Apple",
       "country": "United States"
     },
     {
       "id": "goog-3",
-      "l": "Alphabet (Google)\nGOOG - 4.09T",
+      "l": "Alphabet (Google)\nGOOG - 4.10T",
       "y": 2,
       "c": "US",
       "d": "Software & Platforms. Rank #3.",
@@ -165,14 +161,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 20,
       "rank": 3,
-      "marketcap": 4092380839936,
+      "marketcap": 4096783810560,
       "symbol": "GOOG",
       "company": "Alphabet (Google)",
       "country": "United States"
     },
     {
       "id": "msft-4",
-      "l": "Microsoft\nMSFT - 3.71T",
+      "l": "Microsoft\nMSFT - 3.72T",
       "y": 3,
       "c": "US",
       "d": "Cloud / Network / Media. Rank #4.",
@@ -180,7 +176,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 19,
       "rank": 4,
-      "marketcap": 3707352121344,
+      "marketcap": 3717153947648,
       "symbol": "MSFT",
       "company": "Microsoft",
       "country": "United States"
@@ -195,7 +191,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 17,
       "rank": 5,
-      "marketcap": 2686762614784,
+      "marketcap": 2688704315392,
       "symbol": "AMZN",
       "company": "Amazon",
       "country": "United States"
@@ -210,14 +206,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 16,
       "rank": 6,
-      "marketcap": 2317290831872,
+      "marketcap": 2317005357056,
       "symbol": "TSM",
       "company": "TSMC",
       "country": "Taiwan"
     },
     {
       "id": "spcx-7",
-      "l": "SpaceX\nSPCX - 1.95T",
+      "l": "SpaceX\nSPCX - 1.96T",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #7.",
@@ -225,7 +221,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 15,
       "rank": 7,
-      "marketcap": 1952419414016,
+      "marketcap": 1955648897024,
       "symbol": "SPCX",
       "company": "SpaceX",
       "country": "United States"
@@ -240,7 +236,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 14,
       "rank": 8,
-      "marketcap": 1899573411840,
+      "marketcap": 1895599308800,
       "symbol": "META",
       "company": "Meta Platforms (Facebook)",
       "country": "United States"
@@ -255,7 +251,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 14,
       "rank": 9,
-      "marketcap": 1693922623488,
+      "marketcap": 1694590828544,
       "symbol": "AVGO",
       "company": "Broadcom",
       "country": "United States"
@@ -315,7 +311,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 12,
       "rank": 13,
-      "marketcap": 1210206912512,
+      "marketcap": 1210573914112,
       "symbol": "MU",
       "company": "Micron Technology",
       "country": "United States"
@@ -330,7 +326,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 12,
       "rank": 14,
-      "marketcap": 1086913249280,
+      "marketcap": 1086089134080,
       "symbol": "BRK-B",
       "company": "Berkshire Hathaway",
       "country": "United States"
@@ -345,7 +341,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 12,
       "rank": 15,
-      "marketcap": 1028472045568,
+      "marketcap": 1027910270976,
       "symbol": "LLY",
       "company": "Eli Lilly",
       "country": "United States"
@@ -360,7 +356,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 11,
       "rank": 16,
-      "marketcap": 1003327258624,
+      "marketcap": 1003335450624,
       "symbol": "AMD",
       "company": "AMD",
       "country": "United States"
@@ -382,7 +378,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "jpm-18",
-      "l": "JPMorgan Chase\nJPM - 897.06B",
+      "l": "JPMorgan Chase\nJPM - 897.56B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #18.",
@@ -390,14 +386,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 11,
       "rank": 18,
-      "marketcap": 897058144256,
+      "marketcap": 897563164672,
       "symbol": "JPM",
       "company": "JPMorgan Chase",
       "country": "United States"
     },
     {
       "id": "wmt-19",
-      "l": "Walmart\nWMT - 877.14B",
+      "l": "Walmart\nWMT - 879.61B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #19.",
@@ -405,14 +401,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 11,
       "rank": 19,
-      "marketcap": 877139460096,
+      "marketcap": 879606431744,
       "symbol": "WMT",
       "company": "Walmart",
       "country": "United States"
     },
     {
       "id": "v-20",
-      "l": "Visa\nV - 678.19B",
+      "l": "Visa\nV - 678.96B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #20.",
@@ -420,14 +416,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 10,
       "rank": 20,
-      "marketcap": 678194577408,
+      "marketcap": 678964297728,
       "symbol": "V",
       "company": "Visa",
       "country": "United States"
     },
     {
       "id": "asml-21",
-      "l": "ASML\nASML - 666.97B",
+      "l": "ASML\nASML - 670.10B",
       "y": 0,
       "c": "NL",
       "d": "Semiconductors & Components. Rank #21.",
@@ -435,14 +431,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 10,
       "rank": 21,
-      "marketcap": 666966556672,
+      "marketcap": 670104682496,
       "symbol": "ASML",
       "company": "ASML",
       "country": "Netherlands"
     },
     {
       "id": "xom-22",
-      "l": "Exxon Mobil\nXOM - 661.40B",
+      "l": "Exxon Mobil\nXOM - 663.17B",
       "y": -3,
       "c": "US",
       "d": "Energy & Raw Inputs. Rank #22.",
@@ -450,14 +446,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 10,
       "rank": 22,
-      "marketcap": 661401042944,
+      "marketcap": 663169138688,
       "symbol": "XOM",
       "company": "Exxon Mobil",
       "country": "United States"
     },
     {
       "id": "jnj-23",
-      "l": "Johnson & Johnson\nJNJ - 645.27B",
+      "l": "Johnson & Johnson\nJNJ - 649.01B",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #23.",
@@ -465,14 +461,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 10,
       "rank": 23,
-      "marketcap": 645274468352,
+      "marketcap": 649009758208,
       "symbol": "JNJ",
       "company": "Johnson & Johnson",
       "country": "United States"
     },
     {
       "id": "intc-24",
-      "l": "Intel\nINTC - 644.46B",
+      "l": "Intel\nINTC - 648.08B",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #24.",
@@ -480,7 +476,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 10,
       "rank": 24,
-      "marketcap": 644455530496,
+      "marketcap": 648076460032,
       "symbol": "INTC",
       "company": "Intel",
       "country": "United States"
@@ -502,7 +498,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "tcehy-26",
-      "l": "Tencent\nTCEHY - 505.49B",
+      "l": "Tencent\nTCEHY - 505.22B",
       "y": 2,
       "c": "CN",
       "d": "Software & Platforms. Rank #26.",
@@ -510,14 +506,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 26,
-      "marketcap": 505486680000,
+      "marketcap": 505215690000,
       "symbol": "TCEHY",
       "company": "Tencent",
       "country": "China"
     },
     {
       "id": "ma-27",
-      "l": "Mastercard\nMA - 490.11B",
+      "l": "Mastercard\nMA - 490.67B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #27.",
@@ -525,14 +521,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 27,
-      "marketcap": 490110025728,
+      "marketcap": 490670686208,
       "symbol": "MA",
       "company": "Mastercard",
       "country": "United States"
     },
     {
       "id": "abbv-28",
-      "l": "AbbVie\nABBV - 468.00B",
+      "l": "AbbVie\nABBV - 468.55B",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #28.",
@@ -540,14 +536,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 28,
-      "marketcap": 468003356672,
+      "marketcap": 468551139328,
       "symbol": "ABBV",
       "company": "AbbVie",
       "country": "United States"
     },
     {
       "id": "pltr-29",
-      "l": "Palantir\nPLTR - 461.35B",
+      "l": "Palantir\nPLTR - 460.88B",
       "y": 2,
       "c": "US",
       "d": "Software & Platforms. Rank #29.",
@@ -555,14 +551,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 29,
-      "marketcap": 461351190528,
+      "marketcap": 460882575360,
       "symbol": "PLTR",
       "company": "Palantir",
       "country": "United States"
     },
     {
       "id": "orcl-30",
-      "l": "Oracle\nORCL - 437.10B",
+      "l": "Oracle\nORCL - 437.08B",
       "y": 3,
       "c": "US",
       "d": "Cloud / Network / Media. Rank #30.",
@@ -570,7 +566,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 30,
-      "marketcap": 437096153088,
+      "marketcap": 437081047040,
       "symbol": "ORCL",
       "company": "Oracle",
       "country": "United States"
@@ -592,7 +588,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "csco-32",
-      "l": "Cisco\nCSCO - 419.23B",
+      "l": "Cisco\nCSCO - 419.61B",
       "y": 1,
       "c": "US",
       "d": "Hardware & Equipment. Rank #32.",
@@ -600,14 +596,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 32,
-      "marketcap": 419234971648,
+      "marketcap": 419609509888,
       "symbol": "CSCO",
       "company": "Cisco",
       "country": "United States"
     },
     {
       "id": "cvx-33",
-      "l": "Chevron\nCVX - 401.97B",
+      "l": "Chevron\nCVX - 403.19B",
       "y": -3,
       "c": "US",
       "d": "Energy & Raw Inputs. Rank #33.",
@@ -615,14 +611,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 9,
       "rank": 33,
-      "marketcap": 401971740672,
+      "marketcap": 403187924992,
       "symbol": "CVX",
       "company": "Chevron",
       "country": "United States"
     },
     {
       "id": "cost-34",
-      "l": "Costco\nCOST - 400.62B",
+      "l": "Costco\nCOST - 401.22B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #34.",
@@ -630,14 +626,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 34,
-      "marketcap": 400616587264,
+      "marketcap": 401215291392,
       "symbol": "COST",
       "company": "Costco",
       "country": "United States"
     },
     {
       "id": "bac-35",
-      "l": "Bank of America\nBAC - 391.35B",
+      "l": "Bank of America\nBAC - 391.66B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #35.",
@@ -645,14 +641,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 35,
-      "marketcap": 391349174272,
+      "marketcap": 391663845376,
       "symbol": "BAC",
       "company": "Bank of America",
       "country": "United States"
     },
     {
       "id": "lrcx-36",
-      "l": "Lam Research\nLRCX - 383.74B",
+      "l": "Lam Research\nLRCX - 384.51B",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #36.",
@@ -660,14 +656,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 36,
-      "marketcap": 383742607360,
+      "marketcap": 384505905152,
       "symbol": "LRCX",
       "company": "Lam Research",
       "country": "United States"
     },
     {
       "id": "ko-37",
-      "l": "Coca-Cola\nKO - 378.09B",
+      "l": "Coca-Cola\nKO - 379.03B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #37.",
@@ -675,14 +671,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 37,
-      "marketcap": 378086490112,
+      "marketcap": 379033059328,
       "symbol": "KO",
       "company": "Coca-Cola",
       "country": "United States"
     },
     {
       "id": "amat-38",
-      "l": "Applied Materials\nAMAT - 375.51B",
+      "l": "Applied Materials\nAMAT - 376.47B",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #38.",
@@ -690,14 +686,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 38,
-      "marketcap": 375514431488,
+      "marketcap": 376466767872,
       "symbol": "AMAT",
       "company": "Applied Materials",
       "country": "United States"
     },
     {
       "id": "cat-39",
-      "l": "Caterpillar\nCAT - 373.62B",
+      "l": "Caterpillar\nCAT - 373.45B",
       "y": -1,
       "c": "US",
       "d": "Industrials & Mobility. Rank #39.",
@@ -705,14 +701,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 39,
-      "marketcap": 373623750656,
+      "marketcap": 373449064448,
       "symbol": "CAT",
       "company": "Caterpillar",
       "country": "United States"
     },
     {
       "id": "mrk-40",
-      "l": "Merck\nMRK - 365.10B",
+      "l": "Merck\nMRK - 365.49B",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #40.",
@@ -720,7 +716,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 40,
-      "marketcap": 365104398336,
+      "marketcap": 365486800896,
       "symbol": "MRK",
       "company": "Merck",
       "country": "United States"
@@ -757,7 +753,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "arm-43",
-      "l": "Arm Holdings\nARM - 356.15B",
+      "l": "Arm Holdings\nARM - 355.17B",
       "y": 6,
       "c": "UK",
       "d": "Consumer Demand & Services. Rank #43.",
@@ -765,14 +761,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 43,
-      "marketcap": 356150837248,
+      "marketcap": 355173597184,
       "symbol": "ARM",
       "company": "Arm Holdings",
       "country": "United Kingdom"
     },
     {
       "id": "dell-44",
-      "l": "Dell\nDELL - 348.35B",
+      "l": "Dell\nDELL - 349.33B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #44.",
@@ -780,14 +776,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 44,
-      "marketcap": 348352282624,
+      "marketcap": 349328211968,
       "symbol": "DELL",
       "company": "Dell",
       "country": "United States"
     },
     {
       "id": "hsbc-45",
-      "l": "HSBC\nHSBC - 343.24B",
+      "l": "HSBC\nHSBC - 342.80B",
       "y": 4,
       "c": "UK",
       "d": "Finance & Payments. Rank #45.",
@@ -795,7 +791,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 45,
-      "marketcap": 343243358208,
+      "marketcap": 342798467072,
       "symbol": "HSBC",
       "company": "HSBC",
       "country": "United Kingdom"
@@ -817,7 +813,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "pg-47",
-      "l": "Procter & Gamble\nPG - 341.99B",
+      "l": "Procter & Gamble\nPG - 342.45B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #47.",
@@ -825,14 +821,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 47,
-      "marketcap": 341990309888,
+      "marketcap": 342454829056,
       "symbol": "PG",
       "company": "Procter & Gamble",
       "country": "United States"
     },
     {
       "id": "unh-48",
-      "l": "UnitedHealth\nUNH - 332.90B",
+      "l": "UnitedHealth\nUNH - 333.31B",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #48.",
@@ -840,14 +836,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 48,
-      "marketcap": 332895485952,
+      "marketcap": 333312851968,
       "symbol": "UNH",
       "company": "UnitedHealth",
       "country": "United States"
     },
     {
       "id": "ge-49",
-      "l": "General Electric\nGE - 332.22B",
+      "l": "General Electric\nGE - 331.90B",
       "y": -1,
       "c": "US",
       "d": "Industrials & Mobility. Rank #49.",
@@ -855,14 +851,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 49,
-      "marketcap": 332222332928,
+      "marketcap": 331895504896,
       "symbol": "GE",
       "company": "General Electric",
       "country": "United States"
     },
     {
       "id": "panw-50",
-      "l": "Palo Alto Networks\nPANW - 321.04B",
+      "l": "Palo Alto Networks\nPANW - 321.72B",
       "y": 3,
       "c": "US",
       "d": "Cloud / Network / Media. Rank #50.",
@@ -870,7 +866,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 50,
-      "marketcap": 321040449536,
+      "marketcap": 321719402496,
       "symbol": "PANW",
       "company": "Palo Alto Networks",
       "country": "United States"
@@ -892,7 +888,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "ms-52",
-      "l": "Morgan Stanley\nMS - 311.56B",
+      "l": "Morgan Stanley\nMS - 311.66B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #52.",
@@ -900,59 +896,59 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 52,
-      "marketcap": 311561093120,
+      "marketcap": 311663165440,
       "symbol": "MS",
       "company": "Morgan Stanley",
       "country": "United States"
     },
     {
-      "id": "nflx-53",
-      "l": "Netflix\nNFLX - 297.12B",
-      "y": 3,
-      "c": "US",
-      "d": "Cloud / Network / Media. Rank #53.",
-      "s": "Click to open NFLX company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 53,
-      "marketcap": 297117908992,
-      "symbol": "NFLX",
-      "company": "Netflix",
-      "country": "United States"
-    },
-    {
-      "id": "hd-54",
-      "l": "Home Depot\nHD - 296.65B",
+      "id": "pm-53",
+      "l": "Philip Morris International\nPM - 297.30B",
       "y": 6,
       "c": "US",
-      "d": "Consumer Demand & Services. Rank #54.",
-      "s": "Click to open HD company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 54,
-      "marketcap": 296648015872,
-      "symbol": "HD",
-      "company": "Home Depot",
-      "country": "United States"
-    },
-    {
-      "id": "pm-55",
-      "l": "Philip Morris International\nPM - 294.32B",
-      "y": 6,
-      "c": "US",
-      "d": "Consumer Demand & Services. Rank #55.",
+      "d": "Consumer Demand & Services. Rank #53.",
       "s": "Click to open PM company profile.",
       "bn": false,
       "z": 8,
-      "rank": 55,
-      "marketcap": 294320766976,
+      "rank": 53,
+      "marketcap": 297297707008,
       "symbol": "PM",
       "company": "Philip Morris International",
       "country": "United States"
     },
     {
+      "id": "nflx-54",
+      "l": "Netflix\nNFLX - 297.14B",
+      "y": 3,
+      "c": "US",
+      "d": "Cloud / Network / Media. Rank #54.",
+      "s": "Click to open NFLX company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 54,
+      "marketcap": 297138716672,
+      "symbol": "NFLX",
+      "company": "Netflix",
+      "country": "United States"
+    },
+    {
+      "id": "hd-55",
+      "l": "Home Depot\nHD - 296.18B",
+      "y": 6,
+      "c": "US",
+      "d": "Consumer Demand & Services. Rank #55.",
+      "s": "Click to open HD company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 55,
+      "marketcap": 296184119296,
+      "symbol": "HD",
+      "company": "Home Depot",
+      "country": "United States"
+    },
+    {
       "id": "ry-56",
-      "l": "Royal Bank Of Canada\nRY - 276.69B",
+      "l": "Royal Bank Of Canada\nRY - 276.17B",
       "y": 4,
       "c": "CA",
       "d": "Finance & Payments. Rank #56.",
@@ -960,14 +956,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 56,
-      "marketcap": 276692140032,
+      "marketcap": 276166049792,
       "symbol": "RY",
       "company": "Royal Bank Of Canada",
       "country": "Canada"
     },
     {
       "id": "baba-57",
-      "l": "Alibaba\nBABA - 275.88B",
+      "l": "Alibaba\nBABA - 275.36B",
       "y": 2,
       "c": "CN",
       "d": "Software & Platforms. Rank #57.",
@@ -975,14 +971,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 57,
-      "marketcap": 275879362560,
+      "marketcap": 275357368320,
       "symbol": "BABA",
       "company": "Alibaba",
       "country": "China"
     },
     {
       "id": "gs-58",
-      "l": "Goldman Sachs\nGS - 273.02B",
+      "l": "Goldman Sachs\nGS - 272.66B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #58.",
@@ -990,14 +986,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 58,
-      "marketcap": 273016864768,
+      "marketcap": 272655794176,
       "symbol": "GS",
       "company": "Goldman Sachs",
       "country": "United States"
     },
     {
       "id": "shel-59",
-      "l": "Shell\nSHEL - 271.89B",
+      "l": "Shell\nSHEL - 272.29B",
       "y": -3,
       "c": "UK",
       "d": "Energy & Raw Inputs. Rank #59.",
@@ -1005,14 +1001,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 59,
-      "marketcap": 271888728064,
+      "marketcap": 272288284672,
       "symbol": "SHEL",
       "company": "Shell",
       "country": "United Kingdom"
     },
     {
       "id": "nvs-60",
-      "l": "Novartis\nNVS - 270.81B",
+      "l": "Novartis\nNVS - 271.33B",
       "y": 6,
       "c": "CH",
       "d": "Consumer Demand & Services. Rank #60.",
@@ -1020,14 +1016,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 60,
-      "marketcap": 270813855744,
+      "marketcap": 271327051776,
       "symbol": "NVS",
       "company": "Novartis",
       "country": "Switzerland"
     },
     {
       "id": "crwd-61",
-      "l": "CrowdStrike\nCRWD - 268.40B",
+      "l": "CrowdStrike\nCRWD - 268.77B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #61.",
@@ -1035,14 +1031,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 61,
-      "marketcap": 268404047872,
+      "marketcap": 268772655104,
       "symbol": "CRWD",
       "company": "CrowdStrike",
       "country": "United States"
     },
     {
       "id": "sndk-62",
-      "l": "Sandisk\nSNDK - 264.38B",
+      "l": "Sandisk\nSNDK - 265.98B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #62.",
@@ -1050,7 +1046,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 62,
-      "marketcap": 264380022784,
+      "marketcap": 265980362752,
       "symbol": "SNDK",
       "company": "Sandisk",
       "country": "United States"
@@ -1072,7 +1068,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "rtx-64",
-      "l": "RTX\nRTX - 259.36B",
+      "l": "RTX\nRTX - 259.11B",
       "y": -1,
       "c": "US",
       "d": "Industrials & Mobility. Rank #64.",
@@ -1080,14 +1076,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 64,
-      "marketcap": 259355820032,
+      "marketcap": 259113238528,
       "symbol": "RTX",
       "company": "RTX",
       "country": "United States"
     },
     {
       "id": "mufg-65",
-      "l": "Mitsubishi UFJ Financial\nMUFG - 256.97B",
+      "l": "Mitsubishi UFJ Financial\nMUFG - 256.86B",
       "y": 4,
       "c": "JP",
       "d": "Finance & Payments. Rank #65.",
@@ -1095,14 +1091,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 65,
-      "marketcap": 256969113600,
+      "marketcap": 256856555520,
       "symbol": "MUFG",
       "company": "Mitsubishi UFJ Financial",
       "country": "Japan"
     },
     {
       "id": "anet-66",
-      "l": "Arista Networks\nANET - 256.53B",
+      "l": "Arista Networks\nANET - 256.62B",
       "y": 3,
       "c": "US",
       "d": "Cloud / Network / Media. Rank #66.",
@@ -1110,44 +1106,44 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 66,
-      "marketcap": 256533102592,
+      "marketcap": 256621395968,
       "symbol": "ANET",
       "company": "Arista Networks",
       "country": "United States"
     },
     {
-      "id": "azn-67",
-      "l": "AstraZeneca\nAZN - 253.56B",
-      "y": 5,
-      "c": "UK",
-      "d": "Healthcare & Life Sciences. Rank #67.",
-      "s": "Click to open AZN company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 67,
-      "marketcap": 253555982336,
-      "symbol": "AZN",
-      "company": "AstraZeneca",
-      "country": "United Kingdom"
-    },
-    {
-      "id": "gev-68",
-      "l": "GE Vernova\nGEV - 253.01B",
+      "id": "gev-67",
+      "l": "GE Vernova\nGEV - 253.40B",
       "y": -3,
       "c": "US",
-      "d": "Energy & Raw Inputs. Rank #68.",
+      "d": "Energy & Raw Inputs. Rank #67.",
       "s": "Click to open GEV company profile.",
       "bn": false,
       "z": 8,
-      "rank": 68,
-      "marketcap": 253007593472,
+      "rank": 67,
+      "marketcap": 253395091456,
       "symbol": "GEV",
       "company": "GE Vernova",
       "country": "United States"
     },
     {
+      "id": "azn-68",
+      "l": "AstraZeneca\nAZN - 253.32B",
+      "y": 5,
+      "c": "UK",
+      "d": "Healthcare & Life Sciences. Rank #68.",
+      "s": "Click to open AZN company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 68,
+      "marketcap": 253323329536,
+      "symbol": "AZN",
+      "company": "AstraZeneca",
+      "country": "United Kingdom"
+    },
+    {
       "id": "txn-69",
-      "l": "Texas Instruments\nTXN - 248.44B",
+      "l": "Texas Instruments\nTXN - 248.97B",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #69.",
@@ -1155,14 +1151,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 69,
-      "marketcap": 248439914496,
+      "marketcap": 248969576448,
       "symbol": "TXN",
       "company": "Texas Instruments",
       "country": "United States"
     },
     {
       "id": "wfc-70",
-      "l": "Wells Fargo\nWFC - 247.51B",
+      "l": "Wells Fargo\nWFC - 247.82B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #70.",
@@ -1170,14 +1166,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 70,
-      "marketcap": 247514333184,
+      "marketcap": 247816732672,
       "symbol": "WFC",
       "company": "Wells Fargo",
       "country": "United States"
     },
     {
       "id": "tmo-71",
-      "l": "Thermo Fisher Scientific\nTMO - 245.45B",
+      "l": "Thermo Fisher Scientific\nTMO - 246.11B",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #71.",
@@ -1185,14 +1181,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 71,
-      "marketcap": 245447507968,
+      "marketcap": 246105636864,
       "symbol": "TMO",
       "company": "Thermo Fisher Scientific",
       "country": "United States"
     },
     {
       "id": "klac-72",
-      "l": "KLA\nKLAC - 244.87B",
+      "l": "KLA\nKLAC - 245.45B",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #72.",
@@ -1200,7 +1196,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 72,
-      "marketcap": 244873003008,
+      "marketcap": 245447884800,
       "symbol": "KLAC",
       "company": "KLA",
       "country": "United States"
@@ -1222,7 +1218,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "sap-74",
-      "l": "SAP\nSAP - 243.29B",
+      "l": "SAP\nSAP - 243.09B",
       "y": 2,
       "c": "DE",
       "d": "Software & Platforms. Rank #74.",
@@ -1230,7 +1226,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 74,
-      "marketcap": 243294715904,
+      "marketcap": 243086966784,
       "symbol": "SAP",
       "company": "SAP",
       "country": "Germany"
@@ -1251,34 +1247,34 @@ window.SUPPLY_MAP_DATA = {
       "country": "Switzerland"
     },
     {
-      "id": "600519-ss-76",
-      "l": "Kweichow Moutai\n600519.SS - 233.25B",
+      "id": "mrvl-76",
+      "l": "Marvell Technology\nMRVL - 234.47B",
       "y": 6,
-      "c": "CN",
+      "c": "US",
       "d": "Consumer Demand & Services. Rank #76.",
-      "s": "Click to open 600519.SS company profile.",
+      "s": "Click to open MRVL company profile.",
       "bn": false,
       "z": 7,
       "rank": 76,
+      "marketcap": 234472030208,
+      "symbol": "MRVL",
+      "company": "Marvell Technology",
+      "country": "United States"
+    },
+    {
+      "id": "600519-ss-77",
+      "l": "Kweichow Moutai\n600519.SS - 233.25B",
+      "y": 6,
+      "c": "CN",
+      "d": "Consumer Demand & Services. Rank #77.",
+      "s": "Click to open 600519.SS company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 77,
       "marketcap": 233250141458,
       "symbol": "600519.SS",
       "company": "Kweichow Moutai",
       "country": "China"
-    },
-    {
-      "id": "mrvl-77",
-      "l": "Marvell Technology\nMRVL - 233.03B",
-      "y": 6,
-      "c": "US",
-      "d": "Consumer Demand & Services. Rank #77.",
-      "s": "Click to open MRVL company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 77,
-      "marketcap": 233034104832,
-      "symbol": "MRVL",
-      "company": "Marvell Technology",
-      "country": "United States"
     },
     {
       "id": "or-pa-78",
@@ -1312,7 +1308,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "tm-80",
-      "l": "Toyota\nTM - 225.58B",
+      "l": "Toyota\nTM - 225.35B",
       "y": -1,
       "c": "JP",
       "d": "Industrials & Mobility. Rank #80.",
@@ -1320,7 +1316,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 80,
-      "marketcap": 225575108608,
+      "marketcap": 225350107136,
       "symbol": "TM",
       "company": "Toyota",
       "country": "Japan"
@@ -1357,7 +1353,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "c-83",
-      "l": "Citigroup\nC - 221.32B",
+      "l": "Citigroup\nC - 221.39B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #83.",
@@ -1365,14 +1361,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 83,
-      "marketcap": 221321019392,
+      "marketcap": 221388095488,
       "symbol": "C",
       "company": "Citigroup",
       "country": "United States"
     },
     {
       "id": "amgn-84",
-      "l": "Amgen\nAMGN - 220.18B",
+      "l": "Amgen\nAMGN - 219.55B",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #84.",
@@ -1380,14 +1376,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 84,
-      "marketcap": 220183183360,
+      "marketcap": 219545239552,
       "symbol": "AMGN",
       "company": "Amgen",
       "country": "United States"
     },
     {
       "id": "ibm-85",
-      "l": "IBM\nIBM - 219.57B",
+      "l": "IBM\nIBM - 219.37B",
       "y": 2,
       "c": "US",
       "d": "Software & Platforms. Rank #85.",
@@ -1395,7 +1391,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 85,
-      "marketcap": 219573846016,
+      "marketcap": 219366572032,
       "symbol": "IBM",
       "company": "IBM",
       "country": "United States"
@@ -1432,7 +1428,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "lin-88",
-      "l": "Linde\nLIN - 216.92B",
+      "l": "Linde\nLIN - 216.53B",
       "y": -2,
       "c": "UK",
       "d": "Materials & Chemicals. Rank #88.",
@@ -1440,14 +1436,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 88,
-      "marketcap": 216923439104,
+      "marketcap": 216531599360,
       "symbol": "LIN",
       "company": "Linde",
       "country": "United Kingdom"
     },
     {
       "id": "bhp-89",
-      "l": "BHP Group\nBHP - 216.09B",
+      "l": "BHP Group\nBHP - 215.82B",
       "y": -2,
       "c": "AU",
       "d": "Materials & Chemicals. Rank #89.",
@@ -1455,14 +1451,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 89,
-      "marketcap": 216089067520,
+      "marketcap": 215822204928,
       "symbol": "BHP",
       "company": "BHP Group",
       "country": "Australia"
     },
     {
       "id": "qcom-90",
-      "l": "QUALCOMM\nQCOM - 210.68B",
+      "l": "QUALCOMM\nQCOM - 210.66B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #90.",
@@ -1470,22 +1466,22 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 90,
-      "marketcap": 210680283136,
+      "marketcap": 210664259584,
       "symbol": "QCOM",
       "company": "QUALCOMM",
       "country": "United States"
     },
     {
       "id": "stx-91",
-      "l": "Seagate Technology\nSTX - 209.68B",
+      "l": "Seagate Technology\nSTX - 210.08B",
       "y": 6,
-      "c": "XX",
+      "c": "IE",
       "d": "Consumer Demand & Services. Rank #91.",
       "s": "Click to open STX company profile.",
       "bn": false,
       "z": 7,
       "rank": 91,
-      "marketcap": 209683644416,
+      "marketcap": 210079301632,
       "symbol": "STX",
       "company": "Seagate Technology",
       "country": "Ireland"
@@ -1507,7 +1503,7 @@ window.SUPPLY_MAP_DATA = {
     },
     {
       "id": "san-93",
-      "l": "Santander\nSAN - 206.07B",
+      "l": "Santander\nSAN - 205.93B",
       "y": 6,
       "c": "ES",
       "d": "Consumer Demand & Services. Rank #93.",
@@ -1515,14 +1511,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 93,
-      "marketcap": 206069022720,
+      "marketcap": 205931200512,
       "symbol": "SAN",
       "company": "Santander",
       "country": "Spain"
     },
     {
       "id": "axp-94",
-      "l": "American Express\nAXP - 203.69B",
+      "l": "American Express\nAXP - 204.04B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #94.",
@@ -1530,14 +1526,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 94,
-      "marketcap": 203693703168,
+      "marketcap": 204038127616,
       "symbol": "AXP",
       "company": "American Express",
       "country": "United States"
     },
     {
       "id": "aph-95",
-      "l": "Amphenol\nAPH - 202.88B",
+      "l": "Amphenol\nAPH - 202.78B",
       "y": 1,
       "c": "US",
       "d": "Hardware & Equipment. Rank #95.",
@@ -1545,14 +1541,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 95,
-      "marketcap": 202875076608,
+      "marketcap": 202776461312,
       "symbol": "APH",
       "company": "Amphenol",
       "country": "United States"
     },
     {
       "id": "tte-96",
-      "l": "TotalEnergies\nTTE - 202.03B",
+      "l": "TotalEnergies\nTTE - 202.55B",
       "y": 6,
       "c": "FR",
       "d": "Consumer Demand & Services. Rank #96.",
@@ -1560,44 +1556,44 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 96,
-      "marketcap": 202027515904,
+      "marketcap": 202546429952,
       "symbol": "TTE",
       "company": "TotalEnergies",
       "country": "France"
     },
     {
-      "id": "crm-97",
-      "l": "Salesforce\nCRM - 196.29B",
-      "y": 6,
-      "c": "US",
-      "d": "Consumer Demand & Services. Rank #97.",
-      "s": "Click to open CRM company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 97,
-      "marketcap": 196285497344,
-      "symbol": "CRM",
-      "company": "Salesforce",
-      "country": "United States"
-    },
-    {
-      "id": "td-98",
-      "l": "Toronto Dominion Bank\nTD - 196.20B",
+      "id": "td-97",
+      "l": "Toronto Dominion Bank\nTD - 195.69B",
       "y": 4,
       "c": "CA",
-      "d": "Finance & Payments. Rank #98.",
+      "d": "Finance & Payments. Rank #97.",
       "s": "Click to open TD company profile.",
       "bn": false,
       "z": 7,
-      "rank": 98,
-      "marketcap": 196203495424,
+      "rank": 97,
+      "marketcap": 195687366656,
       "symbol": "TD",
       "company": "Toronto Dominion Bank",
       "country": "Canada"
     },
     {
+      "id": "crm-98",
+      "l": "Salesforce\nCRM - 195.54B",
+      "y": 6,
+      "c": "US",
+      "d": "Consumer Demand & Services. Rank #98.",
+      "s": "Click to open CRM company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 98,
+      "marketcap": 195536568320,
+      "symbol": "CRM",
+      "company": "Salesforce",
+      "country": "United States"
+    },
+    {
       "id": "vz-99",
-      "l": "Verizon\nVZ - 193.40B",
+      "l": "Verizon\nVZ - 193.32B",
       "y": 3,
       "c": "US",
       "d": "Cloud / Network / Media. Rank #99.",
@@ -1605,14 +1601,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 99,
-      "marketcap": 193404780544,
+      "marketcap": 193321697280,
       "symbol": "VZ",
       "company": "Verizon",
       "country": "United States"
     },
     {
       "id": "de-100",
-      "l": "Deere &amp; Company (John Deere)\nDE - 191.25B",
+      "l": "Deere &amp; Company (John Deere)\nDE - 191.32B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #100.",
@@ -1620,7 +1616,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 100,
-      "marketcap": 191247990784,
+      "marketcap": 191319457792,
       "symbol": "DE",
       "company": "Deere &amp; Company (John Deere)",
       "country": "United States"
@@ -1643,12 +1639,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "NVIDIA\nNVDA - 5.43T",
+          "l": "NVIDIA\nNVDA - 5.45T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "AI Compute Platform (Source-backed) anchor company. Rank #1.",
-          "s": "Market cap $5,434,523,516,928.",
+          "s": "Market cap $5,445,389,910,016.",
           "z": 23,
           "sourceId": "nvda-10k",
           "confidence": "high (company disclosure)"
@@ -2184,12 +2180,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Apple\nAAPL - 4.90T",
+          "l": "Apple\nAAPL - 4.92T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Consumer Electronics Ecosystem (Source-backed) anchor company. Rank #2.",
-          "s": "Market cap $4,902,331,351,040.",
+          "s": "Market cap $4,918,530,277,376.",
           "z": 23,
           "sourceId": "aapl-10k",
           "confidence": "high (company disclosure)"
@@ -2734,12 +2730,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Alphabet (Google)\nGOOG - 4.09T",
+          "l": "Alphabet (Google)\nGOOG - 4.10T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Search + Cloud Platform (Source-backed) anchor company. Rank #3.",
-          "s": "Market cap $4,092,380,839,936.",
+          "s": "Market cap $4,096,783,810,560.",
           "z": 23,
           "sourceId": "goog-10k",
           "confidence": "high (company disclosure)"
@@ -3164,12 +3160,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Microsoft\nMSFT - 3.71T",
+          "l": "Microsoft\nMSFT - 3.72T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Cloud + Enterprise Software Platform (Source-backed) anchor company. Rank #4.",
-          "s": "Market cap $3,707,352,121,344.",
+          "s": "Market cap $3,717,153,947,648.",
           "z": 23,
           "sourceId": "msft-10k",
           "confidence": "high (company disclosure)"
@@ -3752,7 +3748,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Commerce + Cloud Infrastructure Platform (Source-backed) anchor company. Rank #5.",
-          "s": "Market cap $2,686,762,614,784.",
+          "s": "Market cap $2,688,704,315,392.",
           "z": 23,
           "sourceId": "amzn-10k",
           "confidence": "high (company disclosure)"
@@ -4164,7 +4160,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "TW",
           "d": "Advanced Foundry Manufacturing (Source-backed) anchor company. Rank #6.",
-          "s": "Market cap $2,317,290,831,872.",
+          "s": "Market cap $2,317,005,357,056.",
           "z": 23,
           "sourceId": "tsm-annual",
           "confidence": "high (company disclosure)"
@@ -4583,12 +4579,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "SpaceX\nSPCX - 1.95T",
+          "l": "SpaceX\nSPCX - 1.96T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $1,952,419,414,016.",
+          "s": "Market cap $1,955,648,897,024.",
           "z": 22
         }
       ],
@@ -4615,7 +4611,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Digital Platform + AI Infrastructure (Source-backed) anchor company. Rank #8.",
-          "s": "Market cap $1,899,573,411,840.",
+          "s": "Market cap $1,895,599,308,800.",
           "z": 23,
           "sourceId": "meta-10k",
           "confidence": "high (company disclosure)"
@@ -5018,7 +5014,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Networking Silicon + Infrastructure Software (Source-backed) anchor company. Rank #9.",
-          "s": "Market cap $1,693,922,623,488.",
+          "s": "Market cap $1,694,590,828,544.",
           "z": 23,
           "sourceId": "avgo-annual",
           "confidence": "high (company disclosure)"
@@ -6732,7 +6728,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Memory Semiconductors (Source-backed) anchor company. Rank #13.",
-          "s": "Market cap $1,210,206,912,512.",
+          "s": "Market cap $1,210,573,914,112.",
           "z": 23,
           "sourceId": "mu-10k",
           "confidence": "high (company disclosure)"
@@ -7162,7 +7158,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Diversified Holding + Insurance (Source-backed) anchor company. Rank #14.",
-          "s": "Market cap $1,086,913,249,280.",
+          "s": "Market cap $1,086,089,134,080.",
           "z": 23,
           "sourceId": "brk-annual",
           "confidence": "high (company disclosure)"
@@ -7574,7 +7570,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Biopharma Innovation Pipeline (Source-backed) anchor company. Rank #15.",
-          "s": "Market cap $1,028,472,045,568.",
+          "s": "Market cap $1,027,910,270,976.",
           "z": 23,
           "sourceId": "lly-10k",
           "confidence": "high (company disclosure)"
@@ -7986,7 +7982,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Compute Semiconductors (Source-backed) anchor company. Rank #16.",
-          "s": "Market cap $1,003,327,258,624.",
+          "s": "Market cap $1,003,335,450,624.",
           "z": 23,
           "sourceId": "amd-10k",
           "confidence": "high (company disclosure)"
@@ -8835,12 +8831,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "JPMorgan Chase\nJPM - 897.06B",
+          "l": "JPMorgan Chase\nJPM - 897.56B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Global Universal Banking Platform (Source-backed) anchor company. Rank #18.",
-          "s": "Market cap $897,058,144,256.",
+          "s": "Market cap $897,563,164,672.",
           "z": 23,
           "sourceId": "jpm-10k",
           "confidence": "high (company disclosure)"
@@ -9244,12 +9240,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Walmart\nWMT - 877.14B",
+          "l": "Walmart\nWMT - 879.61B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Omnichannel Retail Platform (Source-backed) anchor company. Rank #19.",
-          "s": "Market cap $877,139,460,096.",
+          "s": "Market cap $879,606,431,744.",
           "z": 23,
           "sourceId": "wmt-10k",
           "confidence": "high (company disclosure)"
@@ -9797,12 +9793,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Visa\nV - 678.19B",
+          "l": "Visa\nV - 678.96B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Global Payments Network (Source-backed) anchor company. Rank #20.",
-          "s": "Market cap $678,194,577,408.",
+          "s": "Market cap $678,964,297,728.",
           "z": 23,
           "sourceId": "visa-sec-filings",
           "confidence": "high (company disclosure)"
@@ -10206,12 +10202,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "ASML\nASML - 666.97B",
+          "l": "ASML\nASML - 670.10B",
           "tier": 0,
           "kind": "company",
           "c": "NL",
           "d": "Semiconductor Lithography Systems (Source-backed) anchor company. Rank #21.",
-          "s": "Market cap $666,966,556,672.",
+          "s": "Market cap $670,104,682,496.",
           "z": 23,
           "sourceId": "asml-annual",
           "confidence": "high (company disclosure)"
@@ -10636,12 +10632,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Exxon Mobil\nXOM - 661.40B",
+          "l": "Exxon Mobil\nXOM - 663.17B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Integrated Oil, Gas, and Emerging Lithium (Source-backed) anchor company. Rank #22.",
-          "s": "Market cap $661,401,042,944.",
+          "s": "Market cap $663,169,138,688.",
           "z": 23,
           "sourceId": "xom-10k",
           "confidence": "high (company disclosure)"
@@ -11060,12 +11056,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Johnson & Johnson\nJNJ - 645.27B",
+          "l": "Johnson & Johnson\nJNJ - 649.01B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Diversified Healthcare Platform (Source-backed) anchor company. Rank #23.",
-          "s": "Market cap $645,274,468,352.",
+          "s": "Market cap $649,009,758,208.",
           "z": 23,
           "sourceId": "jnj-10k",
           "confidence": "high (company disclosure)"
@@ -11484,12 +11480,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Intel\nINTC - 644.46B",
+          "l": "Intel\nINTC - 648.08B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Integrated Semiconductor Platform (Source-backed) anchor company. Rank #24.",
-          "s": "Market cap $644,455,530,496.",
+          "s": "Market cap $648,076,460,032.",
           "z": 23,
           "sourceId": "intc-10k-2025",
           "confidence": "high (company disclosure)"
@@ -11929,12 +11925,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Tencent\nTCEHY - 505.49B",
+          "l": "Tencent\nTCEHY - 505.22B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
           "d": "Digital Platform + Cloud Ecosystem (Source-backed) anchor company. Rank #26.",
-          "s": "Market cap $505,486,680,000.",
+          "s": "Market cap $505,215,690,000.",
           "z": 23,
           "sourceId": "tencent-financial-reports",
           "confidence": "high (company disclosure)"
@@ -12326,12 +12322,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Mastercard\nMA - 490.11B",
+          "l": "Mastercard\nMA - 490.67B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Card Network (Source-backed) anchor company. Rank #27.",
-          "s": "Market cap $490,110,025,728.",
+          "s": "Market cap $490,670,686,208.",
           "z": 23,
           "sourceId": "ma-sec",
           "confidence": "high (company disclosure)"
@@ -12756,12 +12752,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "AbbVie\nABBV - 468.00B",
+          "l": "AbbVie\nABBV - 468.55B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #28.",
-          "s": "Market cap $468,003,356,672.",
+          "s": "Market cap $468,551,139,328.",
           "z": 23,
           "sourceId": "abbv-annual",
           "confidence": "high (company disclosure)"
@@ -13186,12 +13182,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Palantir\nPLTR - 461.35B",
+          "l": "Palantir\nPLTR - 460.88B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Enterprise AI Platform (Source-backed) anchor company. Rank #29.",
-          "s": "Market cap $461,351,190,528.",
+          "s": "Market cap $460,882,575,360.",
           "z": 23,
           "sourceId": "pltr-ir",
           "confidence": "high (company disclosure)"
@@ -13616,12 +13612,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Oracle\nORCL - 437.10B",
+          "l": "Oracle\nORCL - 437.08B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Enterprise Cloud Platform (Source-backed) anchor company. Rank #30.",
-          "s": "Market cap $437,096,153,088.",
+          "s": "Market cap $437,081,047,040.",
           "z": 23,
           "sourceId": "orcl-sec",
           "confidence": "high (company disclosure)"
@@ -14443,12 +14439,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Cisco\nCSCO - 419.23B",
+          "l": "Cisco\nCSCO - 419.61B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Network Infrastructure Platform (Source-backed) anchor company. Rank #32.",
-          "s": "Market cap $419,234,971,648.",
+          "s": "Market cap $419,609,509,888.",
           "z": 23,
           "sourceId": "csco-ir",
           "confidence": "high (company disclosure)"
@@ -14867,12 +14863,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Chevron\nCVX - 401.97B",
+          "l": "Chevron\nCVX - 403.19B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Integrated Energy (Source-backed) anchor company. Rank #33.",
-          "s": "Market cap $401,971,740,672.",
+          "s": "Market cap $403,187,924,992.",
           "z": 23,
           "sourceId": "cvx-10k",
           "confidence": "high (company disclosure)"
@@ -15279,12 +15275,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Costco\nCOST - 400.62B",
+          "l": "Costco\nCOST - 401.22B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Warehouse Retail (Source-backed) anchor company. Rank #34.",
-          "s": "Market cap $400,616,587,264.",
+          "s": "Market cap $401,215,291,392.",
           "z": 23,
           "sourceId": "costco-results",
           "confidence": "high (company disclosure)"
@@ -15703,12 +15699,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Bank of America\nBAC - 391.35B",
+          "l": "Bank of America\nBAC - 391.66B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Universal Banking (Source-backed) anchor company. Rank #35.",
-          "s": "Market cap $391,349,174,272.",
+          "s": "Market cap $391,663,845,376.",
           "z": 23,
           "sourceId": "bac-annual",
           "confidence": "high (company disclosure)"
@@ -16106,12 +16102,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Lam Research\nLRCX - 383.74B",
+          "l": "Lam Research\nLRCX - 384.51B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Semiconductor Equipment (Source-backed) anchor company. Rank #36.",
-          "s": "Market cap $383,742,607,360.",
+          "s": "Market cap $384,505,905,152.",
           "z": 23,
           "sourceId": "lrcx-ir",
           "confidence": "high (company disclosure)"
@@ -16536,12 +16532,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Coca-Cola\nKO - 378.09B",
+          "l": "Coca-Cola\nKO - 379.03B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Global Beverage System (Source-backed) anchor company. Rank #37.",
-          "s": "Market cap $378,086,490,112.",
+          "s": "Market cap $379,033,059,328.",
           "z": 23,
           "sourceId": "ko-10k",
           "confidence": "high (company disclosure)"
@@ -16948,12 +16944,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Applied Materials\nAMAT - 375.51B",
+          "l": "Applied Materials\nAMAT - 376.47B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Semiconductor Equipment (Source-backed) anchor company. Rank #38.",
-          "s": "Market cap $375,514,431,488.",
+          "s": "Market cap $376,466,767,872.",
           "z": 23,
           "sourceId": "amat-ir",
           "confidence": "high (company disclosure)"
@@ -17378,12 +17374,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Caterpillar\nCAT - 373.62B",
+          "l": "Caterpillar\nCAT - 373.45B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Heavy Equipment Manufacturing (Source-backed) anchor company. Rank #39.",
-          "s": "Market cap $373,623,750,656.",
+          "s": "Market cap $373,449,064,448.",
           "z": 23,
           "sourceId": "cat-annual",
           "confidence": "high (company disclosure)"
@@ -17796,12 +17792,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Merck\nMRK - 365.10B",
+          "l": "Merck\nMRK - 365.49B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Pharma Pipeline (Source-backed) anchor company. Rank #40.",
-          "s": "Market cap $365,104,398,336.",
+          "s": "Market cap $365,486,800,896.",
           "z": 23,
           "sourceId": "mrk-ir",
           "confidence": "high (company disclosure)"
@@ -18644,12 +18640,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Arm Holdings\nARM - 356.15B",
+          "l": "Arm Holdings\nARM - 355.17B",
           "tier": 0,
           "kind": "company",
           "c": "UK",
           "d": "No verified relationship data published.",
-          "s": "Market cap $356,150,837,248.",
+          "s": "Market cap $355,173,597,184.",
           "z": 22
         }
       ],
@@ -18671,12 +18667,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Dell\nDELL - 348.35B",
+          "l": "Dell\nDELL - 349.33B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $348,352,282,624.",
+          "s": "Market cap $349,328,211,968.",
           "z": 22
         }
       ],
@@ -18698,12 +18694,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "HSBC\nHSBC - 343.24B",
+          "l": "HSBC\nHSBC - 342.80B",
           "tier": 0,
           "kind": "company",
           "c": "UK",
           "d": "Global Banking (Source-backed) anchor company. Rank #45.",
-          "s": "Market cap $343,243,358,208.",
+          "s": "Market cap $342,798,467,072.",
           "z": 23,
           "sourceId": "hsbc-ir",
           "confidence": "high (company disclosure)"
@@ -19498,12 +19494,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Procter & Gamble\nPG - 341.99B",
+          "l": "Procter & Gamble\nPG - 342.45B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Consumer Packaged Goods (Source-backed) anchor company. Rank #47.",
-          "s": "Market cap $341,990,309,888.",
+          "s": "Market cap $342,454,829,056.",
           "z": 23,
           "sourceId": "pg-annual",
           "confidence": "high (company disclosure)"
@@ -19916,12 +19912,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "UnitedHealth\nUNH - 332.90B",
+          "l": "UnitedHealth\nUNH - 333.31B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Healthcare Services and Benefits Platform (Source-backed) anchor company. Rank #48.",
-          "s": "Market cap $332,895,485,952.",
+          "s": "Market cap $333,312,851,968.",
           "z": 23,
           "sourceId": "unh-10k-2024",
           "confidence": "high (company disclosure)"
@@ -20334,12 +20330,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "General Electric\nGE - 332.22B",
+          "l": "General Electric\nGE - 331.90B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Industrial Systems (Source-backed) anchor company. Rank #49.",
-          "s": "Market cap $332,222,332,928.",
+          "s": "Market cap $331,895,504,896.",
           "z": 23,
           "sourceId": "ge-annual",
           "confidence": "high (company disclosure)"
@@ -20752,12 +20748,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Palo Alto Networks\nPANW - 321.04B",
+          "l": "Palo Alto Networks\nPANW - 321.72B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $321,040,449,536.",
+          "s": "Market cap $321,719,402,496.",
           "z": 22
         }
       ],
@@ -21191,12 +21187,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Morgan Stanley\nMS - 311.56B",
+          "l": "Morgan Stanley\nMS - 311.66B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Investment Banking (Source-backed) anchor company. Rank #52.",
-          "s": "Market cap $311,561,093,120.",
+          "s": "Market cap $311,663,165,440.",
           "z": 23,
           "sourceId": "ms-ir",
           "confidence": "high (company disclosure)"
@@ -21594,10 +21590,428 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "PM": {
+      "symbol": "PM",
+      "company": "Philip Morris International",
+      "rank": 53,
+      "category": "Consumer Products Portfolio (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Philip Morris International\nPM - 297.30B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Consumer Products Portfolio (Source-backed) anchor company. Rank #53.",
+          "s": "Market cap $297,297,707,008.",
+          "z": 23,
+          "sourceId": "pm-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-swedish-match-ab-0",
+          "l": "Swedish Match AB\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "SE",
+          "d": "Swedish Match AB",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-vectura-group-ltd-1",
+          "l": "Vectura Group Ltd.\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "Vectura Group Ltd.",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-altria-group-inc-2",
+          "l": "Altria Group, Inc.\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Altria Group, Inc.",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-leaf-tobacco-and-agricultural-inputs-3",
+          "l": "Leaf Tobacco and Agricultural Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Leaf Tobacco and Agricultural Inputs",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-reduced-risk-product-component-inputs-4",
+          "l": "Reduced-Risk Product Component Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Reduced-Risk Product Component Inputs",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-responsible-sourcing-and-farmer-programs-0",
+          "l": "Responsible Sourcing and Farmer Programs\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Responsible Sourcing and Farmer Programs",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-and-compliance-services-1",
+          "l": "Regulatory and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Regulatory and Compliance Services",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-distribution-and-trade-services-2",
+          "l": "Global Distribution and Trade Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Global Distribution and Trade Services",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-fx-risk-services-3",
+          "l": "Treasury and FX Risk Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and FX Risk Services",
+          "s": "PM depends on this node.",
+          "sourceId": "pm-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-altria-group-inc-0",
+          "l": "Altria Group, Inc.\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Altria Group, Inc.",
+          "s": "PM serves this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-combustible-product-retail-channels-1",
+          "l": "Combustible Product Retail Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Combustible Product Retail Channels",
+          "s": "PM serves this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-heated-tobacco-device-channels-2",
+          "l": "Heated Tobacco Device Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Heated Tobacco Device Channels",
+          "s": "PM serves this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-pmi-global-travel-retail-3",
+          "l": "PMI Global Travel Retail\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "PMI Global Travel Retail",
+          "s": "PM serves this node.",
+          "sourceId": "pm-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-adult-smoker-conversion-demand-0",
+          "l": "Adult Smoker Conversion Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Adult Smoker Conversion Demand",
+          "s": "PM serves this node.",
+          "sourceId": "pm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-reduced-risk-product-demand-1",
+          "l": "Reduced-Risk Product Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Reduced-Risk Product Demand",
+          "s": "PM serves this node.",
+          "sourceId": "pm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-global-nicotine-product-demand-2",
+          "l": "Global Nicotine Product Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Global Nicotine Product Demand",
+          "s": "PM serves this node.",
+          "sourceId": "pm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-swedish-match-ab-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed supplier dependency for PM."
+        },
+        {
+          "s": "supplier-in-vectura-group-ltd-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed supplier dependency for PM."
+        },
+        {
+          "s": "supplier-in-altria-group-inc-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed supplier dependency for PM."
+        },
+        {
+          "s": "supplier-in-leaf-tobacco-and-agricultural-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed supplier dependency for PM."
+        },
+        {
+          "s": "supplier-in-reduced-risk-product-component-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed supplier dependency for PM."
+        },
+        {
+          "s": "service-in-responsible-sourcing-and-farmer-programs-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-sec",
+          "n": "Source-backed service dependency for PM."
+        },
+        {
+          "s": "service-in-regulatory-and-compliance-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-sec",
+          "n": "Source-backed service dependency for PM."
+        },
+        {
+          "s": "service-in-global-distribution-and-trade-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-sec",
+          "n": "Source-backed service dependency for PM."
+        },
+        {
+          "s": "service-in-treasury-and-fx-risk-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "pm-sec",
+          "n": "Source-backed service dependency for PM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-altria-group-inc-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed channel route for PM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-combustible-product-retail-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed channel route for PM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-heated-tobacco-device-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed channel route for PM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-pmi-global-travel-retail-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "pm-10k",
+          "n": "Source-backed channel route for PM."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-adult-smoker-conversion-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "pm-ir",
+          "n": "Source-backed demand route for PM."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-reduced-risk-product-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "pm-ir",
+          "n": "Source-backed demand route for PM."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-global-nicotine-product-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "pm-ir",
+          "n": "Source-backed demand route for PM."
+        },
+        {
+          "s": "channel-out-altria-group-inc-0",
+          "t": "demand-out-adult-smoker-conversion-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "pm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for PM."
+        },
+        {
+          "s": "channel-out-combustible-product-retail-channels-1",
+          "t": "demand-out-reduced-risk-product-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "pm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for PM."
+        },
+        {
+          "s": "channel-out-heated-tobacco-device-channels-2",
+          "t": "demand-out-global-nicotine-product-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "pm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for PM."
+        }
+      ],
+      "sources": [
+        {
+          "id": "pm-ir",
+          "title": "Philip Morris investor relations",
+          "url": "https://investors.pmi.com/",
+          "note": "Financial performance and demand context."
+        },
+        {
+          "id": "pm-sec",
+          "title": "Philip Morris SEC filings",
+          "url": "https://investors.pmi.com/financials/sec-filings/default.aspx",
+          "note": "Operational and risk disclosures."
+        },
+        {
+          "id": "pm-10k",
+          "title": "Philip Morris International FY2025 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
+          "note": "Primary filing with named entities including Swedish Match AB, Vectura Group Ltd., and Altria Group, Inc."
+        },
+        {
+          "id": "pm-supply",
+          "title": "PMI supply chain sustainability",
+          "url": "https://www.pmi.com/sustainability/our-supply-chain",
+          "note": "Supplier and sourcing strategy context."
+        }
+      ]
+    },
     "NFLX": {
       "symbol": "NFLX",
       "company": "Netflix",
-      "rank": 53,
+      "rank": 54,
       "category": "Streaming Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -21609,12 +22023,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Netflix\nNFLX - 297.12B",
+          "l": "Netflix\nNFLX - 297.14B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Streaming Platform (Source-backed) anchor company. Rank #53.",
-          "s": "Market cap $297,117,908,992.",
+          "d": "Streaming Platform (Source-backed) anchor company. Rank #54.",
+          "s": "Market cap $297,138,716,672.",
           "z": 23,
           "sourceId": "nflx-10k",
           "confidence": "high (company disclosure)"
@@ -22033,7 +22447,7 @@ window.SUPPLY_MAP_DATA = {
     "HD": {
       "symbol": "HD",
       "company": "Home Depot",
-      "rank": 54,
+      "rank": 55,
       "category": "Home Improvement Retail (Source-backed)",
       "layers": {
         "0": "Company",
@@ -22045,12 +22459,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Home Depot\nHD - 296.65B",
+          "l": "Home Depot\nHD - 296.18B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Home Improvement Retail (Source-backed) anchor company. Rank #54.",
-          "s": "Market cap $296,648,015,872.",
+          "d": "Home Improvement Retail (Source-backed) anchor company. Rank #55.",
+          "s": "Market cap $296,184,119,296.",
           "z": 23,
           "sourceId": "hd-annual",
           "confidence": "high (company disclosure)"
@@ -22442,424 +22856,6 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "PM": {
-      "symbol": "PM",
-      "company": "Philip Morris International",
-      "rank": 55,
-      "category": "Consumer Products Portfolio (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Philip Morris International\nPM - 294.32B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Consumer Products Portfolio (Source-backed) anchor company. Rank #55.",
-          "s": "Market cap $294,320,766,976.",
-          "z": 23,
-          "sourceId": "pm-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-swedish-match-ab-0",
-          "l": "Swedish Match AB\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "SE",
-          "d": "Swedish Match AB",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-vectura-group-ltd-1",
-          "l": "Vectura Group Ltd.\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "Vectura Group Ltd.",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-altria-group-inc-2",
-          "l": "Altria Group, Inc.\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Altria Group, Inc.",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-leaf-tobacco-and-agricultural-inputs-3",
-          "l": "Leaf Tobacco and Agricultural Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Leaf Tobacco and Agricultural Inputs",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-reduced-risk-product-component-inputs-4",
-          "l": "Reduced-Risk Product Component Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Reduced-Risk Product Component Inputs",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-responsible-sourcing-and-farmer-programs-0",
-          "l": "Responsible Sourcing and Farmer Programs\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Responsible Sourcing and Farmer Programs",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-and-compliance-services-1",
-          "l": "Regulatory and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Regulatory and Compliance Services",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-distribution-and-trade-services-2",
-          "l": "Global Distribution and Trade Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Global Distribution and Trade Services",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-fx-risk-services-3",
-          "l": "Treasury and FX Risk Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and FX Risk Services",
-          "s": "PM depends on this node.",
-          "sourceId": "pm-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-altria-group-inc-0",
-          "l": "Altria Group, Inc.\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Altria Group, Inc.",
-          "s": "PM serves this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-combustible-product-retail-channels-1",
-          "l": "Combustible Product Retail Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Combustible Product Retail Channels",
-          "s": "PM serves this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-heated-tobacco-device-channels-2",
-          "l": "Heated Tobacco Device Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Heated Tobacco Device Channels",
-          "s": "PM serves this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-pmi-global-travel-retail-3",
-          "l": "PMI Global Travel Retail\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "PMI Global Travel Retail",
-          "s": "PM serves this node.",
-          "sourceId": "pm-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-adult-smoker-conversion-demand-0",
-          "l": "Adult Smoker Conversion Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Adult Smoker Conversion Demand",
-          "s": "PM serves this node.",
-          "sourceId": "pm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-reduced-risk-product-demand-1",
-          "l": "Reduced-Risk Product Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Reduced-Risk Product Demand",
-          "s": "PM serves this node.",
-          "sourceId": "pm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-global-nicotine-product-demand-2",
-          "l": "Global Nicotine Product Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Global Nicotine Product Demand",
-          "s": "PM serves this node.",
-          "sourceId": "pm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-swedish-match-ab-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed supplier dependency for PM."
-        },
-        {
-          "s": "supplier-in-vectura-group-ltd-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed supplier dependency for PM."
-        },
-        {
-          "s": "supplier-in-altria-group-inc-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed supplier dependency for PM."
-        },
-        {
-          "s": "supplier-in-leaf-tobacco-and-agricultural-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed supplier dependency for PM."
-        },
-        {
-          "s": "supplier-in-reduced-risk-product-component-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed supplier dependency for PM."
-        },
-        {
-          "s": "service-in-responsible-sourcing-and-farmer-programs-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-sec",
-          "n": "Source-backed service dependency for PM."
-        },
-        {
-          "s": "service-in-regulatory-and-compliance-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-sec",
-          "n": "Source-backed service dependency for PM."
-        },
-        {
-          "s": "service-in-global-distribution-and-trade-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-sec",
-          "n": "Source-backed service dependency for PM."
-        },
-        {
-          "s": "service-in-treasury-and-fx-risk-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "pm-sec",
-          "n": "Source-backed service dependency for PM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-altria-group-inc-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed channel route for PM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-combustible-product-retail-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed channel route for PM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-heated-tobacco-device-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed channel route for PM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-pmi-global-travel-retail-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "pm-10k",
-          "n": "Source-backed channel route for PM."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-adult-smoker-conversion-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "pm-ir",
-          "n": "Source-backed demand route for PM."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-reduced-risk-product-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "pm-ir",
-          "n": "Source-backed demand route for PM."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-global-nicotine-product-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "pm-ir",
-          "n": "Source-backed demand route for PM."
-        },
-        {
-          "s": "channel-out-altria-group-inc-0",
-          "t": "demand-out-adult-smoker-conversion-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "pm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for PM."
-        },
-        {
-          "s": "channel-out-combustible-product-retail-channels-1",
-          "t": "demand-out-reduced-risk-product-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "pm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for PM."
-        },
-        {
-          "s": "channel-out-heated-tobacco-device-channels-2",
-          "t": "demand-out-global-nicotine-product-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "pm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for PM."
-        }
-      ],
-      "sources": [
-        {
-          "id": "pm-ir",
-          "title": "Philip Morris investor relations",
-          "url": "https://investors.pmi.com/",
-          "note": "Financial performance and demand context."
-        },
-        {
-          "id": "pm-sec",
-          "title": "Philip Morris SEC filings",
-          "url": "https://investors.pmi.com/financials/sec-filings/default.aspx",
-          "note": "Operational and risk disclosures."
-        },
-        {
-          "id": "pm-10k",
-          "title": "Philip Morris International FY2025 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/1413329/000162828026005939/pm-20251231.htm",
-          "note": "Primary filing with named entities including Swedish Match AB, Vectura Group Ltd., and Altria Group, Inc."
-        },
-        {
-          "id": "pm-supply",
-          "title": "PMI supply chain sustainability",
-          "url": "https://www.pmi.com/sustainability/our-supply-chain",
-          "note": "Supplier and sourcing strategy context."
-        }
-      ]
-    },
     "RY": {
       "symbol": "RY",
       "company": "Royal Bank Of Canada",
@@ -22875,12 +22871,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Royal Bank Of Canada\nRY - 276.69B",
+          "l": "Royal Bank Of Canada\nRY - 276.17B",
           "tier": 0,
           "kind": "company",
           "c": "CA",
           "d": "Universal Banking and Business Segment Network (Source-backed) anchor company. Rank #56.",
-          "s": "Market cap $276,692,140,032.",
+          "s": "Market cap $276,166,049,792.",
           "z": 23,
           "sourceId": "rbc-about",
           "confidence": "high (company disclosure)"
@@ -23272,12 +23268,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Alibaba\nBABA - 275.88B",
+          "l": "Alibaba\nBABA - 275.36B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
           "d": "E-commerce + Logistics Platform (Source-backed) anchor company. Rank #57.",
-          "s": "Market cap $275,879,362,560.",
+          "s": "Market cap $275,357,368,320.",
           "z": 23,
           "sourceId": "baba-reports",
           "confidence": "high (company disclosure)"
@@ -23702,12 +23698,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Goldman Sachs\nGS - 273.02B",
+          "l": "Goldman Sachs\nGS - 272.66B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Investment Banking (Source-backed) anchor company. Rank #58.",
-          "s": "Market cap $273,016,864,768.",
+          "s": "Market cap $272,655,794,176.",
           "z": 23,
           "sourceId": "gs-ir",
           "confidence": "high (company disclosure)"
@@ -24120,12 +24116,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Shell\nSHEL - 271.89B",
+          "l": "Shell\nSHEL - 272.29B",
           "tier": 0,
           "kind": "company",
           "c": "UK",
           "d": "Integrated Energy (Source-backed) anchor company. Rank #59.",
-          "s": "Market cap $271,888,728,064.",
+          "s": "Market cap $272,288,284,672.",
           "z": 23,
           "sourceId": "shel-20f-2024",
           "confidence": "high (company disclosure)"
@@ -24532,12 +24528,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Novartis\nNVS - 270.81B",
+          "l": "Novartis\nNVS - 271.33B",
           "tier": 0,
           "kind": "company",
           "c": "CH",
           "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #60.",
-          "s": "Market cap $270,813,855,744.",
+          "s": "Market cap $271,327,051,776.",
           "z": 23,
           "sourceId": "nvs-ir",
           "confidence": "high (company disclosure)"
@@ -24962,12 +24958,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "CrowdStrike\nCRWD - 268.40B",
+          "l": "CrowdStrike\nCRWD - 268.77B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $268,404,047,872.",
+          "s": "Market cap $268,772,655,104.",
           "z": 22
         }
       ],
@@ -24989,12 +24985,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Sandisk\nSNDK - 264.38B",
+          "l": "Sandisk\nSNDK - 265.98B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $264,380,022,784.",
+          "s": "Market cap $265,980,362,752.",
           "z": 22
         }
       ],
@@ -25043,12 +25039,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "RTX\nRTX - 259.36B",
+          "l": "RTX\nRTX - 259.11B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Aerospace & Defense Systems (Source-backed) anchor company. Rank #64.",
-          "s": "Market cap $259,355,820,032.",
+          "s": "Market cap $259,113,238,528.",
           "z": 23,
           "sourceId": "rtx-ir",
           "confidence": "high (company disclosure)"
@@ -25461,12 +25457,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Mitsubishi UFJ Financial\nMUFG - 256.97B",
+          "l": "Mitsubishi UFJ Financial\nMUFG - 256.86B",
           "tier": 0,
           "kind": "company",
           "c": "JP",
           "d": "Global Banking (Source-backed) anchor company. Rank #65.",
-          "s": "Market cap $256,969,113,600.",
+          "s": "Market cap $256,856,555,520.",
           "z": 23,
           "sourceId": "mufg-major-companies",
           "confidence": "high (company disclosure)"
@@ -25873,428 +25869,22 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Arista Networks\nANET - 256.53B",
+          "l": "Arista Networks\nANET - 256.62B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $256,533,102,592.",
+          "s": "Market cap $256,621,395,968.",
           "z": 22
         }
       ],
       "links": [],
       "sources": []
     },
-    "AZN": {
-      "symbol": "AZN",
-      "company": "AstraZeneca",
-      "rank": 67,
-      "category": "Biopharma Pipeline (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "AstraZeneca\nAZN - 253.56B",
-          "tier": 0,
-          "kind": "company",
-          "c": "UK",
-          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #67.",
-          "s": "Market cap $253,555,982,336.",
-          "z": 23,
-          "sourceId": "azn-20f",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-alexion-pharmaceuticals-0",
-          "l": "Alexion Pharmaceuticals\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Alexion Pharmaceuticals",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-daiichi-sankyo-1",
-          "l": "Daiichi Sankyo\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "JP",
-          "d": "Daiichi Sankyo",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-msd-merck-2",
-          "l": "MSD (Merck)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "MSD (Merck)",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-api-and-biologics-manufacturing-inputs-3",
-          "l": "API and Biologics Manufacturing Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "API and Biologics Manufacturing Inputs",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
-          "l": "External Manufacturing and Fill-Finish Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "External Manufacturing and Fill-Finish Inputs",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
-          "l": "Regulatory Affairs and Pharmacovigilance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Regulatory Affairs and Pharmacovigilance Services",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-distribution-and-cold-chain-services-1",
-          "l": "Global Distribution and Cold-Chain Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Global Distribution and Cold-Chain Services",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-risk-management-services-2",
-          "l": "Treasury and Risk Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Treasury and Risk Management Services",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-clinical-development-and-trial-operations-3",
-          "l": "Clinical Development and Trial Operations\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Clinical Development and Trial Operations",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-hospital-and-oncology-channels-0",
-          "l": "Hospital and Oncology Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Hospital and Oncology Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-specialty-and-retail-pharmacy-channels-1",
-          "l": "Specialty and Retail Pharmacy Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Specialty and Retail Pharmacy Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-government-and-public-health-channels-2",
-          "l": "Government and Public Health Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Government and Public Health Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-rare-disease-and-specialty-channels-3",
-          "l": "Rare Disease and Specialty Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Rare Disease and Specialty Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-oncology-portfolio-demand-0",
-          "l": "Oncology Portfolio Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Oncology Portfolio Demand",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-rare-disease-and-specialty-demand-1",
-          "l": "Rare Disease and Specialty Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Rare Disease and Specialty Demand",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-global-biopharma-treatment-demand-2",
-          "l": "Global Biopharma Treatment Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Global Biopharma Treatment Demand",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-alexion-pharmaceuticals-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-daiichi-sankyo-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-msd-merck-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-api-and-biologics-manufacturing-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "service-in-global-distribution-and-cold-chain-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "service-in-treasury-and-risk-management-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "service-in-clinical-development-and-trial-operations-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-hospital-and-oncology-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-specialty-and-retail-pharmacy-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-government-and-public-health-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-rare-disease-and-specialty-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-oncology-portfolio-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-rare-disease-and-specialty-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-global-biopharma-treatment-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand route for AZN."
-        },
-        {
-          "s": "channel-out-hospital-and-oncology-channels-0",
-          "t": "demand-out-oncology-portfolio-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand transfer from channel to end-demand for AZN."
-        },
-        {
-          "s": "channel-out-specialty-and-retail-pharmacy-channels-1",
-          "t": "demand-out-rare-disease-and-specialty-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand transfer from channel to end-demand for AZN."
-        },
-        {
-          "s": "channel-out-government-and-public-health-channels-2",
-          "t": "demand-out-global-biopharma-treatment-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand transfer from channel to end-demand for AZN."
-        }
-      ],
-      "sources": [
-        {
-          "id": "azn-20f",
-          "title": "AstraZeneca FY2024 Form 20-F",
-          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
-          "note": "Primary filing with named strategic collaborations including Alexion, Daiichi Sankyo, and MSD (Merck)."
-        },
-        {
-          "id": "azn-submissions",
-          "title": "SEC submissions for AstraZeneca plc",
-          "url": "https://data.sec.gov/submissions/CIK0000901832.json",
-          "note": "Regulatory filing index for AstraZeneca including annual 20-F and current 6-K disclosures."
-        }
-      ]
-    },
     "GEV": {
       "symbol": "GEV",
       "company": "GE Vernova",
-      "rank": 68,
+      "rank": 67,
       "category": "Grid and Energy Equipment (Source-backed)",
       "layers": {
         "0": "Company",
@@ -26306,12 +25896,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "GE Vernova\nGEV - 253.01B",
+          "l": "GE Vernova\nGEV - 253.40B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Grid and Energy Equipment (Source-backed) anchor company. Rank #68.",
-          "s": "Market cap $253,007,593,472.",
+          "d": "Grid and Energy Equipment (Source-backed) anchor company. Rank #67.",
+          "s": "Market cap $253,395,091,456.",
           "z": 23,
           "sourceId": "gev-10k-2025",
           "confidence": "high (company disclosure)"
@@ -26703,6 +26293,412 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "AZN": {
+      "symbol": "AZN",
+      "company": "AstraZeneca",
+      "rank": 68,
+      "category": "Biopharma Pipeline (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "AstraZeneca\nAZN - 253.32B",
+          "tier": 0,
+          "kind": "company",
+          "c": "UK",
+          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #68.",
+          "s": "Market cap $253,323,329,536.",
+          "z": 23,
+          "sourceId": "azn-20f",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-alexion-pharmaceuticals-0",
+          "l": "Alexion Pharmaceuticals\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Alexion Pharmaceuticals",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-daiichi-sankyo-1",
+          "l": "Daiichi Sankyo\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "JP",
+          "d": "Daiichi Sankyo",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-msd-merck-2",
+          "l": "MSD (Merck)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "MSD (Merck)",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-api-and-biologics-manufacturing-inputs-3",
+          "l": "API and Biologics Manufacturing Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "API and Biologics Manufacturing Inputs",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
+          "l": "External Manufacturing and Fill-Finish Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "External Manufacturing and Fill-Finish Inputs",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
+          "l": "Regulatory Affairs and Pharmacovigilance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Regulatory Affairs and Pharmacovigilance Services",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-distribution-and-cold-chain-services-1",
+          "l": "Global Distribution and Cold-Chain Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Global Distribution and Cold-Chain Services",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-risk-management-services-2",
+          "l": "Treasury and Risk Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Treasury and Risk Management Services",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-clinical-development-and-trial-operations-3",
+          "l": "Clinical Development and Trial Operations\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Clinical Development and Trial Operations",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-hospital-and-oncology-channels-0",
+          "l": "Hospital and Oncology Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Hospital and Oncology Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-specialty-and-retail-pharmacy-channels-1",
+          "l": "Specialty and Retail Pharmacy Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Specialty and Retail Pharmacy Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-government-and-public-health-channels-2",
+          "l": "Government and Public Health Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Government and Public Health Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-rare-disease-and-specialty-channels-3",
+          "l": "Rare Disease and Specialty Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Rare Disease and Specialty Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-oncology-portfolio-demand-0",
+          "l": "Oncology Portfolio Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Oncology Portfolio Demand",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-rare-disease-and-specialty-demand-1",
+          "l": "Rare Disease and Specialty Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Rare Disease and Specialty Demand",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-global-biopharma-treatment-demand-2",
+          "l": "Global Biopharma Treatment Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Global Biopharma Treatment Demand",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-alexion-pharmaceuticals-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-daiichi-sankyo-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-msd-merck-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-api-and-biologics-manufacturing-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "service-in-global-distribution-and-cold-chain-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "service-in-treasury-and-risk-management-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "service-in-clinical-development-and-trial-operations-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-hospital-and-oncology-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-specialty-and-retail-pharmacy-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-government-and-public-health-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-rare-disease-and-specialty-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-oncology-portfolio-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-rare-disease-and-specialty-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-global-biopharma-treatment-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand route for AZN."
+        },
+        {
+          "s": "channel-out-hospital-and-oncology-channels-0",
+          "t": "demand-out-oncology-portfolio-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand transfer from channel to end-demand for AZN."
+        },
+        {
+          "s": "channel-out-specialty-and-retail-pharmacy-channels-1",
+          "t": "demand-out-rare-disease-and-specialty-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand transfer from channel to end-demand for AZN."
+        },
+        {
+          "s": "channel-out-government-and-public-health-channels-2",
+          "t": "demand-out-global-biopharma-treatment-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand transfer from channel to end-demand for AZN."
+        }
+      ],
+      "sources": [
+        {
+          "id": "azn-20f",
+          "title": "AstraZeneca FY2024 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
+          "note": "Primary filing with named strategic collaborations including Alexion, Daiichi Sankyo, and MSD (Merck)."
+        },
+        {
+          "id": "azn-submissions",
+          "title": "SEC submissions for AstraZeneca plc",
+          "url": "https://data.sec.gov/submissions/CIK0000901832.json",
+          "note": "Regulatory filing index for AstraZeneca including annual 20-F and current 6-K disclosures."
+        }
+      ]
+    },
     "TXN": {
       "symbol": "TXN",
       "company": "Texas Instruments",
@@ -26718,12 +26714,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Texas Instruments\nTXN - 248.44B",
+          "l": "Texas Instruments\nTXN - 248.97B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Analog Semiconductor Platform (Source-backed) anchor company. Rank #69.",
-          "s": "Market cap $248,439,914,496.",
+          "s": "Market cap $248,969,576,448.",
           "z": 23,
           "sourceId": "txn-ir",
           "confidence": "high (company disclosure)"
@@ -27130,12 +27126,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Wells Fargo\nWFC - 247.51B",
+          "l": "Wells Fargo\nWFC - 247.82B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Universal Banking (Source-backed) anchor company. Rank #70.",
-          "s": "Market cap $247,514,333,184.",
+          "s": "Market cap $247,816,732,672.",
           "z": 23,
           "sourceId": "wfc-ir",
           "confidence": "high (company disclosure)"
@@ -27548,12 +27544,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Thermo Fisher Scientific\nTMO - 245.45B",
+          "l": "Thermo Fisher Scientific\nTMO - 246.11B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Life Sciences Tools Platform (Source-backed) anchor company. Rank #71.",
-          "s": "Market cap $245,447,507,968.",
+          "s": "Market cap $246,105,636,864.",
           "z": 23,
           "sourceId": "tmo-ir",
           "confidence": "high (company disclosure)"
@@ -27960,12 +27956,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "KLA\nKLAC - 244.87B",
+          "l": "KLA\nKLAC - 245.45B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Semiconductor Process Control (Source-backed) anchor company. Rank #72.",
-          "s": "Market cap $244,873,003,008.",
+          "s": "Market cap $245,447,884,800.",
           "z": 23,
           "sourceId": "klac-ir",
           "confidence": "high (company disclosure)"
@@ -28784,12 +28780,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "SAP\nSAP - 243.29B",
+          "l": "SAP\nSAP - 243.09B",
           "tier": 0,
           "kind": "company",
           "c": "DE",
           "d": "Enterprise Software Platform (Source-backed) anchor company. Rank #74.",
-          "s": "Market cap $243,294,715,904.",
+          "s": "Market cap $243,086,966,784.",
           "z": 23,
           "sourceId": "sap-20f-2024",
           "confidence": "high (company disclosure)"
@@ -29587,10 +29583,37 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "MRVL": {
+      "symbol": "MRVL",
+      "company": "Marvell Technology",
+      "rank": 76,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Marvell Technology\nMRVL - 234.47B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $234,472,030,208.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
     "600519.SS": {
       "symbol": "600519.SS",
       "company": "Kweichow Moutai",
-      "rank": 76,
+      "rank": 77,
       "category": "Chinese Premium Baijiu Network (Source-backed)",
       "layers": {
         "0": "Company",
@@ -29606,7 +29629,7 @@ window.SUPPLY_MAP_DATA = {
           "tier": 0,
           "kind": "company",
           "c": "CN",
-          "d": "Chinese Premium Baijiu Network (Source-backed) anchor company. Rank #76.",
+          "d": "Chinese Premium Baijiu Network (Source-backed) anchor company. Rank #77.",
           "s": "Market cap $233,250,141,458.",
           "z": 23,
           "sourceId": "moutai-annual-2024",
@@ -29998,33 +30021,6 @@ window.SUPPLY_MAP_DATA = {
           "note": "Official company and channel context."
         }
       ]
-    },
-    "MRVL": {
-      "symbol": "MRVL",
-      "company": "Marvell Technology",
-      "rank": 77,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Marvell Technology\nMRVL - 233.03B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $233,034,104,832.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
     },
     "OR.PA": {
       "symbol": "OR.PA",
@@ -30549,12 +30545,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Toyota\nTM - 225.58B",
+          "l": "Toyota\nTM - 225.35B",
           "tier": 0,
           "kind": "company",
           "c": "JP",
           "d": "Automotive Manufacturing (Source-backed) anchor company. Rank #80.",
-          "s": "Market cap $225,575,108,608.",
+          "s": "Market cap $225,350,107,136.",
           "z": 23,
           "sourceId": "tm-ir",
           "confidence": "high (company disclosure)"
@@ -31797,12 +31793,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Citigroup\nC - 221.32B",
+          "l": "Citigroup\nC - 221.39B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Global Banking (Source-backed) anchor company. Rank #83.",
-          "s": "Market cap $221,321,019,392.",
+          "s": "Market cap $221,388,095,488.",
           "z": 23,
           "sourceId": "citi-ir",
           "confidence": "high (company disclosure)"
@@ -32209,12 +32205,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Amgen\nAMGN - 220.18B",
+          "l": "Amgen\nAMGN - 219.55B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #84.",
-          "s": "Market cap $220,183,183,360.",
+          "s": "Market cap $219,545,239,552.",
           "z": 23,
           "sourceId": "amgn-ir",
           "confidence": "high (company disclosure)"
@@ -32621,12 +32617,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "IBM\nIBM - 219.57B",
+          "l": "IBM\nIBM - 219.37B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Enterprise Tech Platform and Ecosystem (Source-backed) anchor company. Rank #85.",
-          "s": "Market cap $219,573,846,016.",
+          "s": "Market cap $219,366,572,032.",
           "z": 23,
           "sourceId": "ibm-ir",
           "confidence": "high (company disclosure)"
@@ -33842,12 +33838,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Linde\nLIN - 216.92B",
+          "l": "Linde\nLIN - 216.53B",
           "tier": 0,
           "kind": "company",
           "c": "UK",
           "d": "Industrial Gases Platform (Source-backed) anchor company. Rank #88.",
-          "s": "Market cap $216,923,439,104.",
+          "s": "Market cap $216,531,599,360.",
           "z": 23,
           "sourceId": "lin-10k-2024",
           "confidence": "high (company disclosure)"
@@ -34254,12 +34250,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "BHP Group\nBHP - 216.09B",
+          "l": "BHP Group\nBHP - 215.82B",
           "tier": 0,
           "kind": "company",
           "c": "AU",
           "d": "Mining and Materials Platform (Source-backed) anchor company. Rank #89.",
-          "s": "Market cap $216,089,067,520.",
+          "s": "Market cap $215,822,204,928.",
           "z": 23,
           "sourceId": "bhp-ir",
           "confidence": "high (company disclosure)"
@@ -34666,12 +34662,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "QUALCOMM\nQCOM - 210.68B",
+          "l": "QUALCOMM\nQCOM - 210.66B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $210,680,283,136.",
+          "s": "Market cap $210,664,259,584.",
           "z": 22
         }
       ],
@@ -34693,12 +34689,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Seagate Technology\nSTX - 209.68B",
+          "l": "Seagate Technology\nSTX - 210.08B",
           "tier": 0,
           "kind": "company",
-          "c": "XX",
+          "c": "IE",
           "d": "No verified relationship data published.",
-          "s": "Market cap $209,683,644,416.",
+          "s": "Market cap $210,079,301,632.",
           "z": 22
         }
       ],
@@ -35111,12 +35107,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Santander\nSAN - 206.07B",
+          "l": "Santander\nSAN - 205.93B",
           "tier": 0,
           "kind": "company",
           "c": "ES",
           "d": "Global Banking (Source-backed) anchor company. Rank #93.",
-          "s": "Market cap $206,069,022,720.",
+          "s": "Market cap $205,931,200,512.",
           "z": 23,
           "sourceId": "san-ir",
           "confidence": "high (company disclosure)"
@@ -35523,12 +35519,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "American Express\nAXP - 203.69B",
+          "l": "American Express\nAXP - 204.04B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Card Network and Issuer (Source-backed) anchor company. Rank #94.",
-          "s": "Market cap $203,693,703,168.",
+          "s": "Market cap $204,038,127,616.",
           "z": 23,
           "sourceId": "axp-10k-2025",
           "confidence": "high (company disclosure)"
@@ -35935,12 +35931,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Amphenol\nAPH - 202.88B",
+          "l": "Amphenol\nAPH - 202.78B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Interconnect Components Platform (Source-backed) anchor company. Rank #95.",
-          "s": "Market cap $202,875,076,608.",
+          "s": "Market cap $202,776,461,312.",
           "z": 23,
           "sourceId": "aph-ir",
           "confidence": "high (company disclosure)"
@@ -36347,21 +36343,21 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "TotalEnergies\nTTE - 202.03B",
+          "l": "TotalEnergies\nTTE - 202.55B",
           "tier": 0,
           "kind": "company",
           "c": "FR",
           "d": "No verified relationship data published.",
-          "s": "Market cap $202,027,515,904.",
+          "s": "Market cap $202,546,429,952.",
           "z": 22
         }
       ],
       "links": [],
       "sources": []
     },
-    "CRM": {
-      "symbol": "CRM",
-      "company": "Salesforce",
+    "TD": {
+      "symbol": "TD",
+      "company": "Toronto Dominion Bank",
       "rank": 97,
       "category": "Relationship research pending",
       "layers": {
@@ -36374,21 +36370,21 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Salesforce\nCRM - 196.29B",
+          "l": "Toronto Dominion Bank\nTD - 195.69B",
           "tier": 0,
           "kind": "company",
-          "c": "US",
+          "c": "CA",
           "d": "No verified relationship data published.",
-          "s": "Market cap $196,285,497,344.",
+          "s": "Market cap $195,687,366,656.",
           "z": 22
         }
       ],
       "links": [],
       "sources": []
     },
-    "TD": {
-      "symbol": "TD",
-      "company": "Toronto Dominion Bank",
+    "CRM": {
+      "symbol": "CRM",
+      "company": "Salesforce",
       "rank": 98,
       "category": "Relationship research pending",
       "layers": {
@@ -36401,12 +36397,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Toronto Dominion Bank\nTD - 196.20B",
+          "l": "Salesforce\nCRM - 195.54B",
           "tier": 0,
           "kind": "company",
-          "c": "CA",
+          "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $196,203,495,424.",
+          "s": "Market cap $195,536,568,320.",
           "z": 22
         }
       ],
@@ -36428,12 +36424,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Verizon\nVZ - 193.40B",
+          "l": "Verizon\nVZ - 193.32B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Telecom Network Platform (Source-backed) anchor company. Rank #99.",
-          "s": "Market cap $193,404,780,544.",
+          "s": "Market cap $193,321,697,280.",
           "z": 23,
           "sourceId": "vz-ir",
           "confidence": "high (company disclosure)"
@@ -36840,12 +36836,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Deere &amp; Company (John Deere)\nDE - 191.25B",
+          "l": "Deere &amp; Company (John Deere)\nDE - 191.32B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $191,247,990,784.",
+          "s": "Market cap $191,319,457,792.",
           "z": 22
         }
       ],
