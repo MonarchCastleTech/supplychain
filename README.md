@@ -11,14 +11,14 @@
   ![license](https://img.shields.io/badge/license-see%20LICENSE-lightgrey)
 </div>
 
-> **Executive summary** — Supply Chain is an interactive market-intelligence map of the dependency networks behind the world's 100 largest public companies by market capitalization. Analysts, strategists, and risk teams use it to trace upstream inputs, service and channel partners, demand relationships, and credit-rating context — with every relationship carrying a source link and a confidence level. Market-cap rankings refresh automatically each week, so the picture stays current without manual upkeep.
+> **Executive summary** — Supply Chain is an interactive market-cap landscape for 100 public companies, with company-level dependency profiles where source material has been reviewed. The global overview has no company-to-company relationship edges because the repository has no verified global edge list. Profiles distinguish cited company disclosures, source-backed sector context, and companies still awaiting relationship research. The browser-served market-cap snapshot is rebuilt from the public CSV by the scheduled workflow.
 
 ## ✨ Highlights
-- **Interactive D3 network graph** of the top-100 public companies, organised by economic layer (semiconductors → materials → industrials → finance → consumer demand) and country.
+- **Interactive D3 company landscape** of 100 public companies, organised by economic layer (semiconductors → materials → industrials → finance → consumer demand) and country. Overview layout proximity does not imply a supplier relationship.
 - **Per-company profile cards** mapping each anchor company's upstream inputs, services & risk, channels, and demand relationships.
-- **Source-linked provenance on every edge** — relationships carry an originating source and a stated confidence band (e.g. *high (company disclosure)*, *medium (source-backed)*).
+- **Visible evidence labels** — profile relationships show a source reference where available and a confidence band (e.g. *high (company disclosure)*, *medium (source-backed)*). An unresolved reference is explicitly lower confidence.
 - **Credit-rating overlay** generated from a dedicated ratings dataset for additional risk context.
-- **Auto-updating market caps** — a scheduled GitHub Actions workflow refreshes rankings weekly, validates the result, and commits only when the data actually changed.
+- **Auto-updating market caps** — a scheduled GitHub Actions workflow rebuilds the browser-served map and rankings weekly from the public CSV. The displayed timestamp belongs to that served snapshot.
 - **Zero-backend, static delivery** — vanilla JavaScript + D3 served from GitHub Pages; nothing to provision, fast to load.
 - **Test-guarded data integrity** — a Node test suite enforces provenance wiring, confidence scoring, country-code hygiene, and UI integrity before anything ships.
 
@@ -31,9 +31,9 @@
 <!-- CODEX: capture of an open company profile card (e.g. NVIDIA / NVDA) showing upstream inputs, services & risk, channels, and demand nodes, with a visible source link and confidence label on a relationship. -->
 
 ## 🧭 What it does
-Supply Chain turns a flat market-cap leaderboard into a navigable **dependency graph**. It answers questions a ranked list cannot: *who supplies the suppliers, where the concentration sits, and how confident we are in each link.*
+Supply Chain pairs a ranked company landscape with **source-labelled company profiles**. The overview is a way to find companies; the profile is where a documented relationship or sector dependency can be examined.
 
-**Global map.** The landing view is a force-directed D3 graph of 100 anchor companies positioned across ten economic layers and coloured by country of domicile. Node size and labels carry rank and market cap; edges encode layer-adjacency and structural relationships.
+**Global map.** The landing view is a force-directed D3 layout of 100 anchor companies positioned across ten economic layers and coloured by country of domicile. Node size and labels carry rank and market cap. It has no relationship edges: spatial proximity and layer adjacency are visual layout, not evidence of trade between two firms.
 
 **Company profiles.** Selecting a company opens a focused sub-graph centred on that firm, decomposed into tiers — **Upstream Inputs**, **Services & Risk**, the **Company** anchor, **Channels**, and **Demand**. Each node states what it represents and why it matters to the anchor.
 

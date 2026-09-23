@@ -53,9 +53,10 @@ test("evaluated SUPPLY_MAP_DATA exposes meta + nodes + links + profiles", () => 
   assert.equal(typeof data.meta.lastUpdated, "string", "meta.lastUpdated must be a string");
   assert.ok(data.meta.lastUpdated.trim().length > 0, "meta.lastUpdated must be non-empty");
 
-  // nodes and links are non-empty arrays
+  // Company nodes exist; global links remain empty until evidence-backed edges exist.
   assert.ok(Array.isArray(data.nodes) && data.nodes.length > 0, "nodes must be a non-empty array");
-  assert.ok(Array.isArray(data.links) && data.links.length > 0, "links must be a non-empty array");
+  assert.ok(Array.isArray(data.links), "links must be an array");
+  assert.equal(data.links.length, 0, "unsourced global relationship edges must not be published");
 
   // profiles has at least one keyed entry
   assert.ok(data.profiles && typeof data.profiles === "object", "missing profiles object");

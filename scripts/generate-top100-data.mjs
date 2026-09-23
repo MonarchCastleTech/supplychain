@@ -3065,23 +3065,9 @@ function addProfileLink(links, source, target, weight, meta = {}) {
 }
 
 function generateGlobalLinks(nodes) {
-  const links = [];
-  const seen = new Set();
-  const layers = [...new Set(nodes.map((n) => n.y))].sort((a, b) => a - b);
-  const byLayer = new Map();
-  for (const layer of layers) {
-    byLayer.set(layer, nodes.filter((n) => n.y === layer).sort((a, b) => a.rank - b.rank));
-  }
-  for (let i = 1; i < layers.length; i += 1) {
-    const cur = byLayer.get(layers[i]) || [];
-    const prev = byLayer.get(layers[i - 1]) || [];
-    cur.forEach((n, idx) => {
-      if (!prev.length) return;
-      addLink(links, seen, prev[idx % prev.length].id, n.id, 3);
-      addLink(links, seen, prev[(idx + 2) % prev.length].id, n.id, 2);
-    });
-  }
-  return links;
+  // There is no source-backed global company-to-company edge list. Do not
+  // invent dependencies merely to make the force layout look connected.
+  return [];
 }
 
 function buildTemplateProfile(row) {
@@ -3421,11 +3407,18 @@ async function main() {
       profiles[row.symbol] = buildSourceBackedProfile(row, sourceBacked);
       return;
     }
-    if (row.rank <= 20) {
-      profiles[row.symbol] = buildDeepProfile(row);
-      return;
-    }
-    profiles[row.symbol] = buildTemplateProfile(row);
+    // Unresearched entrants receive an explicit empty profile. Generic
+    // industry templates are not evidence of a company-specific dependency.
+    profiles[row.symbol] = {
+      symbol: row.symbol,
+      company: row.name,
+      rank: row.rank,
+      category: 'Relationship research pending',
+      layers: PROFILE_LAYERS,
+      nodes: [{ id: 'company', l: `${row.name}\n${row.symbol} - ${compactUsd(row.marketcap)}`, tier: 0, kind: 'company', c: row.countryCode, d: 'No verified relationship data published.', s: `Market cap ${fullUsd(row.marketcap)}.`, z: 22 }],
+      links: [],
+      sources: [],
+    };
   });
 
   const countries = {};

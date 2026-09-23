@@ -25,7 +25,7 @@
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Monarch Castle Technologies | Market Intelligence">
-<meta name="twitter:description" content="Interactive supply-chain intelligence for the top 100 public companies by market cap — with source-linked provenance and confidence levels.">
+<meta name="twitter:description" content="A dated market-cap landscape with source-labelled company profiles and explicit research gaps.">
 <meta name="twitter:image" content="https://monarchcastletech.github.io/supplychain/assets/og-card.png">
 
 <!-- Structured data -->
@@ -35,7 +35,7 @@
   "@type": "WebSite",
   "name": "Monarch Castle Technologies | Market Intelligence",
   "url": "https://monarchcastletech.github.io/supplychain/",
-  "description": "An interactive market-intelligence map of the supply chains behind the world's 100 largest public companies by market capitalization, with source-linked provenance and confidence levels.",
+  "description": "An interactive market-cap landscape with source-labelled company profiles and explicit research gaps.",
   "publisher": {
     "@type": "Organization",
     "name": "Monarch Castle Technologies",
@@ -101,7 +101,7 @@
 
       <h3>Data Quality</h3>
       <ul>
-        <li><span style="color:var(--green)">✓ Source-verified</span> - Verified from SEC filings, annual reports, official disclosures</li>
+        <li><span style="color:var(--green)">✓ Source-linked</span> - A cited document is available; inspect it to confirm the specific claim</li>
         <li><span style="color:#888">Inferred</span> - Industry-standard relationships based on structural dependencies</li>
         <li><strong>Confidence levels:</strong> High (company disclosure), Medium (source-backed), Low (industry-inferred)</li>
       </ul>
@@ -114,8 +114,8 @@
       </ul>
 
       <h3>About</h3>
-      <p>Top 100 companies by market capitalization. Data sourced from companiesmarketcap.com with supply chain relationships verified from primary sources including SEC 10-K filings, annual reports, and official company disclosures.</p>
-      <p style="margin-top:12px;font-size:10px;color:#666">All 100 companies have source-verified profile data. 103 automated tests ensure data quality.</p>
+      <p>The company ranking and market caps come from the dated companiesmarketcap.com CSV snapshot. The overview layout has no company-to-company edges; proximity does not establish a supplier relationship.</p>
+      <p style="margin-top:12px;font-size:10px;color:#666">Profile coverage varies. Companies without reviewed relationship evidence show an empty research-pending profile. Source labels and confidence tiers describe evidence quality; they do not independently prove every commercial relationship.</p>
     </div>
   </div>
 
@@ -125,10 +125,10 @@
       <h2 id="methodologyTitle">Methodology &amp; Data Sources</h2>
 
       <h3>Data sources</h3>
-      <p>Profiles for the top 100 companies cite <strong>407 sources</strong> in total. Of these, roughly <strong>131 sources</strong> carry a parseable publication year, which is what powers the age-decay signal below. Sources include SEC 10-K filings, annual reports, and official company disclosures.</p>
+      <p>Profile sources include SEC filings, annual reports, company disclosures and sector-level references. Source coverage differs by company and is listed in each profile; an unresearched company has no relationship links.</p>
 
       <h3>Confidence weighting</h3>
-      <p>Every figure inherits a confidence tier from the source backing it. The dataset carries two real disclosure tiers — <strong>120 high-qualifier</strong> figures (direct company disclosure) and <strong>3,447 medium-qualifier</strong> figures (source-backed). A figure with no resolving source falls to an explicit Unknown floor rather than being scored upward.</p>
+      <p>Derived figures use the confidence label carried by each profile link. A direct company disclosure is stronger evidence than broad source-backed sector context. Missing source references receive an explicit Unknown floor; these labels are editorial evidence grades, not measured probabilities.</p>
       <ul>
         <li><strong>Observed</strong> — high (company disclosure): base weight 90.</li>
         <li><strong>Estimated</strong> — medium (source-backed): base weight 65.</li>
@@ -167,9 +167,9 @@
 
       <h3>Known limits</h3>
       <ul>
-        <li>About <strong>75 dangling source references</strong> (source FKs that do not resolve to a listed source) remain in the dataset; figures behind them score at the Unknown floor.</li>
+        <li>Some source references do not resolve to a listed source; figures behind them score at the Unknown floor. Consult each profile's source list before treating a link as company-specific.</li>
         <li>Many relationships are <strong>estimated</strong> from structural dependencies rather than directly disclosed.</li>
-        <li>Market caps are <strong>auto-updated weekly</strong>; the freshness indicator reflects the live update timestamp.</li>
+        <li>The scheduled workflow rebuilds the browser-served market-cap snapshot weekly. The displayed timestamp is the actual last successful rebuild, not a guarantee of live prices.</li>
       </ul>
     </div>
   </div>
@@ -259,7 +259,7 @@
       <label>Verification</label>
       <select id="fVerified" aria-label="Filter by verification status">
         <option value="all">All</option>
-        <option value="verified">Source-verified Only</option>
+        <option value="verified">Source-linked Only</option>
         <option value="inferred">Inferred Only</option>
       </select>
     </div>

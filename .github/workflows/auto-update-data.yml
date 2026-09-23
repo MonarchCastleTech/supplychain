@@ -26,8 +26,8 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
       
-      - name: Download and parse latest CSV
-        run: node scripts/update-marketcap-data.mjs
+      - name: Rebuild the browser-served map from the latest market-cap CSV
+        run: node scripts/generate-top100-data.mjs
 
       - name: Run data validation tests
         run: npm test
