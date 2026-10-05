@@ -1,7 +1,7 @@
 window.SUPPLY_MAP_DATA = {
   "meta": {
-    "generatedAt": "2026-09-28T12:56:56.855Z",
-    "lastUpdated": "Sep 28, 2026, 12:56 PM",
+    "generatedAt": "2026-10-05T13:38:36.098Z",
+    "lastUpdated": "Oct 5, 2026, 1:38 PM",
     "source": "https://companiesmarketcap.com/?download=csv",
     "count": 100,
     "profileCount": 100
@@ -67,21 +67,21 @@ window.SUPPLY_MAP_DATA = {
       "n": "France",
       "c": "#3498db"
     },
-    "AE": {
-      "n": "United Arab Emirates",
-      "c": "#27ae60"
-    },
     "AU": {
       "n": "Australia",
       "c": "#f1c40f"
     },
-    "ES": {
-      "n": "Spain",
-      "c": "#ff7675"
+    "AE": {
+      "n": "United Arab Emirates",
+      "c": "#27ae60"
     },
     "IE": {
       "n": "Ireland",
       "c": "#777777"
+    },
+    "ES": {
+      "n": "Spain",
+      "c": "#ff7675"
     },
     "SE": {
       "n": "Sweden",
@@ -123,7 +123,7 @@ window.SUPPLY_MAP_DATA = {
   "nodes": [
     {
       "id": "nvda-1",
-      "l": "NVIDIA\nNVDA - 5.43T",
+      "l": "NVIDIA\nNVDA - 5.71T",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #1.",
@@ -131,14 +131,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 22,
       "rank": 1,
-      "marketcap": 5434765213696,
+      "marketcap": 5710610956288,
       "symbol": "NVDA",
       "company": "NVIDIA",
       "country": "United States"
     },
     {
       "id": "aapl-2",
-      "l": "Apple\nAAPL - 4.98T",
+      "l": "Apple\nAAPL - 4.89T",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #2.",
@@ -146,7 +146,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 21,
       "rank": 2,
-      "marketcap": 4977636933632,
+      "marketcap": 4892920905728,
       "symbol": "AAPL",
       "company": "Apple",
       "country": "United States"
@@ -159,16 +159,16 @@ window.SUPPLY_MAP_DATA = {
       "d": "Software & Platforms. Rank #3.",
       "s": "Click to open GOOG company profile.",
       "bn": true,
-      "z": 20,
+      "z": 19,
       "rank": 3,
-      "marketcap": 4171386060800,
+      "marketcap": 4168573517824,
       "symbol": "GOOG",
       "company": "Alphabet (Google)",
       "country": "United States"
     },
     {
       "id": "msft-4",
-      "l": "Microsoft\nMSFT - 3.83T",
+      "l": "Microsoft\nMSFT - 3.93T",
       "y": 3,
       "c": "US",
       "d": "Cloud / Network / Media. Rank #4.",
@@ -176,29 +176,29 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 19,
       "rank": 4,
-      "marketcap": 3832843862016,
+      "marketcap": 3928782274560,
       "symbol": "MSFT",
       "company": "Microsoft",
       "country": "United States"
     },
     {
       "id": "amzn-5",
-      "l": "Amazon\nAMZN - 2.69T",
+      "l": "Amazon\nAMZN - 2.72T",
       "y": 3,
       "c": "US",
       "d": "Cloud / Network / Media. Rank #5.",
       "s": "Click to open AMZN company profile.",
       "bn": true,
-      "z": 17,
+      "z": 16,
       "rank": 5,
-      "marketcap": 2693018681344,
+      "marketcap": 2716317253632,
       "symbol": "AMZN",
       "company": "Amazon",
       "country": "United States"
     },
     {
       "id": "tsm-6",
-      "l": "TSMC\nTSM - 2.34T",
+      "l": "TSMC\nTSM - 2.49T",
       "y": 0,
       "c": "TW",
       "d": "Semiconductors & Components. Rank #6.",
@@ -206,14 +206,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 16,
       "rank": 6,
-      "marketcap": 2337076936704,
+      "marketcap": 2490804207616,
       "symbol": "TSM",
       "company": "TSMC",
       "country": "Taiwan"
     },
     {
       "id": "spcx-7",
-      "l": "SpaceX\nSPCX - 1.96T",
+      "l": "SpaceX\nSPCX - 2.14T",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #7.",
@@ -221,14 +221,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 15,
       "rank": 7,
-      "marketcap": 1959866925056,
+      "marketcap": 2138236387328,
       "symbol": "SPCX",
       "company": "SpaceX",
       "country": "United States"
     },
     {
       "id": "meta-8",
-      "l": "Meta Platforms (Facebook)\nMETA - 1.91T",
+      "l": "Meta Platforms (Facebook)\nMETA - 1.87T",
       "y": 2,
       "c": "US",
       "d": "Software & Platforms. Rank #8.",
@@ -236,14 +236,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 14,
       "rank": 8,
-      "marketcap": 1914858373120,
+      "marketcap": 1872416997376,
       "symbol": "META",
       "company": "Meta Platforms (Facebook)",
       "country": "United States"
     },
     {
       "id": "avgo-9",
-      "l": "Broadcom\nAVGO - 1.68T",
+      "l": "Broadcom\nAVGO - 1.70T",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #9.",
@@ -251,7 +251,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 14,
       "rank": 9,
-      "marketcap": 1684184367104,
+      "marketcap": 1702300352512,
       "symbol": "AVGO",
       "company": "Broadcom",
       "country": "United States"
@@ -266,14 +266,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 14,
       "rank": 10,
-      "marketcap": 1645926724133,
+      "marketcap": 1647171644402,
       "symbol": "2222.SR",
       "company": "Saudi Aramco",
       "country": "Saudi Arabia"
     },
     {
       "id": "tsla-11",
-      "l": "Tesla\nTSLA - 1.47T",
+      "l": "Tesla\nTSLA - 1.46T",
       "y": -1,
       "c": "US",
       "d": "Industrials & Mobility. Rank #11.",
@@ -281,14 +281,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 13,
       "rank": 11,
-      "marketcap": 1469666033664,
+      "marketcap": 1464321966080,
       "symbol": "TSLA",
       "company": "Tesla",
       "country": "United States"
     },
     {
       "id": "005930-ks-12",
-      "l": "Samsung\n005930.KS - 1.30T",
+      "l": "Samsung\n005930.KS - 1.35T",
       "y": 1,
       "c": "KR",
       "d": "Hardware & Equipment. Rank #12.",
@@ -296,14 +296,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 13,
       "rank": 12,
-      "marketcap": 1304154668651,
+      "marketcap": 1348290116738,
       "symbol": "005930.KS",
       "company": "Samsung",
       "country": "South Korea"
     },
     {
       "id": "mu-13",
-      "l": "Micron Technology\nMU - 1.22T",
+      "l": "Micron Technology\nMU - 1.20T",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #13.",
@@ -311,7 +311,7 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 12,
       "rank": 13,
-      "marketcap": 1222319669248,
+      "marketcap": 1201008017408,
       "symbol": "MU",
       "company": "Micron Technology",
       "country": "United States"
@@ -326,44 +326,44 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 12,
       "rank": 14,
-      "marketcap": 1082085998592,
+      "marketcap": 1075824361472,
       "symbol": "BRK-B",
       "company": "Berkshire Hathaway",
       "country": "United States"
     },
     {
       "id": "lly-15",
-      "l": "Eli Lilly\nLLY - 1.06T",
+      "l": "Eli Lilly\nLLY - 1.03T",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #15.",
       "s": "Click to open LLY company profile.",
       "bn": false,
-      "z": 12,
+      "z": 11,
       "rank": 15,
-      "marketcap": 1055340232704,
+      "marketcap": 1029462032384,
       "symbol": "LLY",
       "company": "Eli Lilly",
       "country": "United States"
     },
     {
       "id": "amd-16",
-      "l": "AMD\nAMD - 1.03T",
+      "l": "AMD\nAMD - 1.02T",
       "y": 0,
       "c": "US",
       "d": "Semiconductors & Components. Rank #16.",
       "s": "Click to open AMD company profile.",
       "bn": true,
-      "z": 12,
+      "z": 11,
       "rank": 16,
-      "marketcap": 1029487722496,
+      "marketcap": 1023929090048,
       "symbol": "AMD",
       "company": "AMD",
       "country": "United States"
     },
     {
       "id": "000660-ks-17",
-      "l": "SK Hynix\n000660.KS - 923.16B",
+      "l": "SK Hynix\n000660.KS - 973.88B",
       "y": 0,
       "c": "KR",
       "d": "Semiconductors & Components. Rank #17.",
@@ -371,14 +371,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 11,
       "rank": 17,
-      "marketcap": 923164410822,
+      "marketcap": 973880454891,
       "symbol": "000660.KS",
       "company": "SK Hynix",
       "country": "South Korea"
     },
     {
       "id": "jpm-18",
-      "l": "JPMorgan Chase\nJPM - 911.92B",
+      "l": "JPMorgan Chase\nJPM - 880.99B",
       "y": 4,
       "c": "US",
       "d": "Finance & Payments. Rank #18.",
@@ -386,14 +386,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 11,
       "rank": 18,
-      "marketcap": 911917383680,
+      "marketcap": 880989372416,
       "symbol": "JPM",
       "company": "JPMorgan Chase",
       "country": "United States"
     },
     {
       "id": "wmt-19",
-      "l": "Walmart\nWMT - 859.31B",
+      "l": "Walmart\nWMT - 823.83B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #19.",
@@ -401,44 +401,44 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 11,
       "rank": 19,
-      "marketcap": 859313405952,
+      "marketcap": 823827496960,
       "symbol": "WMT",
       "company": "Walmart",
       "country": "United States"
     },
     {
-      "id": "v-20",
-      "l": "Visa\nV - 689.70B",
-      "y": 4,
-      "c": "US",
-      "d": "Finance & Payments. Rank #20.",
-      "s": "Click to open V company profile.",
-      "bn": false,
-      "z": 10,
-      "rank": 20,
-      "marketcap": 689702764544,
-      "symbol": "V",
-      "company": "Visa",
-      "country": "United States"
-    },
-    {
-      "id": "asml-21",
-      "l": "ASML\nASML - 669.85B",
+      "id": "asml-20",
+      "l": "ASML\nASML - 711.37B",
       "y": 0,
       "c": "NL",
-      "d": "Semiconductors & Components. Rank #21.",
+      "d": "Semiconductors & Components. Rank #20.",
       "s": "Click to open ASML company profile.",
       "bn": true,
       "z": 10,
-      "rank": 21,
-      "marketcap": 669847322624,
+      "rank": 20,
+      "marketcap": 711372439552,
       "symbol": "ASML",
       "company": "ASML",
       "country": "Netherlands"
     },
     {
+      "id": "v-21",
+      "l": "Visa\nV - 676.73B",
+      "y": 4,
+      "c": "US",
+      "d": "Finance & Payments. Rank #21.",
+      "s": "Click to open V company profile.",
+      "bn": false,
+      "z": 10,
+      "rank": 21,
+      "marketcap": 676730241024,
+      "symbol": "V",
+      "company": "Visa",
+      "country": "United States"
+    },
+    {
       "id": "xom-22",
-      "l": "Exxon Mobil\nXOM - 660.33B",
+      "l": "Exxon Mobil\nXOM - 667.96B",
       "y": -3,
       "c": "US",
       "d": "Energy & Raw Inputs. Rank #22.",
@@ -446,89 +446,89 @@ window.SUPPLY_MAP_DATA = {
       "bn": true,
       "z": 10,
       "rank": 22,
-      "marketcap": 660331954176,
+      "marketcap": 667959558144,
       "symbol": "XOM",
       "company": "Exxon Mobil",
       "country": "United States"
     },
     {
-      "id": "jnj-23",
-      "l": "Johnson & Johnson\nJNJ - 653.61B",
-      "y": 5,
-      "c": "US",
-      "d": "Healthcare & Life Sciences. Rank #23.",
-      "s": "Click to open JNJ company profile.",
-      "bn": false,
-      "z": 10,
-      "rank": 23,
-      "marketcap": 653612679168,
-      "symbol": "JNJ",
-      "company": "Johnson & Johnson",
-      "country": "United States"
-    },
-    {
-      "id": "intc-24",
-      "l": "Intel\nINTC - 650.19B",
+      "id": "intc-23",
+      "l": "Intel\nINTC - 616.57B",
       "y": 0,
       "c": "US",
-      "d": "Semiconductors & Components. Rank #24.",
+      "d": "Semiconductors & Components. Rank #23.",
       "s": "Click to open INTC company profile.",
       "bn": true,
       "z": 10,
-      "rank": 24,
-      "marketcap": 650190913536,
+      "rank": 23,
+      "marketcap": 616571273216,
       "symbol": "INTC",
       "company": "Intel",
       "country": "United States"
     },
     {
+      "id": "jnj-24",
+      "l": "Johnson & Johnson\nJNJ - 612.10B",
+      "y": 5,
+      "c": "US",
+      "d": "Healthcare & Life Sciences. Rank #24.",
+      "s": "Click to open JNJ company profile.",
+      "bn": false,
+      "z": 10,
+      "rank": 24,
+      "marketcap": 612102176768,
+      "symbol": "JNJ",
+      "company": "Johnson & Johnson",
+      "country": "United States"
+    },
+    {
       "id": "688825-ss-25",
-      "l": "CXMT\n688825.SS - 568.75B",
+      "l": "CXMT\n688825.SS - 579.42B",
       "y": 6,
       "c": "CN",
       "d": "Consumer Demand & Services. Rank #25.",
       "s": "Click to open 688825.SS company profile.",
       "bn": false,
-      "z": 10,
+      "z": 9,
       "rank": 25,
-      "marketcap": 568753201682,
+      "marketcap": 579418034053,
       "symbol": "688825.SS",
       "company": "CXMT",
       "country": "China"
     },
     {
-      "id": "tcehy-26",
-      "l": "Tencent\nTCEHY - 502.69B",
-      "y": 2,
-      "c": "CN",
-      "d": "Software & Platforms. Rank #26.",
-      "s": "Click to open TCEHY company profile.",
-      "bn": false,
-      "z": 9,
-      "rank": 26,
-      "marketcap": 502686450000,
-      "symbol": "TCEHY",
-      "company": "Tencent",
-      "country": "China"
-    },
-    {
-      "id": "ma-27",
-      "l": "Mastercard\nMA - 497.27B",
+      "id": "ma-26",
+      "l": "Mastercard\nMA - 484.99B",
       "y": 4,
       "c": "US",
-      "d": "Finance & Payments. Rank #27.",
+      "d": "Finance & Payments. Rank #26.",
       "s": "Click to open MA company profile.",
       "bn": false,
       "z": 9,
-      "rank": 27,
-      "marketcap": 497267048448,
+      "rank": 26,
+      "marketcap": 484985372672,
       "symbol": "MA",
       "company": "Mastercard",
       "country": "United States"
     },
     {
+      "id": "tcehy-27",
+      "l": "Tencent\nTCEHY - 479.74B",
+      "y": 2,
+      "c": "CN",
+      "d": "Software & Platforms. Rank #27.",
+      "s": "Click to open TCEHY company profile.",
+      "bn": false,
+      "z": 9,
+      "rank": 27,
+      "marketcap": 479742630000,
+      "symbol": "TCEHY",
+      "company": "Tencent",
+      "country": "China"
+    },
+    {
       "id": "abbv-28",
-      "l": "AbbVie\nABBV - 467.12B",
+      "l": "AbbVie\nABBV - 461.91B",
       "y": 5,
       "c": "US",
       "d": "Healthcare & Life Sciences. Rank #28.",
@@ -536,14 +536,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 28,
-      "marketcap": 467119767552,
+      "marketcap": 461906804736,
       "symbol": "ABBV",
       "company": "AbbVie",
       "country": "United States"
     },
     {
       "id": "pltr-29",
-      "l": "Palantir\nPLTR - 455.79B",
+      "l": "Palantir\nPLTR - 461.09B",
       "y": 2,
       "c": "US",
       "d": "Software & Platforms. Rank #29.",
@@ -551,209 +551,209 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 9,
       "rank": 29,
-      "marketcap": 455788101632,
+      "marketcap": 461090914304,
       "symbol": "PLTR",
       "company": "Palantir",
       "country": "United States"
     },
     {
-      "id": "601939-ss-30",
-      "l": "China Construction Bank\n601939.SS - 429.58B",
-      "y": 4,
-      "c": "CN",
-      "d": "Finance & Payments. Rank #30.",
-      "s": "Click to open 601939.SS company profile.",
-      "bn": false,
-      "z": 9,
-      "rank": 30,
-      "marketcap": 429582944575,
-      "symbol": "601939.SS",
-      "company": "China Construction Bank",
-      "country": "China"
-    },
-    {
-      "id": "csco-31",
-      "l": "Cisco\nCSCO - 420.67B",
+      "id": "csco-30",
+      "l": "Cisco\nCSCO - 441.85B",
       "y": 1,
       "c": "US",
-      "d": "Hardware & Equipment. Rank #31.",
+      "d": "Hardware & Equipment. Rank #30.",
       "s": "Click to open CSCO company profile.",
       "bn": false,
       "z": 9,
-      "rank": 31,
-      "marketcap": 420674011136,
+      "rank": 30,
+      "marketcap": 441845710848,
       "symbol": "CSCO",
       "company": "Cisco",
       "country": "United States"
     },
     {
-      "id": "orcl-32",
-      "l": "Oracle\nORCL - 414.55B",
+      "id": "orcl-31",
+      "l": "Oracle\nORCL - 439.84B",
       "y": 3,
       "c": "US",
-      "d": "Cloud / Network / Media. Rank #32.",
+      "d": "Cloud / Network / Media. Rank #31.",
       "s": "Click to open ORCL company profile.",
       "bn": false,
       "z": 9,
-      "rank": 32,
-      "marketcap": 414554226688,
+      "rank": 31,
+      "marketcap": 439840473088,
       "symbol": "ORCL",
       "company": "Oracle",
       "country": "United States"
     },
     {
-      "id": "cost-33",
-      "l": "Costco\nCOST - 409.03B",
-      "y": 6,
-      "c": "US",
-      "d": "Consumer Demand & Services. Rank #33.",
-      "s": "Click to open COST company profile.",
-      "bn": false,
-      "z": 9,
-      "rank": 33,
-      "marketcap": 409030328320,
-      "symbol": "COST",
-      "company": "Costco",
-      "country": "United States"
-    },
-    {
-      "id": "cvx-34",
-      "l": "Chevron\nCVX - 401.05B",
-      "y": -3,
-      "c": "US",
-      "d": "Energy & Raw Inputs. Rank #34.",
-      "s": "Click to open CVX company profile.",
-      "bn": true,
-      "z": 9,
-      "rank": 34,
-      "marketcap": 401049780224,
-      "symbol": "CVX",
-      "company": "Chevron",
-      "country": "United States"
-    },
-    {
-      "id": "bac-35",
-      "l": "Bank of America\nBAC - 396.49B",
-      "y": 4,
-      "c": "US",
-      "d": "Finance & Payments. Rank #35.",
-      "s": "Click to open BAC company profile.",
-      "bn": false,
-      "z": 9,
-      "rank": 35,
-      "marketcap": 396488835072,
-      "symbol": "BAC",
-      "company": "Bank of America",
-      "country": "United States"
-    },
-    {
-      "id": "lrcx-36",
-      "l": "Lam Research\nLRCX - 394.46B",
+      "id": "lrcx-32",
+      "l": "Lam Research\nLRCX - 436.27B",
       "y": 0,
       "c": "US",
-      "d": "Semiconductors & Components. Rank #36.",
+      "d": "Semiconductors & Components. Rank #32.",
       "s": "Click to open LRCX company profile.",
-      "bn": false,
+      "bn": true,
       "z": 9,
-      "rank": 36,
-      "marketcap": 394461478912,
+      "rank": 32,
+      "marketcap": 436265287680,
       "symbol": "LRCX",
       "company": "Lam Research",
       "country": "United States"
     },
     {
-      "id": "amat-37",
-      "l": "Applied Materials\nAMAT - 384.89B",
+      "id": "601939-ss-33",
+      "l": "China Construction Bank\n601939.SS - 432.07B",
+      "y": 4,
+      "c": "CN",
+      "d": "Finance & Payments. Rank #33.",
+      "s": "Click to open 601939.SS company profile.",
+      "bn": false,
+      "z": 9,
+      "rank": 33,
+      "marketcap": 432074482103,
+      "symbol": "601939.SS",
+      "company": "China Construction Bank",
+      "country": "China"
+    },
+    {
+      "id": "amat-34",
+      "l": "Applied Materials\nAMAT - 429.34B",
       "y": 0,
       "c": "US",
-      "d": "Semiconductors & Components. Rank #37.",
+      "d": "Semiconductors & Components. Rank #34.",
       "s": "Click to open AMAT company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 37,
-      "marketcap": 384894763008,
+      "bn": true,
+      "z": 9,
+      "rank": 34,
+      "marketcap": 429336199168,
       "symbol": "AMAT",
       "company": "Applied Materials",
       "country": "United States"
     },
     {
-      "id": "ko-38",
-      "l": "Coca-Cola\nKO - 377.81B",
+      "id": "cost-35",
+      "l": "Costco\nCOST - 408.98B",
       "y": 6,
       "c": "US",
-      "d": "Consumer Demand & Services. Rank #38.",
-      "s": "Click to open KO company profile.",
+      "d": "Consumer Demand & Services. Rank #35.",
+      "s": "Click to open COST company profile.",
       "bn": false,
-      "z": 8,
-      "rank": 38,
-      "marketcap": 377806815232,
-      "symbol": "KO",
-      "company": "Coca-Cola",
+      "z": 9,
+      "rank": 35,
+      "marketcap": 408979374080,
+      "symbol": "COST",
+      "company": "Costco",
       "country": "United States"
     },
     {
-      "id": "cat-39",
-      "l": "Caterpillar\nCAT - 377.66B",
+      "id": "cvx-36",
+      "l": "Chevron\nCVX - 400.78B",
+      "y": -3,
+      "c": "US",
+      "d": "Energy & Raw Inputs. Rank #36.",
+      "s": "Click to open CVX company profile.",
+      "bn": false,
+      "z": 9,
+      "rank": 36,
+      "marketcap": 400775184384,
+      "symbol": "CVX",
+      "company": "Chevron",
+      "country": "United States"
+    },
+    {
+      "id": "cat-37",
+      "l": "Caterpillar\nCAT - 384.21B",
       "y": -1,
       "c": "US",
-      "d": "Industrials & Mobility. Rank #39.",
+      "d": "Industrials & Mobility. Rank #37.",
       "s": "Click to open CAT company profile.",
       "bn": false,
       "z": 8,
-      "rank": 39,
-      "marketcap": 377659686912,
+      "rank": 37,
+      "marketcap": 384205455360,
       "symbol": "CAT",
       "company": "Caterpillar",
       "country": "United States"
     },
     {
-      "id": "mrk-40",
-      "l": "Merck\nMRK - 367.07B",
-      "y": 5,
+      "id": "bac-38",
+      "l": "Bank of America\nBAC - 376.21B",
+      "y": 4,
       "c": "US",
-      "d": "Healthcare & Life Sciences. Rank #40.",
-      "s": "Click to open MRK company profile.",
+      "d": "Finance & Payments. Rank #38.",
+      "s": "Click to open BAC company profile.",
       "bn": false,
       "z": 8,
-      "rank": 40,
-      "marketcap": 367065792512,
-      "symbol": "MRK",
-      "company": "Merck",
+      "rank": 38,
+      "marketcap": 376209866752,
+      "symbol": "BAC",
+      "company": "Bank of America",
       "country": "United States"
     },
     {
-      "id": "601288-ss-41",
-      "l": "Agricultural Bank of China\n601288.SS - 358.42B",
+      "id": "ko-39",
+      "l": "Coca-Cola\nKO - 367.35B",
+      "y": 6,
+      "c": "US",
+      "d": "Consumer Demand & Services. Rank #39.",
+      "s": "Click to open KO company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 39,
+      "marketcap": 367351627776,
+      "symbol": "KO",
+      "company": "Coca-Cola",
+      "country": "United States"
+    },
+    {
+      "id": "601288-ss-40",
+      "l": "Agricultural Bank of China\n601288.SS - 364.29B",
       "y": 4,
       "c": "CN",
-      "d": "Finance & Payments. Rank #41.",
+      "d": "Finance & Payments. Rank #40.",
       "s": "Click to open 601288.SS company profile.",
       "bn": false,
       "z": 8,
-      "rank": 41,
-      "marketcap": 358415773603,
+      "rank": 40,
+      "marketcap": 364288004957,
       "symbol": "601288.SS",
       "company": "Agricultural Bank of China",
       "country": "China"
     },
     {
-      "id": "dell-42",
-      "l": "Dell\nDELL - 357.89B",
+      "id": "dell-41",
+      "l": "Dell\nDELL - 351.17B",
       "y": 6,
       "c": "US",
-      "d": "Consumer Demand & Services. Rank #42.",
+      "d": "Consumer Demand & Services. Rank #41.",
       "s": "Click to open DELL company profile.",
       "bn": false,
       "z": 8,
-      "rank": 42,
-      "marketcap": 357892653056,
+      "rank": 41,
+      "marketcap": 351172100096,
       "symbol": "DELL",
       "company": "Dell",
       "country": "United States"
     },
     {
+      "id": "mrk-42",
+      "l": "Merck\nMRK - 349.10B",
+      "y": 5,
+      "c": "US",
+      "d": "Healthcare & Life Sciences. Rank #42.",
+      "s": "Click to open MRK company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 42,
+      "marketcap": 349104766976,
+      "symbol": "MRK",
+      "company": "Merck",
+      "country": "United States"
+    },
+    {
       "id": "ro-sw-43",
-      "l": "Roche\nRO.SW - 353.59B",
+      "l": "Roche\nRO.SW - 344.49B",
       "y": 6,
       "c": "CH",
       "d": "Consumer Demand & Services. Rank #43.",
@@ -761,14 +761,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 43,
-      "marketcap": 353594326839,
+      "marketcap": 344489234910,
       "symbol": "RO.SW",
       "company": "Roche",
       "country": "Switzerland"
     },
     {
       "id": "1398-hk-44",
-      "l": "ICBC\n1398.HK - 350.08B",
+      "l": "ICBC\n1398.HK - 338.60B",
       "y": 4,
       "c": "CN",
       "d": "Finance & Payments. Rank #44.",
@@ -776,74 +776,74 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 44,
-      "marketcap": 350075817756,
+      "marketcap": 338600120143,
       "symbol": "1398.HK",
       "company": "ICBC",
       "country": "China"
     },
     {
-      "id": "hsbc-45",
-      "l": "HSBC\nHSBC - 345.38B",
-      "y": 4,
-      "c": "UK",
-      "d": "Finance & Payments. Rank #45.",
-      "s": "Click to open HSBC company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 45,
-      "marketcap": 345381994496,
-      "symbol": "HSBC",
-      "company": "HSBC",
-      "country": "United Kingdom"
-    },
-    {
-      "id": "pg-46",
-      "l": "Procter & Gamble\nPG - 339.64B",
+      "id": "pg-45",
+      "l": "Procter & Gamble\nPG - 336.53B",
       "y": 6,
       "c": "US",
-      "d": "Consumer Demand & Services. Rank #46.",
+      "d": "Consumer Demand & Services. Rank #45.",
       "s": "Click to open PG company profile.",
       "bn": false,
       "z": 8,
-      "rank": 46,
-      "marketcap": 339644383232,
+      "rank": 45,
+      "marketcap": 336531423232,
       "symbol": "PG",
       "company": "Procter & Gamble",
       "country": "United States"
     },
     {
-      "id": "ge-47",
-      "l": "General Electric\nGE - 339.38B",
-      "y": -1,
-      "c": "US",
-      "d": "Industrials & Mobility. Rank #47.",
-      "s": "Click to open GE company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 47,
-      "marketcap": 339376308224,
-      "symbol": "GE",
-      "company": "General Electric",
-      "country": "United States"
-    },
-    {
-      "id": "unh-48",
-      "l": "UnitedHealth\nUNH - 338.03B",
+      "id": "unh-46",
+      "l": "UnitedHealth\nUNH - 333.84B",
       "y": 5,
       "c": "US",
-      "d": "Healthcare & Life Sciences. Rank #48.",
+      "d": "Healthcare & Life Sciences. Rank #46.",
       "s": "Click to open UNH company profile.",
       "bn": false,
       "z": 8,
-      "rank": 48,
-      "marketcap": 338025218048,
+      "rank": 46,
+      "marketcap": 333841432576,
       "symbol": "UNH",
       "company": "UnitedHealth",
       "country": "United States"
     },
     {
+      "id": "panw-47",
+      "l": "Palo Alto Networks\nPANW - 331.07B",
+      "y": 3,
+      "c": "US",
+      "d": "Cloud / Network / Media. Rank #47.",
+      "s": "Click to open PANW company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 47,
+      "marketcap": 331065065472,
+      "symbol": "PANW",
+      "company": "Palo Alto Networks",
+      "country": "United States"
+    },
+    {
+      "id": "hsbc-48",
+      "l": "HSBC\nHSBC - 328.72B",
+      "y": 4,
+      "c": "UK",
+      "d": "Finance & Payments. Rank #48.",
+      "s": "Click to open HSBC company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 48,
+      "marketcap": 328720220160,
+      "symbol": "HSBC",
+      "company": "HSBC",
+      "country": "United Kingdom"
+    },
+    {
       "id": "arm-49",
-      "l": "Arm Holdings\nARM - 331.42B",
+      "l": "Arm Holdings\nARM - 326.13B",
       "y": 6,
       "c": "UK",
       "d": "Consumer Demand & Services. Rank #49.",
@@ -851,14 +851,14 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 49,
-      "marketcap": 331421319168,
+      "marketcap": 326134726656,
       "symbol": "ARM",
       "company": "Arm Holdings",
       "country": "United Kingdom"
     },
     {
       "id": "601988-ss-50",
-      "l": "Bank of China\n601988.SS - 318.91B",
+      "l": "Bank of China\n601988.SS - 323.83B",
       "y": 4,
       "c": "CN",
       "d": "Finance & Payments. Rank #50.",
@@ -866,44 +866,44 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 50,
-      "marketcap": 318912648771,
+      "marketcap": 323833963257,
       "symbol": "601988.SS",
       "company": "Bank of China",
       "country": "China"
     },
     {
-      "id": "ms-51",
-      "l": "Morgan Stanley\nMS - 308.32B",
-      "y": 4,
+      "id": "ge-51",
+      "l": "General Electric\nGE - 319.16B",
+      "y": -1,
       "c": "US",
-      "d": "Finance & Payments. Rank #51.",
-      "s": "Click to open MS company profile.",
+      "d": "Industrials & Mobility. Rank #51.",
+      "s": "Click to open GE company profile.",
       "bn": false,
       "z": 8,
       "rank": 51,
-      "marketcap": 308317847552,
+      "marketcap": 319164579840,
+      "symbol": "GE",
+      "company": "General Electric",
+      "country": "United States"
+    },
+    {
+      "id": "ms-52",
+      "l": "Morgan Stanley\nMS - 297.39B",
+      "y": 4,
+      "c": "US",
+      "d": "Finance & Payments. Rank #52.",
+      "s": "Click to open MS company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 52,
+      "marketcap": 297386737664,
       "symbol": "MS",
       "company": "Morgan Stanley",
       "country": "United States"
     },
     {
-      "id": "panw-52",
-      "l": "Palo Alto Networks\nPANW - 306.54B",
-      "y": 3,
-      "c": "US",
-      "d": "Cloud / Network / Media. Rank #52.",
-      "s": "Click to open PANW company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 52,
-      "marketcap": 306537299968,
-      "symbol": "PANW",
-      "company": "Palo Alto Networks",
-      "country": "United States"
-    },
-    {
       "id": "pm-53",
-      "l": "Philip Morris International\nPM - 296.88B",
+      "l": "Philip Morris International\nPM - 287.49B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #53.",
@@ -911,404 +911,404 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 8,
       "rank": 53,
-      "marketcap": 296884666368,
+      "marketcap": 287494045696,
       "symbol": "PM",
       "company": "Philip Morris International",
       "country": "United States"
     },
     {
-      "id": "nflx-54",
-      "l": "Netflix\nNFLX - 296.24B",
-      "y": 3,
-      "c": "US",
-      "d": "Cloud / Network / Media. Rank #54.",
-      "s": "Click to open NFLX company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 54,
-      "marketcap": 296243462144,
-      "symbol": "NFLX",
-      "company": "Netflix",
-      "country": "United States"
-    },
-    {
-      "id": "hd-55",
-      "l": "Home Depot\nHD - 292.52B",
+      "id": "hd-54",
+      "l": "Home Depot\nHD - 280.92B",
       "y": 6,
       "c": "US",
-      "d": "Consumer Demand & Services. Rank #55.",
+      "d": "Consumer Demand & Services. Rank #54.",
       "s": "Click to open HD company profile.",
       "bn": false,
       "z": 8,
-      "rank": 55,
-      "marketcap": 292522590208,
+      "rank": 54,
+      "marketcap": 280919572480,
       "symbol": "HD",
       "company": "Home Depot",
       "country": "United States"
     },
     {
-      "id": "ry-56",
-      "l": "Royal Bank Of Canada\nRY - 279.63B",
-      "y": 4,
-      "c": "CA",
-      "d": "Finance & Payments. Rank #56.",
-      "s": "Click to open RY company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 56,
-      "marketcap": 279627137024,
-      "symbol": "RY",
-      "company": "Royal Bank Of Canada",
-      "country": "Canada"
-    },
-    {
-      "id": "nvs-57",
-      "l": "Novartis\nNVS - 276.48B",
-      "y": 6,
-      "c": "CH",
-      "d": "Consumer Demand & Services. Rank #57.",
-      "s": "Click to open NVS company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 57,
-      "marketcap": 276478001152,
-      "symbol": "NVS",
-      "company": "Novartis",
-      "country": "Switzerland"
-    },
-    {
-      "id": "shel-58",
-      "l": "Shell\nSHEL - 273.19B",
-      "y": -3,
-      "c": "UK",
-      "d": "Energy & Raw Inputs. Rank #58.",
-      "s": "Click to open SHEL company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 58,
-      "marketcap": 273189879808,
-      "symbol": "SHEL",
-      "company": "Shell",
-      "country": "United Kingdom"
-    },
-    {
-      "id": "baba-59",
-      "l": "Alibaba\nBABA - 272.85B",
-      "y": 2,
-      "c": "CN",
-      "d": "Software & Platforms. Rank #59.",
-      "s": "Click to open BABA company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 59,
-      "marketcap": 272854040576,
-      "symbol": "BABA",
-      "company": "Alibaba",
-      "country": "China"
-    },
-    {
-      "id": "gs-60",
-      "l": "Goldman Sachs\nGS - 272.38B",
-      "y": 4,
-      "c": "US",
-      "d": "Finance & Payments. Rank #60.",
-      "s": "Click to open GS company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 60,
-      "marketcap": 272376283136,
-      "symbol": "GS",
-      "company": "Goldman Sachs",
-      "country": "United States"
-    },
-    {
-      "id": "2454-tw-61",
-      "l": "MediaTek\n2454.TW - 265.43B",
-      "y": 3,
-      "c": "TW",
-      "d": "Cloud / Network / Media. Rank #61.",
-      "s": "Click to open 2454.TW company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 61,
-      "marketcap": 265432826075,
-      "symbol": "2454.TW",
-      "company": "MediaTek",
-      "country": "Taiwan"
-    },
-    {
-      "id": "mufg-62",
-      "l": "Mitsubishi UFJ Financial\nMUFG - 264.29B",
-      "y": 4,
-      "c": "JP",
-      "d": "Finance & Payments. Rank #62.",
-      "s": "Click to open MUFG company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 62,
-      "marketcap": 264285356032,
-      "symbol": "MUFG",
-      "company": "Mitsubishi UFJ Financial",
-      "country": "Japan"
-    },
-    {
-      "id": "anet-63",
-      "l": "Arista Networks\nANET - 260.51B",
+      "id": "nflx-55",
+      "l": "Netflix\nNFLX - 278.78B",
       "y": 3,
       "c": "US",
-      "d": "Cloud / Network / Media. Rank #63.",
-      "s": "Click to open ANET company profile.",
+      "d": "Cloud / Network / Media. Rank #55.",
+      "s": "Click to open NFLX company profile.",
       "bn": false,
       "z": 8,
-      "rank": 63,
-      "marketcap": 260505960448,
-      "symbol": "ANET",
-      "company": "Arista Networks",
+      "rank": 55,
+      "marketcap": 278775726080,
+      "symbol": "NFLX",
+      "company": "Netflix",
       "country": "United States"
     },
     {
-      "id": "sndk-64",
-      "l": "Sandisk\nSNDK - 260.30B",
+      "id": "crwd-56",
+      "l": "CrowdStrike\nCRWD - 277.04B",
       "y": 6,
       "c": "US",
-      "d": "Consumer Demand & Services. Rank #64.",
-      "s": "Click to open SNDK company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 64,
-      "marketcap": 260303716352,
-      "symbol": "SNDK",
-      "company": "Sandisk",
-      "country": "United States"
-    },
-    {
-      "id": "azn-65",
-      "l": "AstraZeneca\nAZN - 258.35B",
-      "y": 5,
-      "c": "UK",
-      "d": "Healthcare & Life Sciences. Rank #65.",
-      "s": "Click to open AZN company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 65,
-      "marketcap": 258348236800,
-      "symbol": "AZN",
-      "company": "AstraZeneca",
-      "country": "United Kingdom"
-    },
-    {
-      "id": "crwd-66",
-      "l": "CrowdStrike\nCRWD - 258.16B",
-      "y": 6,
-      "c": "US",
-      "d": "Consumer Demand & Services. Rank #66.",
+      "d": "Consumer Demand & Services. Rank #56.",
       "s": "Click to open CRWD company profile.",
       "bn": false,
       "z": 8,
-      "rank": 66,
-      "marketcap": 258164703232,
+      "rank": 56,
+      "marketcap": 277040922624,
       "symbol": "CRWD",
       "company": "CrowdStrike",
       "country": "United States"
     },
     {
-      "id": "rtx-67",
-      "l": "RTX\nRTX - 255.27B",
-      "y": -1,
-      "c": "US",
-      "d": "Industrials & Mobility. Rank #67.",
-      "s": "Click to open RTX company profile.",
-      "bn": false,
-      "z": 8,
-      "rank": 67,
-      "marketcap": 255265374208,
-      "symbol": "RTX",
-      "company": "RTX",
-      "country": "United States"
-    },
-    {
-      "id": "gev-68",
-      "l": "GE Vernova\nGEV - 255.05B",
+      "id": "shel-57",
+      "l": "Shell\nSHEL - 272.15B",
       "y": -3,
-      "c": "US",
-      "d": "Energy & Raw Inputs. Rank #68.",
-      "s": "Click to open GEV company profile.",
+      "c": "UK",
+      "d": "Energy & Raw Inputs. Rank #57.",
+      "s": "Click to open SHEL company profile.",
       "bn": false,
       "z": 8,
-      "rank": 68,
-      "marketcap": 255049023488,
-      "symbol": "GEV",
-      "company": "GE Vernova",
-      "country": "United States"
+      "rank": 57,
+      "marketcap": 272154689536,
+      "symbol": "SHEL",
+      "company": "Shell",
+      "country": "United Kingdom"
     },
     {
-      "id": "txn-69",
-      "l": "Texas Instruments\nTXN - 253.95B",
-      "y": 0,
-      "c": "US",
-      "d": "Semiconductors & Components. Rank #69.",
-      "s": "Click to open TXN company profile.",
+      "id": "baba-58",
+      "l": "Alibaba\nBABA - 269.72B",
+      "y": 2,
+      "c": "CN",
+      "d": "Software & Platforms. Rank #58.",
+      "s": "Click to open BABA company profile.",
       "bn": false,
       "z": 8,
-      "rank": 69,
-      "marketcap": 253946789888,
-      "symbol": "TXN",
-      "company": "Texas Instruments",
-      "country": "United States"
+      "rank": 58,
+      "marketcap": 269722320896,
+      "symbol": "BABA",
+      "company": "Alibaba",
+      "country": "China"
     },
     {
-      "id": "wfc-70",
-      "l": "Wells Fargo\nWFC - 250.90B",
+      "id": "ry-59",
+      "l": "Royal Bank Of Canada\nRY - 269.47B",
       "y": 4,
-      "c": "US",
-      "d": "Finance & Payments. Rank #70.",
-      "s": "Click to open WFC company profile.",
+      "c": "CA",
+      "d": "Finance & Payments. Rank #59.",
+      "s": "Click to open RY company profile.",
       "bn": false,
       "z": 8,
-      "rank": 70,
-      "marketcap": 250901217280,
-      "symbol": "WFC",
-      "company": "Wells Fargo",
-      "country": "United States"
+      "rank": 59,
+      "marketcap": 269465419776,
+      "symbol": "RY",
+      "company": "Royal Bank Of Canada",
+      "country": "Canada"
     },
     {
-      "id": "tmo-71",
-      "l": "Thermo Fisher Scientific\nTMO - 249.58B",
-      "y": 5,
-      "c": "US",
-      "d": "Healthcare & Life Sciences. Rank #71.",
-      "s": "Click to open TMO company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 71,
-      "marketcap": 249579421696,
-      "symbol": "TMO",
-      "company": "Thermo Fisher Scientific",
-      "country": "United States"
-    },
-    {
-      "id": "sie-de-72",
-      "l": "Siemens\nSIE.DE - 248.03B",
-      "y": 6,
-      "c": "DE",
-      "d": "Consumer Demand & Services. Rank #72.",
-      "s": "Click to open SIE.DE company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 72,
-      "marketcap": 248031891545,
-      "symbol": "SIE.DE",
-      "company": "Siemens",
-      "country": "Germany"
-    },
-    {
-      "id": "klac-73",
-      "l": "KLA\nKLAC - 245.24B",
+      "id": "klac-60",
+      "l": "KLA\nKLAC - 266.97B",
       "y": 0,
       "c": "US",
-      "d": "Semiconductors & Components. Rank #73.",
+      "d": "Semiconductors & Components. Rank #60.",
       "s": "Click to open KLAC company profile.",
       "bn": false,
-      "z": 7,
-      "rank": 73,
-      "marketcap": 245236809728,
+      "z": 8,
+      "rank": 60,
+      "marketcap": 266965188608,
       "symbol": "KLAC",
       "company": "KLA",
       "country": "United States"
     },
     {
-      "id": "sap-74",
-      "l": "SAP\nSAP - 243.17B",
-      "y": 2,
-      "c": "DE",
-      "d": "Software & Platforms. Rank #74.",
-      "s": "Click to open SAP company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 74,
-      "marketcap": 243167756288,
-      "symbol": "SAP",
-      "company": "SAP",
-      "country": "Germany"
-    },
-    {
-      "id": "nesn-sw-75",
-      "l": "Nestlé\nNESN.SW - 239.66B",
+      "id": "nvs-61",
+      "l": "Novartis\nNVS - 266.83B",
       "y": 6,
       "c": "CH",
-      "d": "Consumer Demand & Services. Rank #75.",
-      "s": "Click to open NESN.SW company profile.",
+      "d": "Consumer Demand & Services. Rank #61.",
+      "s": "Click to open NVS company profile.",
       "bn": false,
-      "z": 7,
-      "rank": 75,
-      "marketcap": 239656840119,
-      "symbol": "NESN.SW",
-      "company": "Nestlé",
+      "z": 8,
+      "rank": 61,
+      "marketcap": 266831855616,
+      "symbol": "NVS",
+      "company": "Novartis",
       "country": "Switzerland"
     },
     {
-      "id": "mrvl-76",
-      "l": "Marvell Technology\nMRVL - 235.40B",
+      "id": "txn-62",
+      "l": "Texas Instruments\nTXN - 266.33B",
+      "y": 0,
+      "c": "US",
+      "d": "Semiconductors & Components. Rank #62.",
+      "s": "Click to open TXN company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 62,
+      "marketcap": 266330423296,
+      "symbol": "TXN",
+      "company": "Texas Instruments",
+      "country": "United States"
+    },
+    {
+      "id": "gev-63",
+      "l": "GE Vernova\nGEV - 263.40B",
+      "y": -3,
+      "c": "US",
+      "d": "Energy & Raw Inputs. Rank #63.",
+      "s": "Click to open GEV company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 63,
+      "marketcap": 263401242624,
+      "symbol": "GEV",
+      "company": "GE Vernova",
+      "country": "United States"
+    },
+    {
+      "id": "anet-64",
+      "l": "Arista Networks\nANET - 262.42B",
+      "y": 3,
+      "c": "US",
+      "d": "Cloud / Network / Media. Rank #64.",
+      "s": "Click to open ANET company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 64,
+      "marketcap": 262416728064,
+      "symbol": "ANET",
+      "company": "Arista Networks",
+      "country": "United States"
+    },
+    {
+      "id": "gs-65",
+      "l": "Goldman Sachs\nGS - 260.57B",
+      "y": 4,
+      "c": "US",
+      "d": "Finance & Payments. Rank #65.",
+      "s": "Click to open GS company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 65,
+      "marketcap": 260572184576,
+      "symbol": "GS",
+      "company": "Goldman Sachs",
+      "country": "United States"
+    },
+    {
+      "id": "2454-tw-66",
+      "l": "MediaTek\n2454.TW - 259.80B",
+      "y": 3,
+      "c": "TW",
+      "d": "Cloud / Network / Media. Rank #66.",
+      "s": "Click to open 2454.TW company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 66,
+      "marketcap": 259804841983,
+      "symbol": "2454.TW",
+      "company": "MediaTek",
+      "country": "Taiwan"
+    },
+    {
+      "id": "mufg-67",
+      "l": "Mitsubishi UFJ Financial\nMUFG - 257.93B",
+      "y": 4,
+      "c": "JP",
+      "d": "Finance & Payments. Rank #67.",
+      "s": "Click to open MUFG company profile.",
+      "bn": false,
+      "z": 8,
+      "rank": 67,
+      "marketcap": 257925857280,
+      "symbol": "MUFG",
+      "company": "Mitsubishi UFJ Financial",
+      "country": "Japan"
+    },
+    {
+      "id": "sndk-68",
+      "l": "Sandisk\nSNDK - 252.31B",
       "y": 6,
       "c": "US",
-      "d": "Consumer Demand & Services. Rank #76.",
+      "d": "Consumer Demand & Services. Rank #68.",
+      "s": "Click to open SNDK company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 68,
+      "marketcap": 252307046400,
+      "symbol": "SNDK",
+      "company": "Sandisk",
+      "country": "United States"
+    },
+    {
+      "id": "rtx-69",
+      "l": "RTX\nRTX - 246.76B",
+      "y": -1,
+      "c": "US",
+      "d": "Industrials & Mobility. Rank #69.",
+      "s": "Click to open RTX company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 69,
+      "marketcap": 246764273664,
+      "symbol": "RTX",
+      "company": "RTX",
+      "country": "United States"
+    },
+    {
+      "id": "wfc-70",
+      "l": "Wells Fargo\nWFC - 245.47B",
+      "y": 4,
+      "c": "US",
+      "d": "Finance & Payments. Rank #70.",
+      "s": "Click to open WFC company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 70,
+      "marketcap": 245473148928,
+      "symbol": "WFC",
+      "company": "Wells Fargo",
+      "country": "United States"
+    },
+    {
+      "id": "mrvl-71",
+      "l": "Marvell Technology\nMRVL - 242.92B",
+      "y": 6,
+      "c": "US",
+      "d": "Consumer Demand & Services. Rank #71.",
       "s": "Click to open MRVL company profile.",
       "bn": false,
       "z": 7,
-      "rank": 76,
-      "marketcap": 235402199040,
+      "rank": 71,
+      "marketcap": 242919849984,
       "symbol": "MRVL",
       "company": "Marvell Technology",
       "country": "United States"
     },
     {
-      "id": "or-pa-77",
-      "l": "L'Oréal\nOR.PA - 233.00B",
-      "y": 6,
-      "c": "FR",
-      "d": "Consumer Demand & Services. Rank #77.",
-      "s": "Click to open OR.PA company profile.",
+      "id": "tmo-72",
+      "l": "Thermo Fisher Scientific\nTMO - 242.69B",
+      "y": 5,
+      "c": "US",
+      "d": "Healthcare & Life Sciences. Rank #72.",
+      "s": "Click to open TMO company profile.",
       "bn": false,
       "z": 7,
-      "rank": 77,
-      "marketcap": 233000210293,
-      "symbol": "OR.PA",
-      "company": "L'Oréal",
-      "country": "France"
+      "rank": 72,
+      "marketcap": 242691031040,
+      "symbol": "TMO",
+      "company": "Thermo Fisher Scientific",
+      "country": "United States"
     },
     {
-      "id": "600519-ss-78",
-      "l": "Kweichow Moutai\n600519.SS - 232.13B",
+      "id": "sap-73",
+      "l": "SAP\nSAP - 242.60B",
+      "y": 2,
+      "c": "DE",
+      "d": "Software & Platforms. Rank #73.",
+      "s": "Click to open SAP company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 73,
+      "marketcap": 242602196992,
+      "symbol": "SAP",
+      "company": "SAP",
+      "country": "Germany"
+    },
+    {
+      "id": "azn-74",
+      "l": "AstraZeneca\nAZN - 242.28B",
+      "y": 5,
+      "c": "UK",
+      "d": "Healthcare & Life Sciences. Rank #74.",
+      "s": "Click to open AZN company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 74,
+      "marketcap": 242282496000,
+      "symbol": "AZN",
+      "company": "AstraZeneca",
+      "country": "United Kingdom"
+    },
+    {
+      "id": "sie-de-75",
+      "l": "Siemens\nSIE.DE - 236.56B",
+      "y": 6,
+      "c": "DE",
+      "d": "Consumer Demand & Services. Rank #75.",
+      "s": "Click to open SIE.DE company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 75,
+      "marketcap": 236563386578,
+      "symbol": "SIE.DE",
+      "company": "Siemens",
+      "country": "Germany"
+    },
+    {
+      "id": "600519-ss-76",
+      "l": "Kweichow Moutai\n600519.SS - 234.96B",
       "y": 6,
       "c": "CN",
-      "d": "Consumer Demand & Services. Rank #78.",
+      "d": "Consumer Demand & Services. Rank #76.",
       "s": "Click to open 600519.SS company profile.",
       "bn": false,
       "z": 7,
-      "rank": 78,
-      "marketcap": 232130835140,
+      "rank": 76,
+      "marketcap": 234962262033,
       "symbol": "600519.SS",
       "company": "Kweichow Moutai",
       "country": "China"
     },
     {
-      "id": "9984-t-79",
-      "l": "SoftBank Group Corp.\n9984.T - 226.65B",
+      "id": "9984-t-77",
+      "l": "SoftBank Group Corp.\n9984.T - 234.44B",
       "y": 4,
       "c": "JP",
-      "d": "Finance & Payments. Rank #79.",
+      "d": "Finance & Payments. Rank #77.",
       "s": "Click to open 9984.T company profile.",
       "bn": false,
       "z": 7,
-      "rank": 79,
-      "marketcap": 226648716075,
+      "rank": 77,
+      "marketcap": 234441313112,
       "symbol": "9984.T",
       "company": "SoftBank Group Corp.",
       "country": "Japan"
     },
     {
+      "id": "nesn-sw-78",
+      "l": "Nestlé\nNESN.SW - 232.35B",
+      "y": 6,
+      "c": "CH",
+      "d": "Consumer Demand & Services. Rank #78.",
+      "s": "Click to open NESN.SW company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 78,
+      "marketcap": 232354355685,
+      "symbol": "NESN.SW",
+      "company": "Nestlé",
+      "country": "Switzerland"
+    },
+    {
+      "id": "or-pa-79",
+      "l": "L'Oréal\nOR.PA - 223.38B",
+      "y": 6,
+      "c": "FR",
+      "d": "Consumer Demand & Services. Rank #79.",
+      "s": "Click to open OR.PA company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 79,
+      "marketcap": 223379693282,
+      "symbol": "OR.PA",
+      "company": "L'Oréal",
+      "country": "France"
+    },
+    {
       "id": "0857-hk-80",
-      "l": "PetroChina\n0857.HK - 226.32B",
+      "l": "PetroChina\n0857.HK - 223.09B",
       "y": -3,
       "c": "CN",
       "d": "Energy & Raw Inputs. Rank #80.",
@@ -1316,89 +1316,89 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 80,
-      "marketcap": 226316770311,
+      "marketcap": 223089916134,
       "symbol": "0857.HK",
       "company": "PetroChina",
       "country": "China"
     },
     {
-      "id": "tm-81",
-      "l": "Toyota\nTM - 225.40B",
-      "y": -1,
-      "c": "JP",
-      "d": "Industrials & Mobility. Rank #81.",
-      "s": "Click to open TM company profile.",
+      "id": "lin-81",
+      "l": "Linde\nLIN - 221.19B",
+      "y": -2,
+      "c": "UK",
+      "d": "Materials & Chemicals. Rank #81.",
+      "s": "Click to open LIN company profile.",
       "bn": false,
       "z": 7,
       "rank": 81,
-      "marketcap": 225397473280,
-      "symbol": "TM",
-      "company": "Toyota",
-      "country": "Japan"
+      "marketcap": 221194403840,
+      "symbol": "LIN",
+      "company": "Linde",
+      "country": "United Kingdom"
     },
     {
-      "id": "c-82",
-      "l": "Citigroup\nC - 225.25B",
-      "y": 4,
-      "c": "US",
-      "d": "Finance & Payments. Rank #82.",
-      "s": "Click to open C company profile.",
+      "id": "bhp-82",
+      "l": "BHP Group\nBHP - 219.10B",
+      "y": -2,
+      "c": "AU",
+      "d": "Materials & Chemicals. Rank #82.",
+      "s": "Click to open BHP company profile.",
       "bn": false,
       "z": 7,
       "rank": 82,
-      "marketcap": 225246216192,
-      "symbol": "C",
-      "company": "Citigroup",
-      "country": "United States"
+      "marketcap": 219100725248,
+      "symbol": "BHP",
+      "company": "BHP Group",
+      "country": "Australia"
     },
     {
-      "id": "amgn-83",
-      "l": "Amgen\nAMGN - 224.15B",
-      "y": 5,
-      "c": "US",
-      "d": "Healthcare & Life Sciences. Rank #83.",
-      "s": "Click to open AMGN company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 83,
-      "marketcap": 224151420928,
-      "symbol": "AMGN",
-      "company": "Amgen",
-      "country": "United States"
-    },
-    {
-      "id": "mc-pa-84",
-      "l": "LVMH\nMC.PA - 223.04B",
-      "y": 6,
-      "c": "FR",
-      "d": "Consumer Demand & Services. Rank #84.",
-      "s": "Click to open MC.PA company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 84,
-      "marketcap": 223042779127,
-      "symbol": "MC.PA",
-      "company": "LVMH",
-      "country": "France"
-    },
-    {
-      "id": "0941-hk-85",
-      "l": "China Mobile\n0941.HK - 219.07B",
+      "id": "0941-hk-83",
+      "l": "China Mobile\n0941.HK - 218.02B",
       "y": 6,
       "c": "CN",
-      "d": "Consumer Demand & Services. Rank #85.",
+      "d": "Consumer Demand & Services. Rank #83.",
       "s": "Click to open 0941.HK company profile.",
       "bn": false,
       "z": 7,
-      "rank": 85,
-      "marketcap": 219066875273,
+      "rank": 83,
+      "marketcap": 218024068568,
       "symbol": "0941.HK",
       "company": "China Mobile",
       "country": "China"
     },
     {
+      "id": "tm-84",
+      "l": "Toyota\nTM - 217.20B",
+      "y": -1,
+      "c": "JP",
+      "d": "Industrials & Mobility. Rank #84.",
+      "s": "Click to open TM company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 84,
+      "marketcap": 217202917376,
+      "symbol": "TM",
+      "company": "Toyota",
+      "country": "Japan"
+    },
+    {
+      "id": "amgn-85",
+      "l": "Amgen\nAMGN - 216.56B",
+      "y": 5,
+      "c": "US",
+      "d": "Healthcare & Life Sciences. Rank #85.",
+      "s": "Click to open AMGN company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 85,
+      "marketcap": 216555552768,
+      "symbol": "AMGN",
+      "company": "Amgen",
+      "country": "United States"
+    },
+    {
       "id": "ihc-ae-86",
-      "l": "International Holding Company\nIHC.AE - 217.22B",
+      "l": "International Holding Company\nIHC.AE - 216.15B",
       "y": 6,
       "c": "AE",
       "d": "Consumer Demand & Services. Rank #86.",
@@ -1406,59 +1406,59 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 86,
-      "marketcap": 217215868616,
+      "marketcap": 216146731256,
       "symbol": "IHC.AE",
       "company": "International Holding Company",
       "country": "United Arab Emirates"
     },
     {
-      "id": "lin-87",
-      "l": "Linde\nLIN - 216.61B",
-      "y": -2,
-      "c": "UK",
-      "d": "Materials & Chemicals. Rank #87.",
-      "s": "Click to open LIN company profile.",
+      "id": "aph-87",
+      "l": "Amphenol\nAPH - 216.02B",
+      "y": 1,
+      "c": "US",
+      "d": "Hardware & Equipment. Rank #87.",
+      "s": "Click to open APH company profile.",
       "bn": false,
       "z": 7,
       "rank": 87,
-      "marketcap": 216609980416,
-      "symbol": "LIN",
-      "company": "Linde",
-      "country": "United Kingdom"
-    },
-    {
-      "id": "bhp-88",
-      "l": "BHP Group\nBHP - 215.95B",
-      "y": -2,
-      "c": "AU",
-      "d": "Materials & Chemicals. Rank #88.",
-      "s": "Click to open BHP company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 88,
-      "marketcap": 215949295616,
-      "symbol": "BHP",
-      "company": "BHP Group",
-      "country": "Australia"
-    },
-    {
-      "id": "qcom-89",
-      "l": "QUALCOMM\nQCOM - 215.72B",
-      "y": 6,
-      "c": "US",
-      "d": "Consumer Demand & Services. Rank #89.",
-      "s": "Click to open QCOM company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 89,
-      "marketcap": 215716184064,
-      "symbol": "QCOM",
-      "company": "QUALCOMM",
+      "marketcap": 216018698240,
+      "symbol": "APH",
+      "company": "Amphenol",
       "country": "United States"
     },
     {
+      "id": "c-88",
+      "l": "Citigroup\nC - 215.37B",
+      "y": 4,
+      "c": "US",
+      "d": "Finance & Payments. Rank #88.",
+      "s": "Click to open C company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 88,
+      "marketcap": 215366107136,
+      "symbol": "C",
+      "company": "Citigroup",
+      "country": "United States"
+    },
+    {
+      "id": "mc-pa-89",
+      "l": "LVMH\nMC.PA - 209.96B",
+      "y": 6,
+      "c": "FR",
+      "d": "Consumer Demand & Services. Rank #89.",
+      "s": "Click to open MC.PA company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 89,
+      "marketcap": 209956438388,
+      "symbol": "MC.PA",
+      "company": "LVMH",
+      "country": "France"
+    },
+    {
       "id": "ibm-90",
-      "l": "IBM\nIBM - 212.46B",
+      "l": "IBM\nIBM - 208.43B",
       "y": 2,
       "c": "US",
       "d": "Software & Platforms. Rank #90.",
@@ -1466,44 +1466,44 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 90,
-      "marketcap": 212460716032,
+      "marketcap": 208428384256,
       "symbol": "IBM",
       "company": "IBM",
       "country": "United States"
     },
     {
-      "id": "san-91",
-      "l": "Santander\nSAN - 209.04B",
-      "y": 6,
-      "c": "ES",
-      "d": "Consumer Demand & Services. Rank #91.",
-      "s": "Click to open SAN company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 91,
-      "marketcap": 209038163968,
-      "symbol": "SAN",
-      "company": "Santander",
-      "country": "Spain"
-    },
-    {
-      "id": "axp-92",
-      "l": "American Express\nAXP - 208.60B",
+      "id": "axp-91",
+      "l": "American Express\nAXP - 203.86B",
       "y": 4,
       "c": "US",
-      "d": "Finance & Payments. Rank #92.",
+      "d": "Finance & Payments. Rank #91.",
       "s": "Click to open AXP company profile.",
       "bn": false,
       "z": 7,
-      "rank": 92,
-      "marketcap": 208596467712,
+      "rank": 91,
+      "marketcap": 203855773696,
       "symbol": "AXP",
       "company": "American Express",
       "country": "United States"
     },
     {
+      "id": "shop-92",
+      "l": "Shopify\nSHOP - 203.29B",
+      "y": 6,
+      "c": "CA",
+      "d": "Consumer Demand & Services. Rank #92.",
+      "s": "Click to open SHOP company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 92,
+      "marketcap": 203289739264,
+      "symbol": "SHOP",
+      "company": "Shopify",
+      "country": "Canada"
+    },
+    {
       "id": "stx-93",
-      "l": "Seagate Technology\nSTX - 208.48B",
+      "l": "Seagate Technology\nSTX - 202.65B",
       "y": 6,
       "c": "IE",
       "d": "Consumer Demand & Services. Rank #93.",
@@ -1511,89 +1511,89 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 93,
-      "marketcap": 208480731136,
+      "marketcap": 202646962176,
       "symbol": "STX",
       "company": "Seagate Technology",
       "country": "Ireland"
     },
     {
-      "id": "aph-94",
-      "l": "Amphenol\nAPH - 207.36B",
-      "y": 1,
-      "c": "US",
-      "d": "Hardware & Equipment. Rank #94.",
-      "s": "Click to open APH company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 94,
-      "marketcap": 207363145728,
-      "symbol": "APH",
-      "company": "Amphenol",
-      "country": "United States"
-    },
-    {
-      "id": "300750-sz-95",
-      "l": "CATL\n300750.SZ - 201.70B",
+      "id": "300750-sz-94",
+      "l": "CATL\n300750.SZ - 201.16B",
       "y": 6,
       "c": "CN",
-      "d": "Consumer Demand & Services. Rank #95.",
+      "d": "Consumer Demand & Services. Rank #94.",
       "s": "Click to open 300750.SZ company profile.",
       "bn": false,
       "z": 7,
-      "rank": 95,
-      "marketcap": 201700453897,
+      "rank": 94,
+      "marketcap": 201161627081,
       "symbol": "300750.SZ",
       "company": "CATL",
       "country": "China"
     },
     {
-      "id": "tte-96",
-      "l": "TotalEnergies\nTTE - 200.82B",
+      "id": "adi-95",
+      "l": "Analog Devices\nADI - 200.99B",
       "y": 6,
-      "c": "FR",
-      "d": "Consumer Demand & Services. Rank #96.",
-      "s": "Click to open TTE company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 96,
-      "marketcap": 200820064256,
-      "symbol": "TTE",
-      "company": "TotalEnergies",
-      "country": "France"
-    },
-    {
-      "id": "td-97",
-      "l": "Toronto Dominion Bank\nTD - 197.69B",
-      "y": 4,
-      "c": "CA",
-      "d": "Finance & Payments. Rank #97.",
-      "s": "Click to open TD company profile.",
-      "bn": false,
-      "z": 7,
-      "rank": 97,
-      "marketcap": 197686345728,
-      "symbol": "TD",
-      "company": "Toronto Dominion Bank",
-      "country": "Canada"
-    },
-    {
-      "id": "vz-98",
-      "l": "Verizon\nVZ - 195.61B",
-      "y": 3,
       "c": "US",
-      "d": "Cloud / Network / Media. Rank #98.",
-      "s": "Click to open VZ company profile.",
+      "d": "Consumer Demand & Services. Rank #95.",
+      "s": "Click to open ADI company profile.",
       "bn": false,
       "z": 7,
-      "rank": 98,
-      "marketcap": 195606822912,
-      "symbol": "VZ",
-      "company": "Verizon",
+      "rank": 95,
+      "marketcap": 200990490624,
+      "symbol": "ADI",
+      "company": "Analog Devices",
       "country": "United States"
     },
     {
+      "id": "san-96",
+      "l": "Santander\nSAN - 197.59B",
+      "y": 6,
+      "c": "ES",
+      "d": "Consumer Demand & Services. Rank #96.",
+      "s": "Click to open SAN company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 96,
+      "marketcap": 197586010112,
+      "symbol": "SAN",
+      "company": "Santander",
+      "country": "Spain"
+    },
+    {
+      "id": "qcom-97",
+      "l": "QUALCOMM\nQCOM - 196.62B",
+      "y": 6,
+      "c": "US",
+      "d": "Consumer Demand & Services. Rank #97.",
+      "s": "Click to open QCOM company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 97,
+      "marketcap": 196620320768,
+      "symbol": "QCOM",
+      "company": "QUALCOMM",
+      "country": "United States"
+    },
+    {
+      "id": "285a-t-98",
+      "l": "KIOXIA Holdings Corporation\n285A.T - 193.40B",
+      "y": 6,
+      "c": "JP",
+      "d": "Consumer Demand & Services. Rank #98.",
+      "s": "Click to open 285A.T company profile.",
+      "bn": false,
+      "z": 7,
+      "rank": 98,
+      "marketcap": 193397865631,
+      "symbol": "285A.T",
+      "company": "KIOXIA Holdings Corporation",
+      "country": "Japan"
+    },
+    {
       "id": "crm-99",
-      "l": "Salesforce\nCRM - 192.60B",
+      "l": "Salesforce\nCRM - 193.07B",
       "y": 6,
       "c": "US",
       "d": "Consumer Demand & Services. Rank #99.",
@@ -1601,25 +1601,25 @@ window.SUPPLY_MAP_DATA = {
       "bn": false,
       "z": 7,
       "rank": 99,
-      "marketcap": 192598458368,
+      "marketcap": 193074970624,
       "symbol": "CRM",
       "company": "Salesforce",
       "country": "United States"
     },
     {
-      "id": "adi-100",
-      "l": "Analog Devices\nADI - 190.72B",
-      "y": 6,
-      "c": "US",
-      "d": "Consumer Demand & Services. Rank #100.",
-      "s": "Click to open ADI company profile.",
+      "id": "td-100",
+      "l": "Toronto Dominion Bank\nTD - 191.32B",
+      "y": 4,
+      "c": "CA",
+      "d": "Finance & Payments. Rank #100.",
+      "s": "Click to open TD company profile.",
       "bn": false,
       "z": 7,
       "rank": 100,
-      "marketcap": 190724980736,
-      "symbol": "ADI",
-      "company": "Analog Devices",
-      "country": "United States"
+      "marketcap": 191324241920,
+      "symbol": "TD",
+      "company": "Toronto Dominion Bank",
+      "country": "Canada"
     }
   ],
   "links": [],
@@ -1639,12 +1639,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "NVIDIA\nNVDA - 5.43T",
+          "l": "NVIDIA\nNVDA - 5.71T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "AI Compute Platform (Source-backed) anchor company. Rank #1.",
-          "s": "Market cap $5,434,765,213,696.",
+          "s": "Market cap $5,710,610,956,288.",
           "z": 23,
           "sourceId": "nvda-10k",
           "confidence": "high (company disclosure)"
@@ -2180,12 +2180,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Apple\nAAPL - 4.98T",
+          "l": "Apple\nAAPL - 4.89T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Consumer Electronics Ecosystem (Source-backed) anchor company. Rank #2.",
-          "s": "Market cap $4,977,636,933,632.",
+          "s": "Market cap $4,892,920,905,728.",
           "z": 23,
           "sourceId": "aapl-10k",
           "confidence": "high (company disclosure)"
@@ -2735,7 +2735,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Search + Cloud Platform (Source-backed) anchor company. Rank #3.",
-          "s": "Market cap $4,171,386,060,800.",
+          "s": "Market cap $4,168,573,517,824.",
           "z": 23,
           "sourceId": "goog-10k",
           "confidence": "high (company disclosure)"
@@ -3160,12 +3160,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Microsoft\nMSFT - 3.83T",
+          "l": "Microsoft\nMSFT - 3.93T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Cloud + Enterprise Software Platform (Source-backed) anchor company. Rank #4.",
-          "s": "Market cap $3,832,843,862,016.",
+          "s": "Market cap $3,928,782,274,560.",
           "z": 23,
           "sourceId": "msft-10k",
           "confidence": "high (company disclosure)"
@@ -3743,12 +3743,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Amazon\nAMZN - 2.69T",
+          "l": "Amazon\nAMZN - 2.72T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Commerce + Cloud Infrastructure Platform (Source-backed) anchor company. Rank #5.",
-          "s": "Market cap $2,693,018,681,344.",
+          "s": "Market cap $2,716,317,253,632.",
           "z": 23,
           "sourceId": "amzn-10k",
           "confidence": "high (company disclosure)"
@@ -4155,12 +4155,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "TSMC\nTSM - 2.34T",
+          "l": "TSMC\nTSM - 2.49T",
           "tier": 0,
           "kind": "company",
           "c": "TW",
           "d": "Advanced Foundry Manufacturing (Source-backed) anchor company. Rank #6.",
-          "s": "Market cap $2,337,076,936,704.",
+          "s": "Market cap $2,490,804,207,616.",
           "z": 23,
           "sourceId": "tsm-annual",
           "confidence": "high (company disclosure)"
@@ -4579,12 +4579,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "SpaceX\nSPCX - 1.96T",
+          "l": "SpaceX\nSPCX - 2.14T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $1,959,866,925,056.",
+          "s": "Market cap $2,138,236,387,328.",
           "z": 22
         }
       ],
@@ -4606,12 +4606,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Meta Platforms (Facebook)\nMETA - 1.91T",
+          "l": "Meta Platforms (Facebook)\nMETA - 1.87T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Digital Platform + AI Infrastructure (Source-backed) anchor company. Rank #8.",
-          "s": "Market cap $1,914,858,373,120.",
+          "s": "Market cap $1,872,416,997,376.",
           "z": 23,
           "sourceId": "meta-10k",
           "confidence": "high (company disclosure)"
@@ -5009,12 +5009,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Broadcom\nAVGO - 1.68T",
+          "l": "Broadcom\nAVGO - 1.70T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Networking Silicon + Infrastructure Software (Source-backed) anchor company. Rank #9.",
-          "s": "Market cap $1,684,184,367,104.",
+          "s": "Market cap $1,702,300,352,512.",
           "z": 23,
           "sourceId": "avgo-annual",
           "confidence": "high (company disclosure)"
@@ -5432,7 +5432,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "SA",
           "d": "Integrated Energy + Localization Network (Source-backed) anchor company. Rank #10.",
-          "s": "Market cap $1,645,926,724,133.",
+          "s": "Market cap $1,647,171,644,402.",
           "z": 23,
           "sourceId": "aramco-results",
           "confidence": "high (company disclosure)"
@@ -5845,12 +5845,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Tesla\nTSLA - 1.47T",
+          "l": "Tesla\nTSLA - 1.46T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "EV + Energy Platform (Source-backed) anchor company. Rank #11.",
-          "s": "Market cap $1,469,666,033,664.",
+          "s": "Market cap $1,464,321,966,080.",
           "z": 23,
           "sourceId": "tsla-10k",
           "confidence": "high (company disclosure)"
@@ -6299,12 +6299,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Samsung\n005930.KS - 1.30T",
+          "l": "Samsung\n005930.KS - 1.35T",
           "tier": 0,
           "kind": "company",
           "c": "KR",
           "d": "Consumer Electronics + Components (Source-backed) anchor company. Rank #12.",
-          "s": "Market cap $1,304,154,668,651.",
+          "s": "Market cap $1,348,290,116,738.",
           "z": 23,
           "sourceId": "ssg-sustain-report",
           "confidence": "high (company disclosure)"
@@ -6723,12 +6723,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Micron Technology\nMU - 1.22T",
+          "l": "Micron Technology\nMU - 1.20T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Memory Semiconductors (Source-backed) anchor company. Rank #13.",
-          "s": "Market cap $1,222,319,669,248.",
+          "s": "Market cap $1,201,008,017,408.",
           "z": 23,
           "sourceId": "mu-10k",
           "confidence": "high (company disclosure)"
@@ -7158,7 +7158,7 @@ window.SUPPLY_MAP_DATA = {
           "kind": "company",
           "c": "US",
           "d": "Diversified Holding + Insurance (Source-backed) anchor company. Rank #14.",
-          "s": "Market cap $1,082,085,998,592.",
+          "s": "Market cap $1,075,824,361,472.",
           "z": 23,
           "sourceId": "brk-annual",
           "confidence": "high (company disclosure)"
@@ -7565,12 +7565,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Eli Lilly\nLLY - 1.06T",
+          "l": "Eli Lilly\nLLY - 1.03T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Biopharma Innovation Pipeline (Source-backed) anchor company. Rank #15.",
-          "s": "Market cap $1,055,340,232,704.",
+          "s": "Market cap $1,029,462,032,384.",
           "z": 23,
           "sourceId": "lly-10k",
           "confidence": "high (company disclosure)"
@@ -7977,12 +7977,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "AMD\nAMD - 1.03T",
+          "l": "AMD\nAMD - 1.02T",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Compute Semiconductors (Source-backed) anchor company. Rank #16.",
-          "s": "Market cap $1,029,487,722,496.",
+          "s": "Market cap $1,023,929,090,048.",
           "z": 23,
           "sourceId": "amd-10k",
           "confidence": "high (company disclosure)"
@@ -8407,12 +8407,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "SK Hynix\n000660.KS - 923.16B",
+          "l": "SK Hynix\n000660.KS - 973.88B",
           "tier": 0,
           "kind": "company",
           "c": "KR",
           "d": "Memory Semiconductors (Source-backed) anchor company. Rank #17.",
-          "s": "Market cap $923,164,410,822.",
+          "s": "Market cap $973,880,454,891.",
           "z": 23,
           "sourceId": "skh-earnings",
           "confidence": "high (company disclosure)"
@@ -8831,12 +8831,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "JPMorgan Chase\nJPM - 911.92B",
+          "l": "JPMorgan Chase\nJPM - 880.99B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Global Universal Banking Platform (Source-backed) anchor company. Rank #18.",
-          "s": "Market cap $911,917,383,680.",
+          "s": "Market cap $880,989,372,416.",
           "z": 23,
           "sourceId": "jpm-10k",
           "confidence": "high (company disclosure)"
@@ -9240,12 +9240,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Walmart\nWMT - 859.31B",
+          "l": "Walmart\nWMT - 823.83B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Omnichannel Retail Platform (Source-backed) anchor company. Rank #19.",
-          "s": "Market cap $859,313,405,952.",
+          "s": "Market cap $823,827,496,960.",
           "z": 23,
           "sourceId": "wmt-10k",
           "confidence": "high (company disclosure)"
@@ -9778,419 +9778,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "V": {
-      "symbol": "V",
-      "company": "Visa",
-      "rank": 20,
-      "category": "Global Payments Network (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Visa\nV - 689.70B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Global Payments Network (Source-backed) anchor company. Rank #20.",
-          "s": "Market cap $689,702,764,544.",
-          "z": 23,
-          "sourceId": "visa-sec-filings",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-issuer-bank-programs-0",
-          "l": "Issuer Bank Programs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Issuer Bank Programs",
-          "s": "V depends on this node.",
-          "sourceId": "visa-sec-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-acquirer-and-processor-integrations-1",
-          "l": "Acquirer and Processor Integrations\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Acquirer and Processor Integrations",
-          "s": "V depends on this node.",
-          "sourceId": "visa-sec-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-j-p-morgan-payments-2",
-          "l": "J.P. Morgan Payments\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "J.P. Morgan Payments",
-          "s": "V depends on this node.",
-          "sourceId": "visa-jpm-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-tokenization-and-identity-services-3",
-          "l": "Tokenization and Identity Services\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Tokenization and Identity Services",
-          "s": "V depends on this node.",
-          "sourceId": "visa-sec-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-authorization-and-settlement-infrastructure-0",
-          "l": "Global Authorization and Settlement Infrastructure\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Global Authorization and Settlement Infrastructure",
-          "s": "V depends on this node.",
-          "sourceId": "visa-network-news",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-risk-and-fraud-management-services-1",
-          "l": "Risk and Fraud Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Risk and Fraud Management Services",
-          "s": "V depends on this node.",
-          "sourceId": "visa-network-news",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-commercial-api-and-embedded-payments-services-2",
-          "l": "Commercial API and Embedded Payments Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Commercial API and Embedded Payments Services",
-          "s": "V depends on this node.",
-          "sourceId": "visa-network-news",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-stablecoin-and-multi-rail-settlement-services-3",
-          "l": "Stablecoin and Multi-Rail Settlement Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Stablecoin and Multi-Rail Settlement Services",
-          "s": "V depends on this node.",
-          "sourceId": "visa-network-news",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-merchant-acquirer-ecosystem-0",
-          "l": "Merchant Acquirer Ecosystem\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Merchant Acquirer Ecosystem",
-          "s": "V serves this node.",
-          "sourceId": "visa-ai-commerce",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-coinbase-1",
-          "l": "Coinbase\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Coinbase",
-          "s": "V serves this node.",
-          "sourceId": "visa-coinbase",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-fiserv-2",
-          "l": "Fiserv\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Fiserv",
-          "s": "V serves this node.",
-          "sourceId": "visa-fiserv",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-cross-border-and-b2b-payment-channels-3",
-          "l": "Cross-border and B2B Payment Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Cross-border and B2B Payment Channels",
-          "s": "V serves this node.",
-          "sourceId": "visa-ai-commerce",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-consumer-spend-volume-0",
-          "l": "Consumer Spend Volume\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Consumer Spend Volume",
-          "s": "V serves this node.",
-          "sourceId": "visa-network-news",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-e-commerce-checkout-demand-1",
-          "l": "E-commerce Checkout Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "E-commerce Checkout Demand",
-          "s": "V serves this node.",
-          "sourceId": "visa-network-news",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-b2b-and-cross-border-payments-demand-2",
-          "l": "B2B and Cross-border Payments Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "B2B and Cross-border Payments Demand",
-          "s": "V serves this node.",
-          "sourceId": "visa-network-news",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-issuer-bank-programs-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-sec-filings",
-          "n": "Source-backed supplier dependency for V."
-        },
-        {
-          "s": "supplier-in-acquirer-and-processor-integrations-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-sec-filings",
-          "n": "Source-backed supplier dependency for V."
-        },
-        {
-          "s": "supplier-in-j-p-morgan-payments-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-jpm-payments",
-          "n": "Source-backed supplier dependency for V."
-        },
-        {
-          "s": "supplier-in-tokenization-and-identity-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-sec-filings",
-          "n": "Source-backed supplier dependency for V."
-        },
-        {
-          "s": "service-in-global-authorization-and-settlement-infrastructure-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed service dependency for V."
-        },
-        {
-          "s": "service-in-risk-and-fraud-management-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed service dependency for V."
-        },
-        {
-          "s": "service-in-commercial-api-and-embedded-payments-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed service dependency for V."
-        },
-        {
-          "s": "service-in-stablecoin-and-multi-rail-settlement-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed service dependency for V."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-merchant-acquirer-ecosystem-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "visa-ai-commerce",
-          "n": "Source-backed channel route for V."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-coinbase-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "visa-coinbase",
-          "n": "Source-backed channel route for V."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-fiserv-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "visa-fiserv",
-          "n": "Source-backed channel route for V."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-cross-border-and-b2b-payment-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "visa-ai-commerce",
-          "n": "Source-backed channel route for V."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-consumer-spend-volume-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed demand route for V."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-e-commerce-checkout-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed demand route for V."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-b2b-and-cross-border-payments-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed demand route for V."
-        },
-        {
-          "s": "channel-out-merchant-acquirer-ecosystem-0",
-          "t": "demand-out-consumer-spend-volume-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed demand transfer from channel to end-demand for V."
-        },
-        {
-          "s": "channel-out-coinbase-1",
-          "t": "demand-out-e-commerce-checkout-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed demand transfer from channel to end-demand for V."
-        },
-        {
-          "s": "channel-out-fiserv-2",
-          "t": "demand-out-b2b-and-cross-border-payments-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "visa-network-news",
-          "n": "Source-backed demand transfer from channel to end-demand for V."
-        }
-      ],
-      "sources": [
-        {
-          "id": "visa-sec-filings",
-          "title": "Visa SEC filings",
-          "url": "https://investor.visa.com/SEC-Filings",
-          "note": "Primary filing index for regulatory and annual reporting."
-        },
-        {
-          "id": "visa-network-news",
-          "title": "Visa FY2025 financial results release",
-          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21731.html",
-          "note": "Company-reported network volume and demand context."
-        },
-        {
-          "id": "visa-jpm-payments",
-          "title": "Visa and J.P. Morgan Payments strategic collaboration via Visa Direct",
-          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
-          "note": "Named partnership between Visa Direct and J.P. Morgan Payments."
-        },
-        {
-          "id": "visa-coinbase",
-          "title": "Coinbase to integrate Visa Direct",
-          "url": "https://investor.visa.com/news/news-details/2024/Coinbase-to-Integrate-Visa-Direct-to-Deliver-Real-Time-Account-Funding-for-Customers/default.aspx",
-          "note": "Named Visa network partnership with Coinbase."
-        },
-        {
-          "id": "visa-fiserv",
-          "title": "Fiserv collaborates with Visa to accelerate agentic commerce",
-          "url": "https://investors.fiserv.com/newsroom/detail/2881/fiserv-collaborates-with-visa-to-accelerate-agentic-commerce",
-          "note": "Named strategic collaboration between Fiserv and Visa."
-        },
-        {
-          "id": "visa-ai-commerce",
-          "title": "Visa intelligent commerce announcement",
-          "url": "https://investor.visa.com/news/news-details/2025/Find-and-Buy-with-AI-Visa-Unveils-New-Era-of-Commerce/default.aspx",
-          "note": "Named platform and partner channel expansion."
-        }
-      ]
-    },
     "ASML": {
       "symbol": "ASML",
       "company": "ASML",
-      "rank": 21,
+      "rank": 20,
       "category": "Semiconductor Lithography Systems (Source-backed)",
       "layers": {
         "0": "Company",
@@ -10202,12 +9793,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "ASML\nASML - 669.85B",
+          "l": "ASML\nASML - 711.37B",
           "tier": 0,
           "kind": "company",
           "c": "NL",
-          "d": "Semiconductor Lithography Systems (Source-backed) anchor company. Rank #21.",
-          "s": "Market cap $669,847,322,624.",
+          "d": "Semiconductor Lithography Systems (Source-backed) anchor company. Rank #20.",
+          "s": "Market cap $711,372,439,552.",
           "z": 23,
           "sourceId": "asml-annual",
           "confidence": "high (company disclosure)"
@@ -10617,6 +10208,415 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "V": {
+      "symbol": "V",
+      "company": "Visa",
+      "rank": 21,
+      "category": "Global Payments Network (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Visa\nV - 676.73B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Global Payments Network (Source-backed) anchor company. Rank #21.",
+          "s": "Market cap $676,730,241,024.",
+          "z": 23,
+          "sourceId": "visa-sec-filings",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-issuer-bank-programs-0",
+          "l": "Issuer Bank Programs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Issuer Bank Programs",
+          "s": "V depends on this node.",
+          "sourceId": "visa-sec-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-acquirer-and-processor-integrations-1",
+          "l": "Acquirer and Processor Integrations\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Acquirer and Processor Integrations",
+          "s": "V depends on this node.",
+          "sourceId": "visa-sec-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-j-p-morgan-payments-2",
+          "l": "J.P. Morgan Payments\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "J.P. Morgan Payments",
+          "s": "V depends on this node.",
+          "sourceId": "visa-jpm-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-tokenization-and-identity-services-3",
+          "l": "Tokenization and Identity Services\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Tokenization and Identity Services",
+          "s": "V depends on this node.",
+          "sourceId": "visa-sec-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-authorization-and-settlement-infrastructure-0",
+          "l": "Global Authorization and Settlement Infrastructure\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Global Authorization and Settlement Infrastructure",
+          "s": "V depends on this node.",
+          "sourceId": "visa-network-news",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-risk-and-fraud-management-services-1",
+          "l": "Risk and Fraud Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Risk and Fraud Management Services",
+          "s": "V depends on this node.",
+          "sourceId": "visa-network-news",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-commercial-api-and-embedded-payments-services-2",
+          "l": "Commercial API and Embedded Payments Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Commercial API and Embedded Payments Services",
+          "s": "V depends on this node.",
+          "sourceId": "visa-network-news",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-stablecoin-and-multi-rail-settlement-services-3",
+          "l": "Stablecoin and Multi-Rail Settlement Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Stablecoin and Multi-Rail Settlement Services",
+          "s": "V depends on this node.",
+          "sourceId": "visa-network-news",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-merchant-acquirer-ecosystem-0",
+          "l": "Merchant Acquirer Ecosystem\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Merchant Acquirer Ecosystem",
+          "s": "V serves this node.",
+          "sourceId": "visa-ai-commerce",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-coinbase-1",
+          "l": "Coinbase\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Coinbase",
+          "s": "V serves this node.",
+          "sourceId": "visa-coinbase",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-fiserv-2",
+          "l": "Fiserv\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Fiserv",
+          "s": "V serves this node.",
+          "sourceId": "visa-fiserv",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-cross-border-and-b2b-payment-channels-3",
+          "l": "Cross-border and B2B Payment Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Cross-border and B2B Payment Channels",
+          "s": "V serves this node.",
+          "sourceId": "visa-ai-commerce",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-consumer-spend-volume-0",
+          "l": "Consumer Spend Volume\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Consumer Spend Volume",
+          "s": "V serves this node.",
+          "sourceId": "visa-network-news",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-e-commerce-checkout-demand-1",
+          "l": "E-commerce Checkout Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "E-commerce Checkout Demand",
+          "s": "V serves this node.",
+          "sourceId": "visa-network-news",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-b2b-and-cross-border-payments-demand-2",
+          "l": "B2B and Cross-border Payments Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "B2B and Cross-border Payments Demand",
+          "s": "V serves this node.",
+          "sourceId": "visa-network-news",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-issuer-bank-programs-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-sec-filings",
+          "n": "Source-backed supplier dependency for V."
+        },
+        {
+          "s": "supplier-in-acquirer-and-processor-integrations-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-sec-filings",
+          "n": "Source-backed supplier dependency for V."
+        },
+        {
+          "s": "supplier-in-j-p-morgan-payments-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-jpm-payments",
+          "n": "Source-backed supplier dependency for V."
+        },
+        {
+          "s": "supplier-in-tokenization-and-identity-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-sec-filings",
+          "n": "Source-backed supplier dependency for V."
+        },
+        {
+          "s": "service-in-global-authorization-and-settlement-infrastructure-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed service dependency for V."
+        },
+        {
+          "s": "service-in-risk-and-fraud-management-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed service dependency for V."
+        },
+        {
+          "s": "service-in-commercial-api-and-embedded-payments-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed service dependency for V."
+        },
+        {
+          "s": "service-in-stablecoin-and-multi-rail-settlement-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed service dependency for V."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-merchant-acquirer-ecosystem-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "visa-ai-commerce",
+          "n": "Source-backed channel route for V."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-coinbase-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "visa-coinbase",
+          "n": "Source-backed channel route for V."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-fiserv-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "visa-fiserv",
+          "n": "Source-backed channel route for V."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-cross-border-and-b2b-payment-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "visa-ai-commerce",
+          "n": "Source-backed channel route for V."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-consumer-spend-volume-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed demand route for V."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-e-commerce-checkout-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed demand route for V."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-b2b-and-cross-border-payments-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed demand route for V."
+        },
+        {
+          "s": "channel-out-merchant-acquirer-ecosystem-0",
+          "t": "demand-out-consumer-spend-volume-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed demand transfer from channel to end-demand for V."
+        },
+        {
+          "s": "channel-out-coinbase-1",
+          "t": "demand-out-e-commerce-checkout-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed demand transfer from channel to end-demand for V."
+        },
+        {
+          "s": "channel-out-fiserv-2",
+          "t": "demand-out-b2b-and-cross-border-payments-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "visa-network-news",
+          "n": "Source-backed demand transfer from channel to end-demand for V."
+        }
+      ],
+      "sources": [
+        {
+          "id": "visa-sec-filings",
+          "title": "Visa SEC filings",
+          "url": "https://investor.visa.com/SEC-Filings",
+          "note": "Primary filing index for regulatory and annual reporting."
+        },
+        {
+          "id": "visa-network-news",
+          "title": "Visa FY2025 financial results release",
+          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.21731.html",
+          "note": "Company-reported network volume and demand context."
+        },
+        {
+          "id": "visa-jpm-payments",
+          "title": "Visa and J.P. Morgan Payments strategic collaboration via Visa Direct",
+          "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20636.html",
+          "note": "Named partnership between Visa Direct and J.P. Morgan Payments."
+        },
+        {
+          "id": "visa-coinbase",
+          "title": "Coinbase to integrate Visa Direct",
+          "url": "https://investor.visa.com/news/news-details/2024/Coinbase-to-Integrate-Visa-Direct-to-Deliver-Real-Time-Account-Funding-for-Customers/default.aspx",
+          "note": "Named Visa network partnership with Coinbase."
+        },
+        {
+          "id": "visa-fiserv",
+          "title": "Fiserv collaborates with Visa to accelerate agentic commerce",
+          "url": "https://investors.fiserv.com/newsroom/detail/2881/fiserv-collaborates-with-visa-to-accelerate-agentic-commerce",
+          "note": "Named strategic collaboration between Fiserv and Visa."
+        },
+        {
+          "id": "visa-ai-commerce",
+          "title": "Visa intelligent commerce announcement",
+          "url": "https://investor.visa.com/news/news-details/2025/Find-and-Buy-with-AI-Visa-Unveils-New-Era-of-Commerce/default.aspx",
+          "note": "Named platform and partner channel expansion."
+        }
+      ]
+    },
     "XOM": {
       "symbol": "XOM",
       "company": "Exxon Mobil",
@@ -10632,12 +10632,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Exxon Mobil\nXOM - 660.33B",
+          "l": "Exxon Mobil\nXOM - 667.96B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Integrated Oil, Gas, and Emerging Lithium (Source-backed) anchor company. Rank #22.",
-          "s": "Market cap $660,331,954,176.",
+          "s": "Market cap $667,959,558,144.",
           "z": 23,
           "sourceId": "xom-10k",
           "confidence": "high (company disclosure)"
@@ -11041,10 +11041,428 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "INTC": {
+      "symbol": "INTC",
+      "company": "Intel",
+      "rank": 23,
+      "category": "Integrated Semiconductor Platform (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Intel\nINTC - 616.57B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Integrated Semiconductor Platform (Source-backed) anchor company. Rank #23.",
+          "s": "Market cap $616,571,273,216.",
+          "z": 23,
+          "sourceId": "intc-10k-2025",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-synopsys-0",
+          "l": "Synopsys\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Synopsys",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-foundry-1739",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-cadence-1",
+          "l": "Cadence\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Cadence",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-foundry-1739",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-siemens-eda-2",
+          "l": "Siemens EDA\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "Siemens EDA",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-foundry-1739",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-mediatek-3",
+          "l": "MediaTek\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "TW",
+          "d": "MediaTek",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-foundry-1739",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-umc-4",
+          "l": "UMC\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "TW",
+          "d": "UMC",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-foundry-1739",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-intel-foundry-services-0",
+          "l": "Intel Foundry Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Intel Foundry Services",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-advanced-packaging-services-1",
+          "l": "Advanced Packaging Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Advanced Packaging Services",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-supply-chain-resilience-and-quality-services-2",
+          "l": "Supply Chain Resilience and Quality Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Supply Chain Resilience and Quality Services",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-capital-planning-services-3",
+          "l": "Treasury and Capital Planning Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and Capital Planning Services",
+          "s": "INTC depends on this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-client-computing-group-ccg-0",
+          "l": "Client Computing Group (CCG)\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Client Computing Group (CCG)",
+          "s": "INTC serves this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-data-center-and-ai-group-dcai-1",
+          "l": "Data Center and AI Group (DCAI)\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Data Center and AI Group (DCAI)",
+          "s": "INTC serves this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-intel-foundry-2",
+          "l": "Intel Foundry\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Intel Foundry",
+          "s": "INTC serves this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-automotive-and-edge-channels-3",
+          "l": "Automotive and Edge Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Automotive and Edge Channels",
+          "s": "INTC serves this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-pc-and-enterprise-compute-demand-0",
+          "l": "PC and Enterprise Compute Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "PC and Enterprise Compute Demand",
+          "s": "INTC serves this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-ai-and-data-center-acceleration-demand-1",
+          "l": "AI and Data Center Acceleration Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "AI and Data Center Acceleration Demand",
+          "s": "INTC serves this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-foundry-outsourcing-demand-2",
+          "l": "Foundry Outsourcing Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Foundry Outsourcing Demand",
+          "s": "INTC serves this node.",
+          "sourceId": "intc-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-synopsys-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-foundry-1739",
+          "n": "Source-backed supplier dependency for INTC."
+        },
+        {
+          "s": "supplier-in-cadence-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-foundry-1739",
+          "n": "Source-backed supplier dependency for INTC."
+        },
+        {
+          "s": "supplier-in-siemens-eda-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-foundry-1739",
+          "n": "Source-backed supplier dependency for INTC."
+        },
+        {
+          "s": "supplier-in-mediatek-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-foundry-1739",
+          "n": "Source-backed supplier dependency for INTC."
+        },
+        {
+          "s": "supplier-in-umc-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-foundry-1739",
+          "n": "Source-backed supplier dependency for INTC."
+        },
+        {
+          "s": "service-in-intel-foundry-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed service dependency for INTC."
+        },
+        {
+          "s": "service-in-advanced-packaging-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed service dependency for INTC."
+        },
+        {
+          "s": "service-in-supply-chain-resilience-and-quality-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed service dependency for INTC."
+        },
+        {
+          "s": "service-in-treasury-and-capital-planning-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed service dependency for INTC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-client-computing-group-ccg-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed channel route for INTC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-data-center-and-ai-group-dcai-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed channel route for INTC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-intel-foundry-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed channel route for INTC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-automotive-and-edge-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed channel route for INTC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-pc-and-enterprise-compute-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed demand route for INTC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-ai-and-data-center-acceleration-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed demand route for INTC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-foundry-outsourcing-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed demand route for INTC."
+        },
+        {
+          "s": "channel-out-client-computing-group-ccg-0",
+          "t": "demand-out-pc-and-enterprise-compute-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for INTC."
+        },
+        {
+          "s": "channel-out-data-center-and-ai-group-dcai-1",
+          "t": "demand-out-ai-and-data-center-acceleration-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for INTC."
+        },
+        {
+          "s": "channel-out-intel-foundry-2",
+          "t": "demand-out-foundry-outsourcing-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "intc-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for INTC."
+        }
+      ],
+      "sources": [
+        {
+          "id": "intc-ir",
+          "title": "Intel investor relations",
+          "url": "https://www.intc.com/",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "intc-sec-submissions",
+          "title": "Intel SEC submissions index",
+          "url": "https://data.sec.gov/submissions/CIK0000050863.json",
+          "note": "Primary SEC filing index for annual report artifacts."
+        },
+        {
+          "id": "intc-10k-2025",
+          "title": "Intel FY2025 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000012/intc-20251227.htm",
+          "note": "Primary filing for operating segment disclosures including CCG, DCAI and Intel Foundry."
+        },
+        {
+          "id": "intc-foundry-1739",
+          "title": "Intel Foundry Direct Connect 2025 partner announcement",
+          "url": "https://www.intc.com/news-events/press-releases/detail/1739/intel-foundry-gathers-customers-and-partners-outlines",
+          "note": "Names ecosystem partners including Synopsys, Cadence, Siemens EDA, MediaTek and UMC collaboration."
+        }
+      ]
+    },
     "JNJ": {
       "symbol": "JNJ",
       "company": "Johnson & Johnson",
-      "rank": 23,
+      "rank": 24,
       "category": "Diversified Healthcare Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -11056,12 +11474,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Johnson & Johnson\nJNJ - 653.61B",
+          "l": "Johnson & Johnson\nJNJ - 612.10B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Diversified Healthcare Platform (Source-backed) anchor company. Rank #23.",
-          "s": "Market cap $653,612,679,168.",
+          "d": "Diversified Healthcare Platform (Source-backed) anchor company. Rank #24.",
+          "s": "Market cap $612,102,176,768.",
           "z": 23,
           "sourceId": "jnj-10k",
           "confidence": "high (company disclosure)"
@@ -11465,424 +11883,6 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "INTC": {
-      "symbol": "INTC",
-      "company": "Intel",
-      "rank": 24,
-      "category": "Integrated Semiconductor Platform (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Intel\nINTC - 650.19B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Integrated Semiconductor Platform (Source-backed) anchor company. Rank #24.",
-          "s": "Market cap $650,190,913,536.",
-          "z": 23,
-          "sourceId": "intc-10k-2025",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-synopsys-0",
-          "l": "Synopsys\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Synopsys",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-foundry-1739",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-cadence-1",
-          "l": "Cadence\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Cadence",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-foundry-1739",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-siemens-eda-2",
-          "l": "Siemens EDA\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "Siemens EDA",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-foundry-1739",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-mediatek-3",
-          "l": "MediaTek\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "TW",
-          "d": "MediaTek",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-foundry-1739",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-umc-4",
-          "l": "UMC\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "TW",
-          "d": "UMC",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-foundry-1739",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-intel-foundry-services-0",
-          "l": "Intel Foundry Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Intel Foundry Services",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-advanced-packaging-services-1",
-          "l": "Advanced Packaging Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Advanced Packaging Services",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-supply-chain-resilience-and-quality-services-2",
-          "l": "Supply Chain Resilience and Quality Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Supply Chain Resilience and Quality Services",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-capital-planning-services-3",
-          "l": "Treasury and Capital Planning Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Capital Planning Services",
-          "s": "INTC depends on this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-client-computing-group-ccg-0",
-          "l": "Client Computing Group (CCG)\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Client Computing Group (CCG)",
-          "s": "INTC serves this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-data-center-and-ai-group-dcai-1",
-          "l": "Data Center and AI Group (DCAI)\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Data Center and AI Group (DCAI)",
-          "s": "INTC serves this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-intel-foundry-2",
-          "l": "Intel Foundry\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Intel Foundry",
-          "s": "INTC serves this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-automotive-and-edge-channels-3",
-          "l": "Automotive and Edge Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Automotive and Edge Channels",
-          "s": "INTC serves this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-pc-and-enterprise-compute-demand-0",
-          "l": "PC and Enterprise Compute Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "PC and Enterprise Compute Demand",
-          "s": "INTC serves this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-ai-and-data-center-acceleration-demand-1",
-          "l": "AI and Data Center Acceleration Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "AI and Data Center Acceleration Demand",
-          "s": "INTC serves this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-foundry-outsourcing-demand-2",
-          "l": "Foundry Outsourcing Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Foundry Outsourcing Demand",
-          "s": "INTC serves this node.",
-          "sourceId": "intc-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-synopsys-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-foundry-1739",
-          "n": "Source-backed supplier dependency for INTC."
-        },
-        {
-          "s": "supplier-in-cadence-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-foundry-1739",
-          "n": "Source-backed supplier dependency for INTC."
-        },
-        {
-          "s": "supplier-in-siemens-eda-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-foundry-1739",
-          "n": "Source-backed supplier dependency for INTC."
-        },
-        {
-          "s": "supplier-in-mediatek-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-foundry-1739",
-          "n": "Source-backed supplier dependency for INTC."
-        },
-        {
-          "s": "supplier-in-umc-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-foundry-1739",
-          "n": "Source-backed supplier dependency for INTC."
-        },
-        {
-          "s": "service-in-intel-foundry-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed service dependency for INTC."
-        },
-        {
-          "s": "service-in-advanced-packaging-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed service dependency for INTC."
-        },
-        {
-          "s": "service-in-supply-chain-resilience-and-quality-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed service dependency for INTC."
-        },
-        {
-          "s": "service-in-treasury-and-capital-planning-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed service dependency for INTC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-client-computing-group-ccg-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed channel route for INTC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-data-center-and-ai-group-dcai-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed channel route for INTC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-intel-foundry-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed channel route for INTC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-automotive-and-edge-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed channel route for INTC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-pc-and-enterprise-compute-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed demand route for INTC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-ai-and-data-center-acceleration-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed demand route for INTC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-foundry-outsourcing-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed demand route for INTC."
-        },
-        {
-          "s": "channel-out-client-computing-group-ccg-0",
-          "t": "demand-out-pc-and-enterprise-compute-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for INTC."
-        },
-        {
-          "s": "channel-out-data-center-and-ai-group-dcai-1",
-          "t": "demand-out-ai-and-data-center-acceleration-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for INTC."
-        },
-        {
-          "s": "channel-out-intel-foundry-2",
-          "t": "demand-out-foundry-outsourcing-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "intc-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for INTC."
-        }
-      ],
-      "sources": [
-        {
-          "id": "intc-ir",
-          "title": "Intel investor relations",
-          "url": "https://www.intc.com/",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "intc-sec-submissions",
-          "title": "Intel SEC submissions index",
-          "url": "https://data.sec.gov/submissions/CIK0000050863.json",
-          "note": "Primary SEC filing index for annual report artifacts."
-        },
-        {
-          "id": "intc-10k-2025",
-          "title": "Intel FY2025 Form 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000012/intc-20251227.htm",
-          "note": "Primary filing for operating segment disclosures including CCG, DCAI and Intel Foundry."
-        },
-        {
-          "id": "intc-foundry-1739",
-          "title": "Intel Foundry Direct Connect 2025 partner announcement",
-          "url": "https://www.intc.com/news-events/press-releases/detail/1739/intel-foundry-gathers-customers-and-partners-outlines",
-          "note": "Names ecosystem partners including Synopsys, Cadence, Siemens EDA, MediaTek and UMC collaboration."
-        }
-      ]
-    },
     "688825.SS": {
       "symbol": "688825.SS",
       "company": "CXMT",
@@ -11898,419 +11898,22 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "CXMT\n688825.SS - 568.75B",
+          "l": "CXMT\n688825.SS - 579.42B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
           "d": "No verified relationship data published.",
-          "s": "Market cap $568,753,201,682.",
+          "s": "Market cap $579,418,034,053.",
           "z": 22
         }
       ],
       "links": [],
       "sources": []
     },
-    "TCEHY": {
-      "symbol": "TCEHY",
-      "company": "Tencent",
-      "rank": 26,
-      "category": "Digital Platform + Cloud Ecosystem (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Tencent\nTCEHY - 502.69B",
-          "tier": 0,
-          "kind": "company",
-          "c": "CN",
-          "d": "Digital Platform + Cloud Ecosystem (Source-backed) anchor company. Rank #26.",
-          "s": "Market cap $502,686,450,000.",
-          "z": 23,
-          "sourceId": "tencent-financial-reports",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-mercedes-benz-0",
-          "l": "Mercedes-Benz\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "Mercedes-Benz",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-mercedes-ea",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-electronic-arts-ea-1",
-          "l": "Electronic Arts (EA)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Electronic Arts (EA)",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-mercedes-ea",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-data-center-and-server-infrastructure-inputs-2",
-          "l": "Data Center and Server Infrastructure Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Data Center and Server Infrastructure Inputs",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-mercedes-ea",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-ai-compute-and-networking-inputs-3",
-          "l": "AI Compute and Networking Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "AI Compute and Networking Inputs",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-mercedes-ea",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-tencent-esg-and-supply-chain-governance-0",
-          "l": "Tencent ESG and Supply Chain Governance\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Tencent ESG and Supply Chain Governance",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-esg",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-cloud-security-and-compliance-services-1",
-          "l": "Cloud Security and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Cloud Security and Compliance Services",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-esg",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-digital-payments-and-treasury-services-2",
-          "l": "Digital Payments and Treasury Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Digital Payments and Treasury Services",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-esg",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-platform-operations-and-trust-and-safety-services-3",
-          "l": "Platform Operations and Trust and Safety Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Platform Operations and Trust and Safety Services",
-          "s": "TCEHY depends on this node.",
-          "sourceId": "tencent-esg",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-esports-world-cup-foundation-0",
-          "l": "Esports World Cup Foundation\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "SA",
-          "d": "Esports World Cup Foundation",
-          "s": "TCEHY serves this node.",
-          "sourceId": "tencent-ewcf",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-wechat-ecosystem-businesses-1",
-          "l": "WeChat Ecosystem Businesses\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "WeChat Ecosystem Businesses",
-          "s": "TCEHY serves this node.",
-          "sourceId": "tencent-ewcf",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-tencent-cloud-enterprise-partners-2",
-          "l": "Tencent Cloud Enterprise Partners\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Tencent Cloud Enterprise Partners",
-          "s": "TCEHY serves this node.",
-          "sourceId": "tencent-ewcf",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-gaming-and-digital-content-channels-3",
-          "l": "Gaming and Digital Content Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Gaming and Digital Content Channels",
-          "s": "TCEHY serves this node.",
-          "sourceId": "tencent-ewcf",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-digital-advertising-demand-0",
-          "l": "Digital Advertising Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Digital Advertising Demand",
-          "s": "TCEHY serves this node.",
-          "sourceId": "tencent-financial-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-cloud-and-enterprise-transformation-demand-1",
-          "l": "Cloud and Enterprise Transformation Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Cloud and Enterprise Transformation Demand",
-          "s": "TCEHY serves this node.",
-          "sourceId": "tencent-financial-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-gaming-and-social-engagement-demand-2",
-          "l": "Gaming and Social Engagement Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Gaming and Social Engagement Demand",
-          "s": "TCEHY serves this node.",
-          "sourceId": "tencent-financial-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-mercedes-benz-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-mercedes-ea",
-          "n": "Source-backed supplier dependency for TCEHY."
-        },
-        {
-          "s": "supplier-in-electronic-arts-ea-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-mercedes-ea",
-          "n": "Source-backed supplier dependency for TCEHY."
-        },
-        {
-          "s": "supplier-in-data-center-and-server-infrastructure-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-mercedes-ea",
-          "n": "Source-backed supplier dependency for TCEHY."
-        },
-        {
-          "s": "supplier-in-ai-compute-and-networking-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-mercedes-ea",
-          "n": "Source-backed supplier dependency for TCEHY."
-        },
-        {
-          "s": "service-in-tencent-esg-and-supply-chain-governance-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-esg",
-          "n": "Source-backed service dependency for TCEHY."
-        },
-        {
-          "s": "service-in-cloud-security-and-compliance-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-esg",
-          "n": "Source-backed service dependency for TCEHY."
-        },
-        {
-          "s": "service-in-digital-payments-and-treasury-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-esg",
-          "n": "Source-backed service dependency for TCEHY."
-        },
-        {
-          "s": "service-in-platform-operations-and-trust-and-safety-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-esg",
-          "n": "Source-backed service dependency for TCEHY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-esports-world-cup-foundation-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-ewcf",
-          "n": "Source-backed channel route for TCEHY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-wechat-ecosystem-businesses-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-ewcf",
-          "n": "Source-backed channel route for TCEHY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-tencent-cloud-enterprise-partners-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-ewcf",
-          "n": "Source-backed channel route for TCEHY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-gaming-and-digital-content-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-ewcf",
-          "n": "Source-backed channel route for TCEHY."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-digital-advertising-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-financial-reports",
-          "n": "Source-backed demand route for TCEHY."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-cloud-and-enterprise-transformation-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-financial-reports",
-          "n": "Source-backed demand route for TCEHY."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-gaming-and-social-engagement-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-financial-reports",
-          "n": "Source-backed demand route for TCEHY."
-        },
-        {
-          "s": "channel-out-esports-world-cup-foundation-0",
-          "t": "demand-out-digital-advertising-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-financial-reports",
-          "n": "Source-backed demand transfer from channel to end-demand for TCEHY."
-        },
-        {
-          "s": "channel-out-wechat-ecosystem-businesses-1",
-          "t": "demand-out-cloud-and-enterprise-transformation-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-financial-reports",
-          "n": "Source-backed demand transfer from channel to end-demand for TCEHY."
-        },
-        {
-          "s": "channel-out-tencent-cloud-enterprise-partners-2",
-          "t": "demand-out-gaming-and-social-engagement-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "tencent-financial-reports",
-          "n": "Source-backed demand transfer from channel to end-demand for TCEHY."
-        }
-      ],
-      "sources": [
-        {
-          "id": "tencent-financial-reports",
-          "title": "Tencent investor financial reports",
-          "url": "https://www.tencent.com/en-us/investors/financial-reports.html",
-          "note": "Primary annual and interim reporting source."
-        },
-        {
-          "id": "tencent-esg",
-          "title": "Tencent ESG reports",
-          "url": "https://www.tencent.com/en-us/esg/esg-reports.html",
-          "note": "Governance and supply-chain responsibility context."
-        },
-        {
-          "id": "tencent-mercedes-ea",
-          "title": "Tencent Games and EA announce Need for Speed Mobile with Mercedes-Benz",
-          "url": "https://www.tencent.com/en-us/articles/2201837.html",
-          "note": "Named strategic ecosystem partners Mercedes-Benz and Electronic Arts in Tencent game ecosystem."
-        },
-        {
-          "id": "tencent-ewcf",
-          "title": "Tencent and Esports World Cup Foundation collaboration",
-          "url": "https://www.tencent.com/en-us/articles/2202032.html",
-          "note": "Named distribution and ecosystem partnership with Esports World Cup Foundation."
-        }
-      ]
-    },
     "MA": {
       "symbol": "MA",
       "company": "Mastercard",
-      "rank": 27,
+      "rank": 26,
       "category": "Card Network (Source-backed)",
       "layers": {
         "0": "Company",
@@ -12322,12 +11925,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Mastercard\nMA - 497.27B",
+          "l": "Mastercard\nMA - 484.99B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Card Network (Source-backed) anchor company. Rank #27.",
-          "s": "Market cap $497,267,048,448.",
+          "d": "Card Network (Source-backed) anchor company. Rank #26.",
+          "s": "Market cap $484,985,372,672.",
           "z": 23,
           "sourceId": "ma-sec",
           "confidence": "high (company disclosure)"
@@ -12737,6 +12340,403 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "TCEHY": {
+      "symbol": "TCEHY",
+      "company": "Tencent",
+      "rank": 27,
+      "category": "Digital Platform + Cloud Ecosystem (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Tencent\nTCEHY - 479.74B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CN",
+          "d": "Digital Platform + Cloud Ecosystem (Source-backed) anchor company. Rank #27.",
+          "s": "Market cap $479,742,630,000.",
+          "z": 23,
+          "sourceId": "tencent-financial-reports",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-mercedes-benz-0",
+          "l": "Mercedes-Benz\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "Mercedes-Benz",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-mercedes-ea",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-electronic-arts-ea-1",
+          "l": "Electronic Arts (EA)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Electronic Arts (EA)",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-mercedes-ea",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-data-center-and-server-infrastructure-inputs-2",
+          "l": "Data Center and Server Infrastructure Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Data Center and Server Infrastructure Inputs",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-mercedes-ea",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-ai-compute-and-networking-inputs-3",
+          "l": "AI Compute and Networking Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "AI Compute and Networking Inputs",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-mercedes-ea",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-tencent-esg-and-supply-chain-governance-0",
+          "l": "Tencent ESG and Supply Chain Governance\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Tencent ESG and Supply Chain Governance",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-esg",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-cloud-security-and-compliance-services-1",
+          "l": "Cloud Security and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Cloud Security and Compliance Services",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-esg",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-digital-payments-and-treasury-services-2",
+          "l": "Digital Payments and Treasury Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Digital Payments and Treasury Services",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-esg",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-platform-operations-and-trust-and-safety-services-3",
+          "l": "Platform Operations and Trust and Safety Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Platform Operations and Trust and Safety Services",
+          "s": "TCEHY depends on this node.",
+          "sourceId": "tencent-esg",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-esports-world-cup-foundation-0",
+          "l": "Esports World Cup Foundation\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "SA",
+          "d": "Esports World Cup Foundation",
+          "s": "TCEHY serves this node.",
+          "sourceId": "tencent-ewcf",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-wechat-ecosystem-businesses-1",
+          "l": "WeChat Ecosystem Businesses\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "WeChat Ecosystem Businesses",
+          "s": "TCEHY serves this node.",
+          "sourceId": "tencent-ewcf",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-tencent-cloud-enterprise-partners-2",
+          "l": "Tencent Cloud Enterprise Partners\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Tencent Cloud Enterprise Partners",
+          "s": "TCEHY serves this node.",
+          "sourceId": "tencent-ewcf",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-gaming-and-digital-content-channels-3",
+          "l": "Gaming and Digital Content Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Gaming and Digital Content Channels",
+          "s": "TCEHY serves this node.",
+          "sourceId": "tencent-ewcf",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-digital-advertising-demand-0",
+          "l": "Digital Advertising Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Digital Advertising Demand",
+          "s": "TCEHY serves this node.",
+          "sourceId": "tencent-financial-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-cloud-and-enterprise-transformation-demand-1",
+          "l": "Cloud and Enterprise Transformation Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Cloud and Enterprise Transformation Demand",
+          "s": "TCEHY serves this node.",
+          "sourceId": "tencent-financial-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-gaming-and-social-engagement-demand-2",
+          "l": "Gaming and Social Engagement Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Gaming and Social Engagement Demand",
+          "s": "TCEHY serves this node.",
+          "sourceId": "tencent-financial-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-mercedes-benz-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-mercedes-ea",
+          "n": "Source-backed supplier dependency for TCEHY."
+        },
+        {
+          "s": "supplier-in-electronic-arts-ea-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-mercedes-ea",
+          "n": "Source-backed supplier dependency for TCEHY."
+        },
+        {
+          "s": "supplier-in-data-center-and-server-infrastructure-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-mercedes-ea",
+          "n": "Source-backed supplier dependency for TCEHY."
+        },
+        {
+          "s": "supplier-in-ai-compute-and-networking-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-mercedes-ea",
+          "n": "Source-backed supplier dependency for TCEHY."
+        },
+        {
+          "s": "service-in-tencent-esg-and-supply-chain-governance-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-esg",
+          "n": "Source-backed service dependency for TCEHY."
+        },
+        {
+          "s": "service-in-cloud-security-and-compliance-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-esg",
+          "n": "Source-backed service dependency for TCEHY."
+        },
+        {
+          "s": "service-in-digital-payments-and-treasury-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-esg",
+          "n": "Source-backed service dependency for TCEHY."
+        },
+        {
+          "s": "service-in-platform-operations-and-trust-and-safety-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-esg",
+          "n": "Source-backed service dependency for TCEHY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-esports-world-cup-foundation-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-ewcf",
+          "n": "Source-backed channel route for TCEHY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-wechat-ecosystem-businesses-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-ewcf",
+          "n": "Source-backed channel route for TCEHY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-tencent-cloud-enterprise-partners-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-ewcf",
+          "n": "Source-backed channel route for TCEHY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-gaming-and-digital-content-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-ewcf",
+          "n": "Source-backed channel route for TCEHY."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-digital-advertising-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-financial-reports",
+          "n": "Source-backed demand route for TCEHY."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-cloud-and-enterprise-transformation-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-financial-reports",
+          "n": "Source-backed demand route for TCEHY."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-gaming-and-social-engagement-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-financial-reports",
+          "n": "Source-backed demand route for TCEHY."
+        },
+        {
+          "s": "channel-out-esports-world-cup-foundation-0",
+          "t": "demand-out-digital-advertising-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-financial-reports",
+          "n": "Source-backed demand transfer from channel to end-demand for TCEHY."
+        },
+        {
+          "s": "channel-out-wechat-ecosystem-businesses-1",
+          "t": "demand-out-cloud-and-enterprise-transformation-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-financial-reports",
+          "n": "Source-backed demand transfer from channel to end-demand for TCEHY."
+        },
+        {
+          "s": "channel-out-tencent-cloud-enterprise-partners-2",
+          "t": "demand-out-gaming-and-social-engagement-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "tencent-financial-reports",
+          "n": "Source-backed demand transfer from channel to end-demand for TCEHY."
+        }
+      ],
+      "sources": [
+        {
+          "id": "tencent-financial-reports",
+          "title": "Tencent investor financial reports",
+          "url": "https://www.tencent.com/en-us/investors/financial-reports.html",
+          "note": "Primary annual and interim reporting source."
+        },
+        {
+          "id": "tencent-esg",
+          "title": "Tencent ESG reports",
+          "url": "https://www.tencent.com/en-us/esg/esg-reports.html",
+          "note": "Governance and supply-chain responsibility context."
+        },
+        {
+          "id": "tencent-mercedes-ea",
+          "title": "Tencent Games and EA announce Need for Speed Mobile with Mercedes-Benz",
+          "url": "https://www.tencent.com/en-us/articles/2201837.html",
+          "note": "Named strategic ecosystem partners Mercedes-Benz and Electronic Arts in Tencent game ecosystem."
+        },
+        {
+          "id": "tencent-ewcf",
+          "title": "Tencent and Esports World Cup Foundation collaboration",
+          "url": "https://www.tencent.com/en-us/articles/2202032.html",
+          "note": "Named distribution and ecosystem partnership with Esports World Cup Foundation."
+        }
+      ]
+    },
     "ABBV": {
       "symbol": "ABBV",
       "company": "AbbVie",
@@ -12752,12 +12752,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "AbbVie\nABBV - 467.12B",
+          "l": "AbbVie\nABBV - 461.91B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #28.",
-          "s": "Market cap $467,119,767,552.",
+          "s": "Market cap $461,906,804,736.",
           "z": 23,
           "sourceId": "abbv-annual",
           "confidence": "high (company disclosure)"
@@ -13182,12 +13182,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Palantir\nPLTR - 455.79B",
+          "l": "Palantir\nPLTR - 461.09B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Enterprise AI Platform (Source-backed) anchor company. Rank #29.",
-          "s": "Market cap $455,788,101,632.",
+          "s": "Market cap $461,090,914,304.",
           "z": 23,
           "sourceId": "pltr-ir",
           "confidence": "high (company disclosure)"
@@ -13597,413 +13597,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "601939.SS": {
-      "symbol": "601939.SS",
-      "company": "China Construction Bank",
-      "rank": 30,
-      "category": "State Commercial Banking (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "China Construction Bank\n601939.SS - 429.58B",
-          "tier": 0,
-          "kind": "company",
-          "c": "CN",
-          "d": "State Commercial Banking (Source-backed) anchor company. Rank #30.",
-          "s": "Market cap $429,582,944,575.",
-          "z": 23,
-          "sourceId": "ccb-annual",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-china-unionpay-0",
-          "l": "China UnionPay\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "China UnionPay",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-core-banking-and-risk-technology-stack-1",
-          "l": "Core Banking and Risk Technology Stack\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Core Banking and Risk Technology Stack",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-credit-data-and-scoring-inputs-2",
-          "l": "Credit Data and Scoring Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Credit Data and Scoring Inputs",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-settlement-and-clearing-infrastructure-3",
-          "l": "Settlement and Clearing Infrastructure\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Settlement and Clearing Infrastructure",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-swift-network-0",
-          "l": "SWIFT Network\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "SWIFT Network",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-and-capital-management-services-1",
-          "l": "Regulatory and Capital Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Regulatory and Capital Management Services",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-aml-fraud-and-risk-operations-2",
-          "l": "AML, Fraud, and Risk Operations\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "AML, Fraud, and Risk Operations",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-liquidity-services-3",
-          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Treasury and Liquidity Services",
-          "s": "601939.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-cips-cross-border-interbank-payment-system-0",
-          "l": "CIPS (Cross-Border Interbank Payment System)\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "CIPS (Cross-Border Interbank Payment System)",
-          "s": "601939.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-corporate-and-institutional-banking-channels-1",
-          "l": "Corporate and Institutional Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Corporate and Institutional Banking Channels",
-          "s": "601939.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-retail-and-mobile-banking-channels-2",
-          "l": "Retail and Mobile Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Retail and Mobile Banking Channels",
-          "s": "601939.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-trade-and-supply-chain-finance-channels-3",
-          "l": "Trade and Supply Chain Finance Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Trade and Supply Chain Finance Channels",
-          "s": "601939.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-infrastructure-and-corporate-credit-demand-0",
-          "l": "Infrastructure and Corporate Credit Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Infrastructure and Corporate Credit Demand",
-          "s": "601939.SS serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-household-lending-demand-1",
-          "l": "Household Lending Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Household Lending Demand",
-          "s": "601939.SS serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-domestic-and-international-settlement-demand-2",
-          "l": "Domestic and International Settlement Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Domestic and International Settlement Demand",
-          "s": "601939.SS serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-china-unionpay-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601939.SS."
-        },
-        {
-          "s": "supplier-in-core-banking-and-risk-technology-stack-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601939.SS."
-        },
-        {
-          "s": "supplier-in-credit-data-and-scoring-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601939.SS."
-        },
-        {
-          "s": "supplier-in-settlement-and-clearing-infrastructure-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601939.SS."
-        },
-        {
-          "s": "service-in-swift-network-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601939.SS."
-        },
-        {
-          "s": "service-in-regulatory-and-capital-management-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601939.SS."
-        },
-        {
-          "s": "service-in-aml-fraud-and-risk-operations-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601939.SS."
-        },
-        {
-          "s": "service-in-treasury-and-liquidity-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601939.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-cips-cross-border-interbank-payment-system-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601939.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-corporate-and-institutional-banking-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601939.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-retail-and-mobile-banking-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601939.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-trade-and-supply-chain-finance-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601939.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-infrastructure-and-corporate-credit-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for 601939.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-household-lending-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for 601939.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-domestic-and-international-settlement-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for 601939.SS."
-        },
-        {
-          "s": "channel-out-cips-cross-border-interbank-payment-system-0",
-          "t": "demand-out-infrastructure-and-corporate-credit-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for 601939.SS."
-        },
-        {
-          "s": "channel-out-corporate-and-institutional-banking-channels-1",
-          "t": "demand-out-household-lending-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for 601939.SS."
-        },
-        {
-          "s": "channel-out-retail-and-mobile-banking-channels-2",
-          "t": "demand-out-domestic-and-international-settlement-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for 601939.SS."
-        }
-      ],
-      "sources": [
-        {
-          "id": "ccb-annual",
-          "title": "China Construction Bank annual reports",
-          "url": "https://www.ccb.com/english/v3/investor/financials/ann_report.html",
-          "note": "Annual operating and risk disclosures."
-        },
-        {
-          "id": "ccb-quarterly",
-          "title": "China Construction Bank quarterly reports",
-          "url": "https://www.ccb.com/en/investorv3/financial/quarterlyreport/index.html",
-          "note": "Current business segment performance context."
-        },
-        {
-          "id": "unionpay-home",
-          "title": "UnionPay International overview",
-          "url": "https://www.unionpayintl.com/en/",
-          "note": "Named cross-border card network used across issuing and acquiring flows."
-        },
-        {
-          "id": "cips-site",
-          "title": "CIPS official website",
-          "url": "https://www.cips.com.cn/en/index/index.html",
-          "note": "Named RMB cross-border interbank payment infrastructure."
-        },
-        {
-          "id": "swift-payments",
-          "title": "SWIFT payments network overview",
-          "url": "https://www.swift.com/payments",
-          "note": "Global settlement network context for banks."
-        }
-      ]
-    },
     "CSCO": {
       "symbol": "CSCO",
       "company": "Cisco",
-      "rank": 31,
+      "rank": 30,
       "category": "Network Infrastructure Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -14015,12 +13612,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Cisco\nCSCO - 420.67B",
+          "l": "Cisco\nCSCO - 441.85B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Network Infrastructure Platform (Source-backed) anchor company. Rank #31.",
-          "s": "Market cap $420,674,011,136.",
+          "d": "Network Infrastructure Platform (Source-backed) anchor company. Rank #30.",
+          "s": "Market cap $441,845,710,848.",
           "z": 23,
           "sourceId": "csco-ir",
           "confidence": "high (company disclosure)"
@@ -14427,7 +14024,7 @@ window.SUPPLY_MAP_DATA = {
     "ORCL": {
       "symbol": "ORCL",
       "company": "Oracle",
-      "rank": 32,
+      "rank": 31,
       "category": "Enterprise Cloud Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -14439,12 +14036,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Oracle\nORCL - 414.55B",
+          "l": "Oracle\nORCL - 439.84B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Enterprise Cloud Platform (Source-backed) anchor company. Rank #32.",
-          "s": "Market cap $414,554,226,688.",
+          "d": "Enterprise Cloud Platform (Source-backed) anchor company. Rank #31.",
+          "s": "Market cap $439,840,473,088.",
           "z": 23,
           "sourceId": "orcl-sec",
           "confidence": "high (company disclosure)"
@@ -14848,1249 +14445,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "COST": {
-      "symbol": "COST",
-      "company": "Costco",
-      "rank": 33,
-      "category": "Warehouse Retail (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Costco\nCOST - 409.03B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Warehouse Retail (Source-backed) anchor company. Rank #33.",
-          "s": "Market cap $409,030,328,320.",
-          "z": 23,
-          "sourceId": "costco-results",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-kirkland-private-label-manufacturing-partners-0",
-          "l": "Kirkland Private Label Manufacturing Partners\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Kirkland Private Label Manufacturing Partners",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-vendors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-fresh-food-and-grocery-supplier-base-1",
-          "l": "Fresh Food and Grocery Supplier Base\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Fresh Food and Grocery Supplier Base",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-vendors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-instacart-same-day-delivery-partner-2",
-          "l": "Instacart (Same-Day Delivery Partner)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Instacart (Same-Day Delivery Partner)",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-same-day",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-citi-costco-anywhere-visa-issuer-3",
-          "l": "Citi (Costco Anywhere Visa Issuer)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Citi (Costco Anywhere Visa Issuer)",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-citi-visa",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-visa-network-costco-anywhere-card-4",
-          "l": "Visa Network (Costco Anywhere Card)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Visa Network (Costco Anywhere Card)",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-citi-visa",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-depot-and-warehouse-distribution-logistics-0",
-          "l": "Depot and Warehouse Distribution Logistics\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Depot and Warehouse Distribution Logistics",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-vendors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-supplier-onboarding-and-compliance-programs-1",
-          "l": "Supplier Onboarding and Compliance Programs\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Supplier Onboarding and Compliance Programs",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-vendors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-payments-and-merchant-services-infrastructure-2",
-          "l": "Payments and Merchant Services Infrastructure\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Payments and Merchant Services Infrastructure",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-vendors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-commercial-risk-and-property-coverage-3",
-          "l": "Commercial Risk and Property Coverage\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Commercial Risk and Property Coverage",
-          "s": "COST depends on this node.",
-          "sourceId": "costco-vendors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-warehouse-club-store-network-0",
-          "l": "Warehouse Club Store Network\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Warehouse Club Store Network",
-          "s": "COST serves this node.",
-          "sourceId": "costco-same-day",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-instacart-same-day-delivery-partner-1",
-          "l": "Instacart (Same-Day Delivery Partner)\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Instacart (Same-Day Delivery Partner)",
-          "s": "COST serves this node.",
-          "sourceId": "costco-same-day",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-business-delivery-and-b2b-channels-2",
-          "l": "Business Delivery and B2B Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Business Delivery and B2B Channels",
-          "s": "COST serves this node.",
-          "sourceId": "costco-same-day",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-membership-renewal-and-loyalty-programs-3",
-          "l": "Membership Renewal and Loyalty Programs\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Membership Renewal and Loyalty Programs",
-          "s": "COST serves this node.",
-          "sourceId": "costco-same-day",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-membership-fee-and-renewal-demand-0",
-          "l": "Membership Fee and Renewal Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Membership Fee and Renewal Demand",
-          "s": "COST serves this node.",
-          "sourceId": "costco-results",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-household-basket-demand-1",
-          "l": "Household Basket Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Household Basket Demand",
-          "s": "COST serves this node.",
-          "sourceId": "costco-results",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-seasonal-and-discretionary-demand-2",
-          "l": "Seasonal and Discretionary Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Seasonal and Discretionary Demand",
-          "s": "COST serves this node.",
-          "sourceId": "costco-results",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-kirkland-private-label-manufacturing-partners-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-vendors",
-          "n": "Source-backed supplier dependency for COST."
-        },
-        {
-          "s": "supplier-in-fresh-food-and-grocery-supplier-base-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-vendors",
-          "n": "Source-backed supplier dependency for COST."
-        },
-        {
-          "s": "supplier-in-instacart-same-day-delivery-partner-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-same-day",
-          "n": "Source-backed supplier dependency for COST."
-        },
-        {
-          "s": "supplier-in-citi-costco-anywhere-visa-issuer-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-citi-visa",
-          "n": "Source-backed supplier dependency for COST."
-        },
-        {
-          "s": "supplier-in-visa-network-costco-anywhere-card-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-citi-visa",
-          "n": "Source-backed supplier dependency for COST."
-        },
-        {
-          "s": "service-in-depot-and-warehouse-distribution-logistics-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-vendors",
-          "n": "Source-backed service dependency for COST."
-        },
-        {
-          "s": "service-in-supplier-onboarding-and-compliance-programs-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-vendors",
-          "n": "Source-backed service dependency for COST."
-        },
-        {
-          "s": "service-in-payments-and-merchant-services-infrastructure-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-vendors",
-          "n": "Source-backed service dependency for COST."
-        },
-        {
-          "s": "service-in-commercial-risk-and-property-coverage-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "costco-vendors",
-          "n": "Source-backed service dependency for COST."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-warehouse-club-store-network-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "costco-same-day",
-          "n": "Source-backed channel route for COST."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-instacart-same-day-delivery-partner-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "costco-same-day",
-          "n": "Source-backed channel route for COST."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-business-delivery-and-b2b-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "costco-same-day",
-          "n": "Source-backed channel route for COST."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-membership-renewal-and-loyalty-programs-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "costco-same-day",
-          "n": "Source-backed channel route for COST."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-membership-fee-and-renewal-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "costco-results",
-          "n": "Source-backed demand route for COST."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-household-basket-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "costco-results",
-          "n": "Source-backed demand route for COST."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-seasonal-and-discretionary-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "costco-results",
-          "n": "Source-backed demand route for COST."
-        },
-        {
-          "s": "channel-out-warehouse-club-store-network-0",
-          "t": "demand-out-membership-fee-and-renewal-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "costco-results",
-          "n": "Source-backed demand transfer from channel to end-demand for COST."
-        },
-        {
-          "s": "channel-out-instacart-same-day-delivery-partner-1",
-          "t": "demand-out-household-basket-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "costco-results",
-          "n": "Source-backed demand transfer from channel to end-demand for COST."
-        },
-        {
-          "s": "channel-out-business-delivery-and-b2b-channels-2",
-          "t": "demand-out-seasonal-and-discretionary-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "costco-results",
-          "n": "Source-backed demand transfer from channel to end-demand for COST."
-        }
-      ],
-      "sources": [
-        {
-          "id": "costco-results",
-          "title": "Costco fiscal 2026 Q1 sales results",
-          "url": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-First-Quarter-and-December-Sales-Results-for-Fiscal-Year-2026/default.aspx",
-          "note": "Operational throughput and consumer demand context."
-        },
-        {
-          "id": "costco-vendors",
-          "title": "Costco vendor inquiries",
-          "url": "https://www.costco.com/vendor-inquiries.html",
-          "note": "Supplier onboarding and vendor operating model context."
-        },
-        {
-          "id": "costco-diversity",
-          "title": "Costco supplier diversity",
-          "url": "https://www.costco.com/supplier-diversity.html",
-          "note": "Supplier ecosystem governance context."
-        },
-        {
-          "id": "costco-same-day",
-          "title": "Costco same-day delivery FAQ",
-          "url": "https://customerservice.costco.com/app/answers/answer_view/a_id/8155",
-          "note": "Costco support page naming Instacart same-day delivery service."
-        },
-        {
-          "id": "costco-citi-visa",
-          "title": "Costco Anywhere Visa Card by Citi support",
-          "url": "https://customerservice.costco.com/app/answers/answer_view/a_id/719",
-          "note": "Costco support page naming Citi issuer and Visa network for Costco co-brand card program."
-        }
-      ]
-    },
-    "CVX": {
-      "symbol": "CVX",
-      "company": "Chevron",
-      "rank": 34,
-      "category": "Integrated Energy (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Chevron\nCVX - 401.05B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Integrated Energy (Source-backed) anchor company. Rank #34.",
-          "s": "Market cap $401,049,780,224.",
-          "z": 23,
-          "sourceId": "cvx-10k",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-halliburton-0",
-          "l": "Halliburton\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Halliburton",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-slb-schlumberger-1",
-          "l": "SLB (Schlumberger)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "SLB (Schlumberger)",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-bunge-chevron-ag-renewables-2",
-          "l": "Bunge Chevron Ag Renewables\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Bunge Chevron Ag Renewables",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-refining-and-petrochemical-feedstock-inputs-3",
-          "l": "Refining and Petrochemical Feedstock Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Refining and Petrochemical Feedstock Inputs",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-lng-project-construction-inputs-4",
-          "l": "LNG Project Construction Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "LNG Project Construction Inputs",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-marine-and-pipeline-logistics-0",
-          "l": "Global Marine and Pipeline Logistics\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Global Marine and Pipeline Logistics",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-commodity-trading-and-risk-management-1",
-          "l": "Commodity Trading and Risk Management\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Commodity Trading and Risk Management",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-project-finance-and-treasury-services-2",
-          "l": "Project Finance and Treasury Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Project Finance and Treasury Services",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-operational-safety-and-insurance-programs-3",
-          "l": "Operational Safety and Insurance Programs\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Operational Safety and Insurance Programs",
-          "s": "CVX depends on this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-refined-products-distribution-network-0",
-          "l": "Refined Products Distribution Network\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Refined Products Distribution Network",
-          "s": "CVX serves this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-industrial-and-utility-offtake-contracts-1",
-          "l": "Industrial and Utility Offtake Contracts\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Industrial and Utility Offtake Contracts",
-          "s": "CVX serves this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-lng-and-gas-sales-agreements-2",
-          "l": "LNG and Gas Sales Agreements\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "LNG and Gas Sales Agreements",
-          "s": "CVX serves this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-chemicals-and-lubricants-channels-3",
-          "l": "Chemicals and Lubricants Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Chemicals and Lubricants Channels",
-          "s": "CVX serves this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-global-fuels-demand-0",
-          "l": "Global Fuels Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Global Fuels Demand",
-          "s": "CVX serves this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-industrial-energy-demand-1",
-          "l": "Industrial Energy Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Industrial Energy Demand",
-          "s": "CVX serves this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-natural-gas-and-lng-demand-2",
-          "l": "Natural Gas and LNG Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Natural Gas and LNG Demand",
-          "s": "CVX serves this node.",
-          "sourceId": "cvx-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-halliburton-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed supplier dependency for CVX."
-        },
-        {
-          "s": "supplier-in-slb-schlumberger-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed supplier dependency for CVX."
-        },
-        {
-          "s": "supplier-in-bunge-chevron-ag-renewables-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed supplier dependency for CVX."
-        },
-        {
-          "s": "supplier-in-refining-and-petrochemical-feedstock-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed supplier dependency for CVX."
-        },
-        {
-          "s": "supplier-in-lng-project-construction-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed supplier dependency for CVX."
-        },
-        {
-          "s": "service-in-global-marine-and-pipeline-logistics-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed service dependency for CVX."
-        },
-        {
-          "s": "service-in-commodity-trading-and-risk-management-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed service dependency for CVX."
-        },
-        {
-          "s": "service-in-project-finance-and-treasury-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed service dependency for CVX."
-        },
-        {
-          "s": "service-in-operational-safety-and-insurance-programs-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed service dependency for CVX."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-refined-products-distribution-network-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed channel route for CVX."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-industrial-and-utility-offtake-contracts-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed channel route for CVX."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-lng-and-gas-sales-agreements-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed channel route for CVX."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-chemicals-and-lubricants-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed channel route for CVX."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-global-fuels-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed demand route for CVX."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-industrial-energy-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed demand route for CVX."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-natural-gas-and-lng-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed demand route for CVX."
-        },
-        {
-          "s": "channel-out-refined-products-distribution-network-0",
-          "t": "demand-out-global-fuels-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed demand transfer from channel to end-demand for CVX."
-        },
-        {
-          "s": "channel-out-industrial-and-utility-offtake-contracts-1",
-          "t": "demand-out-industrial-energy-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed demand transfer from channel to end-demand for CVX."
-        },
-        {
-          "s": "channel-out-lng-and-gas-sales-agreements-2",
-          "t": "demand-out-natural-gas-and-lng-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "cvx-10k",
-          "n": "Source-backed demand transfer from channel to end-demand for CVX."
-        }
-      ],
-      "sources": [
-        {
-          "id": "cvx-10k",
-          "title": "Chevron FY2024 Form 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341025000009/cvx-20241231.htm",
-          "note": "Primary annual filing with operations, risk, and segment disclosures."
-        },
-        {
-          "id": "cvx-procurement",
-          "title": "Chevron procurement",
-          "url": "https://www.chevron.com/operations/procurement",
-          "note": "Supplier and contractor operating framework."
-        },
-        {
-          "id": "cvx-subsea7",
-          "title": "Chevron contract award news",
-          "url": "https://www.chevron.com/newsroom/2025/q1/subsea7-awarded-contract-by-chevron",
-          "note": "Named project supplier relationship example."
-        }
-      ]
-    },
-    "BAC": {
-      "symbol": "BAC",
-      "company": "Bank of America",
-      "rank": 35,
-      "category": "Universal Banking (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Bank of America\nBAC - 396.49B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Universal Banking (Source-backed) anchor company. Rank #35.",
-          "s": "Market cap $396,488,835,072.",
-          "z": 23,
-          "sourceId": "bac-annual",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-the-clearing-house-rtp-network-0",
-          "l": "The Clearing House RTP Network\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "The Clearing House RTP Network",
-          "s": "BAC depends on this node.",
-          "sourceId": "bac-rtp",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-swift-network-1",
-          "l": "SWIFT Network\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "SWIFT Network",
-          "s": "BAC depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-core-banking-and-risk-model-technology-vendors-2",
-          "l": "Core Banking and Risk Model Technology Vendors\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Core Banking and Risk Model Technology Vendors",
-          "s": "BAC depends on this node.",
-          "sourceId": "bac-rtp",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-card-and-payments-processing-infrastructure-3",
-          "l": "Card and Payments Processing Infrastructure\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Card and Payments Processing Infrastructure",
-          "s": "BAC depends on this node.",
-          "sourceId": "bac-rtp",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-reporting-and-compliance-programs-0",
-          "l": "Regulatory Reporting and Compliance Programs\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Regulatory Reporting and Compliance Programs",
-          "s": "BAC depends on this node.",
-          "sourceId": "bac-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-fraud-aml-and-cybersecurity-operations-1",
-          "l": "Fraud, AML, and Cybersecurity Operations\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Fraud, AML, and Cybersecurity Operations",
-          "s": "BAC depends on this node.",
-          "sourceId": "bac-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-liquidity-services-2",
-          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Liquidity Services",
-          "s": "BAC depends on this node.",
-          "sourceId": "bac-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-transaction-banking-services-3",
-          "l": "Global Transaction Banking Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Global Transaction Banking Services",
-          "s": "BAC depends on this node.",
-          "sourceId": "bac-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-zelle-network-0",
-          "l": "Zelle Network\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Zelle Network",
-          "s": "BAC serves this node.",
-          "sourceId": "bac-zelle",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-commercial-banking-and-treasury-channel-1",
-          "l": "Commercial Banking and Treasury Channel\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Commercial Banking and Treasury Channel",
-          "s": "BAC serves this node.",
-          "sourceId": "bac-zelle",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-global-markets-and-investment-banking-channel-2",
-          "l": "Global Markets and Investment Banking Channel\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Global Markets and Investment Banking Channel",
-          "s": "BAC serves this node.",
-          "sourceId": "bac-zelle",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-wealth-and-private-bank-channel-3",
-          "l": "Wealth and Private Bank Channel\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Wealth and Private Bank Channel",
-          "s": "BAC serves this node.",
-          "sourceId": "bac-zelle",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-loan-and-deposit-demand-0",
-          "l": "Loan and Deposit Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Loan and Deposit Demand",
-          "s": "BAC serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-payments-and-treasury-flow-demand-1",
-          "l": "Payments and Treasury Flow Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Payments and Treasury Flow Demand",
-          "s": "BAC serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-capital-markets-activity-demand-2",
-          "l": "Capital Markets Activity Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Capital Markets Activity Demand",
-          "s": "BAC serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-the-clearing-house-rtp-network-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bac-rtp",
-          "n": "Source-backed supplier dependency for BAC."
-        },
-        {
-          "s": "supplier-in-swift-network-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed supplier dependency for BAC."
-        },
-        {
-          "s": "supplier-in-core-banking-and-risk-model-technology-vendors-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bac-rtp",
-          "n": "Source-backed supplier dependency for BAC."
-        },
-        {
-          "s": "supplier-in-card-and-payments-processing-infrastructure-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bac-rtp",
-          "n": "Source-backed supplier dependency for BAC."
-        },
-        {
-          "s": "service-in-regulatory-reporting-and-compliance-programs-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bac-filings",
-          "n": "Source-backed service dependency for BAC."
-        },
-        {
-          "s": "service-in-fraud-aml-and-cybersecurity-operations-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bac-filings",
-          "n": "Source-backed service dependency for BAC."
-        },
-        {
-          "s": "service-in-treasury-and-liquidity-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bac-filings",
-          "n": "Source-backed service dependency for BAC."
-        },
-        {
-          "s": "service-in-global-transaction-banking-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bac-filings",
-          "n": "Source-backed service dependency for BAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-zelle-network-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bac-zelle",
-          "n": "Source-backed channel route for BAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-commercial-banking-and-treasury-channel-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bac-zelle",
-          "n": "Source-backed channel route for BAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-global-markets-and-investment-banking-channel-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bac-zelle",
-          "n": "Source-backed channel route for BAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-wealth-and-private-bank-channel-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bac-zelle",
-          "n": "Source-backed channel route for BAC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-loan-and-deposit-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for BAC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-payments-and-treasury-flow-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for BAC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-capital-markets-activity-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for BAC."
-        },
-        {
-          "s": "channel-out-zelle-network-0",
-          "t": "demand-out-loan-and-deposit-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for BAC."
-        },
-        {
-          "s": "channel-out-commercial-banking-and-treasury-channel-1",
-          "t": "demand-out-payments-and-treasury-flow-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for BAC."
-        },
-        {
-          "s": "channel-out-global-markets-and-investment-banking-channel-2",
-          "t": "demand-out-capital-markets-activity-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for BAC."
-        }
-      ],
-      "sources": [
-        {
-          "id": "bac-annual",
-          "title": "Bank of America annual reports and proxy",
-          "url": "https://investor.bankofamerica.com/annual-reports-and-proxy-statements",
-          "note": "Business segment and demand disclosures."
-        },
-        {
-          "id": "bac-filings",
-          "title": "Bank of America regulatory and SEC filings",
-          "url": "https://investor.bankofamerica.com/regulatory-and-other-filings",
-          "note": "Risk and third-party dependency disclosures."
-        },
-        {
-          "id": "bac-rtp",
-          "title": "Bank of America expands RTP capabilities",
-          "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2025/06/bofa-clients-embrace-new--10-million-limit-in-u-s--real-time-pay.html",
-          "note": "Named real-time payments relationship via The Clearing House RTP network."
-        },
-        {
-          "id": "bac-zelle",
-          "title": "Bank of America expands CashPro payment API with Zelle",
-          "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2022/10/bank-of-america-expands-its-cashpro--payment-api-capability-to-o.html",
-          "note": "Named Zelle network integration in corporate payments channels."
-        },
-        {
-          "id": "swift-payments",
-          "title": "SWIFT payments network overview",
-          "url": "https://www.swift.com/payments",
-          "note": "Industry settlement and messaging infrastructure context for global banks."
-        }
-      ]
-    },
     "LRCX": {
       "symbol": "LRCX",
       "company": "Lam Research",
-      "rank": 36,
+      "rank": 32,
       "category": "Semiconductor Equipment (Source-backed)",
       "layers": {
         "0": "Company",
@@ -16102,12 +14460,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Lam Research\nLRCX - 394.46B",
+          "l": "Lam Research\nLRCX - 436.27B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Semiconductor Equipment (Source-backed) anchor company. Rank #36.",
-          "s": "Market cap $394,461,478,912.",
+          "d": "Semiconductor Equipment (Source-backed) anchor company. Rank #32.",
+          "s": "Market cap $436,265,287,680.",
           "z": 23,
           "sourceId": "lrcx-ir",
           "confidence": "high (company disclosure)"
@@ -16517,10 +14875,413 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "601939.SS": {
+      "symbol": "601939.SS",
+      "company": "China Construction Bank",
+      "rank": 33,
+      "category": "State Commercial Banking (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "China Construction Bank\n601939.SS - 432.07B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CN",
+          "d": "State Commercial Banking (Source-backed) anchor company. Rank #33.",
+          "s": "Market cap $432,074,482,103.",
+          "z": 23,
+          "sourceId": "ccb-annual",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-china-unionpay-0",
+          "l": "China UnionPay\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "China UnionPay",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-core-banking-and-risk-technology-stack-1",
+          "l": "Core Banking and Risk Technology Stack\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Core Banking and Risk Technology Stack",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-credit-data-and-scoring-inputs-2",
+          "l": "Credit Data and Scoring Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Credit Data and Scoring Inputs",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-settlement-and-clearing-infrastructure-3",
+          "l": "Settlement and Clearing Infrastructure\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Settlement and Clearing Infrastructure",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-swift-network-0",
+          "l": "SWIFT Network\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "SWIFT Network",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-and-capital-management-services-1",
+          "l": "Regulatory and Capital Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Regulatory and Capital Management Services",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-aml-fraud-and-risk-operations-2",
+          "l": "AML, Fraud, and Risk Operations\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "AML, Fraud, and Risk Operations",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-liquidity-services-3",
+          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Treasury and Liquidity Services",
+          "s": "601939.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-cips-cross-border-interbank-payment-system-0",
+          "l": "CIPS (Cross-Border Interbank Payment System)\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "CIPS (Cross-Border Interbank Payment System)",
+          "s": "601939.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-corporate-and-institutional-banking-channels-1",
+          "l": "Corporate and Institutional Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Corporate and Institutional Banking Channels",
+          "s": "601939.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-retail-and-mobile-banking-channels-2",
+          "l": "Retail and Mobile Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Retail and Mobile Banking Channels",
+          "s": "601939.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-trade-and-supply-chain-finance-channels-3",
+          "l": "Trade and Supply Chain Finance Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Trade and Supply Chain Finance Channels",
+          "s": "601939.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-infrastructure-and-corporate-credit-demand-0",
+          "l": "Infrastructure and Corporate Credit Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Infrastructure and Corporate Credit Demand",
+          "s": "601939.SS serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-household-lending-demand-1",
+          "l": "Household Lending Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Household Lending Demand",
+          "s": "601939.SS serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-domestic-and-international-settlement-demand-2",
+          "l": "Domestic and International Settlement Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Domestic and International Settlement Demand",
+          "s": "601939.SS serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-china-unionpay-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601939.SS."
+        },
+        {
+          "s": "supplier-in-core-banking-and-risk-technology-stack-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601939.SS."
+        },
+        {
+          "s": "supplier-in-credit-data-and-scoring-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601939.SS."
+        },
+        {
+          "s": "supplier-in-settlement-and-clearing-infrastructure-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601939.SS."
+        },
+        {
+          "s": "service-in-swift-network-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601939.SS."
+        },
+        {
+          "s": "service-in-regulatory-and-capital-management-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601939.SS."
+        },
+        {
+          "s": "service-in-aml-fraud-and-risk-operations-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601939.SS."
+        },
+        {
+          "s": "service-in-treasury-and-liquidity-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601939.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-cips-cross-border-interbank-payment-system-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601939.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-corporate-and-institutional-banking-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601939.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-retail-and-mobile-banking-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601939.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-trade-and-supply-chain-finance-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601939.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-infrastructure-and-corporate-credit-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for 601939.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-household-lending-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for 601939.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-domestic-and-international-settlement-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for 601939.SS."
+        },
+        {
+          "s": "channel-out-cips-cross-border-interbank-payment-system-0",
+          "t": "demand-out-infrastructure-and-corporate-credit-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for 601939.SS."
+        },
+        {
+          "s": "channel-out-corporate-and-institutional-banking-channels-1",
+          "t": "demand-out-household-lending-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for 601939.SS."
+        },
+        {
+          "s": "channel-out-retail-and-mobile-banking-channels-2",
+          "t": "demand-out-domestic-and-international-settlement-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for 601939.SS."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ccb-annual",
+          "title": "China Construction Bank annual reports",
+          "url": "https://www.ccb.com/english/v3/investor/financials/ann_report.html",
+          "note": "Annual operating and risk disclosures."
+        },
+        {
+          "id": "ccb-quarterly",
+          "title": "China Construction Bank quarterly reports",
+          "url": "https://www.ccb.com/en/investorv3/financial/quarterlyreport/index.html",
+          "note": "Current business segment performance context."
+        },
+        {
+          "id": "unionpay-home",
+          "title": "UnionPay International overview",
+          "url": "https://www.unionpayintl.com/en/",
+          "note": "Named cross-border card network used across issuing and acquiring flows."
+        },
+        {
+          "id": "cips-site",
+          "title": "CIPS official website",
+          "url": "https://www.cips.com.cn/en/index/index.html",
+          "note": "Named RMB cross-border interbank payment infrastructure."
+        },
+        {
+          "id": "swift-payments",
+          "title": "SWIFT payments network overview",
+          "url": "https://www.swift.com/payments",
+          "note": "Global settlement network context for banks."
+        }
+      ]
+    },
     "AMAT": {
       "symbol": "AMAT",
       "company": "Applied Materials",
-      "rank": 37,
+      "rank": 34,
       "category": "Semiconductor Equipment (Source-backed)",
       "layers": {
         "0": "Company",
@@ -16532,12 +15293,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Applied Materials\nAMAT - 384.89B",
+          "l": "Applied Materials\nAMAT - 429.34B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Semiconductor Equipment (Source-backed) anchor company. Rank #37.",
-          "s": "Market cap $384,894,763,008.",
+          "d": "Semiconductor Equipment (Source-backed) anchor company. Rank #34.",
+          "s": "Market cap $429,336,199,168.",
           "z": 23,
           "sourceId": "amat-ir",
           "confidence": "high (company disclosure)"
@@ -16947,11 +15708,11 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "KO": {
-      "symbol": "KO",
-      "company": "Coca-Cola",
-      "rank": 38,
-      "category": "Global Beverage System (Source-backed)",
+    "COST": {
+      "symbol": "COST",
+      "company": "Costco",
+      "rank": 35,
+      "category": "Warehouse Retail (Source-backed)",
       "layers": {
         "0": "Company",
         "1": "Channels",
@@ -16962,407 +15723,831 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Coca-Cola\nKO - 377.81B",
+          "l": "Costco\nCOST - 408.98B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Global Beverage System (Source-backed) anchor company. Rank #38.",
-          "s": "Market cap $377,806,815,232.",
+          "d": "Warehouse Retail (Source-backed) anchor company. Rank #35.",
+          "s": "Market cap $408,979,374,080.",
           "z": 23,
-          "sourceId": "ko-10k",
+          "sourceId": "costco-results",
           "confidence": "high (company disclosure)"
         },
         {
-          "id": "supplier-in-coca-cola-femsa-0",
-          "l": "Coca-Cola FEMSA\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "MX",
-          "d": "Coca-Cola FEMSA",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-coca-cola-europacific-partners-ccep-1",
-          "l": "Coca-Cola Europacific Partners (CCEP)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "Coca-Cola Europacific Partners (CCEP)",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-coca-cola-hbc-2",
-          "l": "Coca-Cola HBC\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CH",
-          "d": "Coca-Cola HBC",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-sweetener-and-ingredient-suppliers-3",
-          "l": "Sweetener and Ingredient Suppliers\nUpstream or enabling dependency",
+          "id": "supplier-in-kirkland-private-label-manufacturing-partners-0",
+          "l": "Kirkland Private Label Manufacturing Partners\nUpstream or enabling dependency",
           "tier": -2,
           "kind": "supplier",
           "c": "US",
-          "d": "Sweetener and Ingredient Suppliers",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-suppliers",
+          "d": "Kirkland Private Label Manufacturing Partners",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-vendors",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "supplier-in-aluminum-pet-and-packaging-suppliers-4",
-          "l": "Aluminum, PET and Packaging Suppliers\nUpstream or enabling dependency",
+          "id": "supplier-in-fresh-food-and-grocery-supplier-base-1",
+          "l": "Fresh Food and Grocery Supplier Base\nUpstream or enabling dependency",
           "tier": -2,
           "kind": "supplier",
           "c": "US",
-          "d": "Aluminum, PET and Packaging Suppliers",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-suppliers",
+          "d": "Fresh Food and Grocery Supplier Base",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-vendors",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "service-in-bottling-system-coordination-0",
-          "l": "Bottling System Coordination\nUpstream or enabling dependency",
+          "id": "supplier-in-instacart-same-day-delivery-partner-2",
+          "l": "Instacart (Same-Day Delivery Partner)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Instacart (Same-Day Delivery Partner)",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-same-day",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-citi-costco-anywhere-visa-issuer-3",
+          "l": "Citi (Costco Anywhere Visa Issuer)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Citi (Costco Anywhere Visa Issuer)",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-citi-visa",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-visa-network-costco-anywhere-card-4",
+          "l": "Visa Network (Costco Anywhere Card)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Visa Network (Costco Anywhere Card)",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-citi-visa",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-depot-and-warehouse-distribution-logistics-0",
+          "l": "Depot and Warehouse Distribution Logistics\nUpstream or enabling dependency",
           "tier": -1,
           "kind": "service",
           "c": "US",
-          "d": "Bottling System Coordination",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-10k",
+          "d": "Depot and Warehouse Distribution Logistics",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-vendors",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "service-in-cold-chain-and-distribution-logistics-1",
-          "l": "Cold Chain and Distribution Logistics\nUpstream or enabling dependency",
+          "id": "service-in-supplier-onboarding-and-compliance-programs-1",
+          "l": "Supplier Onboarding and Compliance Programs\nUpstream or enabling dependency",
           "tier": -1,
           "kind": "service",
           "c": "US",
-          "d": "Cold Chain and Distribution Logistics",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-10k",
+          "d": "Supplier Onboarding and Compliance Programs",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-vendors",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "service-in-marketing-and-brand-activation-services-2",
-          "l": "Marketing and Brand Activation Services\nUpstream or enabling dependency",
+          "id": "service-in-payments-and-merchant-services-infrastructure-2",
+          "l": "Payments and Merchant Services Infrastructure\nUpstream or enabling dependency",
           "tier": -1,
           "kind": "service",
           "c": "US",
-          "d": "Marketing and Brand Activation Services",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-10k",
+          "d": "Payments and Merchant Services Infrastructure",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-vendors",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "service-in-commercial-risk-and-compliance-programs-3",
-          "l": "Commercial Risk and Compliance Programs\nUpstream or enabling dependency",
+          "id": "service-in-commercial-risk-and-property-coverage-3",
+          "l": "Commercial Risk and Property Coverage\nUpstream or enabling dependency",
           "tier": -1,
           "kind": "service",
           "c": "US",
-          "d": "Commercial Risk and Compliance Programs",
-          "s": "KO depends on this node.",
-          "sourceId": "ko-10k",
+          "d": "Commercial Risk and Property Coverage",
+          "s": "COST depends on this node.",
+          "sourceId": "costco-vendors",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "channel-out-coca-cola-femsa-0",
-          "l": "Coca-Cola FEMSA\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "MX",
-          "d": "Coca-Cola FEMSA",
-          "s": "KO serves this node.",
-          "sourceId": "ko-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-coca-cola-europacific-partners-ccep-1",
-          "l": "Coca-Cola Europacific Partners (CCEP)\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Coca-Cola Europacific Partners (CCEP)",
-          "s": "KO serves this node.",
-          "sourceId": "ko-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-coca-cola-hbc-2",
-          "l": "Coca-Cola HBC\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CH",
-          "d": "Coca-Cola HBC",
-          "s": "KO serves this node.",
-          "sourceId": "ko-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-modern-trade-and-retail-channels-3",
-          "l": "Modern Trade and Retail Channels\nDownstream channel",
+          "id": "channel-out-warehouse-club-store-network-0",
+          "l": "Warehouse Club Store Network\nDownstream channel",
           "tier": 1,
           "kind": "channel",
           "c": "US",
-          "d": "Modern Trade and Retail Channels",
-          "s": "KO serves this node.",
-          "sourceId": "ko-10k",
+          "d": "Warehouse Club Store Network",
+          "s": "COST serves this node.",
+          "sourceId": "costco-same-day",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "demand-out-sparkling-beverage-demand-0",
-          "l": "Sparkling Beverage Demand\nDownstream channel",
+          "id": "channel-out-instacart-same-day-delivery-partner-1",
+          "l": "Instacart (Same-Day Delivery Partner)\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Instacart (Same-Day Delivery Partner)",
+          "s": "COST serves this node.",
+          "sourceId": "costco-same-day",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-business-delivery-and-b2b-channels-2",
+          "l": "Business Delivery and B2B Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Business Delivery and B2B Channels",
+          "s": "COST serves this node.",
+          "sourceId": "costco-same-day",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-membership-renewal-and-loyalty-programs-3",
+          "l": "Membership Renewal and Loyalty Programs\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Membership Renewal and Loyalty Programs",
+          "s": "COST serves this node.",
+          "sourceId": "costco-same-day",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-membership-fee-and-renewal-demand-0",
+          "l": "Membership Fee and Renewal Demand\nDownstream channel",
           "tier": 2,
           "kind": "demand",
           "c": "US",
-          "d": "Sparkling Beverage Demand",
-          "s": "KO serves this node.",
-          "sourceId": "ko-10k",
+          "d": "Membership Fee and Renewal Demand",
+          "s": "COST serves this node.",
+          "sourceId": "costco-results",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "demand-out-hydration-and-functional-drink-demand-1",
-          "l": "Hydration and Functional Drink Demand\nDownstream channel",
+          "id": "demand-out-household-basket-demand-1",
+          "l": "Household Basket Demand\nDownstream channel",
           "tier": 2,
           "kind": "demand",
           "c": "US",
-          "d": "Hydration and Functional Drink Demand",
-          "s": "KO serves this node.",
-          "sourceId": "ko-10k",
+          "d": "Household Basket Demand",
+          "s": "COST serves this node.",
+          "sourceId": "costco-results",
           "confidence": "medium (source-backed)",
           "z": 11
         },
         {
-          "id": "demand-out-emerging-market-consumption-demand-2",
-          "l": "Emerging Market Consumption Demand\nDownstream channel",
+          "id": "demand-out-seasonal-and-discretionary-demand-2",
+          "l": "Seasonal and Discretionary Demand\nDownstream channel",
           "tier": 2,
           "kind": "demand",
           "c": "US",
-          "d": "Emerging Market Consumption Demand",
-          "s": "KO serves this node.",
-          "sourceId": "ko-10k",
+          "d": "Seasonal and Discretionary Demand",
+          "s": "COST serves this node.",
+          "sourceId": "costco-results",
           "confidence": "medium (source-backed)",
           "z": 11
         }
       ],
       "links": [
         {
-          "s": "supplier-in-coca-cola-femsa-0",
+          "s": "supplier-in-kirkland-private-label-manufacturing-partners-0",
           "t": "company",
           "v": 2,
           "k": "supplier-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed supplier dependency for KO."
+          "sf": "costco-vendors",
+          "n": "Source-backed supplier dependency for COST."
         },
         {
-          "s": "supplier-in-coca-cola-europacific-partners-ccep-1",
+          "s": "supplier-in-fresh-food-and-grocery-supplier-base-1",
           "t": "company",
           "v": 2,
           "k": "supplier-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed supplier dependency for KO."
+          "sf": "costco-vendors",
+          "n": "Source-backed supplier dependency for COST."
         },
         {
-          "s": "supplier-in-coca-cola-hbc-2",
+          "s": "supplier-in-instacart-same-day-delivery-partner-2",
           "t": "company",
           "v": 2,
           "k": "supplier-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed supplier dependency for KO."
+          "sf": "costco-same-day",
+          "n": "Source-backed supplier dependency for COST."
         },
         {
-          "s": "supplier-in-sweetener-and-ingredient-suppliers-3",
+          "s": "supplier-in-citi-costco-anywhere-visa-issuer-3",
           "t": "company",
           "v": 2,
           "k": "supplier-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-suppliers",
-          "n": "Source-backed supplier dependency for KO."
+          "sf": "costco-citi-visa",
+          "n": "Source-backed supplier dependency for COST."
         },
         {
-          "s": "supplier-in-aluminum-pet-and-packaging-suppliers-4",
+          "s": "supplier-in-visa-network-costco-anywhere-card-4",
           "t": "company",
           "v": 2,
           "k": "supplier-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-suppliers",
-          "n": "Source-backed supplier dependency for KO."
+          "sf": "costco-citi-visa",
+          "n": "Source-backed supplier dependency for COST."
         },
         {
-          "s": "service-in-bottling-system-coordination-0",
+          "s": "service-in-depot-and-warehouse-distribution-logistics-0",
           "t": "company",
           "v": 2,
           "k": "service-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed service dependency for KO."
+          "sf": "costco-vendors",
+          "n": "Source-backed service dependency for COST."
         },
         {
-          "s": "service-in-cold-chain-and-distribution-logistics-1",
+          "s": "service-in-supplier-onboarding-and-compliance-programs-1",
           "t": "company",
           "v": 2,
           "k": "service-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed service dependency for KO."
+          "sf": "costco-vendors",
+          "n": "Source-backed service dependency for COST."
         },
         {
-          "s": "service-in-marketing-and-brand-activation-services-2",
+          "s": "service-in-payments-and-merchant-services-infrastructure-2",
           "t": "company",
           "v": 2,
           "k": "service-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed service dependency for KO."
+          "sf": "costco-vendors",
+          "n": "Source-backed service dependency for COST."
         },
         {
-          "s": "service-in-commercial-risk-and-compliance-programs-3",
+          "s": "service-in-commercial-risk-and-property-coverage-3",
           "t": "company",
           "v": 2,
           "k": "service-input",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed service dependency for KO."
+          "sf": "costco-vendors",
+          "n": "Source-backed service dependency for COST."
         },
         {
           "s": "company",
-          "t": "channel-out-coca-cola-femsa-0",
+          "t": "channel-out-warehouse-club-store-network-0",
           "v": 2,
           "k": "channel-output",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed channel route for KO."
+          "sf": "costco-same-day",
+          "n": "Source-backed channel route for COST."
         },
         {
           "s": "company",
-          "t": "channel-out-coca-cola-europacific-partners-ccep-1",
+          "t": "channel-out-instacart-same-day-delivery-partner-1",
           "v": 2,
           "k": "channel-output",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed channel route for KO."
+          "sf": "costco-same-day",
+          "n": "Source-backed channel route for COST."
         },
         {
           "s": "company",
-          "t": "channel-out-coca-cola-hbc-2",
+          "t": "channel-out-business-delivery-and-b2b-channels-2",
           "v": 2,
           "k": "channel-output",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed channel route for KO."
+          "sf": "costco-same-day",
+          "n": "Source-backed channel route for COST."
         },
         {
           "s": "company",
-          "t": "channel-out-modern-trade-and-retail-channels-3",
+          "t": "channel-out-membership-renewal-and-loyalty-programs-3",
           "v": 2,
           "k": "channel-output",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed channel route for KO."
+          "sf": "costco-same-day",
+          "n": "Source-backed channel route for COST."
         },
         {
           "s": "company",
-          "t": "demand-out-sparkling-beverage-demand-0",
+          "t": "demand-out-membership-fee-and-renewal-demand-0",
           "v": 2,
           "k": "demand-output",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed demand route for KO."
+          "sf": "costco-results",
+          "n": "Source-backed demand route for COST."
         },
         {
           "s": "company",
-          "t": "demand-out-hydration-and-functional-drink-demand-1",
+          "t": "demand-out-household-basket-demand-1",
           "v": 2,
           "k": "demand-output",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed demand route for KO."
+          "sf": "costco-results",
+          "n": "Source-backed demand route for COST."
         },
         {
           "s": "company",
-          "t": "demand-out-emerging-market-consumption-demand-2",
+          "t": "demand-out-seasonal-and-discretionary-demand-2",
           "v": 2,
           "k": "demand-output",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed demand route for KO."
+          "sf": "costco-results",
+          "n": "Source-backed demand route for COST."
         },
         {
-          "s": "channel-out-coca-cola-femsa-0",
-          "t": "demand-out-sparkling-beverage-demand-0",
+          "s": "channel-out-warehouse-club-store-network-0",
+          "t": "demand-out-membership-fee-and-renewal-demand-0",
           "v": 1,
           "k": "channel-to-demand",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed demand transfer from channel to end-demand for KO."
+          "sf": "costco-results",
+          "n": "Source-backed demand transfer from channel to end-demand for COST."
         },
         {
-          "s": "channel-out-coca-cola-europacific-partners-ccep-1",
-          "t": "demand-out-hydration-and-functional-drink-demand-1",
+          "s": "channel-out-instacart-same-day-delivery-partner-1",
+          "t": "demand-out-household-basket-demand-1",
           "v": 1,
           "k": "channel-to-demand",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed demand transfer from channel to end-demand for KO."
+          "sf": "costco-results",
+          "n": "Source-backed demand transfer from channel to end-demand for COST."
         },
         {
-          "s": "channel-out-coca-cola-hbc-2",
-          "t": "demand-out-emerging-market-consumption-demand-2",
+          "s": "channel-out-business-delivery-and-b2b-channels-2",
+          "t": "demand-out-seasonal-and-discretionary-demand-2",
           "v": 1,
           "k": "channel-to-demand",
           "cf": "medium (source-backed)",
-          "sf": "ko-10k",
-          "n": "Source-backed demand transfer from channel to end-demand for KO."
+          "sf": "costco-results",
+          "n": "Source-backed demand transfer from channel to end-demand for COST."
         }
       ],
       "sources": [
         {
-          "id": "ko-10k",
-          "title": "Coca-Cola FY2024 Form 10-K",
-          "url": "https://investors.coca-colacompany.com/filings-reports/annual-filings-10-k/content/0000021344-25-000011/ko-20241231.htm",
-          "note": "Primary filing with bottling partner and demand disclosures."
+          "id": "costco-results",
+          "title": "Costco fiscal 2026 Q1 sales results",
+          "url": "https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-First-Quarter-and-December-Sales-Results-for-Fiscal-Year-2026/default.aspx",
+          "note": "Operational throughput and consumer demand context."
         },
         {
-          "id": "ko-filings",
-          "title": "Coca-Cola annual filings",
-          "url": "https://investors.coca-colacompany.com/financial-information/annual-filings",
-          "note": "Demand, channel, and operating model disclosures."
+          "id": "costco-vendors",
+          "title": "Costco vendor inquiries",
+          "url": "https://www.costco.com/vendor-inquiries.html",
+          "note": "Supplier onboarding and vendor operating model context."
         },
         {
-          "id": "ko-suppliers",
-          "title": "Coca-Cola suppliers",
-          "url": "https://www.coca-colacompany.com/about-us/suppliers",
-          "note": "Supplier ecosystem standards and management context."
+          "id": "costco-diversity",
+          "title": "Costco supplier diversity",
+          "url": "https://www.costco.com/supplier-diversity.html",
+          "note": "Supplier ecosystem governance context."
+        },
+        {
+          "id": "costco-same-day",
+          "title": "Costco same-day delivery FAQ",
+          "url": "https://customerservice.costco.com/app/answers/answer_view/a_id/8155",
+          "note": "Costco support page naming Instacart same-day delivery service."
+        },
+        {
+          "id": "costco-citi-visa",
+          "title": "Costco Anywhere Visa Card by Citi support",
+          "url": "https://customerservice.costco.com/app/answers/answer_view/a_id/719",
+          "note": "Costco support page naming Citi issuer and Visa network for Costco co-brand card program."
+        }
+      ]
+    },
+    "CVX": {
+      "symbol": "CVX",
+      "company": "Chevron",
+      "rank": 36,
+      "category": "Integrated Energy (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Chevron\nCVX - 400.78B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Integrated Energy (Source-backed) anchor company. Rank #36.",
+          "s": "Market cap $400,775,184,384.",
+          "z": 23,
+          "sourceId": "cvx-10k",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-halliburton-0",
+          "l": "Halliburton\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Halliburton",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-slb-schlumberger-1",
+          "l": "SLB (Schlumberger)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "SLB (Schlumberger)",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-bunge-chevron-ag-renewables-2",
+          "l": "Bunge Chevron Ag Renewables\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Bunge Chevron Ag Renewables",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-refining-and-petrochemical-feedstock-inputs-3",
+          "l": "Refining and Petrochemical Feedstock Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Refining and Petrochemical Feedstock Inputs",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-lng-project-construction-inputs-4",
+          "l": "LNG Project Construction Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "LNG Project Construction Inputs",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-marine-and-pipeline-logistics-0",
+          "l": "Global Marine and Pipeline Logistics\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Global Marine and Pipeline Logistics",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-commodity-trading-and-risk-management-1",
+          "l": "Commodity Trading and Risk Management\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Commodity Trading and Risk Management",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-project-finance-and-treasury-services-2",
+          "l": "Project Finance and Treasury Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Project Finance and Treasury Services",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-operational-safety-and-insurance-programs-3",
+          "l": "Operational Safety and Insurance Programs\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Operational Safety and Insurance Programs",
+          "s": "CVX depends on this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-refined-products-distribution-network-0",
+          "l": "Refined Products Distribution Network\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Refined Products Distribution Network",
+          "s": "CVX serves this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-industrial-and-utility-offtake-contracts-1",
+          "l": "Industrial and Utility Offtake Contracts\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Industrial and Utility Offtake Contracts",
+          "s": "CVX serves this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-lng-and-gas-sales-agreements-2",
+          "l": "LNG and Gas Sales Agreements\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "LNG and Gas Sales Agreements",
+          "s": "CVX serves this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-chemicals-and-lubricants-channels-3",
+          "l": "Chemicals and Lubricants Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Chemicals and Lubricants Channels",
+          "s": "CVX serves this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-global-fuels-demand-0",
+          "l": "Global Fuels Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Global Fuels Demand",
+          "s": "CVX serves this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-industrial-energy-demand-1",
+          "l": "Industrial Energy Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Industrial Energy Demand",
+          "s": "CVX serves this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-natural-gas-and-lng-demand-2",
+          "l": "Natural Gas and LNG Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Natural Gas and LNG Demand",
+          "s": "CVX serves this node.",
+          "sourceId": "cvx-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-halliburton-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed supplier dependency for CVX."
+        },
+        {
+          "s": "supplier-in-slb-schlumberger-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed supplier dependency for CVX."
+        },
+        {
+          "s": "supplier-in-bunge-chevron-ag-renewables-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed supplier dependency for CVX."
+        },
+        {
+          "s": "supplier-in-refining-and-petrochemical-feedstock-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed supplier dependency for CVX."
+        },
+        {
+          "s": "supplier-in-lng-project-construction-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed supplier dependency for CVX."
+        },
+        {
+          "s": "service-in-global-marine-and-pipeline-logistics-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed service dependency for CVX."
+        },
+        {
+          "s": "service-in-commodity-trading-and-risk-management-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed service dependency for CVX."
+        },
+        {
+          "s": "service-in-project-finance-and-treasury-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed service dependency for CVX."
+        },
+        {
+          "s": "service-in-operational-safety-and-insurance-programs-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed service dependency for CVX."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-refined-products-distribution-network-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed channel route for CVX."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-industrial-and-utility-offtake-contracts-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed channel route for CVX."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-lng-and-gas-sales-agreements-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed channel route for CVX."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-chemicals-and-lubricants-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed channel route for CVX."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-global-fuels-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed demand route for CVX."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-industrial-energy-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed demand route for CVX."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-natural-gas-and-lng-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed demand route for CVX."
+        },
+        {
+          "s": "channel-out-refined-products-distribution-network-0",
+          "t": "demand-out-global-fuels-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed demand transfer from channel to end-demand for CVX."
+        },
+        {
+          "s": "channel-out-industrial-and-utility-offtake-contracts-1",
+          "t": "demand-out-industrial-energy-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed demand transfer from channel to end-demand for CVX."
+        },
+        {
+          "s": "channel-out-lng-and-gas-sales-agreements-2",
+          "t": "demand-out-natural-gas-and-lng-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "cvx-10k",
+          "n": "Source-backed demand transfer from channel to end-demand for CVX."
+        }
+      ],
+      "sources": [
+        {
+          "id": "cvx-10k",
+          "title": "Chevron FY2024 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341025000009/cvx-20241231.htm",
+          "note": "Primary annual filing with operations, risk, and segment disclosures."
+        },
+        {
+          "id": "cvx-procurement",
+          "title": "Chevron procurement",
+          "url": "https://www.chevron.com/operations/procurement",
+          "note": "Supplier and contractor operating framework."
+        },
+        {
+          "id": "cvx-subsea7",
+          "title": "Chevron contract award news",
+          "url": "https://www.chevron.com/newsroom/2025/q1/subsea7-awarded-contract-by-chevron",
+          "note": "Named project supplier relationship example."
         }
       ]
     },
     "CAT": {
       "symbol": "CAT",
       "company": "Caterpillar",
-      "rank": 39,
+      "rank": 37,
       "category": "Heavy Equipment Manufacturing (Source-backed)",
       "layers": {
         "0": "Company",
@@ -17374,12 +16559,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Caterpillar\nCAT - 377.66B",
+          "l": "Caterpillar\nCAT - 384.21B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Heavy Equipment Manufacturing (Source-backed) anchor company. Rank #39.",
-          "s": "Market cap $377,659,686,912.",
+          "d": "Heavy Equipment Manufacturing (Source-backed) anchor company. Rank #37.",
+          "s": "Market cap $384,205,455,360.",
           "z": 23,
           "sourceId": "cat-annual",
           "confidence": "high (company disclosure)"
@@ -17777,10 +16962,1255 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "BAC": {
+      "symbol": "BAC",
+      "company": "Bank of America",
+      "rank": 38,
+      "category": "Universal Banking (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Bank of America\nBAC - 376.21B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Universal Banking (Source-backed) anchor company. Rank #38.",
+          "s": "Market cap $376,209,866,752.",
+          "z": 23,
+          "sourceId": "bac-annual",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-the-clearing-house-rtp-network-0",
+          "l": "The Clearing House RTP Network\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "The Clearing House RTP Network",
+          "s": "BAC depends on this node.",
+          "sourceId": "bac-rtp",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-swift-network-1",
+          "l": "SWIFT Network\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "SWIFT Network",
+          "s": "BAC depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-core-banking-and-risk-model-technology-vendors-2",
+          "l": "Core Banking and Risk Model Technology Vendors\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Core Banking and Risk Model Technology Vendors",
+          "s": "BAC depends on this node.",
+          "sourceId": "bac-rtp",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-card-and-payments-processing-infrastructure-3",
+          "l": "Card and Payments Processing Infrastructure\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Card and Payments Processing Infrastructure",
+          "s": "BAC depends on this node.",
+          "sourceId": "bac-rtp",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-reporting-and-compliance-programs-0",
+          "l": "Regulatory Reporting and Compliance Programs\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Regulatory Reporting and Compliance Programs",
+          "s": "BAC depends on this node.",
+          "sourceId": "bac-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-fraud-aml-and-cybersecurity-operations-1",
+          "l": "Fraud, AML, and Cybersecurity Operations\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Fraud, AML, and Cybersecurity Operations",
+          "s": "BAC depends on this node.",
+          "sourceId": "bac-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-liquidity-services-2",
+          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and Liquidity Services",
+          "s": "BAC depends on this node.",
+          "sourceId": "bac-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-transaction-banking-services-3",
+          "l": "Global Transaction Banking Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Global Transaction Banking Services",
+          "s": "BAC depends on this node.",
+          "sourceId": "bac-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-zelle-network-0",
+          "l": "Zelle Network\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Zelle Network",
+          "s": "BAC serves this node.",
+          "sourceId": "bac-zelle",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-commercial-banking-and-treasury-channel-1",
+          "l": "Commercial Banking and Treasury Channel\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Commercial Banking and Treasury Channel",
+          "s": "BAC serves this node.",
+          "sourceId": "bac-zelle",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-global-markets-and-investment-banking-channel-2",
+          "l": "Global Markets and Investment Banking Channel\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Global Markets and Investment Banking Channel",
+          "s": "BAC serves this node.",
+          "sourceId": "bac-zelle",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-wealth-and-private-bank-channel-3",
+          "l": "Wealth and Private Bank Channel\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Wealth and Private Bank Channel",
+          "s": "BAC serves this node.",
+          "sourceId": "bac-zelle",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-loan-and-deposit-demand-0",
+          "l": "Loan and Deposit Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Loan and Deposit Demand",
+          "s": "BAC serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-payments-and-treasury-flow-demand-1",
+          "l": "Payments and Treasury Flow Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Payments and Treasury Flow Demand",
+          "s": "BAC serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-capital-markets-activity-demand-2",
+          "l": "Capital Markets Activity Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Capital Markets Activity Demand",
+          "s": "BAC serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-the-clearing-house-rtp-network-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bac-rtp",
+          "n": "Source-backed supplier dependency for BAC."
+        },
+        {
+          "s": "supplier-in-swift-network-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed supplier dependency for BAC."
+        },
+        {
+          "s": "supplier-in-core-banking-and-risk-model-technology-vendors-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bac-rtp",
+          "n": "Source-backed supplier dependency for BAC."
+        },
+        {
+          "s": "supplier-in-card-and-payments-processing-infrastructure-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bac-rtp",
+          "n": "Source-backed supplier dependency for BAC."
+        },
+        {
+          "s": "service-in-regulatory-reporting-and-compliance-programs-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bac-filings",
+          "n": "Source-backed service dependency for BAC."
+        },
+        {
+          "s": "service-in-fraud-aml-and-cybersecurity-operations-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bac-filings",
+          "n": "Source-backed service dependency for BAC."
+        },
+        {
+          "s": "service-in-treasury-and-liquidity-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bac-filings",
+          "n": "Source-backed service dependency for BAC."
+        },
+        {
+          "s": "service-in-global-transaction-banking-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bac-filings",
+          "n": "Source-backed service dependency for BAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-zelle-network-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bac-zelle",
+          "n": "Source-backed channel route for BAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-commercial-banking-and-treasury-channel-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bac-zelle",
+          "n": "Source-backed channel route for BAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-global-markets-and-investment-banking-channel-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bac-zelle",
+          "n": "Source-backed channel route for BAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-wealth-and-private-bank-channel-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bac-zelle",
+          "n": "Source-backed channel route for BAC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-loan-and-deposit-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for BAC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-payments-and-treasury-flow-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for BAC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-capital-markets-activity-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for BAC."
+        },
+        {
+          "s": "channel-out-zelle-network-0",
+          "t": "demand-out-loan-and-deposit-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for BAC."
+        },
+        {
+          "s": "channel-out-commercial-banking-and-treasury-channel-1",
+          "t": "demand-out-payments-and-treasury-flow-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for BAC."
+        },
+        {
+          "s": "channel-out-global-markets-and-investment-banking-channel-2",
+          "t": "demand-out-capital-markets-activity-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for BAC."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bac-annual",
+          "title": "Bank of America annual reports and proxy",
+          "url": "https://investor.bankofamerica.com/annual-reports-and-proxy-statements",
+          "note": "Business segment and demand disclosures."
+        },
+        {
+          "id": "bac-filings",
+          "title": "Bank of America regulatory and SEC filings",
+          "url": "https://investor.bankofamerica.com/regulatory-and-other-filings",
+          "note": "Risk and third-party dependency disclosures."
+        },
+        {
+          "id": "bac-rtp",
+          "title": "Bank of America expands RTP capabilities",
+          "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2025/06/bofa-clients-embrace-new--10-million-limit-in-u-s--real-time-pay.html",
+          "note": "Named real-time payments relationship via The Clearing House RTP network."
+        },
+        {
+          "id": "bac-zelle",
+          "title": "Bank of America expands CashPro payment API with Zelle",
+          "url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2022/10/bank-of-america-expands-its-cashpro--payment-api-capability-to-o.html",
+          "note": "Named Zelle network integration in corporate payments channels."
+        },
+        {
+          "id": "swift-payments",
+          "title": "SWIFT payments network overview",
+          "url": "https://www.swift.com/payments",
+          "note": "Industry settlement and messaging infrastructure context for global banks."
+        }
+      ]
+    },
+    "KO": {
+      "symbol": "KO",
+      "company": "Coca-Cola",
+      "rank": 39,
+      "category": "Global Beverage System (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Coca-Cola\nKO - 367.35B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Global Beverage System (Source-backed) anchor company. Rank #39.",
+          "s": "Market cap $367,351,627,776.",
+          "z": 23,
+          "sourceId": "ko-10k",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-coca-cola-femsa-0",
+          "l": "Coca-Cola FEMSA\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "MX",
+          "d": "Coca-Cola FEMSA",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-coca-cola-europacific-partners-ccep-1",
+          "l": "Coca-Cola Europacific Partners (CCEP)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "Coca-Cola Europacific Partners (CCEP)",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-coca-cola-hbc-2",
+          "l": "Coca-Cola HBC\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CH",
+          "d": "Coca-Cola HBC",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-sweetener-and-ingredient-suppliers-3",
+          "l": "Sweetener and Ingredient Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Sweetener and Ingredient Suppliers",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-aluminum-pet-and-packaging-suppliers-4",
+          "l": "Aluminum, PET and Packaging Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Aluminum, PET and Packaging Suppliers",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-bottling-system-coordination-0",
+          "l": "Bottling System Coordination\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Bottling System Coordination",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-cold-chain-and-distribution-logistics-1",
+          "l": "Cold Chain and Distribution Logistics\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Cold Chain and Distribution Logistics",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-marketing-and-brand-activation-services-2",
+          "l": "Marketing and Brand Activation Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Marketing and Brand Activation Services",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-commercial-risk-and-compliance-programs-3",
+          "l": "Commercial Risk and Compliance Programs\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Commercial Risk and Compliance Programs",
+          "s": "KO depends on this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-coca-cola-femsa-0",
+          "l": "Coca-Cola FEMSA\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "MX",
+          "d": "Coca-Cola FEMSA",
+          "s": "KO serves this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-coca-cola-europacific-partners-ccep-1",
+          "l": "Coca-Cola Europacific Partners (CCEP)\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Coca-Cola Europacific Partners (CCEP)",
+          "s": "KO serves this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-coca-cola-hbc-2",
+          "l": "Coca-Cola HBC\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CH",
+          "d": "Coca-Cola HBC",
+          "s": "KO serves this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-modern-trade-and-retail-channels-3",
+          "l": "Modern Trade and Retail Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Modern Trade and Retail Channels",
+          "s": "KO serves this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-sparkling-beverage-demand-0",
+          "l": "Sparkling Beverage Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Sparkling Beverage Demand",
+          "s": "KO serves this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-hydration-and-functional-drink-demand-1",
+          "l": "Hydration and Functional Drink Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Hydration and Functional Drink Demand",
+          "s": "KO serves this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-emerging-market-consumption-demand-2",
+          "l": "Emerging Market Consumption Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Emerging Market Consumption Demand",
+          "s": "KO serves this node.",
+          "sourceId": "ko-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-coca-cola-femsa-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed supplier dependency for KO."
+        },
+        {
+          "s": "supplier-in-coca-cola-europacific-partners-ccep-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed supplier dependency for KO."
+        },
+        {
+          "s": "supplier-in-coca-cola-hbc-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed supplier dependency for KO."
+        },
+        {
+          "s": "supplier-in-sweetener-and-ingredient-suppliers-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-suppliers",
+          "n": "Source-backed supplier dependency for KO."
+        },
+        {
+          "s": "supplier-in-aluminum-pet-and-packaging-suppliers-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-suppliers",
+          "n": "Source-backed supplier dependency for KO."
+        },
+        {
+          "s": "service-in-bottling-system-coordination-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed service dependency for KO."
+        },
+        {
+          "s": "service-in-cold-chain-and-distribution-logistics-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed service dependency for KO."
+        },
+        {
+          "s": "service-in-marketing-and-brand-activation-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed service dependency for KO."
+        },
+        {
+          "s": "service-in-commercial-risk-and-compliance-programs-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed service dependency for KO."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-coca-cola-femsa-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed channel route for KO."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-coca-cola-europacific-partners-ccep-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed channel route for KO."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-coca-cola-hbc-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed channel route for KO."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-modern-trade-and-retail-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed channel route for KO."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-sparkling-beverage-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed demand route for KO."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-hydration-and-functional-drink-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed demand route for KO."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-emerging-market-consumption-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed demand route for KO."
+        },
+        {
+          "s": "channel-out-coca-cola-femsa-0",
+          "t": "demand-out-sparkling-beverage-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed demand transfer from channel to end-demand for KO."
+        },
+        {
+          "s": "channel-out-coca-cola-europacific-partners-ccep-1",
+          "t": "demand-out-hydration-and-functional-drink-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed demand transfer from channel to end-demand for KO."
+        },
+        {
+          "s": "channel-out-coca-cola-hbc-2",
+          "t": "demand-out-emerging-market-consumption-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ko-10k",
+          "n": "Source-backed demand transfer from channel to end-demand for KO."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ko-10k",
+          "title": "Coca-Cola FY2024 Form 10-K",
+          "url": "https://investors.coca-colacompany.com/filings-reports/annual-filings-10-k/content/0000021344-25-000011/ko-20241231.htm",
+          "note": "Primary filing with bottling partner and demand disclosures."
+        },
+        {
+          "id": "ko-filings",
+          "title": "Coca-Cola annual filings",
+          "url": "https://investors.coca-colacompany.com/financial-information/annual-filings",
+          "note": "Demand, channel, and operating model disclosures."
+        },
+        {
+          "id": "ko-suppliers",
+          "title": "Coca-Cola suppliers",
+          "url": "https://www.coca-colacompany.com/about-us/suppliers",
+          "note": "Supplier ecosystem standards and management context."
+        }
+      ]
+    },
+    "601288.SS": {
+      "symbol": "601288.SS",
+      "company": "Agricultural Bank of China",
+      "rank": 40,
+      "category": "State Commercial Banking (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Agricultural Bank of China\n601288.SS - 364.29B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CN",
+          "d": "State Commercial Banking (Source-backed) anchor company. Rank #40.",
+          "s": "Market cap $364,288,004,957.",
+          "z": 23,
+          "sourceId": "abc-annual",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-china-unionpay-0",
+          "l": "China UnionPay\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "China UnionPay",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-core-banking-platforms-and-infrastructure-1",
+          "l": "Core Banking Platforms and Infrastructure\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Core Banking Platforms and Infrastructure",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-credit-and-risk-data-inputs-2",
+          "l": "Credit and Risk Data Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Credit and Risk Data Inputs",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-clearing-and-settlement-systems-3",
+          "l": "Clearing and Settlement Systems\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Clearing and Settlement Systems",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "unionpay-home",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-swift-network-0",
+          "l": "SWIFT Network\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "SWIFT Network",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-compliance-operations-1",
+          "l": "Regulatory Compliance Operations\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Regulatory Compliance Operations",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-aml-and-fraud-monitoring-2",
+          "l": "AML and Fraud Monitoring\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "AML and Fraud Monitoring",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-liquidity-management-3",
+          "l": "Treasury and Liquidity Management\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Treasury and Liquidity Management",
+          "s": "601288.SS depends on this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-cips-cross-border-interbank-payment-system-0",
+          "l": "CIPS (Cross-Border Interbank Payment System)\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "CIPS (Cross-Border Interbank Payment System)",
+          "s": "601288.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-corporate-banking-channels-1",
+          "l": "Corporate Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Corporate Banking Channels",
+          "s": "601288.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-retail-branch-and-digital-channels-2",
+          "l": "Retail Branch and Digital Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Retail Branch and Digital Channels",
+          "s": "601288.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-trade-finance-channels-3",
+          "l": "Trade Finance Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Trade Finance Channels",
+          "s": "601288.SS serves this node.",
+          "sourceId": "cips-site",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-corporate-credit-demand-0",
+          "l": "Corporate Credit Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Corporate Credit Demand",
+          "s": "601288.SS serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-retail-lending-and-deposit-demand-1",
+          "l": "Retail Lending and Deposit Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Retail Lending and Deposit Demand",
+          "s": "601288.SS serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-domestic-and-cross-border-payment-demand-2",
+          "l": "Domestic and Cross-border Payment Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Domestic and Cross-border Payment Demand",
+          "s": "601288.SS serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-china-unionpay-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601288.SS."
+        },
+        {
+          "s": "supplier-in-core-banking-platforms-and-infrastructure-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601288.SS."
+        },
+        {
+          "s": "supplier-in-credit-and-risk-data-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601288.SS."
+        },
+        {
+          "s": "supplier-in-clearing-and-settlement-systems-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "unionpay-home",
+          "n": "Source-backed supplier dependency for 601288.SS."
+        },
+        {
+          "s": "service-in-swift-network-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601288.SS."
+        },
+        {
+          "s": "service-in-regulatory-compliance-operations-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601288.SS."
+        },
+        {
+          "s": "service-in-aml-and-fraud-monitoring-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601288.SS."
+        },
+        {
+          "s": "service-in-treasury-and-liquidity-management-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed service dependency for 601288.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-cips-cross-border-interbank-payment-system-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601288.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-corporate-banking-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601288.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-retail-branch-and-digital-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601288.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-trade-finance-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cips-site",
+          "n": "Source-backed channel route for 601288.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-corporate-credit-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for 601288.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-retail-lending-and-deposit-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for 601288.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-domestic-and-cross-border-payment-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for 601288.SS."
+        },
+        {
+          "s": "channel-out-cips-cross-border-interbank-payment-system-0",
+          "t": "demand-out-corporate-credit-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for 601288.SS."
+        },
+        {
+          "s": "channel-out-corporate-banking-channels-1",
+          "t": "demand-out-retail-lending-and-deposit-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for 601288.SS."
+        },
+        {
+          "s": "channel-out-retail-branch-and-digital-channels-2",
+          "t": "demand-out-domestic-and-cross-border-payment-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for 601288.SS."
+        }
+      ],
+      "sources": [
+        {
+          "id": "abc-annual",
+          "title": "Agricultural Bank of China annual reports",
+          "url": "https://www.abchina.com/en/investor-relations/financial-reports/annual-reports/",
+          "note": "Annual operational and risk disclosures."
+        },
+        {
+          "id": "abc-ir",
+          "title": "Agricultural Bank of China investor relations",
+          "url": "https://www.abchina.com/en/investor-relations/",
+          "note": "Financial reporting and governance context."
+        },
+        {
+          "id": "unionpay-home",
+          "title": "UnionPay International overview",
+          "url": "https://www.unionpayintl.com/en/",
+          "note": "Named cross-border card network used across issuing and acquiring flows."
+        },
+        {
+          "id": "cips-site",
+          "title": "CIPS official website",
+          "url": "https://www.cips.com.cn/en/index/index.html",
+          "note": "Named RMB cross-border interbank payment infrastructure."
+        },
+        {
+          "id": "swift-payments",
+          "title": "SWIFT payments network overview",
+          "url": "https://www.swift.com/payments",
+          "note": "Global settlement network context for banks."
+        }
+      ]
+    },
+    "DELL": {
+      "symbol": "DELL",
+      "company": "Dell",
+      "rank": 41,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Dell\nDELL - 351.17B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $351,172,100,096.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
     "MRK": {
       "symbol": "MRK",
       "company": "Merck",
-      "rank": 40,
+      "rank": 42,
       "category": "Pharma Pipeline (Source-backed)",
       "layers": {
         "0": "Company",
@@ -17792,12 +18222,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Merck\nMRK - 367.07B",
+          "l": "Merck\nMRK - 349.10B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Pharma Pipeline (Source-backed) anchor company. Rank #40.",
-          "s": "Market cap $367,065,792,512.",
+          "d": "Pharma Pipeline (Source-backed) anchor company. Rank #42.",
+          "s": "Market cap $349,104,766,976.",
           "z": 23,
           "sourceId": "mrk-ir",
           "confidence": "high (company disclosure)"
@@ -18195,436 +18625,6 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "601288.SS": {
-      "symbol": "601288.SS",
-      "company": "Agricultural Bank of China",
-      "rank": 41,
-      "category": "State Commercial Banking (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Agricultural Bank of China\n601288.SS - 358.42B",
-          "tier": 0,
-          "kind": "company",
-          "c": "CN",
-          "d": "State Commercial Banking (Source-backed) anchor company. Rank #41.",
-          "s": "Market cap $358,415,773,603.",
-          "z": 23,
-          "sourceId": "abc-annual",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-china-unionpay-0",
-          "l": "China UnionPay\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "China UnionPay",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-core-banking-platforms-and-infrastructure-1",
-          "l": "Core Banking Platforms and Infrastructure\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Core Banking Platforms and Infrastructure",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-credit-and-risk-data-inputs-2",
-          "l": "Credit and Risk Data Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Credit and Risk Data Inputs",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-clearing-and-settlement-systems-3",
-          "l": "Clearing and Settlement Systems\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Clearing and Settlement Systems",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "unionpay-home",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-swift-network-0",
-          "l": "SWIFT Network\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "SWIFT Network",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-compliance-operations-1",
-          "l": "Regulatory Compliance Operations\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Regulatory Compliance Operations",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-aml-and-fraud-monitoring-2",
-          "l": "AML and Fraud Monitoring\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "AML and Fraud Monitoring",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-liquidity-management-3",
-          "l": "Treasury and Liquidity Management\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Treasury and Liquidity Management",
-          "s": "601288.SS depends on this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-cips-cross-border-interbank-payment-system-0",
-          "l": "CIPS (Cross-Border Interbank Payment System)\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "CIPS (Cross-Border Interbank Payment System)",
-          "s": "601288.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-corporate-banking-channels-1",
-          "l": "Corporate Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Corporate Banking Channels",
-          "s": "601288.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-retail-branch-and-digital-channels-2",
-          "l": "Retail Branch and Digital Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Retail Branch and Digital Channels",
-          "s": "601288.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-trade-finance-channels-3",
-          "l": "Trade Finance Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Trade Finance Channels",
-          "s": "601288.SS serves this node.",
-          "sourceId": "cips-site",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-corporate-credit-demand-0",
-          "l": "Corporate Credit Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Corporate Credit Demand",
-          "s": "601288.SS serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-retail-lending-and-deposit-demand-1",
-          "l": "Retail Lending and Deposit Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Retail Lending and Deposit Demand",
-          "s": "601288.SS serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-domestic-and-cross-border-payment-demand-2",
-          "l": "Domestic and Cross-border Payment Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Domestic and Cross-border Payment Demand",
-          "s": "601288.SS serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-china-unionpay-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601288.SS."
-        },
-        {
-          "s": "supplier-in-core-banking-platforms-and-infrastructure-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601288.SS."
-        },
-        {
-          "s": "supplier-in-credit-and-risk-data-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601288.SS."
-        },
-        {
-          "s": "supplier-in-clearing-and-settlement-systems-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "unionpay-home",
-          "n": "Source-backed supplier dependency for 601288.SS."
-        },
-        {
-          "s": "service-in-swift-network-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601288.SS."
-        },
-        {
-          "s": "service-in-regulatory-compliance-operations-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601288.SS."
-        },
-        {
-          "s": "service-in-aml-and-fraud-monitoring-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601288.SS."
-        },
-        {
-          "s": "service-in-treasury-and-liquidity-management-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed service dependency for 601288.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-cips-cross-border-interbank-payment-system-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601288.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-corporate-banking-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601288.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-retail-branch-and-digital-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601288.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-trade-finance-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cips-site",
-          "n": "Source-backed channel route for 601288.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-corporate-credit-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for 601288.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-retail-lending-and-deposit-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for 601288.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-domestic-and-cross-border-payment-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for 601288.SS."
-        },
-        {
-          "s": "channel-out-cips-cross-border-interbank-payment-system-0",
-          "t": "demand-out-corporate-credit-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for 601288.SS."
-        },
-        {
-          "s": "channel-out-corporate-banking-channels-1",
-          "t": "demand-out-retail-lending-and-deposit-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for 601288.SS."
-        },
-        {
-          "s": "channel-out-retail-branch-and-digital-channels-2",
-          "t": "demand-out-domestic-and-cross-border-payment-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for 601288.SS."
-        }
-      ],
-      "sources": [
-        {
-          "id": "abc-annual",
-          "title": "Agricultural Bank of China annual reports",
-          "url": "https://www.abchina.com/en/investor-relations/financial-reports/annual-reports/",
-          "note": "Annual operational and risk disclosures."
-        },
-        {
-          "id": "abc-ir",
-          "title": "Agricultural Bank of China investor relations",
-          "url": "https://www.abchina.com/en/investor-relations/",
-          "note": "Financial reporting and governance context."
-        },
-        {
-          "id": "unionpay-home",
-          "title": "UnionPay International overview",
-          "url": "https://www.unionpayintl.com/en/",
-          "note": "Named cross-border card network used across issuing and acquiring flows."
-        },
-        {
-          "id": "cips-site",
-          "title": "CIPS official website",
-          "url": "https://www.cips.com.cn/en/index/index.html",
-          "note": "Named RMB cross-border interbank payment infrastructure."
-        },
-        {
-          "id": "swift-payments",
-          "title": "SWIFT payments network overview",
-          "url": "https://www.swift.com/payments",
-          "note": "Global settlement network context for banks."
-        }
-      ]
-    },
-    "DELL": {
-      "symbol": "DELL",
-      "company": "Dell",
-      "rank": 42,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Dell\nDELL - 357.89B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $357,892,653,056.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
     "RO.SW": {
       "symbol": "RO.SW",
       "company": "Roche",
@@ -18640,12 +18640,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Roche\nRO.SW - 353.59B",
+          "l": "Roche\nRO.SW - 344.49B",
           "tier": 0,
           "kind": "company",
           "c": "CH",
           "d": "No verified relationship data published.",
-          "s": "Market cap $353,594,326,839.",
+          "s": "Market cap $344,489,234,910.",
           "z": 22
         }
       ],
@@ -18667,12 +18667,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "ICBC\n1398.HK - 350.08B",
+          "l": "ICBC\n1398.HK - 338.60B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
           "d": "State Commercial Banking (Source-backed) anchor company. Rank #44.",
-          "s": "Market cap $350,075,817,756.",
+          "s": "Market cap $338,600,120,143.",
           "z": 23,
           "sourceId": "icbc-annual-index",
           "confidence": "high (company disclosure)"
@@ -19055,407 +19055,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "HSBC": {
-      "symbol": "HSBC",
-      "company": "HSBC",
-      "rank": 45,
-      "category": "Global Banking (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "HSBC\nHSBC - 345.38B",
-          "tier": 0,
-          "kind": "company",
-          "c": "UK",
-          "d": "Global Banking (Source-backed) anchor company. Rank #45.",
-          "s": "Market cap $345,381,994,496.",
-          "z": 23,
-          "sourceId": "hsbc-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-hang-seng-bank-0",
-          "l": "Hang Seng Bank\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Hang Seng Bank",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-bank-of-communications-co-limited-1",
-          "l": "Bank of Communications Co., Limited\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Bank of Communications Co., Limited",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-hsbc-uk-bank-plc-2",
-          "l": "HSBC UK Bank plc\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "HSBC UK Bank plc",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-core-banking-and-treasury-systems-3",
-          "l": "Core Banking and Treasury Systems\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "Core Banking and Treasury Systems",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-payments-and-cash-management-services-0",
-          "l": "Global Payments and Cash Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Global Payments and Cash Management Services",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-results",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-and-risk-management-services-1",
-          "l": "Regulatory and Risk Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Regulatory and Risk Management Services",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-results",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-aml-and-financial-crime-services-2",
-          "l": "AML and Financial Crime Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "AML and Financial Crime Services",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-results",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-liquidity-services-3",
-          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Treasury and Liquidity Services",
-          "s": "HSBC depends on this node.",
-          "sourceId": "hsbc-results",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-the-hongkong-and-shanghai-banking-corporation-limited-0",
-          "l": "The Hongkong and Shanghai Banking Corporation Limited\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "The Hongkong and Shanghai Banking Corporation Limited",
-          "s": "HSBC serves this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-retail-banking-channels-1",
-          "l": "Retail Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Retail Banking Channels",
-          "s": "HSBC serves this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-commercial-and-corporate-banking-channels-2",
-          "l": "Commercial and Corporate Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Commercial and Corporate Banking Channels",
-          "s": "HSBC serves this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-trade-finance-and-cross-border-channels-3",
-          "l": "Trade Finance and Cross-border Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Trade Finance and Cross-border Channels",
-          "s": "HSBC serves this node.",
-          "sourceId": "hsbc-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-corporate-treasury-demand-0",
-          "l": "Corporate Treasury Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Corporate Treasury Demand",
-          "s": "HSBC serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-retail-credit-and-deposit-demand-1",
-          "l": "Retail Credit and Deposit Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Retail Credit and Deposit Demand",
-          "s": "HSBC serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-cross-border-payment-demand-2",
-          "l": "Cross-border Payment Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Cross-border Payment Demand",
-          "s": "HSBC serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-hang-seng-bank-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed supplier dependency for HSBC."
-        },
-        {
-          "s": "supplier-in-bank-of-communications-co-limited-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed supplier dependency for HSBC."
-        },
-        {
-          "s": "supplier-in-hsbc-uk-bank-plc-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed supplier dependency for HSBC."
-        },
-        {
-          "s": "supplier-in-core-banking-and-treasury-systems-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed supplier dependency for HSBC."
-        },
-        {
-          "s": "service-in-global-payments-and-cash-management-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-results",
-          "n": "Source-backed service dependency for HSBC."
-        },
-        {
-          "s": "service-in-regulatory-and-risk-management-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-results",
-          "n": "Source-backed service dependency for HSBC."
-        },
-        {
-          "s": "service-in-aml-and-financial-crime-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-results",
-          "n": "Source-backed service dependency for HSBC."
-        },
-        {
-          "s": "service-in-treasury-and-liquidity-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-results",
-          "n": "Source-backed service dependency for HSBC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-the-hongkong-and-shanghai-banking-corporation-limited-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed channel route for HSBC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-retail-banking-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed channel route for HSBC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-commercial-and-corporate-banking-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed channel route for HSBC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-trade-finance-and-cross-border-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hsbc-20f",
-          "n": "Source-backed channel route for HSBC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-corporate-treasury-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for HSBC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-retail-credit-and-deposit-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for HSBC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-cross-border-payment-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for HSBC."
-        },
-        {
-          "s": "channel-out-the-hongkong-and-shanghai-banking-corporation-limited-0",
-          "t": "demand-out-corporate-treasury-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for HSBC."
-        },
-        {
-          "s": "channel-out-retail-banking-channels-1",
-          "t": "demand-out-retail-credit-and-deposit-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for HSBC."
-        },
-        {
-          "s": "channel-out-commercial-and-corporate-banking-channels-2",
-          "t": "demand-out-cross-border-payment-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for HSBC."
-        }
-      ],
-      "sources": [
-        {
-          "id": "hsbc-ir",
-          "title": "HSBC investor relations",
-          "url": "https://www.hsbc.com/investors",
-          "note": "Financial and segment demand context."
-        },
-        {
-          "id": "hsbc-results",
-          "title": "HSBC results and announcements",
-          "url": "https://www.hsbc.com/investors/results-and-announcements",
-          "note": "Current business and risk disclosures."
-        },
-        {
-          "id": "swift-payments",
-          "title": "SWIFT payments network overview",
-          "url": "https://www.swift.com/payments",
-          "note": "Settlement and payment infrastructure context."
-        },
-        {
-          "id": "hsbc-20f",
-          "title": "HSBC FY2024 Form 20-F",
-          "url": "https://www.sec.gov/Archives/edgar/data/1089113/000108911325000040/hsbc-20241231.htm",
-          "note": "Primary filing with named entities including Hang Seng Bank, HSBC UK Bank plc, and Bank of Communications Co., Limited."
-        }
-      ]
-    },
     "PG": {
       "symbol": "PG",
       "company": "Procter & Gamble",
-      "rank": 46,
+      "rank": 45,
       "category": "Consumer Packaged Goods (Source-backed)",
       "layers": {
         "0": "Company",
@@ -19467,12 +19070,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Procter & Gamble\nPG - 339.64B",
+          "l": "Procter & Gamble\nPG - 336.53B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Consumer Packaged Goods (Source-backed) anchor company. Rank #46.",
-          "s": "Market cap $339,644,383,232.",
+          "d": "Consumer Packaged Goods (Source-backed) anchor company. Rank #45.",
+          "s": "Market cap $336,531,423,232.",
           "z": 23,
           "sourceId": "pg-annual",
           "confidence": "high (company disclosure)"
@@ -19870,428 +19473,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "GE": {
-      "symbol": "GE",
-      "company": "General Electric",
-      "rank": 47,
-      "category": "Industrial Systems (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "General Electric\nGE - 339.38B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Industrial Systems (Source-backed) anchor company. Rank #47.",
-          "s": "Market cap $339,376,308,224.",
-          "z": 23,
-          "sourceId": "ge-annual",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-safran-aircraft-engines-cfm-joint-venture-0",
-          "l": "Safran Aircraft Engines (CFM Joint Venture)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "FR",
-          "d": "Safran Aircraft Engines (CFM Joint Venture)",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-aerospace-engine-components-and-casting-suppliers-1",
-          "l": "Aerospace Engine Components and Casting Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Aerospace Engine Components and Casting Suppliers",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-specialty-metals-and-materials-inputs-2",
-          "l": "Specialty Metals and Materials Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Specialty Metals and Materials Inputs",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-avionics-and-control-systems-suppliers-3",
-          "l": "Avionics and Control Systems Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Avionics and Control Systems Suppliers",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-aftermarket-parts-manufacturing-partners-4",
-          "l": "Aftermarket Parts Manufacturing Partners\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Aftermarket Parts Manufacturing Partners",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-supplier-portal-and-transaction-services-0",
-          "l": "Supplier Portal and Transaction Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Supplier Portal and Transaction Services",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-quality-and-safety-assurance-programs-1",
-          "l": "Quality and Safety Assurance Programs\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Quality and Safety Assurance Programs",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-logistics-and-spares-distribution-2",
-          "l": "Global Logistics and Spares Distribution\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Global Logistics and Spares Distribution",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-risk-management-services-3",
-          "l": "Treasury and Risk Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Risk Management Services",
-          "s": "GE depends on this node.",
-          "sourceId": "ge-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-boeing-737-max-program-0",
-          "l": "Boeing 737 MAX Program\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Boeing 737 MAX Program",
-          "s": "GE serves this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-airbus-a320neo-program-1",
-          "l": "Airbus A320neo Program\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "FR",
-          "d": "Airbus A320neo Program",
-          "s": "GE serves this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-defense-and-government-channels-2",
-          "l": "Defense and Government Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Defense and Government Channels",
-          "s": "GE serves this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-mro-and-aftermarket-service-channels-3",
-          "l": "MRO and Aftermarket Service Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "MRO and Aftermarket Service Channels",
-          "s": "GE serves this node.",
-          "sourceId": "ge-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-commercial-flight-hours-demand-0",
-          "l": "Commercial Flight Hours Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Commercial Flight Hours Demand",
-          "s": "GE serves this node.",
-          "sourceId": "ge-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-defense-modernization-demand-1",
-          "l": "Defense Modernization Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Defense Modernization Demand",
-          "s": "GE serves this node.",
-          "sourceId": "ge-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-aftermarket-services-demand-2",
-          "l": "Aftermarket Services Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Aftermarket Services Demand",
-          "s": "GE serves this node.",
-          "sourceId": "ge-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-safran-aircraft-engines-cfm-joint-venture-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed supplier dependency for GE."
-        },
-        {
-          "s": "supplier-in-aerospace-engine-components-and-casting-suppliers-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed supplier dependency for GE."
-        },
-        {
-          "s": "supplier-in-specialty-metals-and-materials-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed supplier dependency for GE."
-        },
-        {
-          "s": "supplier-in-avionics-and-control-systems-suppliers-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed supplier dependency for GE."
-        },
-        {
-          "s": "supplier-in-aftermarket-parts-manufacturing-partners-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed supplier dependency for GE."
-        },
-        {
-          "s": "service-in-supplier-portal-and-transaction-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-suppliers",
-          "n": "Source-backed service dependency for GE."
-        },
-        {
-          "s": "service-in-quality-and-safety-assurance-programs-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-suppliers",
-          "n": "Source-backed service dependency for GE."
-        },
-        {
-          "s": "service-in-global-logistics-and-spares-distribution-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-suppliers",
-          "n": "Source-backed service dependency for GE."
-        },
-        {
-          "s": "service-in-treasury-and-risk-management-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ge-suppliers",
-          "n": "Source-backed service dependency for GE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-boeing-737-max-program-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed channel route for GE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-airbus-a320neo-program-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed channel route for GE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-defense-and-government-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed channel route for GE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-mro-and-aftermarket-service-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ge-10k",
-          "n": "Source-backed channel route for GE."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-commercial-flight-hours-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "ge-annual",
-          "n": "Source-backed demand route for GE."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-defense-modernization-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "ge-annual",
-          "n": "Source-backed demand route for GE."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-aftermarket-services-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "ge-annual",
-          "n": "Source-backed demand route for GE."
-        },
-        {
-          "s": "channel-out-boeing-737-max-program-0",
-          "t": "demand-out-commercial-flight-hours-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "ge-annual",
-          "n": "Source-backed demand transfer from channel to end-demand for GE."
-        },
-        {
-          "s": "channel-out-airbus-a320neo-program-1",
-          "t": "demand-out-defense-modernization-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "ge-annual",
-          "n": "Source-backed demand transfer from channel to end-demand for GE."
-        },
-        {
-          "s": "channel-out-defense-and-government-channels-2",
-          "t": "demand-out-aftermarket-services-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "ge-annual",
-          "n": "Source-backed demand transfer from channel to end-demand for GE."
-        }
-      ],
-      "sources": [
-        {
-          "id": "ge-annual",
-          "title": "GE Aerospace annual report",
-          "url": "https://www.geaerospace.com/investor-relations/annual-report",
-          "note": "Operations and demand disclosures."
-        },
-        {
-          "id": "ge-10k",
-          "title": "GE Aerospace FY2024 Form 10-K",
-          "url": "https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/40545/000004054525000014/ge-20241231.htm",
-          "note": "Primary filing with CFM/Safran context and Airbus/Boeing platform exposure disclosures."
-        },
-        {
-          "id": "ge-suppliers",
-          "title": "GE Aerospace supplier portal",
-          "url": "https://supplier.geaerospace.com/",
-          "note": "Supplier onboarding and transaction ecosystem context."
-        },
-        {
-          "id": "ge-press",
-          "title": "GE Aerospace press releases",
-          "url": "https://www.geaerospace.com/news/press-releases",
-          "note": "Named program and partner updates."
-        }
-      ]
-    },
     "UNH": {
       "symbol": "UNH",
       "company": "UnitedHealth",
-      "rank": 48,
+      "rank": 46,
       "category": "Healthcare Services and Benefits Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -20303,12 +19488,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "UnitedHealth\nUNH - 338.03B",
+          "l": "UnitedHealth\nUNH - 333.84B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Healthcare Services and Benefits Platform (Source-backed) anchor company. Rank #48.",
-          "s": "Market cap $338,025,218,048.",
+          "d": "Healthcare Services and Benefits Platform (Source-backed) anchor company. Rank #46.",
+          "s": "Market cap $333,841,432,576.",
           "z": 23,
           "sourceId": "unh-10k-2024",
           "confidence": "high (company disclosure)"
@@ -20706,6 +19891,430 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "PANW": {
+      "symbol": "PANW",
+      "company": "Palo Alto Networks",
+      "rank": 47,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Palo Alto Networks\nPANW - 331.07B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $331,065,065,472.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
+    "HSBC": {
+      "symbol": "HSBC",
+      "company": "HSBC",
+      "rank": 48,
+      "category": "Global Banking (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "HSBC\nHSBC - 328.72B",
+          "tier": 0,
+          "kind": "company",
+          "c": "UK",
+          "d": "Global Banking (Source-backed) anchor company. Rank #48.",
+          "s": "Market cap $328,720,220,160.",
+          "z": 23,
+          "sourceId": "hsbc-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-hang-seng-bank-0",
+          "l": "Hang Seng Bank\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Hang Seng Bank",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-bank-of-communications-co-limited-1",
+          "l": "Bank of Communications Co., Limited\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Bank of Communications Co., Limited",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-hsbc-uk-bank-plc-2",
+          "l": "HSBC UK Bank plc\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "HSBC UK Bank plc",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-core-banking-and-treasury-systems-3",
+          "l": "Core Banking and Treasury Systems\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "Core Banking and Treasury Systems",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-payments-and-cash-management-services-0",
+          "l": "Global Payments and Cash Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Global Payments and Cash Management Services",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-results",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-and-risk-management-services-1",
+          "l": "Regulatory and Risk Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Regulatory and Risk Management Services",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-results",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-aml-and-financial-crime-services-2",
+          "l": "AML and Financial Crime Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "AML and Financial Crime Services",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-results",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-liquidity-services-3",
+          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Treasury and Liquidity Services",
+          "s": "HSBC depends on this node.",
+          "sourceId": "hsbc-results",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-the-hongkong-and-shanghai-banking-corporation-limited-0",
+          "l": "The Hongkong and Shanghai Banking Corporation Limited\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "The Hongkong and Shanghai Banking Corporation Limited",
+          "s": "HSBC serves this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-retail-banking-channels-1",
+          "l": "Retail Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Retail Banking Channels",
+          "s": "HSBC serves this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-commercial-and-corporate-banking-channels-2",
+          "l": "Commercial and Corporate Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Commercial and Corporate Banking Channels",
+          "s": "HSBC serves this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-trade-finance-and-cross-border-channels-3",
+          "l": "Trade Finance and Cross-border Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Trade Finance and Cross-border Channels",
+          "s": "HSBC serves this node.",
+          "sourceId": "hsbc-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-corporate-treasury-demand-0",
+          "l": "Corporate Treasury Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Corporate Treasury Demand",
+          "s": "HSBC serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-retail-credit-and-deposit-demand-1",
+          "l": "Retail Credit and Deposit Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Retail Credit and Deposit Demand",
+          "s": "HSBC serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-cross-border-payment-demand-2",
+          "l": "Cross-border Payment Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Cross-border Payment Demand",
+          "s": "HSBC serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-hang-seng-bank-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed supplier dependency for HSBC."
+        },
+        {
+          "s": "supplier-in-bank-of-communications-co-limited-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed supplier dependency for HSBC."
+        },
+        {
+          "s": "supplier-in-hsbc-uk-bank-plc-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed supplier dependency for HSBC."
+        },
+        {
+          "s": "supplier-in-core-banking-and-treasury-systems-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed supplier dependency for HSBC."
+        },
+        {
+          "s": "service-in-global-payments-and-cash-management-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-results",
+          "n": "Source-backed service dependency for HSBC."
+        },
+        {
+          "s": "service-in-regulatory-and-risk-management-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-results",
+          "n": "Source-backed service dependency for HSBC."
+        },
+        {
+          "s": "service-in-aml-and-financial-crime-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-results",
+          "n": "Source-backed service dependency for HSBC."
+        },
+        {
+          "s": "service-in-treasury-and-liquidity-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-results",
+          "n": "Source-backed service dependency for HSBC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-the-hongkong-and-shanghai-banking-corporation-limited-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed channel route for HSBC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-retail-banking-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed channel route for HSBC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-commercial-and-corporate-banking-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed channel route for HSBC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-trade-finance-and-cross-border-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hsbc-20f",
+          "n": "Source-backed channel route for HSBC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-corporate-treasury-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for HSBC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-retail-credit-and-deposit-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for HSBC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-cross-border-payment-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for HSBC."
+        },
+        {
+          "s": "channel-out-the-hongkong-and-shanghai-banking-corporation-limited-0",
+          "t": "demand-out-corporate-treasury-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for HSBC."
+        },
+        {
+          "s": "channel-out-retail-banking-channels-1",
+          "t": "demand-out-retail-credit-and-deposit-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for HSBC."
+        },
+        {
+          "s": "channel-out-commercial-and-corporate-banking-channels-2",
+          "t": "demand-out-cross-border-payment-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for HSBC."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hsbc-ir",
+          "title": "HSBC investor relations",
+          "url": "https://www.hsbc.com/investors",
+          "note": "Financial and segment demand context."
+        },
+        {
+          "id": "hsbc-results",
+          "title": "HSBC results and announcements",
+          "url": "https://www.hsbc.com/investors/results-and-announcements",
+          "note": "Current business and risk disclosures."
+        },
+        {
+          "id": "swift-payments",
+          "title": "SWIFT payments network overview",
+          "url": "https://www.swift.com/payments",
+          "note": "Settlement and payment infrastructure context."
+        },
+        {
+          "id": "hsbc-20f",
+          "title": "HSBC FY2024 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/1089113/000108911325000040/hsbc-20241231.htm",
+          "note": "Primary filing with named entities including Hang Seng Bank, HSBC UK Bank plc, and Bank of Communications Co., Limited."
+        }
+      ]
+    },
     "ARM": {
       "symbol": "ARM",
       "company": "Arm Holdings",
@@ -20721,12 +20330,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Arm Holdings\nARM - 331.42B",
+          "l": "Arm Holdings\nARM - 326.13B",
           "tier": 0,
           "kind": "company",
           "c": "UK",
           "d": "No verified relationship data published.",
-          "s": "Market cap $331,421,319,168.",
+          "s": "Market cap $326,134,726,656.",
           "z": 22
         }
       ],
@@ -20748,12 +20357,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Bank of China\n601988.SS - 318.91B",
+          "l": "Bank of China\n601988.SS - 323.83B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
           "d": "State Commercial Banking and Subsidiary Network (Source-backed) anchor company. Rank #50.",
-          "s": "Market cap $318,912,648,771.",
+          "s": "Market cap $323,833,963,257.",
           "z": 23,
           "sourceId": "boc-annual-2024",
           "confidence": "high (company disclosure)"
@@ -21145,10 +20754,428 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "GE": {
+      "symbol": "GE",
+      "company": "General Electric",
+      "rank": 51,
+      "category": "Industrial Systems (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "General Electric\nGE - 319.16B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Industrial Systems (Source-backed) anchor company. Rank #51.",
+          "s": "Market cap $319,164,579,840.",
+          "z": 23,
+          "sourceId": "ge-annual",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-safran-aircraft-engines-cfm-joint-venture-0",
+          "l": "Safran Aircraft Engines (CFM Joint Venture)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "FR",
+          "d": "Safran Aircraft Engines (CFM Joint Venture)",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-aerospace-engine-components-and-casting-suppliers-1",
+          "l": "Aerospace Engine Components and Casting Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Aerospace Engine Components and Casting Suppliers",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-specialty-metals-and-materials-inputs-2",
+          "l": "Specialty Metals and Materials Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Specialty Metals and Materials Inputs",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-avionics-and-control-systems-suppliers-3",
+          "l": "Avionics and Control Systems Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Avionics and Control Systems Suppliers",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-aftermarket-parts-manufacturing-partners-4",
+          "l": "Aftermarket Parts Manufacturing Partners\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Aftermarket Parts Manufacturing Partners",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-supplier-portal-and-transaction-services-0",
+          "l": "Supplier Portal and Transaction Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Supplier Portal and Transaction Services",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-quality-and-safety-assurance-programs-1",
+          "l": "Quality and Safety Assurance Programs\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Quality and Safety Assurance Programs",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-logistics-and-spares-distribution-2",
+          "l": "Global Logistics and Spares Distribution\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Global Logistics and Spares Distribution",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-risk-management-services-3",
+          "l": "Treasury and Risk Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and Risk Management Services",
+          "s": "GE depends on this node.",
+          "sourceId": "ge-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-boeing-737-max-program-0",
+          "l": "Boeing 737 MAX Program\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Boeing 737 MAX Program",
+          "s": "GE serves this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-airbus-a320neo-program-1",
+          "l": "Airbus A320neo Program\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "FR",
+          "d": "Airbus A320neo Program",
+          "s": "GE serves this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-defense-and-government-channels-2",
+          "l": "Defense and Government Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Defense and Government Channels",
+          "s": "GE serves this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-mro-and-aftermarket-service-channels-3",
+          "l": "MRO and Aftermarket Service Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "MRO and Aftermarket Service Channels",
+          "s": "GE serves this node.",
+          "sourceId": "ge-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-commercial-flight-hours-demand-0",
+          "l": "Commercial Flight Hours Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Commercial Flight Hours Demand",
+          "s": "GE serves this node.",
+          "sourceId": "ge-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-defense-modernization-demand-1",
+          "l": "Defense Modernization Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Defense Modernization Demand",
+          "s": "GE serves this node.",
+          "sourceId": "ge-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-aftermarket-services-demand-2",
+          "l": "Aftermarket Services Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Aftermarket Services Demand",
+          "s": "GE serves this node.",
+          "sourceId": "ge-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-safran-aircraft-engines-cfm-joint-venture-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed supplier dependency for GE."
+        },
+        {
+          "s": "supplier-in-aerospace-engine-components-and-casting-suppliers-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed supplier dependency for GE."
+        },
+        {
+          "s": "supplier-in-specialty-metals-and-materials-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed supplier dependency for GE."
+        },
+        {
+          "s": "supplier-in-avionics-and-control-systems-suppliers-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed supplier dependency for GE."
+        },
+        {
+          "s": "supplier-in-aftermarket-parts-manufacturing-partners-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed supplier dependency for GE."
+        },
+        {
+          "s": "service-in-supplier-portal-and-transaction-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-suppliers",
+          "n": "Source-backed service dependency for GE."
+        },
+        {
+          "s": "service-in-quality-and-safety-assurance-programs-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-suppliers",
+          "n": "Source-backed service dependency for GE."
+        },
+        {
+          "s": "service-in-global-logistics-and-spares-distribution-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-suppliers",
+          "n": "Source-backed service dependency for GE."
+        },
+        {
+          "s": "service-in-treasury-and-risk-management-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ge-suppliers",
+          "n": "Source-backed service dependency for GE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-boeing-737-max-program-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed channel route for GE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-airbus-a320neo-program-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed channel route for GE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-defense-and-government-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed channel route for GE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-mro-and-aftermarket-service-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ge-10k",
+          "n": "Source-backed channel route for GE."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-commercial-flight-hours-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ge-annual",
+          "n": "Source-backed demand route for GE."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-defense-modernization-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ge-annual",
+          "n": "Source-backed demand route for GE."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-aftermarket-services-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ge-annual",
+          "n": "Source-backed demand route for GE."
+        },
+        {
+          "s": "channel-out-boeing-737-max-program-0",
+          "t": "demand-out-commercial-flight-hours-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ge-annual",
+          "n": "Source-backed demand transfer from channel to end-demand for GE."
+        },
+        {
+          "s": "channel-out-airbus-a320neo-program-1",
+          "t": "demand-out-defense-modernization-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ge-annual",
+          "n": "Source-backed demand transfer from channel to end-demand for GE."
+        },
+        {
+          "s": "channel-out-defense-and-government-channels-2",
+          "t": "demand-out-aftermarket-services-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ge-annual",
+          "n": "Source-backed demand transfer from channel to end-demand for GE."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ge-annual",
+          "title": "GE Aerospace annual report",
+          "url": "https://www.geaerospace.com/investor-relations/annual-report",
+          "note": "Operations and demand disclosures."
+        },
+        {
+          "id": "ge-10k",
+          "title": "GE Aerospace FY2024 Form 10-K",
+          "url": "https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/40545/000004054525000014/ge-20241231.htm",
+          "note": "Primary filing with CFM/Safran context and Airbus/Boeing platform exposure disclosures."
+        },
+        {
+          "id": "ge-suppliers",
+          "title": "GE Aerospace supplier portal",
+          "url": "https://supplier.geaerospace.com/",
+          "note": "Supplier onboarding and transaction ecosystem context."
+        },
+        {
+          "id": "ge-press",
+          "title": "GE Aerospace press releases",
+          "url": "https://www.geaerospace.com/news/press-releases",
+          "note": "Named program and partner updates."
+        }
+      ]
+    },
     "MS": {
       "symbol": "MS",
       "company": "Morgan Stanley",
-      "rank": 51,
+      "rank": 52,
       "category": "Investment Banking (Source-backed)",
       "layers": {
         "0": "Company",
@@ -21160,12 +21187,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Morgan Stanley\nMS - 308.32B",
+          "l": "Morgan Stanley\nMS - 297.39B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Investment Banking (Source-backed) anchor company. Rank #51.",
-          "s": "Market cap $308,317,847,552.",
+          "d": "Investment Banking (Source-backed) anchor company. Rank #52.",
+          "s": "Market cap $297,386,737,664.",
           "z": 23,
           "sourceId": "ms-ir",
           "confidence": "high (company disclosure)"
@@ -21563,33 +21590,6 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "PANW": {
-      "symbol": "PANW",
-      "company": "Palo Alto Networks",
-      "rank": 52,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Palo Alto Networks\nPANW - 306.54B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $306,537,299,968.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
     "PM": {
       "symbol": "PM",
       "company": "Philip Morris International",
@@ -21605,12 +21605,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Philip Morris International\nPM - 296.88B",
+          "l": "Philip Morris International\nPM - 287.49B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Consumer Products Portfolio (Source-backed) anchor company. Rank #53.",
-          "s": "Market cap $296,884,666,368.",
+          "s": "Market cap $287,494,045,696.",
           "z": 23,
           "sourceId": "pm-ir",
           "confidence": "high (company disclosure)"
@@ -22008,10 +22008,422 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "HD": {
+      "symbol": "HD",
+      "company": "Home Depot",
+      "rank": 54,
+      "category": "Home Improvement Retail (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Home Depot\nHD - 280.92B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Home Improvement Retail (Source-backed) anchor company. Rank #54.",
+          "s": "Market cap $280,919,572,480.",
+          "z": 23,
+          "sourceId": "hd-annual",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-srs-distribution-0",
+          "l": "SRS Distribution\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "SRS Distribution",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-hd-supply-1",
+          "l": "HD Supply\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "HD Supply",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-home-depot-pro-2",
+          "l": "Home Depot Pro\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Home Depot Pro",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-building-materials-and-lumber-suppliers-3",
+          "l": "Building Materials and Lumber Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Building Materials and Lumber Suppliers",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-tool-and-hardware-vendor-ecosystem-4",
+          "l": "Tool and Hardware Vendor Ecosystem\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Tool and Hardware Vendor Ecosystem",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-distribution-center-and-last-mile-logistics-0",
+          "l": "Distribution Center and Last-Mile Logistics\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Distribution Center and Last-Mile Logistics",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-supplier-diversity-and-compliance-program-1",
+          "l": "Supplier Diversity and Compliance Program\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Supplier Diversity and Compliance Program",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-installation-and-pro-services-network-2",
+          "l": "Installation and Pro Services Network\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Installation and Pro Services Network",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-commercial-insurance-and-risk-coverage-3",
+          "l": "Commercial Insurance and Risk Coverage\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Commercial Insurance and Risk Coverage",
+          "s": "HD depends on this node.",
+          "sourceId": "hd-10k",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-home-depot-pro-0",
+          "l": "Home Depot Pro\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Home Depot Pro",
+          "s": "HD serves this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-store-network-and-pro-desks-1",
+          "l": "Store Network and Pro Desks\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Store Network and Pro Desks",
+          "s": "HD serves this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-homedepot-com-and-marketplace-2",
+          "l": "HomeDepot.com and Marketplace\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "HomeDepot.com and Marketplace",
+          "s": "HD serves this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-pro-contractor-and-enterprise-accounts-3",
+          "l": "Pro Contractor and Enterprise Accounts\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Pro Contractor and Enterprise Accounts",
+          "s": "HD serves this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-residential-repair-and-remodel-demand-0",
+          "l": "Residential Repair and Remodel Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Residential Repair and Remodel Demand",
+          "s": "HD serves this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-professional-contractor-demand-1",
+          "l": "Professional Contractor Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Professional Contractor Demand",
+          "s": "HD serves this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-seasonal-home-improvement-demand-2",
+          "l": "Seasonal Home Improvement Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Seasonal Home Improvement Demand",
+          "s": "HD serves this node.",
+          "sourceId": "hd-annual",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-srs-distribution-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed supplier dependency for HD."
+        },
+        {
+          "s": "supplier-in-hd-supply-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed supplier dependency for HD."
+        },
+        {
+          "s": "supplier-in-home-depot-pro-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed supplier dependency for HD."
+        },
+        {
+          "s": "supplier-in-building-materials-and-lumber-suppliers-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed supplier dependency for HD."
+        },
+        {
+          "s": "supplier-in-tool-and-hardware-vendor-ecosystem-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed supplier dependency for HD."
+        },
+        {
+          "s": "service-in-distribution-center-and-last-mile-logistics-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed service dependency for HD."
+        },
+        {
+          "s": "service-in-supplier-diversity-and-compliance-program-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed service dependency for HD."
+        },
+        {
+          "s": "service-in-installation-and-pro-services-network-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed service dependency for HD."
+        },
+        {
+          "s": "service-in-commercial-insurance-and-risk-coverage-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "hd-10k",
+          "n": "Source-backed service dependency for HD."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-home-depot-pro-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed channel route for HD."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-store-network-and-pro-desks-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed channel route for HD."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-homedepot-com-and-marketplace-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed channel route for HD."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-pro-contractor-and-enterprise-accounts-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed channel route for HD."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-residential-repair-and-remodel-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed demand route for HD."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-professional-contractor-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed demand route for HD."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-seasonal-home-improvement-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed demand route for HD."
+        },
+        {
+          "s": "channel-out-home-depot-pro-0",
+          "t": "demand-out-residential-repair-and-remodel-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed demand transfer from channel to end-demand for HD."
+        },
+        {
+          "s": "channel-out-store-network-and-pro-desks-1",
+          "t": "demand-out-professional-contractor-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed demand transfer from channel to end-demand for HD."
+        },
+        {
+          "s": "channel-out-homedepot-com-and-marketplace-2",
+          "t": "demand-out-seasonal-home-improvement-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "hd-annual",
+          "n": "Source-backed demand transfer from channel to end-demand for HD."
+        }
+      ],
+      "sources": [
+        {
+          "id": "hd-annual",
+          "title": "Home Depot annual reports",
+          "url": "https://ir.homedepot.com/financial-reports/annual-reports",
+          "note": "Demand, store operations, and channel disclosures."
+        },
+        {
+          "id": "hd-10k",
+          "title": "Home Depot FY2024 10-K",
+          "url": "https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/354950/000035495025000010/hd-20250202.htm",
+          "note": "Supplier, logistics, and risk discussion."
+        },
+        {
+          "id": "hd-supplier",
+          "title": "Home Depot supplier diversity",
+          "url": "https://www.homedepot.com/c/Supplier_Diversity",
+          "note": "Supplier ecosystem and procurement policy context."
+        }
+      ]
+    },
     "NFLX": {
       "symbol": "NFLX",
       "company": "Netflix",
-      "rank": 54,
+      "rank": 55,
       "category": "Streaming Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -22023,12 +22435,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Netflix\nNFLX - 296.24B",
+          "l": "Netflix\nNFLX - 278.78B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Streaming Platform (Source-backed) anchor company. Rank #54.",
-          "s": "Market cap $296,243,462,144.",
+          "d": "Streaming Platform (Source-backed) anchor company. Rank #55.",
+          "s": "Market cap $278,775,726,080.",
           "z": 23,
           "sourceId": "nflx-10k",
           "confidence": "high (company disclosure)"
@@ -22444,423 +22856,11 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "HD": {
-      "symbol": "HD",
-      "company": "Home Depot",
-      "rank": 55,
-      "category": "Home Improvement Retail (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Home Depot\nHD - 292.52B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Home Improvement Retail (Source-backed) anchor company. Rank #55.",
-          "s": "Market cap $292,522,590,208.",
-          "z": 23,
-          "sourceId": "hd-annual",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-srs-distribution-0",
-          "l": "SRS Distribution\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "SRS Distribution",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-hd-supply-1",
-          "l": "HD Supply\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "HD Supply",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-home-depot-pro-2",
-          "l": "Home Depot Pro\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Home Depot Pro",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-building-materials-and-lumber-suppliers-3",
-          "l": "Building Materials and Lumber Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Building Materials and Lumber Suppliers",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-tool-and-hardware-vendor-ecosystem-4",
-          "l": "Tool and Hardware Vendor Ecosystem\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Tool and Hardware Vendor Ecosystem",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-distribution-center-and-last-mile-logistics-0",
-          "l": "Distribution Center and Last-Mile Logistics\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Distribution Center and Last-Mile Logistics",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-supplier-diversity-and-compliance-program-1",
-          "l": "Supplier Diversity and Compliance Program\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Supplier Diversity and Compliance Program",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-installation-and-pro-services-network-2",
-          "l": "Installation and Pro Services Network\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Installation and Pro Services Network",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-commercial-insurance-and-risk-coverage-3",
-          "l": "Commercial Insurance and Risk Coverage\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Commercial Insurance and Risk Coverage",
-          "s": "HD depends on this node.",
-          "sourceId": "hd-10k",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-home-depot-pro-0",
-          "l": "Home Depot Pro\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Home Depot Pro",
-          "s": "HD serves this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-store-network-and-pro-desks-1",
-          "l": "Store Network and Pro Desks\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Store Network and Pro Desks",
-          "s": "HD serves this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-homedepot-com-and-marketplace-2",
-          "l": "HomeDepot.com and Marketplace\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "HomeDepot.com and Marketplace",
-          "s": "HD serves this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-pro-contractor-and-enterprise-accounts-3",
-          "l": "Pro Contractor and Enterprise Accounts\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Pro Contractor and Enterprise Accounts",
-          "s": "HD serves this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-residential-repair-and-remodel-demand-0",
-          "l": "Residential Repair and Remodel Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Residential Repair and Remodel Demand",
-          "s": "HD serves this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-professional-contractor-demand-1",
-          "l": "Professional Contractor Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Professional Contractor Demand",
-          "s": "HD serves this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-seasonal-home-improvement-demand-2",
-          "l": "Seasonal Home Improvement Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Seasonal Home Improvement Demand",
-          "s": "HD serves this node.",
-          "sourceId": "hd-annual",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-srs-distribution-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed supplier dependency for HD."
-        },
-        {
-          "s": "supplier-in-hd-supply-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed supplier dependency for HD."
-        },
-        {
-          "s": "supplier-in-home-depot-pro-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed supplier dependency for HD."
-        },
-        {
-          "s": "supplier-in-building-materials-and-lumber-suppliers-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed supplier dependency for HD."
-        },
-        {
-          "s": "supplier-in-tool-and-hardware-vendor-ecosystem-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed supplier dependency for HD."
-        },
-        {
-          "s": "service-in-distribution-center-and-last-mile-logistics-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed service dependency for HD."
-        },
-        {
-          "s": "service-in-supplier-diversity-and-compliance-program-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed service dependency for HD."
-        },
-        {
-          "s": "service-in-installation-and-pro-services-network-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed service dependency for HD."
-        },
-        {
-          "s": "service-in-commercial-insurance-and-risk-coverage-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "hd-10k",
-          "n": "Source-backed service dependency for HD."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-home-depot-pro-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed channel route for HD."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-store-network-and-pro-desks-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed channel route for HD."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-homedepot-com-and-marketplace-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed channel route for HD."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-pro-contractor-and-enterprise-accounts-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed channel route for HD."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-residential-repair-and-remodel-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed demand route for HD."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-professional-contractor-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed demand route for HD."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-seasonal-home-improvement-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed demand route for HD."
-        },
-        {
-          "s": "channel-out-home-depot-pro-0",
-          "t": "demand-out-residential-repair-and-remodel-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed demand transfer from channel to end-demand for HD."
-        },
-        {
-          "s": "channel-out-store-network-and-pro-desks-1",
-          "t": "demand-out-professional-contractor-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed demand transfer from channel to end-demand for HD."
-        },
-        {
-          "s": "channel-out-homedepot-com-and-marketplace-2",
-          "t": "demand-out-seasonal-home-improvement-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "hd-annual",
-          "n": "Source-backed demand transfer from channel to end-demand for HD."
-        }
-      ],
-      "sources": [
-        {
-          "id": "hd-annual",
-          "title": "Home Depot annual reports",
-          "url": "https://ir.homedepot.com/financial-reports/annual-reports",
-          "note": "Demand, store operations, and channel disclosures."
-        },
-        {
-          "id": "hd-10k",
-          "title": "Home Depot FY2024 10-K",
-          "url": "https://www.sec.gov/ixviewer/ix.html?doc=/Archives/edgar/data/354950/000035495025000010/hd-20250202.htm",
-          "note": "Supplier, logistics, and risk discussion."
-        },
-        {
-          "id": "hd-supplier",
-          "title": "Home Depot supplier diversity",
-          "url": "https://www.homedepot.com/c/Supplier_Diversity",
-          "note": "Supplier ecosystem and procurement policy context."
-        }
-      ]
-    },
-    "RY": {
-      "symbol": "RY",
-      "company": "Royal Bank Of Canada",
+    "CRWD": {
+      "symbol": "CRWD",
+      "company": "CrowdStrike",
       "rank": 56,
-      "category": "Universal Banking and Business Segment Network (Source-backed)",
+      "category": "Relationship research pending",
       "layers": {
         "0": "Company",
         "1": "Channels",
@@ -22871,822 +22871,22 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Royal Bank Of Canada\nRY - 279.63B",
+          "l": "CrowdStrike\nCRWD - 277.04B",
           "tier": 0,
           "kind": "company",
-          "c": "CA",
-          "d": "Universal Banking and Business Segment Network (Source-backed) anchor company. Rank #56.",
-          "s": "Market cap $279,627,137,024.",
-          "z": 23,
-          "sourceId": "rbc-about",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-rbc-capital-markets-0",
-          "l": "RBC Capital Markets\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CA",
-          "d": "RBC Capital Markets",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-rbc-investor-services-1",
-          "l": "RBC Investor Services\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CA",
-          "d": "RBC Investor Services",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-credit-and-risk-data-inputs-2",
-          "l": "Credit and Risk Data Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CA",
-          "d": "Credit and Risk Data Inputs",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-core-banking-and-digital-platform-inputs-3",
-          "l": "Core Banking and Digital Platform Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CA",
-          "d": "Core Banking and Digital Platform Inputs",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-rbc-wealth-management-0",
-          "l": "RBC Wealth Management\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CA",
-          "d": "RBC Wealth Management",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-rbc-insurance-1",
-          "l": "RBC Insurance\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CA",
-          "d": "RBC Insurance",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-and-enterprise-risk-services-2",
-          "l": "Regulatory and Enterprise Risk Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CA",
-          "d": "Regulatory and Enterprise Risk Services",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-funding-services-3",
-          "l": "Treasury and Funding Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CA",
-          "d": "Treasury and Funding Services",
-          "s": "RY depends on this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-royal-bank-of-canada-personal-banking-0",
-          "l": "Royal Bank of Canada Personal Banking\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CA",
-          "d": "Royal Bank of Canada Personal Banking",
-          "s": "RY serves this node.",
-          "sourceId": "rbc-royalbank",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-city-national-bank-1",
-          "l": "City National Bank\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
           "c": "US",
-          "d": "City National Bank",
-          "s": "RY serves this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-rbc-commercial-banking-channels-2",
-          "l": "RBC Commercial Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CA",
-          "d": "RBC Commercial Banking Channels",
-          "s": "RY serves this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-rbc-capital-markets-institutional-channels-3",
-          "l": "RBC Capital Markets Institutional Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CA",
-          "d": "RBC Capital Markets Institutional Channels",
-          "s": "RY serves this node.",
-          "sourceId": "rbc-about",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-consumer-banking-demand-0",
-          "l": "Consumer Banking Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CA",
-          "d": "Consumer Banking Demand",
-          "s": "RY serves this node.",
-          "sourceId": "rbc-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-corporate-treasury-demand-1",
-          "l": "Corporate Treasury Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CA",
-          "d": "Corporate Treasury Demand",
-          "s": "RY serves this node.",
-          "sourceId": "rbc-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-investment-and-wealth-demand-2",
-          "l": "Investment and Wealth Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CA",
-          "d": "Investment and Wealth Demand",
-          "s": "RY serves this node.",
-          "sourceId": "rbc-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
+          "d": "No verified relationship data published.",
+          "s": "Market cap $277,040,922,624.",
+          "z": 22
         }
       ],
-      "links": [
-        {
-          "s": "supplier-in-rbc-capital-markets-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed supplier dependency for RY."
-        },
-        {
-          "s": "supplier-in-rbc-investor-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed supplier dependency for RY."
-        },
-        {
-          "s": "supplier-in-credit-and-risk-data-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed supplier dependency for RY."
-        },
-        {
-          "s": "supplier-in-core-banking-and-digital-platform-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed supplier dependency for RY."
-        },
-        {
-          "s": "service-in-rbc-wealth-management-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed service dependency for RY."
-        },
-        {
-          "s": "service-in-rbc-insurance-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed service dependency for RY."
-        },
-        {
-          "s": "service-in-regulatory-and-enterprise-risk-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed service dependency for RY."
-        },
-        {
-          "s": "service-in-treasury-and-funding-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed service dependency for RY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-royal-bank-of-canada-personal-banking-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-royalbank",
-          "n": "Source-backed channel route for RY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-city-national-bank-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed channel route for RY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-rbc-commercial-banking-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed channel route for RY."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-rbc-capital-markets-institutional-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-about",
-          "n": "Source-backed channel route for RY."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-consumer-banking-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-ir",
-          "n": "Source-backed demand route for RY."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-corporate-treasury-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-ir",
-          "n": "Source-backed demand route for RY."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-investment-and-wealth-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-ir",
-          "n": "Source-backed demand route for RY."
-        },
-        {
-          "s": "channel-out-royal-bank-of-canada-personal-banking-0",
-          "t": "demand-out-consumer-banking-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for RY."
-        },
-        {
-          "s": "channel-out-city-national-bank-1",
-          "t": "demand-out-corporate-treasury-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for RY."
-        },
-        {
-          "s": "channel-out-rbc-commercial-banking-channels-2",
-          "t": "demand-out-investment-and-wealth-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "rbc-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for RY."
-        }
-      ],
-      "sources": [
-        {
-          "id": "rbc-ir",
-          "title": "RBC investor relations",
-          "url": "https://www.rbc.com/investor-relations/index.html",
-          "note": "Financial and segment reporting context."
-        },
-        {
-          "id": "rbc-about",
-          "title": "RBC about page and business links",
-          "url": "https://www.rbc.com/about-rbc.html",
-          "note": "Named business lines and links to RBC Capital Markets, RBC Wealth Management, RBC Investor Services, RBC Insurance, and City National Bank."
-        },
-        {
-          "id": "rbc-royalbank",
-          "title": "RBC Royal Bank personal banking",
-          "url": "https://www.rbcroyalbank.com/personal.html",
-          "note": "Primary personal and commercial channel context."
-        },
-        {
-          "id": "rbc-cnb",
-          "title": "City National Bank business banking",
-          "url": "https://www.cnb.com/business.html",
-          "note": "Named City National operating channel under RBC group."
-        }
-      ]
-    },
-    "NVS": {
-      "symbol": "NVS",
-      "company": "Novartis",
-      "rank": 57,
-      "category": "Biopharma Pipeline (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Novartis\nNVS - 276.48B",
-          "tier": 0,
-          "kind": "company",
-          "c": "CH",
-          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #57.",
-          "s": "Market cap $276,478,001,152.",
-          "z": 23,
-          "sourceId": "nvs-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-morphosys-ag-0",
-          "l": "MorphoSys AG\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "MorphoSys AG",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-morphosys",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-regulus-therapeutics-1",
-          "l": "Regulus Therapeutics\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Regulus Therapeutics",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-regulus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-avidity-biosciences-2",
-          "l": "Avidity Biosciences\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Avidity Biosciences",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-avidity",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-external-manufacturing-and-supply-inputs-3",
-          "l": "External Manufacturing and Supply Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CH",
-          "d": "External Manufacturing and Supply Inputs",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-morphosys",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-clinical-research-and-trial-inputs-4",
-          "l": "Clinical Research and Trial Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CH",
-          "d": "Clinical Research and Trial Inputs",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-morphosys",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-supplier-governance-and-procurement-services-0",
-          "l": "Supplier Governance and Procurement Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CH",
-          "d": "Supplier Governance and Procurement Services",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-quality-and-regulatory-compliance-services-1",
-          "l": "Quality and Regulatory Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CH",
-          "d": "Quality and Regulatory Compliance Services",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-cold-chain-and-global-distribution-services-2",
-          "l": "Cold-Chain and Global Distribution Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CH",
-          "d": "Cold-Chain and Global Distribution Services",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-currency-risk-services-3",
-          "l": "Treasury and Currency Risk Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CH",
-          "d": "Treasury and Currency Risk Services",
-          "s": "NVS depends on this node.",
-          "sourceId": "nvs-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-specialty-care-and-hospital-channels-0",
-          "l": "Specialty Care and Hospital Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CH",
-          "d": "Specialty Care and Hospital Channels",
-          "s": "NVS serves this node.",
-          "sourceId": "nvs-regulus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-retail-and-specialty-pharmacy-channels-1",
-          "l": "Retail and Specialty Pharmacy Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CH",
-          "d": "Retail and Specialty Pharmacy Channels",
-          "s": "NVS serves this node.",
-          "sourceId": "nvs-regulus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-regulus-therapeutics-2",
-          "l": "Regulus Therapeutics\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Regulus Therapeutics",
-          "s": "NVS serves this node.",
-          "sourceId": "nvs-regulus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-avidity-biosciences-3",
-          "l": "Avidity Biosciences\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Avidity Biosciences",
-          "s": "NVS serves this node.",
-          "sourceId": "nvs-avidity",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-innovative-medicines-demand-0",
-          "l": "Innovative Medicines Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CH",
-          "d": "Innovative Medicines Demand",
-          "s": "NVS serves this node.",
-          "sourceId": "nvs-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-specialty-care-demand-1",
-          "l": "Specialty Care Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CH",
-          "d": "Specialty Care Demand",
-          "s": "NVS serves this node.",
-          "sourceId": "nvs-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-global-healthcare-demand-2",
-          "l": "Global Healthcare Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CH",
-          "d": "Global Healthcare Demand",
-          "s": "NVS serves this node.",
-          "sourceId": "nvs-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-morphosys-ag-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-morphosys",
-          "n": "Source-backed supplier dependency for NVS."
-        },
-        {
-          "s": "supplier-in-regulus-therapeutics-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-regulus",
-          "n": "Source-backed supplier dependency for NVS."
-        },
-        {
-          "s": "supplier-in-avidity-biosciences-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-avidity",
-          "n": "Source-backed supplier dependency for NVS."
-        },
-        {
-          "s": "supplier-in-external-manufacturing-and-supply-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-morphosys",
-          "n": "Source-backed supplier dependency for NVS."
-        },
-        {
-          "s": "supplier-in-clinical-research-and-trial-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-morphosys",
-          "n": "Source-backed supplier dependency for NVS."
-        },
-        {
-          "s": "service-in-supplier-governance-and-procurement-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed service dependency for NVS."
-        },
-        {
-          "s": "service-in-quality-and-regulatory-compliance-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed service dependency for NVS."
-        },
-        {
-          "s": "service-in-cold-chain-and-global-distribution-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed service dependency for NVS."
-        },
-        {
-          "s": "service-in-treasury-and-currency-risk-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed service dependency for NVS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-specialty-care-and-hospital-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-regulus",
-          "n": "Source-backed channel route for NVS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-retail-and-specialty-pharmacy-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-regulus",
-          "n": "Source-backed channel route for NVS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-regulus-therapeutics-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-regulus",
-          "n": "Source-backed channel route for NVS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-avidity-biosciences-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-avidity",
-          "n": "Source-backed channel route for NVS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-innovative-medicines-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed demand route for NVS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-specialty-care-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed demand route for NVS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-global-healthcare-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed demand route for NVS."
-        },
-        {
-          "s": "channel-out-specialty-care-and-hospital-channels-0",
-          "t": "demand-out-innovative-medicines-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for NVS."
-        },
-        {
-          "s": "channel-out-retail-and-specialty-pharmacy-channels-1",
-          "t": "demand-out-specialty-care-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for NVS."
-        },
-        {
-          "s": "channel-out-regulus-therapeutics-2",
-          "t": "demand-out-global-healthcare-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "nvs-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for NVS."
-        }
-      ],
-      "sources": [
-        {
-          "id": "nvs-ir",
-          "title": "Novartis investors",
-          "url": "https://www.novartis.com/investors",
-          "note": "Company performance and demand context."
-        },
-        {
-          "id": "nvs-suppliers",
-          "title": "Novartis suppliers",
-          "url": "https://www.novartis.com/about/suppliers",
-          "note": "Supplier framework and procurement standards."
-        },
-        {
-          "id": "nvs-news",
-          "title": "Novartis media releases",
-          "url": "https://www.novartis.com/news/media-releases",
-          "note": "Program and market channel updates."
-        },
-        {
-          "id": "nvs-morphosys",
-          "title": "Novartis agreement to acquire MorphoSys AG",
-          "url": "https://www.novartis.com/news/media-releases/novartis-strengthen-oncology-pipeline-agreement-acquire-morphosys-ag-eur-68-share-or-aggregate-eur-27bn-cash",
-          "note": "Named oncology pipeline acquisition of MorphoSys AG."
-        },
-        {
-          "id": "nvs-regulus",
-          "title": "Novartis completes acquisition of Regulus Therapeutics",
-          "url": "https://www.novartis.com/news/media-releases/novartis-completes-acquisition-regulus-therapeutics",
-          "note": "Named RNA therapeutics acquisition by Novartis."
-        },
-        {
-          "id": "nvs-avidity",
-          "title": "Novartis agrees to acquire Avidity Biosciences",
-          "url": "https://www.novartis.com/news/media-releases/novartis-agrees-acquire-avidity-biosciences-innovator-rna-therapeutics-strengthening-its-late-stage-neuroscience-pipeline",
-          "note": "Named neuroscience pipeline acquisition of Avidity Biosciences."
-        }
-      ]
+      "links": [],
+      "sources": []
     },
     "SHEL": {
       "symbol": "SHEL",
       "company": "Shell",
-      "rank": 58,
+      "rank": 57,
       "category": "Integrated Energy (Source-backed)",
       "layers": {
         "0": "Company",
@@ -23698,12 +22898,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Shell\nSHEL - 273.19B",
+          "l": "Shell\nSHEL - 272.15B",
           "tier": 0,
           "kind": "company",
           "c": "UK",
-          "d": "Integrated Energy (Source-backed) anchor company. Rank #58.",
-          "s": "Market cap $273,189,879,808.",
+          "d": "Integrated Energy (Source-backed) anchor company. Rank #57.",
+          "s": "Market cap $272,154,689,536.",
           "z": 23,
           "sourceId": "shel-20f-2024",
           "confidence": "high (company disclosure)"
@@ -24098,7 +23298,7 @@ window.SUPPLY_MAP_DATA = {
     "BABA": {
       "symbol": "BABA",
       "company": "Alibaba",
-      "rank": 59,
+      "rank": 58,
       "category": "E-commerce + Logistics Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -24110,12 +23310,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Alibaba\nBABA - 272.85B",
+          "l": "Alibaba\nBABA - 269.72B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
-          "d": "E-commerce + Logistics Platform (Source-backed) anchor company. Rank #59.",
-          "s": "Market cap $272,854,040,576.",
+          "d": "E-commerce + Logistics Platform (Source-backed) anchor company. Rank #58.",
+          "s": "Market cap $269,722,320,896.",
           "z": 23,
           "sourceId": "baba-reports",
           "confidence": "high (company disclosure)"
@@ -24525,10 +23725,2100 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "RY": {
+      "symbol": "RY",
+      "company": "Royal Bank Of Canada",
+      "rank": 59,
+      "category": "Universal Banking and Business Segment Network (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Royal Bank Of Canada\nRY - 269.47B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CA",
+          "d": "Universal Banking and Business Segment Network (Source-backed) anchor company. Rank #59.",
+          "s": "Market cap $269,465,419,776.",
+          "z": 23,
+          "sourceId": "rbc-about",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-rbc-capital-markets-0",
+          "l": "RBC Capital Markets\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CA",
+          "d": "RBC Capital Markets",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-rbc-investor-services-1",
+          "l": "RBC Investor Services\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CA",
+          "d": "RBC Investor Services",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-credit-and-risk-data-inputs-2",
+          "l": "Credit and Risk Data Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CA",
+          "d": "Credit and Risk Data Inputs",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-core-banking-and-digital-platform-inputs-3",
+          "l": "Core Banking and Digital Platform Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CA",
+          "d": "Core Banking and Digital Platform Inputs",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-rbc-wealth-management-0",
+          "l": "RBC Wealth Management\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CA",
+          "d": "RBC Wealth Management",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-rbc-insurance-1",
+          "l": "RBC Insurance\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CA",
+          "d": "RBC Insurance",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-and-enterprise-risk-services-2",
+          "l": "Regulatory and Enterprise Risk Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CA",
+          "d": "Regulatory and Enterprise Risk Services",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-funding-services-3",
+          "l": "Treasury and Funding Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CA",
+          "d": "Treasury and Funding Services",
+          "s": "RY depends on this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-royal-bank-of-canada-personal-banking-0",
+          "l": "Royal Bank of Canada Personal Banking\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CA",
+          "d": "Royal Bank of Canada Personal Banking",
+          "s": "RY serves this node.",
+          "sourceId": "rbc-royalbank",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-city-national-bank-1",
+          "l": "City National Bank\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "City National Bank",
+          "s": "RY serves this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-rbc-commercial-banking-channels-2",
+          "l": "RBC Commercial Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CA",
+          "d": "RBC Commercial Banking Channels",
+          "s": "RY serves this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-rbc-capital-markets-institutional-channels-3",
+          "l": "RBC Capital Markets Institutional Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CA",
+          "d": "RBC Capital Markets Institutional Channels",
+          "s": "RY serves this node.",
+          "sourceId": "rbc-about",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-consumer-banking-demand-0",
+          "l": "Consumer Banking Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CA",
+          "d": "Consumer Banking Demand",
+          "s": "RY serves this node.",
+          "sourceId": "rbc-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-corporate-treasury-demand-1",
+          "l": "Corporate Treasury Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CA",
+          "d": "Corporate Treasury Demand",
+          "s": "RY serves this node.",
+          "sourceId": "rbc-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-investment-and-wealth-demand-2",
+          "l": "Investment and Wealth Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CA",
+          "d": "Investment and Wealth Demand",
+          "s": "RY serves this node.",
+          "sourceId": "rbc-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-rbc-capital-markets-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed supplier dependency for RY."
+        },
+        {
+          "s": "supplier-in-rbc-investor-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed supplier dependency for RY."
+        },
+        {
+          "s": "supplier-in-credit-and-risk-data-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed supplier dependency for RY."
+        },
+        {
+          "s": "supplier-in-core-banking-and-digital-platform-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed supplier dependency for RY."
+        },
+        {
+          "s": "service-in-rbc-wealth-management-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed service dependency for RY."
+        },
+        {
+          "s": "service-in-rbc-insurance-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed service dependency for RY."
+        },
+        {
+          "s": "service-in-regulatory-and-enterprise-risk-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed service dependency for RY."
+        },
+        {
+          "s": "service-in-treasury-and-funding-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed service dependency for RY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-royal-bank-of-canada-personal-banking-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-royalbank",
+          "n": "Source-backed channel route for RY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-city-national-bank-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed channel route for RY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-rbc-commercial-banking-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed channel route for RY."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-rbc-capital-markets-institutional-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-about",
+          "n": "Source-backed channel route for RY."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-consumer-banking-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-ir",
+          "n": "Source-backed demand route for RY."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-corporate-treasury-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-ir",
+          "n": "Source-backed demand route for RY."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-investment-and-wealth-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-ir",
+          "n": "Source-backed demand route for RY."
+        },
+        {
+          "s": "channel-out-royal-bank-of-canada-personal-banking-0",
+          "t": "demand-out-consumer-banking-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for RY."
+        },
+        {
+          "s": "channel-out-city-national-bank-1",
+          "t": "demand-out-corporate-treasury-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for RY."
+        },
+        {
+          "s": "channel-out-rbc-commercial-banking-channels-2",
+          "t": "demand-out-investment-and-wealth-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "rbc-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for RY."
+        }
+      ],
+      "sources": [
+        {
+          "id": "rbc-ir",
+          "title": "RBC investor relations",
+          "url": "https://www.rbc.com/investor-relations/index.html",
+          "note": "Financial and segment reporting context."
+        },
+        {
+          "id": "rbc-about",
+          "title": "RBC about page and business links",
+          "url": "https://www.rbc.com/about-rbc.html",
+          "note": "Named business lines and links to RBC Capital Markets, RBC Wealth Management, RBC Investor Services, RBC Insurance, and City National Bank."
+        },
+        {
+          "id": "rbc-royalbank",
+          "title": "RBC Royal Bank personal banking",
+          "url": "https://www.rbcroyalbank.com/personal.html",
+          "note": "Primary personal and commercial channel context."
+        },
+        {
+          "id": "rbc-cnb",
+          "title": "City National Bank business banking",
+          "url": "https://www.cnb.com/business.html",
+          "note": "Named City National operating channel under RBC group."
+        }
+      ]
+    },
+    "KLAC": {
+      "symbol": "KLAC",
+      "company": "KLA",
+      "rank": 60,
+      "category": "Semiconductor Process Control (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "KLA\nKLAC - 266.97B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Semiconductor Process Control (Source-backed) anchor company. Rank #60.",
+          "s": "Market cap $266,965,188,608.",
+          "z": 23,
+          "sourceId": "klac-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-tsmc-0",
+          "l": "TSMC\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "TW",
+          "d": "TSMC",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-samsung-electronics-1",
+          "l": "Samsung Electronics\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "KR",
+          "d": "Samsung Electronics",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-intel-foundry-2",
+          "l": "Intel Foundry\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Intel Foundry",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-precision-optics-and-sensor-suppliers-3",
+          "l": "Precision Optics and Sensor Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Precision Optics and Sensor Suppliers",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-electronics-and-motion-control-suppliers-4",
+          "l": "Electronics and Motion Control Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Electronics and Motion Control Suppliers",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-installation-and-field-service-programs-0",
+          "l": "Installation and Field Service Programs\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Installation and Field Service Programs",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-process-control-software-and-analytics-services-1",
+          "l": "Process Control Software and Analytics Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Process Control Software and Analytics Services",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-reliability-and-quality-services-2",
+          "l": "Reliability and Quality Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Reliability and Quality Services",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-working-capital-services-3",
+          "l": "Treasury and Working Capital Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and Working Capital Services",
+          "s": "KLAC depends on this node.",
+          "sourceId": "klac-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-foundry-customer-channels-0",
+          "l": "Foundry Customer Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Foundry Customer Channels",
+          "s": "KLAC serves this node.",
+          "sourceId": "klac-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-memory-customer-channels-1",
+          "l": "Memory Customer Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Memory Customer Channels",
+          "s": "KLAC serves this node.",
+          "sourceId": "klac-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-logic-and-advanced-packaging-channels-2",
+          "l": "Logic and Advanced Packaging Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Logic and Advanced Packaging Channels",
+          "s": "KLAC serves this node.",
+          "sourceId": "klac-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-service-and-upgrade-channels-3",
+          "l": "Service and Upgrade Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Service and Upgrade Channels",
+          "s": "KLAC serves this node.",
+          "sourceId": "klac-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-yield-management-demand-0",
+          "l": "Yield Management Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Yield Management Demand",
+          "s": "KLAC serves this node.",
+          "sourceId": "klac-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-node-transition-demand-1",
+          "l": "Node Transition Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Node Transition Demand",
+          "s": "KLAC serves this node.",
+          "sourceId": "klac-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-advanced-packaging-process-control-demand-2",
+          "l": "Advanced Packaging Process Control Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Advanced Packaging Process Control Demand",
+          "s": "KLAC serves this node.",
+          "sourceId": "klac-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-tsmc-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-sec",
+          "n": "Source-backed supplier dependency for KLAC."
+        },
+        {
+          "s": "supplier-in-samsung-electronics-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-sec",
+          "n": "Source-backed supplier dependency for KLAC."
+        },
+        {
+          "s": "supplier-in-intel-foundry-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-sec",
+          "n": "Source-backed supplier dependency for KLAC."
+        },
+        {
+          "s": "supplier-in-precision-optics-and-sensor-suppliers-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-sec",
+          "n": "Source-backed supplier dependency for KLAC."
+        },
+        {
+          "s": "supplier-in-electronics-and-motion-control-suppliers-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-sec",
+          "n": "Source-backed supplier dependency for KLAC."
+        },
+        {
+          "s": "service-in-installation-and-field-service-programs-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-supply",
+          "n": "Source-backed service dependency for KLAC."
+        },
+        {
+          "s": "service-in-process-control-software-and-analytics-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-supply",
+          "n": "Source-backed service dependency for KLAC."
+        },
+        {
+          "s": "service-in-reliability-and-quality-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-supply",
+          "n": "Source-backed service dependency for KLAC."
+        },
+        {
+          "s": "service-in-treasury-and-working-capital-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "klac-supply",
+          "n": "Source-backed service dependency for KLAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-foundry-customer-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "klac-products",
+          "n": "Source-backed channel route for KLAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-memory-customer-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "klac-products",
+          "n": "Source-backed channel route for KLAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-logic-and-advanced-packaging-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "klac-products",
+          "n": "Source-backed channel route for KLAC."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-service-and-upgrade-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "klac-products",
+          "n": "Source-backed channel route for KLAC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-yield-management-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "klac-ir",
+          "n": "Source-backed demand route for KLAC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-node-transition-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "klac-ir",
+          "n": "Source-backed demand route for KLAC."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-advanced-packaging-process-control-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "klac-ir",
+          "n": "Source-backed demand route for KLAC."
+        },
+        {
+          "s": "channel-out-foundry-customer-channels-0",
+          "t": "demand-out-yield-management-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "klac-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for KLAC."
+        },
+        {
+          "s": "channel-out-memory-customer-channels-1",
+          "t": "demand-out-node-transition-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "klac-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for KLAC."
+        },
+        {
+          "s": "channel-out-logic-and-advanced-packaging-channels-2",
+          "t": "demand-out-advanced-packaging-process-control-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "klac-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for KLAC."
+        }
+      ],
+      "sources": [
+        {
+          "id": "klac-ir",
+          "title": "KLA investor relations",
+          "url": "https://ir.kla.com/",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "klac-sec",
+          "title": "KLA SEC filings",
+          "url": "https://ir.kla.com/financial-information/sec-filings/default.aspx",
+          "note": "Risk and operating disclosures."
+        },
+        {
+          "id": "klac-supply",
+          "title": "KLA sustainability",
+          "url": "https://www.kla.com/company/sustainability",
+          "note": "Supplier and operations governance context."
+        }
+      ]
+    },
+    "NVS": {
+      "symbol": "NVS",
+      "company": "Novartis",
+      "rank": 61,
+      "category": "Biopharma Pipeline (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Novartis\nNVS - 266.83B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CH",
+          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #61.",
+          "s": "Market cap $266,831,855,616.",
+          "z": 23,
+          "sourceId": "nvs-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-morphosys-ag-0",
+          "l": "MorphoSys AG\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "MorphoSys AG",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-morphosys",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-regulus-therapeutics-1",
+          "l": "Regulus Therapeutics\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Regulus Therapeutics",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-regulus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-avidity-biosciences-2",
+          "l": "Avidity Biosciences\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Avidity Biosciences",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-avidity",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-external-manufacturing-and-supply-inputs-3",
+          "l": "External Manufacturing and Supply Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CH",
+          "d": "External Manufacturing and Supply Inputs",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-morphosys",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-clinical-research-and-trial-inputs-4",
+          "l": "Clinical Research and Trial Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CH",
+          "d": "Clinical Research and Trial Inputs",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-morphosys",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-supplier-governance-and-procurement-services-0",
+          "l": "Supplier Governance and Procurement Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CH",
+          "d": "Supplier Governance and Procurement Services",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-quality-and-regulatory-compliance-services-1",
+          "l": "Quality and Regulatory Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CH",
+          "d": "Quality and Regulatory Compliance Services",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-cold-chain-and-global-distribution-services-2",
+          "l": "Cold-Chain and Global Distribution Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CH",
+          "d": "Cold-Chain and Global Distribution Services",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-currency-risk-services-3",
+          "l": "Treasury and Currency Risk Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CH",
+          "d": "Treasury and Currency Risk Services",
+          "s": "NVS depends on this node.",
+          "sourceId": "nvs-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-specialty-care-and-hospital-channels-0",
+          "l": "Specialty Care and Hospital Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CH",
+          "d": "Specialty Care and Hospital Channels",
+          "s": "NVS serves this node.",
+          "sourceId": "nvs-regulus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-retail-and-specialty-pharmacy-channels-1",
+          "l": "Retail and Specialty Pharmacy Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CH",
+          "d": "Retail and Specialty Pharmacy Channels",
+          "s": "NVS serves this node.",
+          "sourceId": "nvs-regulus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-regulus-therapeutics-2",
+          "l": "Regulus Therapeutics\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Regulus Therapeutics",
+          "s": "NVS serves this node.",
+          "sourceId": "nvs-regulus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-avidity-biosciences-3",
+          "l": "Avidity Biosciences\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Avidity Biosciences",
+          "s": "NVS serves this node.",
+          "sourceId": "nvs-avidity",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-innovative-medicines-demand-0",
+          "l": "Innovative Medicines Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CH",
+          "d": "Innovative Medicines Demand",
+          "s": "NVS serves this node.",
+          "sourceId": "nvs-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-specialty-care-demand-1",
+          "l": "Specialty Care Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CH",
+          "d": "Specialty Care Demand",
+          "s": "NVS serves this node.",
+          "sourceId": "nvs-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-global-healthcare-demand-2",
+          "l": "Global Healthcare Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CH",
+          "d": "Global Healthcare Demand",
+          "s": "NVS serves this node.",
+          "sourceId": "nvs-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-morphosys-ag-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-morphosys",
+          "n": "Source-backed supplier dependency for NVS."
+        },
+        {
+          "s": "supplier-in-regulus-therapeutics-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-regulus",
+          "n": "Source-backed supplier dependency for NVS."
+        },
+        {
+          "s": "supplier-in-avidity-biosciences-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-avidity",
+          "n": "Source-backed supplier dependency for NVS."
+        },
+        {
+          "s": "supplier-in-external-manufacturing-and-supply-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-morphosys",
+          "n": "Source-backed supplier dependency for NVS."
+        },
+        {
+          "s": "supplier-in-clinical-research-and-trial-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-morphosys",
+          "n": "Source-backed supplier dependency for NVS."
+        },
+        {
+          "s": "service-in-supplier-governance-and-procurement-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed service dependency for NVS."
+        },
+        {
+          "s": "service-in-quality-and-regulatory-compliance-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed service dependency for NVS."
+        },
+        {
+          "s": "service-in-cold-chain-and-global-distribution-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed service dependency for NVS."
+        },
+        {
+          "s": "service-in-treasury-and-currency-risk-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed service dependency for NVS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-specialty-care-and-hospital-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-regulus",
+          "n": "Source-backed channel route for NVS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-retail-and-specialty-pharmacy-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-regulus",
+          "n": "Source-backed channel route for NVS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-regulus-therapeutics-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-regulus",
+          "n": "Source-backed channel route for NVS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-avidity-biosciences-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-avidity",
+          "n": "Source-backed channel route for NVS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-innovative-medicines-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed demand route for NVS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-specialty-care-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed demand route for NVS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-global-healthcare-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed demand route for NVS."
+        },
+        {
+          "s": "channel-out-specialty-care-and-hospital-channels-0",
+          "t": "demand-out-innovative-medicines-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for NVS."
+        },
+        {
+          "s": "channel-out-retail-and-specialty-pharmacy-channels-1",
+          "t": "demand-out-specialty-care-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for NVS."
+        },
+        {
+          "s": "channel-out-regulus-therapeutics-2",
+          "t": "demand-out-global-healthcare-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "nvs-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for NVS."
+        }
+      ],
+      "sources": [
+        {
+          "id": "nvs-ir",
+          "title": "Novartis investors",
+          "url": "https://www.novartis.com/investors",
+          "note": "Company performance and demand context."
+        },
+        {
+          "id": "nvs-suppliers",
+          "title": "Novartis suppliers",
+          "url": "https://www.novartis.com/about/suppliers",
+          "note": "Supplier framework and procurement standards."
+        },
+        {
+          "id": "nvs-news",
+          "title": "Novartis media releases",
+          "url": "https://www.novartis.com/news/media-releases",
+          "note": "Program and market channel updates."
+        },
+        {
+          "id": "nvs-morphosys",
+          "title": "Novartis agreement to acquire MorphoSys AG",
+          "url": "https://www.novartis.com/news/media-releases/novartis-strengthen-oncology-pipeline-agreement-acquire-morphosys-ag-eur-68-share-or-aggregate-eur-27bn-cash",
+          "note": "Named oncology pipeline acquisition of MorphoSys AG."
+        },
+        {
+          "id": "nvs-regulus",
+          "title": "Novartis completes acquisition of Regulus Therapeutics",
+          "url": "https://www.novartis.com/news/media-releases/novartis-completes-acquisition-regulus-therapeutics",
+          "note": "Named RNA therapeutics acquisition by Novartis."
+        },
+        {
+          "id": "nvs-avidity",
+          "title": "Novartis agrees to acquire Avidity Biosciences",
+          "url": "https://www.novartis.com/news/media-releases/novartis-agrees-acquire-avidity-biosciences-innovator-rna-therapeutics-strengthening-its-late-stage-neuroscience-pipeline",
+          "note": "Named neuroscience pipeline acquisition of Avidity Biosciences."
+        }
+      ]
+    },
+    "TXN": {
+      "symbol": "TXN",
+      "company": "Texas Instruments",
+      "rank": 62,
+      "category": "Analog Semiconductor Platform (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Texas Instruments\nTXN - 266.33B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Analog Semiconductor Platform (Source-backed) anchor company. Rank #62.",
+          "s": "Market cap $266,330,423,296.",
+          "z": 23,
+          "sourceId": "txn-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-industrial-market-0",
+          "l": "Industrial Market\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Industrial Market",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-automotive-market-1",
+          "l": "Automotive Market\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Automotive Market",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-personal-electronics-market-2",
+          "l": "Personal Electronics Market\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Personal Electronics Market",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-wafer-fabrication-and-materials-suppliers-3",
+          "l": "Wafer Fabrication and Materials Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Wafer Fabrication and Materials Suppliers",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-assembly-and-test-partners-4",
+          "l": "Assembly and Test Partners\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Assembly and Test Partners",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-sec",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-manufacturing-process-and-quality-services-0",
+          "l": "Manufacturing Process and Quality Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Manufacturing Process and Quality Services",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-supply-chain-resilience-services-1",
+          "l": "Supply Chain Resilience Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Supply Chain Resilience Services",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-field-applications-and-technical-services-2",
+          "l": "Field Applications and Technical Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Field Applications and Technical Services",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-working-capital-services-3",
+          "l": "Treasury and Working Capital Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and Working Capital Services",
+          "s": "TXN depends on this node.",
+          "sourceId": "txn-supply",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-industrial-and-automotive-oem-channels-0",
+          "l": "Industrial and Automotive OEM Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Industrial and Automotive OEM Channels",
+          "s": "TXN serves this node.",
+          "sourceId": "txn-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-personal-electronics-and-communications-channels-1",
+          "l": "Personal Electronics and Communications Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Personal Electronics and Communications Channels",
+          "s": "TXN serves this node.",
+          "sourceId": "txn-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-enterprise-infrastructure-channels-2",
+          "l": "Enterprise Infrastructure Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Enterprise Infrastructure Channels",
+          "s": "TXN serves this node.",
+          "sourceId": "txn-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-distribution-partner-channels-3",
+          "l": "Distribution Partner Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Distribution Partner Channels",
+          "s": "TXN serves this node.",
+          "sourceId": "txn-products",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-industrial-automation-demand-0",
+          "l": "Industrial Automation Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Industrial Automation Demand",
+          "s": "TXN serves this node.",
+          "sourceId": "txn-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-automotive-electrification-demand-1",
+          "l": "Automotive Electrification Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Automotive Electrification Demand",
+          "s": "TXN serves this node.",
+          "sourceId": "txn-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-embedded-analog-demand-2",
+          "l": "Embedded Analog Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Embedded Analog Demand",
+          "s": "TXN serves this node.",
+          "sourceId": "txn-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-industrial-market-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-sec",
+          "n": "Source-backed supplier dependency for TXN."
+        },
+        {
+          "s": "supplier-in-automotive-market-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-sec",
+          "n": "Source-backed supplier dependency for TXN."
+        },
+        {
+          "s": "supplier-in-personal-electronics-market-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-sec",
+          "n": "Source-backed supplier dependency for TXN."
+        },
+        {
+          "s": "supplier-in-wafer-fabrication-and-materials-suppliers-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-sec",
+          "n": "Source-backed supplier dependency for TXN."
+        },
+        {
+          "s": "supplier-in-assembly-and-test-partners-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-sec",
+          "n": "Source-backed supplier dependency for TXN."
+        },
+        {
+          "s": "service-in-manufacturing-process-and-quality-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-supply",
+          "n": "Source-backed service dependency for TXN."
+        },
+        {
+          "s": "service-in-supply-chain-resilience-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-supply",
+          "n": "Source-backed service dependency for TXN."
+        },
+        {
+          "s": "service-in-field-applications-and-technical-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-supply",
+          "n": "Source-backed service dependency for TXN."
+        },
+        {
+          "s": "service-in-treasury-and-working-capital-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "txn-supply",
+          "n": "Source-backed service dependency for TXN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-industrial-and-automotive-oem-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "txn-products",
+          "n": "Source-backed channel route for TXN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-personal-electronics-and-communications-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "txn-products",
+          "n": "Source-backed channel route for TXN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-enterprise-infrastructure-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "txn-products",
+          "n": "Source-backed channel route for TXN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-distribution-partner-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "txn-products",
+          "n": "Source-backed channel route for TXN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-industrial-automation-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "txn-ir",
+          "n": "Source-backed demand route for TXN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-automotive-electrification-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "txn-ir",
+          "n": "Source-backed demand route for TXN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-embedded-analog-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "txn-ir",
+          "n": "Source-backed demand route for TXN."
+        },
+        {
+          "s": "channel-out-industrial-and-automotive-oem-channels-0",
+          "t": "demand-out-industrial-automation-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "txn-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for TXN."
+        },
+        {
+          "s": "channel-out-personal-electronics-and-communications-channels-1",
+          "t": "demand-out-automotive-electrification-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "txn-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for TXN."
+        },
+        {
+          "s": "channel-out-enterprise-infrastructure-channels-2",
+          "t": "demand-out-embedded-analog-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "txn-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for TXN."
+        }
+      ],
+      "sources": [
+        {
+          "id": "txn-ir",
+          "title": "Texas Instruments investor relations",
+          "url": "https://investor.ti.com/",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "txn-sec",
+          "title": "Texas Instruments SEC filings",
+          "url": "https://investor.ti.com/financial-information/sec-filings/default.aspx",
+          "note": "Operational and risk disclosures. Industrial and automotive markets represent approximately 70% of revenue."
+        },
+        {
+          "id": "txn-supply",
+          "title": "Texas Instruments supply chain responsibility",
+          "url": "https://www.ti.com/about-ti/corporate-responsibility/supply-chain.html",
+          "note": "Supplier and supply resilience context."
+        }
+      ]
+    },
+    "GEV": {
+      "symbol": "GEV",
+      "company": "GE Vernova",
+      "rank": 63,
+      "category": "Grid and Energy Equipment (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "GE Vernova\nGEV - 263.40B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Grid and Energy Equipment (Source-backed) anchor company. Rank #63.",
+          "s": "Market cap $263,401,242,624.",
+          "z": 23,
+          "sourceId": "gev-10k-2025",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-power-segment-0",
+          "l": "Power Segment\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Power Segment",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-wind-segment-1",
+          "l": "Wind Segment\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Wind Segment",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-electrification-segment-2",
+          "l": "Electrification Segment\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Electrification Segment",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-gas-power-3",
+          "l": "Gas Power\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Gas Power",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-hydro-power-4",
+          "l": "Hydro Power\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Hydro Power",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-project-engineering-and-grid-integration-services-0",
+          "l": "Project Engineering and Grid Integration Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Project Engineering and Grid Integration Services",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-field-service-and-long-term-maintenance-services-1",
+          "l": "Field Service and Long-Term Maintenance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Field Service and Long-Term Maintenance Services",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-safety-quality-and-compliance-services-2",
+          "l": "Safety, Quality, and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Safety, Quality, and Compliance Services",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-project-finance-services-3",
+          "l": "Treasury and Project Finance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and Project Finance Services",
+          "s": "GEV depends on this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-utility-and-grid-operator-channels-0",
+          "l": "Utility and Grid Operator Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Utility and Grid Operator Channels",
+          "s": "GEV serves this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-renewable-developer-channels-1",
+          "l": "Renewable Developer Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Renewable Developer Channels",
+          "s": "GEV serves this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-power-generation-channels-2",
+          "l": "Power Generation Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Power Generation Channels",
+          "s": "GEV serves this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-industrial-electrification-channels-3",
+          "l": "Industrial Electrification Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Industrial Electrification Channels",
+          "s": "GEV serves this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-grid-modernization-demand-0",
+          "l": "Grid Modernization Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Grid Modernization Demand",
+          "s": "GEV serves this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-electrification-and-decarbonization-demand-1",
+          "l": "Electrification and Decarbonization Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Electrification and Decarbonization Demand",
+          "s": "GEV serves this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-utility-reliability-and-capacity-demand-2",
+          "l": "Utility Reliability and Capacity Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Utility Reliability and Capacity Demand",
+          "s": "GEV serves this node.",
+          "sourceId": "gev-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-power-segment-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed supplier dependency for GEV."
+        },
+        {
+          "s": "supplier-in-wind-segment-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed supplier dependency for GEV."
+        },
+        {
+          "s": "supplier-in-electrification-segment-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed supplier dependency for GEV."
+        },
+        {
+          "s": "supplier-in-gas-power-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed supplier dependency for GEV."
+        },
+        {
+          "s": "supplier-in-hydro-power-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed supplier dependency for GEV."
+        },
+        {
+          "s": "service-in-project-engineering-and-grid-integration-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed service dependency for GEV."
+        },
+        {
+          "s": "service-in-field-service-and-long-term-maintenance-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed service dependency for GEV."
+        },
+        {
+          "s": "service-in-safety-quality-and-compliance-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed service dependency for GEV."
+        },
+        {
+          "s": "service-in-treasury-and-project-finance-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed service dependency for GEV."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-utility-and-grid-operator-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed channel route for GEV."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-renewable-developer-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed channel route for GEV."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-power-generation-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed channel route for GEV."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-industrial-electrification-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed channel route for GEV."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-grid-modernization-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed demand route for GEV."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-electrification-and-decarbonization-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed demand route for GEV."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-utility-reliability-and-capacity-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed demand route for GEV."
+        },
+        {
+          "s": "channel-out-utility-and-grid-operator-channels-0",
+          "t": "demand-out-grid-modernization-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for GEV."
+        },
+        {
+          "s": "channel-out-renewable-developer-channels-1",
+          "t": "demand-out-electrification-and-decarbonization-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for GEV."
+        },
+        {
+          "s": "channel-out-power-generation-channels-2",
+          "t": "demand-out-utility-reliability-and-capacity-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "gev-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for GEV."
+        }
+      ],
+      "sources": [
+        {
+          "id": "gev-ir",
+          "title": "GE Vernova investor relations",
+          "url": "https://investors.gevernova.com/",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "gev-sec-submissions",
+          "title": "GE Vernova SEC submissions index",
+          "url": "https://data.sec.gov/submissions/CIK0001996810.json",
+          "note": "Primary SEC filing index for annual report artifacts."
+        },
+        {
+          "id": "gev-10k-2025",
+          "title": "GE Vernova FY2025 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
+          "note": "Primary filing naming Power Segment, Wind Segment, Electrification Segment, and Gas/Hydro Power structures."
+        }
+      ]
+    },
+    "ANET": {
+      "symbol": "ANET",
+      "company": "Arista Networks",
+      "rank": 64,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Arista Networks\nANET - 262.42B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $262,416,728,064.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
     "GS": {
       "symbol": "GS",
       "company": "Goldman Sachs",
-      "rank": 60,
+      "rank": 65,
       "category": "Investment Banking (Source-backed)",
       "layers": {
         "0": "Company",
@@ -24540,12 +25830,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Goldman Sachs\nGS - 272.38B",
+          "l": "Goldman Sachs\nGS - 260.57B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Investment Banking (Source-backed) anchor company. Rank #60.",
-          "s": "Market cap $272,376,283,136.",
+          "d": "Investment Banking (Source-backed) anchor company. Rank #65.",
+          "s": "Market cap $260,572,184,576.",
           "z": 23,
           "sourceId": "gs-ir",
           "confidence": "high (company disclosure)"
@@ -24946,7 +26236,7 @@ window.SUPPLY_MAP_DATA = {
     "2454.TW": {
       "symbol": "2454.TW",
       "company": "MediaTek",
-      "rank": 61,
+      "rank": 66,
       "category": "Relationship research pending",
       "layers": {
         "0": "Company",
@@ -24958,12 +26248,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "MediaTek\n2454.TW - 265.43B",
+          "l": "MediaTek\n2454.TW - 259.80B",
           "tier": 0,
           "kind": "company",
           "c": "TW",
           "d": "No verified relationship data published.",
-          "s": "Market cap $265,432,826,075.",
+          "s": "Market cap $259,804,841,983.",
           "z": 22
         }
       ],
@@ -24973,7 +26263,7 @@ window.SUPPLY_MAP_DATA = {
     "MUFG": {
       "symbol": "MUFG",
       "company": "Mitsubishi UFJ Financial",
-      "rank": 62,
+      "rank": 67,
       "category": "Global Banking (Source-backed)",
       "layers": {
         "0": "Company",
@@ -24985,12 +26275,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Mitsubishi UFJ Financial\nMUFG - 264.29B",
+          "l": "Mitsubishi UFJ Financial\nMUFG - 257.93B",
           "tier": 0,
           "kind": "company",
           "c": "JP",
-          "d": "Global Banking (Source-backed) anchor company. Rank #62.",
-          "s": "Market cap $264,285,356,032.",
+          "d": "Global Banking (Source-backed) anchor company. Rank #67.",
+          "s": "Market cap $257,925,857,280.",
           "z": 23,
           "sourceId": "mufg-major-companies",
           "confidence": "high (company disclosure)"
@@ -25382,37 +26672,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "ANET": {
-      "symbol": "ANET",
-      "company": "Arista Networks",
-      "rank": 63,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Arista Networks\nANET - 260.51B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $260,505,960,448.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
     "SNDK": {
       "symbol": "SNDK",
       "company": "Sandisk",
-      "rank": 64,
+      "rank": 68,
       "category": "Relationship research pending",
       "layers": {
         "0": "Company",
@@ -25424,445 +26687,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Sandisk\nSNDK - 260.30B",
+          "l": "Sandisk\nSNDK - 252.31B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $260,303,716,352.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
-    "AZN": {
-      "symbol": "AZN",
-      "company": "AstraZeneca",
-      "rank": 65,
-      "category": "Biopharma Pipeline (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "AstraZeneca\nAZN - 258.35B",
-          "tier": 0,
-          "kind": "company",
-          "c": "UK",
-          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #65.",
-          "s": "Market cap $258,348,236,800.",
-          "z": 23,
-          "sourceId": "azn-20f",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-alexion-pharmaceuticals-0",
-          "l": "Alexion Pharmaceuticals\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Alexion Pharmaceuticals",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-daiichi-sankyo-1",
-          "l": "Daiichi Sankyo\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "JP",
-          "d": "Daiichi Sankyo",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-msd-merck-2",
-          "l": "MSD (Merck)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "MSD (Merck)",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-api-and-biologics-manufacturing-inputs-3",
-          "l": "API and Biologics Manufacturing Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "API and Biologics Manufacturing Inputs",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
-          "l": "External Manufacturing and Fill-Finish Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "External Manufacturing and Fill-Finish Inputs",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
-          "l": "Regulatory Affairs and Pharmacovigilance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Regulatory Affairs and Pharmacovigilance Services",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-distribution-and-cold-chain-services-1",
-          "l": "Global Distribution and Cold-Chain Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Global Distribution and Cold-Chain Services",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-risk-management-services-2",
-          "l": "Treasury and Risk Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Treasury and Risk Management Services",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-clinical-development-and-trial-operations-3",
-          "l": "Clinical Development and Trial Operations\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Clinical Development and Trial Operations",
-          "s": "AZN depends on this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-hospital-and-oncology-channels-0",
-          "l": "Hospital and Oncology Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Hospital and Oncology Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-specialty-and-retail-pharmacy-channels-1",
-          "l": "Specialty and Retail Pharmacy Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Specialty and Retail Pharmacy Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-government-and-public-health-channels-2",
-          "l": "Government and Public Health Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Government and Public Health Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-rare-disease-and-specialty-channels-3",
-          "l": "Rare Disease and Specialty Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Rare Disease and Specialty Channels",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-oncology-portfolio-demand-0",
-          "l": "Oncology Portfolio Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Oncology Portfolio Demand",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-rare-disease-and-specialty-demand-1",
-          "l": "Rare Disease and Specialty Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Rare Disease and Specialty Demand",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-global-biopharma-treatment-demand-2",
-          "l": "Global Biopharma Treatment Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Global Biopharma Treatment Demand",
-          "s": "AZN serves this node.",
-          "sourceId": "azn-20f",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-alexion-pharmaceuticals-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-daiichi-sankyo-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-msd-merck-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-api-and-biologics-manufacturing-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed supplier dependency for AZN."
-        },
-        {
-          "s": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "service-in-global-distribution-and-cold-chain-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "service-in-treasury-and-risk-management-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "service-in-clinical-development-and-trial-operations-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed service dependency for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-hospital-and-oncology-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-specialty-and-retail-pharmacy-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-government-and-public-health-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-rare-disease-and-specialty-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed channel route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-oncology-portfolio-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-rare-disease-and-specialty-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand route for AZN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-global-biopharma-treatment-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand route for AZN."
-        },
-        {
-          "s": "channel-out-hospital-and-oncology-channels-0",
-          "t": "demand-out-oncology-portfolio-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand transfer from channel to end-demand for AZN."
-        },
-        {
-          "s": "channel-out-specialty-and-retail-pharmacy-channels-1",
-          "t": "demand-out-rare-disease-and-specialty-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand transfer from channel to end-demand for AZN."
-        },
-        {
-          "s": "channel-out-government-and-public-health-channels-2",
-          "t": "demand-out-global-biopharma-treatment-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "azn-20f",
-          "n": "Source-backed demand transfer from channel to end-demand for AZN."
-        }
-      ],
-      "sources": [
-        {
-          "id": "azn-20f",
-          "title": "AstraZeneca FY2024 Form 20-F",
-          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
-          "note": "Primary filing with named strategic collaborations including Alexion, Daiichi Sankyo, and MSD (Merck)."
-        },
-        {
-          "id": "azn-submissions",
-          "title": "SEC submissions for AstraZeneca plc",
-          "url": "https://data.sec.gov/submissions/CIK0000901832.json",
-          "note": "Regulatory filing index for AstraZeneca including annual 20-F and current 6-K disclosures."
-        }
-      ]
-    },
-    "CRWD": {
-      "symbol": "CRWD",
-      "company": "CrowdStrike",
-      "rank": 66,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "CrowdStrike\nCRWD - 258.16B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $258,164,703,232.",
+          "s": "Market cap $252,307,046,400.",
           "z": 22
         }
       ],
@@ -25872,7 +26702,7 @@ window.SUPPLY_MAP_DATA = {
     "RTX": {
       "symbol": "RTX",
       "company": "RTX",
-      "rank": 67,
+      "rank": 69,
       "category": "Aerospace & Defense Systems (Source-backed)",
       "layers": {
         "0": "Company",
@@ -25884,12 +26714,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "RTX\nRTX - 255.27B",
+          "l": "RTX\nRTX - 246.76B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Aerospace & Defense Systems (Source-backed) anchor company. Rank #67.",
-          "s": "Market cap $255,265,374,208.",
+          "d": "Aerospace & Defense Systems (Source-backed) anchor company. Rank #69.",
+          "s": "Market cap $246,764,273,664.",
           "z": 23,
           "sourceId": "rtx-ir",
           "confidence": "high (company disclosure)"
@@ -26287,830 +27117,6 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "GEV": {
-      "symbol": "GEV",
-      "company": "GE Vernova",
-      "rank": 68,
-      "category": "Grid and Energy Equipment (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "GE Vernova\nGEV - 255.05B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Grid and Energy Equipment (Source-backed) anchor company. Rank #68.",
-          "s": "Market cap $255,049,023,488.",
-          "z": 23,
-          "sourceId": "gev-10k-2025",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-power-segment-0",
-          "l": "Power Segment\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Power Segment",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-wind-segment-1",
-          "l": "Wind Segment\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Wind Segment",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-electrification-segment-2",
-          "l": "Electrification Segment\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Electrification Segment",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-gas-power-3",
-          "l": "Gas Power\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Gas Power",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-hydro-power-4",
-          "l": "Hydro Power\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Hydro Power",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-project-engineering-and-grid-integration-services-0",
-          "l": "Project Engineering and Grid Integration Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Project Engineering and Grid Integration Services",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-field-service-and-long-term-maintenance-services-1",
-          "l": "Field Service and Long-Term Maintenance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Field Service and Long-Term Maintenance Services",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-safety-quality-and-compliance-services-2",
-          "l": "Safety, Quality, and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Safety, Quality, and Compliance Services",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-project-finance-services-3",
-          "l": "Treasury and Project Finance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Project Finance Services",
-          "s": "GEV depends on this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-utility-and-grid-operator-channels-0",
-          "l": "Utility and Grid Operator Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Utility and Grid Operator Channels",
-          "s": "GEV serves this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-renewable-developer-channels-1",
-          "l": "Renewable Developer Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Renewable Developer Channels",
-          "s": "GEV serves this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-power-generation-channels-2",
-          "l": "Power Generation Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Power Generation Channels",
-          "s": "GEV serves this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-industrial-electrification-channels-3",
-          "l": "Industrial Electrification Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Industrial Electrification Channels",
-          "s": "GEV serves this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-grid-modernization-demand-0",
-          "l": "Grid Modernization Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Grid Modernization Demand",
-          "s": "GEV serves this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-electrification-and-decarbonization-demand-1",
-          "l": "Electrification and Decarbonization Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Electrification and Decarbonization Demand",
-          "s": "GEV serves this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-utility-reliability-and-capacity-demand-2",
-          "l": "Utility Reliability and Capacity Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Utility Reliability and Capacity Demand",
-          "s": "GEV serves this node.",
-          "sourceId": "gev-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-power-segment-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed supplier dependency for GEV."
-        },
-        {
-          "s": "supplier-in-wind-segment-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed supplier dependency for GEV."
-        },
-        {
-          "s": "supplier-in-electrification-segment-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed supplier dependency for GEV."
-        },
-        {
-          "s": "supplier-in-gas-power-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed supplier dependency for GEV."
-        },
-        {
-          "s": "supplier-in-hydro-power-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed supplier dependency for GEV."
-        },
-        {
-          "s": "service-in-project-engineering-and-grid-integration-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed service dependency for GEV."
-        },
-        {
-          "s": "service-in-field-service-and-long-term-maintenance-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed service dependency for GEV."
-        },
-        {
-          "s": "service-in-safety-quality-and-compliance-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed service dependency for GEV."
-        },
-        {
-          "s": "service-in-treasury-and-project-finance-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed service dependency for GEV."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-utility-and-grid-operator-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed channel route for GEV."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-renewable-developer-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed channel route for GEV."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-power-generation-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed channel route for GEV."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-industrial-electrification-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed channel route for GEV."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-grid-modernization-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed demand route for GEV."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-electrification-and-decarbonization-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed demand route for GEV."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-utility-reliability-and-capacity-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed demand route for GEV."
-        },
-        {
-          "s": "channel-out-utility-and-grid-operator-channels-0",
-          "t": "demand-out-grid-modernization-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for GEV."
-        },
-        {
-          "s": "channel-out-renewable-developer-channels-1",
-          "t": "demand-out-electrification-and-decarbonization-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for GEV."
-        },
-        {
-          "s": "channel-out-power-generation-channels-2",
-          "t": "demand-out-utility-reliability-and-capacity-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "gev-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for GEV."
-        }
-      ],
-      "sources": [
-        {
-          "id": "gev-ir",
-          "title": "GE Vernova investor relations",
-          "url": "https://investors.gevernova.com/",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "gev-sec-submissions",
-          "title": "GE Vernova SEC submissions index",
-          "url": "https://data.sec.gov/submissions/CIK0001996810.json",
-          "note": "Primary SEC filing index for annual report artifacts."
-        },
-        {
-          "id": "gev-10k-2025",
-          "title": "GE Vernova FY2025 Form 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
-          "note": "Primary filing naming Power Segment, Wind Segment, Electrification Segment, and Gas/Hydro Power structures."
-        }
-      ]
-    },
-    "TXN": {
-      "symbol": "TXN",
-      "company": "Texas Instruments",
-      "rank": 69,
-      "category": "Analog Semiconductor Platform (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Texas Instruments\nTXN - 253.95B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Analog Semiconductor Platform (Source-backed) anchor company. Rank #69.",
-          "s": "Market cap $253,946,789,888.",
-          "z": 23,
-          "sourceId": "txn-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-industrial-market-0",
-          "l": "Industrial Market\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Industrial Market",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-automotive-market-1",
-          "l": "Automotive Market\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Automotive Market",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-personal-electronics-market-2",
-          "l": "Personal Electronics Market\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Personal Electronics Market",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-wafer-fabrication-and-materials-suppliers-3",
-          "l": "Wafer Fabrication and Materials Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Wafer Fabrication and Materials Suppliers",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-assembly-and-test-partners-4",
-          "l": "Assembly and Test Partners\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Assembly and Test Partners",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-manufacturing-process-and-quality-services-0",
-          "l": "Manufacturing Process and Quality Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Manufacturing Process and Quality Services",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-supply-chain-resilience-services-1",
-          "l": "Supply Chain Resilience Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Supply Chain Resilience Services",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-field-applications-and-technical-services-2",
-          "l": "Field Applications and Technical Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Field Applications and Technical Services",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-working-capital-services-3",
-          "l": "Treasury and Working Capital Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Working Capital Services",
-          "s": "TXN depends on this node.",
-          "sourceId": "txn-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-industrial-and-automotive-oem-channels-0",
-          "l": "Industrial and Automotive OEM Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Industrial and Automotive OEM Channels",
-          "s": "TXN serves this node.",
-          "sourceId": "txn-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-personal-electronics-and-communications-channels-1",
-          "l": "Personal Electronics and Communications Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Personal Electronics and Communications Channels",
-          "s": "TXN serves this node.",
-          "sourceId": "txn-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-enterprise-infrastructure-channels-2",
-          "l": "Enterprise Infrastructure Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Enterprise Infrastructure Channels",
-          "s": "TXN serves this node.",
-          "sourceId": "txn-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-distribution-partner-channels-3",
-          "l": "Distribution Partner Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Distribution Partner Channels",
-          "s": "TXN serves this node.",
-          "sourceId": "txn-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-industrial-automation-demand-0",
-          "l": "Industrial Automation Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Industrial Automation Demand",
-          "s": "TXN serves this node.",
-          "sourceId": "txn-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-automotive-electrification-demand-1",
-          "l": "Automotive Electrification Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Automotive Electrification Demand",
-          "s": "TXN serves this node.",
-          "sourceId": "txn-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-embedded-analog-demand-2",
-          "l": "Embedded Analog Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Embedded Analog Demand",
-          "s": "TXN serves this node.",
-          "sourceId": "txn-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-industrial-market-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-sec",
-          "n": "Source-backed supplier dependency for TXN."
-        },
-        {
-          "s": "supplier-in-automotive-market-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-sec",
-          "n": "Source-backed supplier dependency for TXN."
-        },
-        {
-          "s": "supplier-in-personal-electronics-market-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-sec",
-          "n": "Source-backed supplier dependency for TXN."
-        },
-        {
-          "s": "supplier-in-wafer-fabrication-and-materials-suppliers-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-sec",
-          "n": "Source-backed supplier dependency for TXN."
-        },
-        {
-          "s": "supplier-in-assembly-and-test-partners-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-sec",
-          "n": "Source-backed supplier dependency for TXN."
-        },
-        {
-          "s": "service-in-manufacturing-process-and-quality-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-supply",
-          "n": "Source-backed service dependency for TXN."
-        },
-        {
-          "s": "service-in-supply-chain-resilience-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-supply",
-          "n": "Source-backed service dependency for TXN."
-        },
-        {
-          "s": "service-in-field-applications-and-technical-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-supply",
-          "n": "Source-backed service dependency for TXN."
-        },
-        {
-          "s": "service-in-treasury-and-working-capital-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "txn-supply",
-          "n": "Source-backed service dependency for TXN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-industrial-and-automotive-oem-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "txn-products",
-          "n": "Source-backed channel route for TXN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-personal-electronics-and-communications-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "txn-products",
-          "n": "Source-backed channel route for TXN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-enterprise-infrastructure-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "txn-products",
-          "n": "Source-backed channel route for TXN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-distribution-partner-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "txn-products",
-          "n": "Source-backed channel route for TXN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-industrial-automation-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "txn-ir",
-          "n": "Source-backed demand route for TXN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-automotive-electrification-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "txn-ir",
-          "n": "Source-backed demand route for TXN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-embedded-analog-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "txn-ir",
-          "n": "Source-backed demand route for TXN."
-        },
-        {
-          "s": "channel-out-industrial-and-automotive-oem-channels-0",
-          "t": "demand-out-industrial-automation-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "txn-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for TXN."
-        },
-        {
-          "s": "channel-out-personal-electronics-and-communications-channels-1",
-          "t": "demand-out-automotive-electrification-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "txn-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for TXN."
-        },
-        {
-          "s": "channel-out-enterprise-infrastructure-channels-2",
-          "t": "demand-out-embedded-analog-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "txn-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for TXN."
-        }
-      ],
-      "sources": [
-        {
-          "id": "txn-ir",
-          "title": "Texas Instruments investor relations",
-          "url": "https://investor.ti.com/",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "txn-sec",
-          "title": "Texas Instruments SEC filings",
-          "url": "https://investor.ti.com/financial-information/sec-filings/default.aspx",
-          "note": "Operational and risk disclosures. Industrial and automotive markets represent approximately 70% of revenue."
-        },
-        {
-          "id": "txn-supply",
-          "title": "Texas Instruments supply chain responsibility",
-          "url": "https://www.ti.com/about-ti/corporate-responsibility/supply-chain.html",
-          "note": "Supplier and supply resilience context."
-        }
-      ]
-    },
     "WFC": {
       "symbol": "WFC",
       "company": "Wells Fargo",
@@ -27126,12 +27132,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Wells Fargo\nWFC - 250.90B",
+          "l": "Wells Fargo\nWFC - 245.47B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "Universal Banking (Source-backed) anchor company. Rank #70.",
-          "s": "Market cap $250,901,217,280.",
+          "s": "Market cap $245,473,148,928.",
           "z": 23,
           "sourceId": "wfc-ir",
           "confidence": "high (company disclosure)"
@@ -27529,10 +27535,37 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "MRVL": {
+      "symbol": "MRVL",
+      "company": "Marvell Technology",
+      "rank": 71,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Marvell Technology\nMRVL - 242.92B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $242,919,849,984.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
     "TMO": {
       "symbol": "TMO",
       "company": "Thermo Fisher Scientific",
-      "rank": 71,
+      "rank": 72,
       "category": "Life Sciences Tools Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -27544,12 +27577,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Thermo Fisher Scientific\nTMO - 249.58B",
+          "l": "Thermo Fisher Scientific\nTMO - 242.69B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Life Sciences Tools Platform (Source-backed) anchor company. Rank #71.",
-          "s": "Market cap $249,579,421,696.",
+          "d": "Life Sciences Tools Platform (Source-backed) anchor company. Rank #72.",
+          "s": "Market cap $242,691,031,040.",
           "z": 23,
           "sourceId": "tmo-ir",
           "confidence": "high (company disclosure)"
@@ -27941,834 +27974,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "SIE.DE": {
-      "symbol": "SIE.DE",
-      "company": "Siemens",
-      "rank": 72,
-      "category": "Industrial Automation Platform (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Siemens\nSIE.DE - 248.03B",
-          "tier": 0,
-          "kind": "company",
-          "c": "DE",
-          "d": "Industrial Automation Platform (Source-backed) anchor company. Rank #72.",
-          "s": "Market cap $248,031,891,545.",
-          "z": 23,
-          "sourceId": "siemens-businesses",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-digital-industries-0",
-          "l": "Digital Industries\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "Digital Industries",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-smart-infrastructure-1",
-          "l": "Smart Infrastructure\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "Smart Infrastructure",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-mobility-2",
-          "l": "Mobility\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Mobility",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-siemens-financial-services-3",
-          "l": "Siemens Financial Services\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "Siemens Financial Services",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-supplier-manufacturing-inputs-4",
-          "l": "Supplier Manufacturing Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "Supplier Manufacturing Inputs",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-engineering-and-digital-twin-services-0",
-          "l": "Engineering and Digital Twin Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "DE",
-          "d": "Engineering and Digital Twin Services",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-lifecycle-maintenance-and-service-contracts-1",
-          "l": "Lifecycle Maintenance and Service Contracts\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "DE",
-          "d": "Lifecycle Maintenance and Service Contracts",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-cybersecurity-and-compliance-services-2",
-          "l": "Cybersecurity and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "DE",
-          "d": "Cybersecurity and Compliance Services",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-export-finance-services-3",
-          "l": "Treasury and Export Finance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "DE",
-          "d": "Treasury and Export Finance Services",
-          "s": "SIE.DE depends on this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-smart-infrastructure-0",
-          "l": "Smart Infrastructure\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "DE",
-          "d": "Smart Infrastructure",
-          "s": "SIE.DE serves this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-digital-industries-1",
-          "l": "Digital Industries\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "DE",
-          "d": "Digital Industries",
-          "s": "SIE.DE serves this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-mobility-2",
-          "l": "Mobility\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Mobility",
-          "s": "SIE.DE serves this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-siemens-healthineers-3",
-          "l": "Siemens Healthineers\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "DE",
-          "d": "Siemens Healthineers",
-          "s": "SIE.DE serves this node.",
-          "sourceId": "siemens-businesses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-industrial-automation-demand-0",
-          "l": "Industrial Automation Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "DE",
-          "d": "Industrial Automation Demand",
-          "s": "SIE.DE serves this node.",
-          "sourceId": "siemens-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-electrification-and-grid-modernization-demand-1",
-          "l": "Electrification and Grid Modernization Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "DE",
-          "d": "Electrification and Grid Modernization Demand",
-          "s": "SIE.DE serves this node.",
-          "sourceId": "siemens-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-infrastructure-digitalization-demand-2",
-          "l": "Infrastructure Digitalization Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "DE",
-          "d": "Infrastructure Digitalization Demand",
-          "s": "SIE.DE serves this node.",
-          "sourceId": "siemens-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-digital-industries-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed supplier dependency for SIE.DE."
-        },
-        {
-          "s": "supplier-in-smart-infrastructure-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed supplier dependency for SIE.DE."
-        },
-        {
-          "s": "supplier-in-mobility-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed supplier dependency for SIE.DE."
-        },
-        {
-          "s": "supplier-in-siemens-financial-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed supplier dependency for SIE.DE."
-        },
-        {
-          "s": "supplier-in-supplier-manufacturing-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed supplier dependency for SIE.DE."
-        },
-        {
-          "s": "service-in-engineering-and-digital-twin-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed service dependency for SIE.DE."
-        },
-        {
-          "s": "service-in-lifecycle-maintenance-and-service-contracts-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed service dependency for SIE.DE."
-        },
-        {
-          "s": "service-in-cybersecurity-and-compliance-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed service dependency for SIE.DE."
-        },
-        {
-          "s": "service-in-treasury-and-export-finance-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed service dependency for SIE.DE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-smart-infrastructure-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed channel route for SIE.DE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-digital-industries-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed channel route for SIE.DE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-mobility-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed channel route for SIE.DE."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-siemens-healthineers-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-businesses",
-          "n": "Source-backed channel route for SIE.DE."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-industrial-automation-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-ir",
-          "n": "Source-backed demand route for SIE.DE."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-electrification-and-grid-modernization-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-ir",
-          "n": "Source-backed demand route for SIE.DE."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-infrastructure-digitalization-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-ir",
-          "n": "Source-backed demand route for SIE.DE."
-        },
-        {
-          "s": "channel-out-smart-infrastructure-0",
-          "t": "demand-out-industrial-automation-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for SIE.DE."
-        },
-        {
-          "s": "channel-out-digital-industries-1",
-          "t": "demand-out-electrification-and-grid-modernization-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for SIE.DE."
-        },
-        {
-          "s": "channel-out-mobility-2",
-          "t": "demand-out-infrastructure-digitalization-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "siemens-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for SIE.DE."
-        }
-      ],
-      "sources": [
-        {
-          "id": "siemens-ir",
-          "title": "Siemens investor relations",
-          "url": "https://www.siemens.com/investor/en.html",
-          "note": "Financial and segment demand context."
-        },
-        {
-          "id": "siemens-suppliers",
-          "title": "Siemens suppliers",
-          "url": "https://www.siemens.com/global/en/company/sustainability/sustainable-supply-chain/suppliers.html",
-          "note": "Supplier governance context."
-        },
-        {
-          "id": "siemens-businesses",
-          "title": "Siemens businesses",
-          "url": "https://www.siemens.com/global/en/company/about/businesses.html",
-          "note": "Named businesses including Digital Industries, Smart Infrastructure, Mobility, Siemens Financial Services, and Siemens Healthineers."
-        }
-      ]
-    },
-    "KLAC": {
-      "symbol": "KLAC",
-      "company": "KLA",
-      "rank": 73,
-      "category": "Semiconductor Process Control (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "KLA\nKLAC - 245.24B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Semiconductor Process Control (Source-backed) anchor company. Rank #73.",
-          "s": "Market cap $245,236,809,728.",
-          "z": 23,
-          "sourceId": "klac-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-tsmc-0",
-          "l": "TSMC\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "TW",
-          "d": "TSMC",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-samsung-electronics-1",
-          "l": "Samsung Electronics\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "KR",
-          "d": "Samsung Electronics",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-intel-foundry-2",
-          "l": "Intel Foundry\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Intel Foundry",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-precision-optics-and-sensor-suppliers-3",
-          "l": "Precision Optics and Sensor Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Precision Optics and Sensor Suppliers",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-electronics-and-motion-control-suppliers-4",
-          "l": "Electronics and Motion Control Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Electronics and Motion Control Suppliers",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-installation-and-field-service-programs-0",
-          "l": "Installation and Field Service Programs\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Installation and Field Service Programs",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-process-control-software-and-analytics-services-1",
-          "l": "Process Control Software and Analytics Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Process Control Software and Analytics Services",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-reliability-and-quality-services-2",
-          "l": "Reliability and Quality Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Reliability and Quality Services",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-working-capital-services-3",
-          "l": "Treasury and Working Capital Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Working Capital Services",
-          "s": "KLAC depends on this node.",
-          "sourceId": "klac-supply",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-foundry-customer-channels-0",
-          "l": "Foundry Customer Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Foundry Customer Channels",
-          "s": "KLAC serves this node.",
-          "sourceId": "klac-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-memory-customer-channels-1",
-          "l": "Memory Customer Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Memory Customer Channels",
-          "s": "KLAC serves this node.",
-          "sourceId": "klac-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-logic-and-advanced-packaging-channels-2",
-          "l": "Logic and Advanced Packaging Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Logic and Advanced Packaging Channels",
-          "s": "KLAC serves this node.",
-          "sourceId": "klac-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-service-and-upgrade-channels-3",
-          "l": "Service and Upgrade Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Service and Upgrade Channels",
-          "s": "KLAC serves this node.",
-          "sourceId": "klac-products",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-yield-management-demand-0",
-          "l": "Yield Management Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Yield Management Demand",
-          "s": "KLAC serves this node.",
-          "sourceId": "klac-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-node-transition-demand-1",
-          "l": "Node Transition Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Node Transition Demand",
-          "s": "KLAC serves this node.",
-          "sourceId": "klac-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-advanced-packaging-process-control-demand-2",
-          "l": "Advanced Packaging Process Control Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Advanced Packaging Process Control Demand",
-          "s": "KLAC serves this node.",
-          "sourceId": "klac-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-tsmc-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-sec",
-          "n": "Source-backed supplier dependency for KLAC."
-        },
-        {
-          "s": "supplier-in-samsung-electronics-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-sec",
-          "n": "Source-backed supplier dependency for KLAC."
-        },
-        {
-          "s": "supplier-in-intel-foundry-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-sec",
-          "n": "Source-backed supplier dependency for KLAC."
-        },
-        {
-          "s": "supplier-in-precision-optics-and-sensor-suppliers-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-sec",
-          "n": "Source-backed supplier dependency for KLAC."
-        },
-        {
-          "s": "supplier-in-electronics-and-motion-control-suppliers-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-sec",
-          "n": "Source-backed supplier dependency for KLAC."
-        },
-        {
-          "s": "service-in-installation-and-field-service-programs-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-supply",
-          "n": "Source-backed service dependency for KLAC."
-        },
-        {
-          "s": "service-in-process-control-software-and-analytics-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-supply",
-          "n": "Source-backed service dependency for KLAC."
-        },
-        {
-          "s": "service-in-reliability-and-quality-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-supply",
-          "n": "Source-backed service dependency for KLAC."
-        },
-        {
-          "s": "service-in-treasury-and-working-capital-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "klac-supply",
-          "n": "Source-backed service dependency for KLAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-foundry-customer-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "klac-products",
-          "n": "Source-backed channel route for KLAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-memory-customer-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "klac-products",
-          "n": "Source-backed channel route for KLAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-logic-and-advanced-packaging-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "klac-products",
-          "n": "Source-backed channel route for KLAC."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-service-and-upgrade-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "klac-products",
-          "n": "Source-backed channel route for KLAC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-yield-management-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "klac-ir",
-          "n": "Source-backed demand route for KLAC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-node-transition-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "klac-ir",
-          "n": "Source-backed demand route for KLAC."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-advanced-packaging-process-control-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "klac-ir",
-          "n": "Source-backed demand route for KLAC."
-        },
-        {
-          "s": "channel-out-foundry-customer-channels-0",
-          "t": "demand-out-yield-management-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "klac-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for KLAC."
-        },
-        {
-          "s": "channel-out-memory-customer-channels-1",
-          "t": "demand-out-node-transition-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "klac-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for KLAC."
-        },
-        {
-          "s": "channel-out-logic-and-advanced-packaging-channels-2",
-          "t": "demand-out-advanced-packaging-process-control-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "klac-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for KLAC."
-        }
-      ],
-      "sources": [
-        {
-          "id": "klac-ir",
-          "title": "KLA investor relations",
-          "url": "https://ir.kla.com/",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "klac-sec",
-          "title": "KLA SEC filings",
-          "url": "https://ir.kla.com/financial-information/sec-filings/default.aspx",
-          "note": "Risk and operating disclosures."
-        },
-        {
-          "id": "klac-supply",
-          "title": "KLA sustainability",
-          "url": "https://www.kla.com/company/sustainability",
-          "note": "Supplier and operations governance context."
-        }
-      ]
-    },
     "SAP": {
       "symbol": "SAP",
       "company": "SAP",
-      "rank": 74,
+      "rank": 73,
       "category": "Enterprise Software Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -28780,12 +27989,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "SAP\nSAP - 243.17B",
+          "l": "SAP\nSAP - 242.60B",
           "tier": 0,
           "kind": "company",
           "c": "DE",
-          "d": "Enterprise Software Platform (Source-backed) anchor company. Rank #74.",
-          "s": "Market cap $243,167,756,288.",
+          "d": "Enterprise Software Platform (Source-backed) anchor company. Rank #73.",
+          "s": "Market cap $242,602,196,992.",
           "z": 23,
           "sourceId": "sap-20f-2024",
           "confidence": "high (company disclosure)"
@@ -29177,10 +28386,1267 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "AZN": {
+      "symbol": "AZN",
+      "company": "AstraZeneca",
+      "rank": 74,
+      "category": "Biopharma Pipeline (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "AstraZeneca\nAZN - 242.28B",
+          "tier": 0,
+          "kind": "company",
+          "c": "UK",
+          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #74.",
+          "s": "Market cap $242,282,496,000.",
+          "z": 23,
+          "sourceId": "azn-20f",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-alexion-pharmaceuticals-0",
+          "l": "Alexion Pharmaceuticals\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Alexion Pharmaceuticals",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-daiichi-sankyo-1",
+          "l": "Daiichi Sankyo\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "JP",
+          "d": "Daiichi Sankyo",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-msd-merck-2",
+          "l": "MSD (Merck)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "MSD (Merck)",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-api-and-biologics-manufacturing-inputs-3",
+          "l": "API and Biologics Manufacturing Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "API and Biologics Manufacturing Inputs",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
+          "l": "External Manufacturing and Fill-Finish Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "External Manufacturing and Fill-Finish Inputs",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
+          "l": "Regulatory Affairs and Pharmacovigilance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Regulatory Affairs and Pharmacovigilance Services",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-distribution-and-cold-chain-services-1",
+          "l": "Global Distribution and Cold-Chain Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Global Distribution and Cold-Chain Services",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-risk-management-services-2",
+          "l": "Treasury and Risk Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Treasury and Risk Management Services",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-clinical-development-and-trial-operations-3",
+          "l": "Clinical Development and Trial Operations\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Clinical Development and Trial Operations",
+          "s": "AZN depends on this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-hospital-and-oncology-channels-0",
+          "l": "Hospital and Oncology Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Hospital and Oncology Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-specialty-and-retail-pharmacy-channels-1",
+          "l": "Specialty and Retail Pharmacy Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Specialty and Retail Pharmacy Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-government-and-public-health-channels-2",
+          "l": "Government and Public Health Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Government and Public Health Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-rare-disease-and-specialty-channels-3",
+          "l": "Rare Disease and Specialty Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Rare Disease and Specialty Channels",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-oncology-portfolio-demand-0",
+          "l": "Oncology Portfolio Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Oncology Portfolio Demand",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-rare-disease-and-specialty-demand-1",
+          "l": "Rare Disease and Specialty Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Rare Disease and Specialty Demand",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-global-biopharma-treatment-demand-2",
+          "l": "Global Biopharma Treatment Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Global Biopharma Treatment Demand",
+          "s": "AZN serves this node.",
+          "sourceId": "azn-20f",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-alexion-pharmaceuticals-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-daiichi-sankyo-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-msd-merck-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-api-and-biologics-manufacturing-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "supplier-in-external-manufacturing-and-fill-finish-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed supplier dependency for AZN."
+        },
+        {
+          "s": "service-in-regulatory-affairs-and-pharmacovigilance-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "service-in-global-distribution-and-cold-chain-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "service-in-treasury-and-risk-management-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "service-in-clinical-development-and-trial-operations-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed service dependency for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-hospital-and-oncology-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-specialty-and-retail-pharmacy-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-government-and-public-health-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-rare-disease-and-specialty-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed channel route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-oncology-portfolio-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-rare-disease-and-specialty-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand route for AZN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-global-biopharma-treatment-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand route for AZN."
+        },
+        {
+          "s": "channel-out-hospital-and-oncology-channels-0",
+          "t": "demand-out-oncology-portfolio-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand transfer from channel to end-demand for AZN."
+        },
+        {
+          "s": "channel-out-specialty-and-retail-pharmacy-channels-1",
+          "t": "demand-out-rare-disease-and-specialty-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand transfer from channel to end-demand for AZN."
+        },
+        {
+          "s": "channel-out-government-and-public-health-channels-2",
+          "t": "demand-out-global-biopharma-treatment-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "azn-20f",
+          "n": "Source-backed demand transfer from channel to end-demand for AZN."
+        }
+      ],
+      "sources": [
+        {
+          "id": "azn-20f",
+          "title": "AstraZeneca FY2024 Form 20-F",
+          "url": "https://www.sec.gov/Archives/edgar/data/901832/000110465925014750/azn-20241231x20f.htm",
+          "note": "Primary filing with named strategic collaborations including Alexion, Daiichi Sankyo, and MSD (Merck)."
+        },
+        {
+          "id": "azn-submissions",
+          "title": "SEC submissions for AstraZeneca plc",
+          "url": "https://data.sec.gov/submissions/CIK0000901832.json",
+          "note": "Regulatory filing index for AstraZeneca including annual 20-F and current 6-K disclosures."
+        }
+      ]
+    },
+    "SIE.DE": {
+      "symbol": "SIE.DE",
+      "company": "Siemens",
+      "rank": 75,
+      "category": "Industrial Automation Platform (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Siemens\nSIE.DE - 236.56B",
+          "tier": 0,
+          "kind": "company",
+          "c": "DE",
+          "d": "Industrial Automation Platform (Source-backed) anchor company. Rank #75.",
+          "s": "Market cap $236,563,386,578.",
+          "z": 23,
+          "sourceId": "siemens-businesses",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-digital-industries-0",
+          "l": "Digital Industries\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "Digital Industries",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-smart-infrastructure-1",
+          "l": "Smart Infrastructure\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "Smart Infrastructure",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-mobility-2",
+          "l": "Mobility\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Mobility",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-siemens-financial-services-3",
+          "l": "Siemens Financial Services\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "Siemens Financial Services",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-supplier-manufacturing-inputs-4",
+          "l": "Supplier Manufacturing Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "Supplier Manufacturing Inputs",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-engineering-and-digital-twin-services-0",
+          "l": "Engineering and Digital Twin Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "DE",
+          "d": "Engineering and Digital Twin Services",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-lifecycle-maintenance-and-service-contracts-1",
+          "l": "Lifecycle Maintenance and Service Contracts\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "DE",
+          "d": "Lifecycle Maintenance and Service Contracts",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-cybersecurity-and-compliance-services-2",
+          "l": "Cybersecurity and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "DE",
+          "d": "Cybersecurity and Compliance Services",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-export-finance-services-3",
+          "l": "Treasury and Export Finance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "DE",
+          "d": "Treasury and Export Finance Services",
+          "s": "SIE.DE depends on this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-smart-infrastructure-0",
+          "l": "Smart Infrastructure\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "DE",
+          "d": "Smart Infrastructure",
+          "s": "SIE.DE serves this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-digital-industries-1",
+          "l": "Digital Industries\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "DE",
+          "d": "Digital Industries",
+          "s": "SIE.DE serves this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-mobility-2",
+          "l": "Mobility\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Mobility",
+          "s": "SIE.DE serves this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-siemens-healthineers-3",
+          "l": "Siemens Healthineers\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "DE",
+          "d": "Siemens Healthineers",
+          "s": "SIE.DE serves this node.",
+          "sourceId": "siemens-businesses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-industrial-automation-demand-0",
+          "l": "Industrial Automation Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "DE",
+          "d": "Industrial Automation Demand",
+          "s": "SIE.DE serves this node.",
+          "sourceId": "siemens-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-electrification-and-grid-modernization-demand-1",
+          "l": "Electrification and Grid Modernization Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "DE",
+          "d": "Electrification and Grid Modernization Demand",
+          "s": "SIE.DE serves this node.",
+          "sourceId": "siemens-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-infrastructure-digitalization-demand-2",
+          "l": "Infrastructure Digitalization Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "DE",
+          "d": "Infrastructure Digitalization Demand",
+          "s": "SIE.DE serves this node.",
+          "sourceId": "siemens-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-digital-industries-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed supplier dependency for SIE.DE."
+        },
+        {
+          "s": "supplier-in-smart-infrastructure-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed supplier dependency for SIE.DE."
+        },
+        {
+          "s": "supplier-in-mobility-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed supplier dependency for SIE.DE."
+        },
+        {
+          "s": "supplier-in-siemens-financial-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed supplier dependency for SIE.DE."
+        },
+        {
+          "s": "supplier-in-supplier-manufacturing-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed supplier dependency for SIE.DE."
+        },
+        {
+          "s": "service-in-engineering-and-digital-twin-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed service dependency for SIE.DE."
+        },
+        {
+          "s": "service-in-lifecycle-maintenance-and-service-contracts-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed service dependency for SIE.DE."
+        },
+        {
+          "s": "service-in-cybersecurity-and-compliance-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed service dependency for SIE.DE."
+        },
+        {
+          "s": "service-in-treasury-and-export-finance-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed service dependency for SIE.DE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-smart-infrastructure-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed channel route for SIE.DE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-digital-industries-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed channel route for SIE.DE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-mobility-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed channel route for SIE.DE."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-siemens-healthineers-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-businesses",
+          "n": "Source-backed channel route for SIE.DE."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-industrial-automation-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-ir",
+          "n": "Source-backed demand route for SIE.DE."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-electrification-and-grid-modernization-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-ir",
+          "n": "Source-backed demand route for SIE.DE."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-infrastructure-digitalization-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-ir",
+          "n": "Source-backed demand route for SIE.DE."
+        },
+        {
+          "s": "channel-out-smart-infrastructure-0",
+          "t": "demand-out-industrial-automation-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for SIE.DE."
+        },
+        {
+          "s": "channel-out-digital-industries-1",
+          "t": "demand-out-electrification-and-grid-modernization-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for SIE.DE."
+        },
+        {
+          "s": "channel-out-mobility-2",
+          "t": "demand-out-infrastructure-digitalization-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "siemens-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for SIE.DE."
+        }
+      ],
+      "sources": [
+        {
+          "id": "siemens-ir",
+          "title": "Siemens investor relations",
+          "url": "https://www.siemens.com/investor/en.html",
+          "note": "Financial and segment demand context."
+        },
+        {
+          "id": "siemens-suppliers",
+          "title": "Siemens suppliers",
+          "url": "https://www.siemens.com/global/en/company/sustainability/sustainable-supply-chain/suppliers.html",
+          "note": "Supplier governance context."
+        },
+        {
+          "id": "siemens-businesses",
+          "title": "Siemens businesses",
+          "url": "https://www.siemens.com/global/en/company/about/businesses.html",
+          "note": "Named businesses including Digital Industries, Smart Infrastructure, Mobility, Siemens Financial Services, and Siemens Healthineers."
+        }
+      ]
+    },
+    "600519.SS": {
+      "symbol": "600519.SS",
+      "company": "Kweichow Moutai",
+      "rank": 76,
+      "category": "Chinese Premium Baijiu Network (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Kweichow Moutai\n600519.SS - 234.96B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CN",
+          "d": "Chinese Premium Baijiu Network (Source-backed) anchor company. Rank #76.",
+          "s": "Market cap $234,962,262,033.",
+          "z": 23,
+          "sourceId": "moutai-annual-2024",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-china-guizhou-moutai-distillery-group-co-ltd-0",
+          "l": "CHINA GUIZHOU MOUTAI DISTILLERY (GROUP) CO., LTD.\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "CHINA GUIZHOU MOUTAI DISTILLERY (GROUP) CO., LTD.",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-guizhou-fuming-packaging-co-ltd-1",
+          "l": "GUIZHOU FUMING PACKAGING CO., LTD.\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "GUIZHOU FUMING PACKAGING CO., LTD.",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-kweichow-moutai-distillery-group-circulation-industry-co-ltd-2",
+          "l": "KWEICHOW MOUTAI DISTILLERY (GROUP) CIRCULATION INDUSTRY CO., LTD.\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "KWEICHOW MOUTAI DISTILLERY (GROUP) CIRCULATION INDUSTRY CO., LTD.",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-sorghum-and-base-liquor-production-inputs-3",
+          "l": "Sorghum and Base-Liquor Production Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Sorghum and Base-Liquor Production Inputs",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-bottling-and-anti-counterfeit-packaging-inputs-4",
+          "l": "Bottling and Anti-Counterfeit Packaging Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "Bottling and Anti-Counterfeit Packaging Inputs",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-kweichow-moutai-distillery-group-logistics-co-ltd-0",
+          "l": "KWEICHOW MOUTAI DISTILLERY (GROUP) LOGISTICS CO., LTD.\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "KWEICHOW MOUTAI DISTILLERY (GROUP) LOGISTICS CO., LTD.",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-guizhou-maotaii-international-hotel-co-ltd-1",
+          "l": "GUIZHOU MAOTAII INTERNATIONAL HOTEL CO., LTD.\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "GUIZHOU MAOTAII INTERNATIONAL HOTEL CO., LTD.",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-quality-inspection-and-compliance-services-2",
+          "l": "Quality Inspection and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Quality Inspection and Compliance Services",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-inventory-allocation-services-3",
+          "l": "Treasury and Inventory Allocation Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Treasury and Inventory Allocation Services",
+          "s": "600519.SS depends on this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-china-guizhou-moutai-brewery-trading-h-k-limited-0",
+          "l": "CHINA GUIZHOU MOUTAI BREWERY TRADING (H.K.) LIMITED\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "CHINA GUIZHOU MOUTAI BREWERY TRADING (H.K.) LIMITED",
+          "s": "600519.SS serves this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-i-moutai-digital-channel-1",
+          "l": "i Moutai Digital Channel\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "i Moutai Digital Channel",
+          "s": "600519.SS serves this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-domestic-distributor-and-retail-network-2",
+          "l": "Domestic Distributor and Retail Network\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Domestic Distributor and Retail Network",
+          "s": "600519.SS serves this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-hospitality-and-gifting-channel-demand-3",
+          "l": "Hospitality and Gifting Channel Demand\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Hospitality and Gifting Channel Demand",
+          "s": "600519.SS serves this node.",
+          "sourceId": "moutai-annual-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-premium-baijiu-consumption-demand-0",
+          "l": "Premium Baijiu Consumption Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Premium Baijiu Consumption Demand",
+          "s": "600519.SS serves this node.",
+          "sourceId": "moutai-sse",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-festival-and-gift-driven-demand-1",
+          "l": "Festival and Gift-Driven Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Festival and Gift-Driven Demand",
+          "s": "600519.SS serves this node.",
+          "sourceId": "moutai-sse",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-collector-and-high-end-consumption-demand-2",
+          "l": "Collector and High-End Consumption Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Collector and High-End Consumption Demand",
+          "s": "600519.SS serves this node.",
+          "sourceId": "moutai-sse",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-china-guizhou-moutai-distillery-group-co-ltd-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed supplier dependency for 600519.SS."
+        },
+        {
+          "s": "supplier-in-guizhou-fuming-packaging-co-ltd-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed supplier dependency for 600519.SS."
+        },
+        {
+          "s": "supplier-in-kweichow-moutai-distillery-group-circulation-industry-co-ltd-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed supplier dependency for 600519.SS."
+        },
+        {
+          "s": "supplier-in-sorghum-and-base-liquor-production-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed supplier dependency for 600519.SS."
+        },
+        {
+          "s": "supplier-in-bottling-and-anti-counterfeit-packaging-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed supplier dependency for 600519.SS."
+        },
+        {
+          "s": "service-in-kweichow-moutai-distillery-group-logistics-co-ltd-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed service dependency for 600519.SS."
+        },
+        {
+          "s": "service-in-guizhou-maotaii-international-hotel-co-ltd-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed service dependency for 600519.SS."
+        },
+        {
+          "s": "service-in-quality-inspection-and-compliance-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed service dependency for 600519.SS."
+        },
+        {
+          "s": "service-in-treasury-and-inventory-allocation-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed service dependency for 600519.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-china-guizhou-moutai-brewery-trading-h-k-limited-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed channel route for 600519.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-i-moutai-digital-channel-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed channel route for 600519.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-domestic-distributor-and-retail-network-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed channel route for 600519.SS."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-hospitality-and-gifting-channel-demand-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-annual-2024",
+          "n": "Source-backed channel route for 600519.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-premium-baijiu-consumption-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-sse",
+          "n": "Source-backed demand route for 600519.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-festival-and-gift-driven-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-sse",
+          "n": "Source-backed demand route for 600519.SS."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-collector-and-high-end-consumption-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-sse",
+          "n": "Source-backed demand route for 600519.SS."
+        },
+        {
+          "s": "channel-out-china-guizhou-moutai-brewery-trading-h-k-limited-0",
+          "t": "demand-out-premium-baijiu-consumption-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-sse",
+          "n": "Source-backed demand transfer from channel to end-demand for 600519.SS."
+        },
+        {
+          "s": "channel-out-i-moutai-digital-channel-1",
+          "t": "demand-out-festival-and-gift-driven-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-sse",
+          "n": "Source-backed demand transfer from channel to end-demand for 600519.SS."
+        },
+        {
+          "s": "channel-out-domestic-distributor-and-retail-network-2",
+          "t": "demand-out-collector-and-high-end-consumption-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "moutai-sse",
+          "n": "Source-backed demand transfer from channel to end-demand for 600519.SS."
+        }
+      ],
+      "sources": [
+        {
+          "id": "moutai-annual-2024",
+          "title": "Kweichow Moutai 2024 annual report (SSE filing)",
+          "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-04-03/600519_2024_n.pdf",
+          "note": "Primary disclosure naming related-party and operating entities including logistics, packaging, and trading units."
+        },
+        {
+          "id": "moutai-sse",
+          "title": "SSE listing information (600519)",
+          "url": "https://www.sse.com.cn/assortment/stock/list/info/company/index.shtml?COMPANY_CODE=600519",
+          "note": "Issuer disclosure index and filing context for 600519."
+        },
+        {
+          "id": "moutai-company",
+          "title": "Kweichow Moutai corporate site",
+          "url": "https://www.moutaichina.com/",
+          "note": "Official company and channel context."
+        }
+      ]
+    },
+    "9984.T": {
+      "symbol": "9984.T",
+      "company": "SoftBank Group Corp.",
+      "rank": 77,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "SoftBank Group Corp.\n9984.T - 234.44B",
+          "tier": 0,
+          "kind": "company",
+          "c": "JP",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $234,441,313,112.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
     "NESN.SW": {
       "symbol": "NESN.SW",
       "company": "Nestlé",
-      "rank": 75,
+      "rank": 78,
       "category": "Global Food, Petcare and Nutrition Network (Source-backed)",
       "layers": {
         "0": "Company",
@@ -29192,12 +29658,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Nestlé\nNESN.SW - 239.66B",
+          "l": "Nestlé\nNESN.SW - 232.35B",
           "tier": 0,
           "kind": "company",
           "c": "CH",
-          "d": "Global Food, Petcare and Nutrition Network (Source-backed) anchor company. Rank #75.",
-          "s": "Market cap $239,656,840,119.",
+          "d": "Global Food, Petcare and Nutrition Network (Source-backed) anchor company. Rank #78.",
+          "s": "Market cap $232,354,355,685.",
           "z": 23,
           "sourceId": "nesn-financials-2024",
           "confidence": "high (company disclosure)"
@@ -29583,37 +30049,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "MRVL": {
-      "symbol": "MRVL",
-      "company": "Marvell Technology",
-      "rank": 76,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Marvell Technology\nMRVL - 235.40B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $235,402,199,040.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
     "OR.PA": {
       "symbol": "OR.PA",
       "company": "L'Oréal",
-      "rank": 77,
+      "rank": 79,
       "category": "Global Beauty Brand and Division Portfolio (Source-backed)",
       "layers": {
         "0": "Company",
@@ -29625,12 +30064,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "L'Oréal\nOR.PA - 233.00B",
+          "l": "L'Oréal\nOR.PA - 223.38B",
           "tier": 0,
           "kind": "company",
           "c": "FR",
-          "d": "Global Beauty Brand and Division Portfolio (Source-backed) anchor company. Rank #77.",
-          "s": "Market cap $233,000,210,293.",
+          "d": "Global Beauty Brand and Division Portfolio (Source-backed) anchor company. Rank #79.",
+          "s": "Market cap $223,379,693,282.",
           "z": 23,
           "sourceId": "loreal-deu-2024",
           "confidence": "high (company disclosure)"
@@ -30091,445 +30530,6 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "600519.SS": {
-      "symbol": "600519.SS",
-      "company": "Kweichow Moutai",
-      "rank": 78,
-      "category": "Chinese Premium Baijiu Network (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Kweichow Moutai\n600519.SS - 232.13B",
-          "tier": 0,
-          "kind": "company",
-          "c": "CN",
-          "d": "Chinese Premium Baijiu Network (Source-backed) anchor company. Rank #78.",
-          "s": "Market cap $232,130,835,140.",
-          "z": 23,
-          "sourceId": "moutai-annual-2024",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-china-guizhou-moutai-distillery-group-co-ltd-0",
-          "l": "CHINA GUIZHOU MOUTAI DISTILLERY (GROUP) CO., LTD.\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "CHINA GUIZHOU MOUTAI DISTILLERY (GROUP) CO., LTD.",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-guizhou-fuming-packaging-co-ltd-1",
-          "l": "GUIZHOU FUMING PACKAGING CO., LTD.\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "GUIZHOU FUMING PACKAGING CO., LTD.",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-kweichow-moutai-distillery-group-circulation-industry-co-ltd-2",
-          "l": "KWEICHOW MOUTAI DISTILLERY (GROUP) CIRCULATION INDUSTRY CO., LTD.\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "KWEICHOW MOUTAI DISTILLERY (GROUP) CIRCULATION INDUSTRY CO., LTD.",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-sorghum-and-base-liquor-production-inputs-3",
-          "l": "Sorghum and Base-Liquor Production Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Sorghum and Base-Liquor Production Inputs",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-bottling-and-anti-counterfeit-packaging-inputs-4",
-          "l": "Bottling and Anti-Counterfeit Packaging Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "Bottling and Anti-Counterfeit Packaging Inputs",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-kweichow-moutai-distillery-group-logistics-co-ltd-0",
-          "l": "KWEICHOW MOUTAI DISTILLERY (GROUP) LOGISTICS CO., LTD.\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "KWEICHOW MOUTAI DISTILLERY (GROUP) LOGISTICS CO., LTD.",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-guizhou-maotaii-international-hotel-co-ltd-1",
-          "l": "GUIZHOU MAOTAII INTERNATIONAL HOTEL CO., LTD.\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "GUIZHOU MAOTAII INTERNATIONAL HOTEL CO., LTD.",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-quality-inspection-and-compliance-services-2",
-          "l": "Quality Inspection and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Quality Inspection and Compliance Services",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-inventory-allocation-services-3",
-          "l": "Treasury and Inventory Allocation Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Treasury and Inventory Allocation Services",
-          "s": "600519.SS depends on this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-china-guizhou-moutai-brewery-trading-h-k-limited-0",
-          "l": "CHINA GUIZHOU MOUTAI BREWERY TRADING (H.K.) LIMITED\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "CHINA GUIZHOU MOUTAI BREWERY TRADING (H.K.) LIMITED",
-          "s": "600519.SS serves this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-i-moutai-digital-channel-1",
-          "l": "i Moutai Digital Channel\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "i Moutai Digital Channel",
-          "s": "600519.SS serves this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-domestic-distributor-and-retail-network-2",
-          "l": "Domestic Distributor and Retail Network\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Domestic Distributor and Retail Network",
-          "s": "600519.SS serves this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-hospitality-and-gifting-channel-demand-3",
-          "l": "Hospitality and Gifting Channel Demand\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Hospitality and Gifting Channel Demand",
-          "s": "600519.SS serves this node.",
-          "sourceId": "moutai-annual-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-premium-baijiu-consumption-demand-0",
-          "l": "Premium Baijiu Consumption Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Premium Baijiu Consumption Demand",
-          "s": "600519.SS serves this node.",
-          "sourceId": "moutai-sse",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-festival-and-gift-driven-demand-1",
-          "l": "Festival and Gift-Driven Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Festival and Gift-Driven Demand",
-          "s": "600519.SS serves this node.",
-          "sourceId": "moutai-sse",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-collector-and-high-end-consumption-demand-2",
-          "l": "Collector and High-End Consumption Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Collector and High-End Consumption Demand",
-          "s": "600519.SS serves this node.",
-          "sourceId": "moutai-sse",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-china-guizhou-moutai-distillery-group-co-ltd-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed supplier dependency for 600519.SS."
-        },
-        {
-          "s": "supplier-in-guizhou-fuming-packaging-co-ltd-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed supplier dependency for 600519.SS."
-        },
-        {
-          "s": "supplier-in-kweichow-moutai-distillery-group-circulation-industry-co-ltd-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed supplier dependency for 600519.SS."
-        },
-        {
-          "s": "supplier-in-sorghum-and-base-liquor-production-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed supplier dependency for 600519.SS."
-        },
-        {
-          "s": "supplier-in-bottling-and-anti-counterfeit-packaging-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed supplier dependency for 600519.SS."
-        },
-        {
-          "s": "service-in-kweichow-moutai-distillery-group-logistics-co-ltd-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed service dependency for 600519.SS."
-        },
-        {
-          "s": "service-in-guizhou-maotaii-international-hotel-co-ltd-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed service dependency for 600519.SS."
-        },
-        {
-          "s": "service-in-quality-inspection-and-compliance-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed service dependency for 600519.SS."
-        },
-        {
-          "s": "service-in-treasury-and-inventory-allocation-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed service dependency for 600519.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-china-guizhou-moutai-brewery-trading-h-k-limited-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed channel route for 600519.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-i-moutai-digital-channel-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed channel route for 600519.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-domestic-distributor-and-retail-network-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed channel route for 600519.SS."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-hospitality-and-gifting-channel-demand-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-annual-2024",
-          "n": "Source-backed channel route for 600519.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-premium-baijiu-consumption-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-sse",
-          "n": "Source-backed demand route for 600519.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-festival-and-gift-driven-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-sse",
-          "n": "Source-backed demand route for 600519.SS."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-collector-and-high-end-consumption-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-sse",
-          "n": "Source-backed demand route for 600519.SS."
-        },
-        {
-          "s": "channel-out-china-guizhou-moutai-brewery-trading-h-k-limited-0",
-          "t": "demand-out-premium-baijiu-consumption-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-sse",
-          "n": "Source-backed demand transfer from channel to end-demand for 600519.SS."
-        },
-        {
-          "s": "channel-out-i-moutai-digital-channel-1",
-          "t": "demand-out-festival-and-gift-driven-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-sse",
-          "n": "Source-backed demand transfer from channel to end-demand for 600519.SS."
-        },
-        {
-          "s": "channel-out-domestic-distributor-and-retail-network-2",
-          "t": "demand-out-collector-and-high-end-consumption-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "moutai-sse",
-          "n": "Source-backed demand transfer from channel to end-demand for 600519.SS."
-        }
-      ],
-      "sources": [
-        {
-          "id": "moutai-annual-2024",
-          "title": "Kweichow Moutai 2024 annual report (SSE filing)",
-          "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2025-04-03/600519_2024_n.pdf",
-          "note": "Primary disclosure naming related-party and operating entities including logistics, packaging, and trading units."
-        },
-        {
-          "id": "moutai-sse",
-          "title": "SSE listing information (600519)",
-          "url": "https://www.sse.com.cn/assortment/stock/list/info/company/index.shtml?COMPANY_CODE=600519",
-          "note": "Issuer disclosure index and filing context for 600519."
-        },
-        {
-          "id": "moutai-company",
-          "title": "Kweichow Moutai corporate site",
-          "url": "https://www.moutaichina.com/",
-          "note": "Official company and channel context."
-        }
-      ]
-    },
-    "9984.T": {
-      "symbol": "9984.T",
-      "company": "SoftBank Group Corp.",
-      "rank": 79,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "SoftBank Group Corp.\n9984.T - 226.65B",
-          "tier": 0,
-          "kind": "company",
-          "c": "JP",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $226,648,716,075.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
     "0857.HK": {
       "symbol": "0857.HK",
       "company": "PetroChina",
@@ -30545,12 +30545,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "PetroChina\n0857.HK - 226.32B",
+          "l": "PetroChina\n0857.HK - 223.09B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
           "d": "Integrated Energy (Source-backed) anchor company. Rank #80.",
-          "s": "Market cap $226,316,770,311.",
+          "s": "Market cap $223,089,916,134.",
           "z": 23,
           "sourceId": "petrochina-20f",
           "confidence": "high (company disclosure)"
@@ -30936,10 +30936,1246 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "LIN": {
+      "symbol": "LIN",
+      "company": "Linde",
+      "rank": 81,
+      "category": "Industrial Gases Platform (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Linde\nLIN - 221.19B",
+          "tier": 0,
+          "kind": "company",
+          "c": "UK",
+          "d": "Industrial Gases Platform (Source-backed) anchor company. Rank #81.",
+          "s": "Market cap $221,194,403,840.",
+          "z": 23,
+          "sourceId": "lin-10k-2024",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-linde-engineering-0",
+          "l": "Linde Engineering\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "DE",
+          "d": "Linde Engineering",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-linde-gas-north-america-1",
+          "l": "Linde Gas North America\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Linde Gas North America",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-hydrogen-feedstock-inputs-2",
+          "l": "Hydrogen Feedstock Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "Hydrogen Feedstock Inputs",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-helium-sourcing-streams-3",
+          "l": "Helium Sourcing Streams\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "Helium Sourcing Streams",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-electricity-and-utility-inputs-4",
+          "l": "Electricity and Utility Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "Electricity and Utility Inputs",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-praxair-0",
+          "l": "Praxair\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Praxair",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-boc-india-1",
+          "l": "BOC India\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "IN",
+          "d": "BOC India",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-safety-reliability-and-plant-operations-services-2",
+          "l": "Safety, Reliability, and Plant Operations Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Safety, Reliability, and Plant Operations Services",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-logistics-and-distribution-services-3",
+          "l": "Logistics and Distribution Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "UK",
+          "d": "Logistics and Distribution Services",
+          "s": "LIN depends on this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-linde-u-s-gas-applications-0",
+          "l": "Linde U.S. Gas Applications\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Linde U.S. Gas Applications",
+          "s": "LIN serves this node.",
+          "sourceId": "lin-lindeus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-chemicals-and-refining-channels-1",
+          "l": "Chemicals and Refining Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Chemicals and Refining Channels",
+          "s": "LIN serves this node.",
+          "sourceId": "lin-lindeus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-healthcare-and-life-sciences-channels-2",
+          "l": "Healthcare and Life Sciences Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Healthcare and Life Sciences Channels",
+          "s": "LIN serves this node.",
+          "sourceId": "lin-lindeus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-electronics-and-manufacturing-channels-3",
+          "l": "Electronics and Manufacturing Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "UK",
+          "d": "Electronics and Manufacturing Channels",
+          "s": "LIN serves this node.",
+          "sourceId": "lin-lindeus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-industrial-production-gas-demand-0",
+          "l": "Industrial Production Gas Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Industrial Production Gas Demand",
+          "s": "LIN serves this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-healthcare-oxygen-and-specialty-gas-demand-1",
+          "l": "Healthcare Oxygen and Specialty Gas Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Healthcare Oxygen and Specialty Gas Demand",
+          "s": "LIN serves this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-clean-energy-and-hydrogen-demand-2",
+          "l": "Clean Energy and Hydrogen Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "UK",
+          "d": "Clean Energy and Hydrogen Demand",
+          "s": "LIN serves this node.",
+          "sourceId": "lin-10k-2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-linde-engineering-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed supplier dependency for LIN."
+        },
+        {
+          "s": "supplier-in-linde-gas-north-america-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed supplier dependency for LIN."
+        },
+        {
+          "s": "supplier-in-hydrogen-feedstock-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed supplier dependency for LIN."
+        },
+        {
+          "s": "supplier-in-helium-sourcing-streams-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed supplier dependency for LIN."
+        },
+        {
+          "s": "supplier-in-electricity-and-utility-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed supplier dependency for LIN."
+        },
+        {
+          "s": "service-in-praxair-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed service dependency for LIN."
+        },
+        {
+          "s": "service-in-boc-india-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed service dependency for LIN."
+        },
+        {
+          "s": "service-in-safety-reliability-and-plant-operations-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed service dependency for LIN."
+        },
+        {
+          "s": "service-in-logistics-and-distribution-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed service dependency for LIN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-linde-u-s-gas-applications-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lin-lindeus",
+          "n": "Source-backed channel route for LIN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-chemicals-and-refining-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lin-lindeus",
+          "n": "Source-backed channel route for LIN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-healthcare-and-life-sciences-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lin-lindeus",
+          "n": "Source-backed channel route for LIN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-electronics-and-manufacturing-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lin-lindeus",
+          "n": "Source-backed channel route for LIN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-industrial-production-gas-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed demand route for LIN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-healthcare-oxygen-and-specialty-gas-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed demand route for LIN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-clean-energy-and-hydrogen-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed demand route for LIN."
+        },
+        {
+          "s": "channel-out-linde-u-s-gas-applications-0",
+          "t": "demand-out-industrial-production-gas-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed demand transfer from channel to end-demand for LIN."
+        },
+        {
+          "s": "channel-out-chemicals-and-refining-channels-1",
+          "t": "demand-out-healthcare-oxygen-and-specialty-gas-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed demand transfer from channel to end-demand for LIN."
+        },
+        {
+          "s": "channel-out-healthcare-and-life-sciences-channels-2",
+          "t": "demand-out-clean-energy-and-hydrogen-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "lin-10k-2024",
+          "n": "Source-backed demand transfer from channel to end-demand for LIN."
+        }
+      ],
+      "sources": [
+        {
+          "id": "lin-sec-submissions",
+          "title": "Linde SEC submissions index",
+          "url": "https://data.sec.gov/submissions/CIK0001707925.json",
+          "note": "Primary SEC filing index for annual reporting artifacts."
+        },
+        {
+          "id": "lin-10k-2024",
+          "title": "Linde FY2024 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828025007990/lin-20241231.htm",
+          "note": "Primary filing with named references to Linde Engineering, Praxair legacy context, BOC India career history, and Linde Gas North America operating context."
+        },
+        {
+          "id": "lin-lindeus",
+          "title": "Linde U.S. market applications",
+          "url": "https://www.lindeus.com/",
+          "note": "Named channel context for U.S. gas applications and market routes."
+        }
+      ]
+    },
+    "BHP": {
+      "symbol": "BHP",
+      "company": "BHP Group",
+      "rank": 82,
+      "category": "Mining and Materials Platform (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "BHP Group\nBHP - 219.10B",
+          "tier": 0,
+          "kind": "company",
+          "c": "AU",
+          "d": "Mining and Materials Platform (Source-backed) anchor company. Rank #82.",
+          "s": "Market cap $219,100,725,248.",
+          "z": 23,
+          "sourceId": "bhp-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-olympic-dam-0",
+          "l": "Olympic Dam\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "AU",
+          "d": "Olympic Dam",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-escondida-1",
+          "l": "Escondida\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CL",
+          "d": "Escondida",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-western-australia-iron-ore-2",
+          "l": "Western Australia Iron Ore\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "AU",
+          "d": "Western Australia Iron Ore",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-mining-equipment-and-consumable-suppliers-3",
+          "l": "Mining Equipment and Consumable Suppliers\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "AU",
+          "d": "Mining Equipment and Consumable Suppliers",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-rail-port-and-export-infrastructure-partners-4",
+          "l": "Rail, Port, and Export Infrastructure Partners\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "AU",
+          "d": "Rail, Port, and Export Infrastructure Partners",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-suppliers",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-operations-processing-and-maintenance-services-0",
+          "l": "Operations, Processing, and Maintenance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "AU",
+          "d": "Operations, Processing, and Maintenance Services",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-safety-environmental-and-compliance-services-1",
+          "l": "Safety, Environmental, and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "AU",
+          "d": "Safety, Environmental, and Compliance Services",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-shipping-and-commodity-logistics-services-2",
+          "l": "Shipping and Commodity Logistics Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "AU",
+          "d": "Shipping and Commodity Logistics Services",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-commodity-risk-services-3",
+          "l": "Treasury and Commodity Risk Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "AU",
+          "d": "Treasury and Commodity Risk Services",
+          "s": "BHP depends on this node.",
+          "sourceId": "bhp-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-iron-ore-and-steelmaking-channels-0",
+          "l": "Iron Ore and Steelmaking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "AU",
+          "d": "Iron Ore and Steelmaking Channels",
+          "s": "BHP serves this node.",
+          "sourceId": "bhp-markets",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-copper-and-battery-metals-channels-1",
+          "l": "Copper and Battery Metals Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "AU",
+          "d": "Copper and Battery Metals Channels",
+          "s": "BHP serves this node.",
+          "sourceId": "bhp-markets",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-coal-and-energy-commodity-channels-2",
+          "l": "Coal and Energy Commodity Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "AU",
+          "d": "Coal and Energy Commodity Channels",
+          "s": "BHP serves this node.",
+          "sourceId": "bhp-markets",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-global-industrial-customer-channels-3",
+          "l": "Global Industrial Customer Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "AU",
+          "d": "Global Industrial Customer Channels",
+          "s": "BHP serves this node.",
+          "sourceId": "bhp-markets",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-steel-production-demand-0",
+          "l": "Steel Production Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "AU",
+          "d": "Steel Production Demand",
+          "s": "BHP serves this node.",
+          "sourceId": "bhp-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-energy-transition-metals-demand-1",
+          "l": "Energy Transition Metals Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "AU",
+          "d": "Energy Transition Metals Demand",
+          "s": "BHP serves this node.",
+          "sourceId": "bhp-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-industrial-commodity-demand-2",
+          "l": "Industrial Commodity Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "AU",
+          "d": "Industrial Commodity Demand",
+          "s": "BHP serves this node.",
+          "sourceId": "bhp-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-olympic-dam-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-suppliers",
+          "n": "Source-backed supplier dependency for BHP."
+        },
+        {
+          "s": "supplier-in-escondida-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-suppliers",
+          "n": "Source-backed supplier dependency for BHP."
+        },
+        {
+          "s": "supplier-in-western-australia-iron-ore-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-suppliers",
+          "n": "Source-backed supplier dependency for BHP."
+        },
+        {
+          "s": "supplier-in-mining-equipment-and-consumable-suppliers-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-suppliers",
+          "n": "Source-backed supplier dependency for BHP."
+        },
+        {
+          "s": "supplier-in-rail-port-and-export-infrastructure-partners-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-suppliers",
+          "n": "Source-backed supplier dependency for BHP."
+        },
+        {
+          "s": "service-in-operations-processing-and-maintenance-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed service dependency for BHP."
+        },
+        {
+          "s": "service-in-safety-environmental-and-compliance-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed service dependency for BHP."
+        },
+        {
+          "s": "service-in-shipping-and-commodity-logistics-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed service dependency for BHP."
+        },
+        {
+          "s": "service-in-treasury-and-commodity-risk-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed service dependency for BHP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-iron-ore-and-steelmaking-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-markets",
+          "n": "Source-backed channel route for BHP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-copper-and-battery-metals-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-markets",
+          "n": "Source-backed channel route for BHP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-coal-and-energy-commodity-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-markets",
+          "n": "Source-backed channel route for BHP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-global-industrial-customer-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-markets",
+          "n": "Source-backed channel route for BHP."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-steel-production-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed demand route for BHP."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-energy-transition-metals-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed demand route for BHP."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-industrial-commodity-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed demand route for BHP."
+        },
+        {
+          "s": "channel-out-iron-ore-and-steelmaking-channels-0",
+          "t": "demand-out-steel-production-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for BHP."
+        },
+        {
+          "s": "channel-out-copper-and-battery-metals-channels-1",
+          "t": "demand-out-energy-transition-metals-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for BHP."
+        },
+        {
+          "s": "channel-out-coal-and-energy-commodity-channels-2",
+          "t": "demand-out-industrial-commodity-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "bhp-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for BHP."
+        }
+      ],
+      "sources": [
+        {
+          "id": "bhp-ir",
+          "title": "BHP investors",
+          "url": "https://www.bhp.com/investors",
+          "note": "Financial and commodity demand context."
+        },
+        {
+          "id": "bhp-suppliers",
+          "title": "BHP suppliers",
+          "url": "https://www.bhp.com/suppliers",
+          "note": "Supplier and procurement framework context."
+        },
+        {
+          "id": "bhp-markets",
+          "title": "BHP operations",
+          "url": "https://www.bhp.com/what-we-do",
+          "note": "Operating assets include Olympic Dam, Escondida, Spence, Carrapateena (copper) and Western Australia Iron Ore."
+        }
+      ]
+    },
+    "0941.HK": {
+      "symbol": "0941.HK",
+      "company": "China Mobile",
+      "rank": 83,
+      "category": "Telecom Network Platform (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "China Mobile\n0941.HK - 218.02B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CN",
+          "d": "Telecom Network Platform (Source-backed) anchor company. Rank #83.",
+          "s": "Market cap $218,024,068,568.",
+          "z": 23,
+          "sourceId": "cm-ar2024",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-china-tower-corporation-limited-0",
+          "l": "China Tower Corporation Limited\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "China Tower Corporation Limited",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-china-mobile-international-limited-1",
+          "l": "China Mobile International Limited\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "China Mobile International Limited",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-migu-co-ltd-2",
+          "l": "MIGU Co., Ltd.\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "MIGU Co., Ltd.",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-china-mobile-group-design-institute-co-ltd-3",
+          "l": "China Mobile Group Design Institute Co., Ltd.\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "China Mobile Group Design Institute Co., Ltd.",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-china-mobile-hong-kong-bvi-limited-4",
+          "l": "China Mobile Hong Kong (BVI) Limited\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "CN",
+          "d": "China Mobile Hong Kong (BVI) Limited",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-network-operations-and-optimization-services-0",
+          "l": "Network Operations and Optimization Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Network Operations and Optimization Services",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-enterprise-connectivity-and-cloud-services-1",
+          "l": "Enterprise Connectivity and Cloud Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Enterprise Connectivity and Cloud Services",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-and-compliance-services-2",
+          "l": "Regulatory and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Regulatory and Compliance Services",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-procurement-services-3",
+          "l": "Treasury and Procurement Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Treasury and Procurement Services",
+          "s": "0941.HK depends on this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-consumer-mobile-service-channels-0",
+          "l": "Consumer Mobile Service Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Consumer Mobile Service Channels",
+          "s": "0941.HK serves this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-enterprise-and-government-channels-1",
+          "l": "Enterprise and Government Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Enterprise and Government Channels",
+          "s": "0941.HK serves this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-home-broadband-and-integrated-service-channels-2",
+          "l": "Home Broadband and Integrated Service Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Home Broadband and Integrated Service Channels",
+          "s": "0941.HK serves this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-digital-platform-and-value-added-channels-3",
+          "l": "Digital Platform and Value-Added Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "CN",
+          "d": "Digital Platform and Value-Added Channels",
+          "s": "0941.HK serves this node.",
+          "sourceId": "cm-ar2024",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-mobile-data-demand-0",
+          "l": "Mobile Data Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Mobile Data Demand",
+          "s": "0941.HK serves this node.",
+          "sourceId": "cm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-enterprise-connectivity-demand-1",
+          "l": "Enterprise Connectivity Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Enterprise Connectivity Demand",
+          "s": "0941.HK serves this node.",
+          "sourceId": "cm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-digital-service-ecosystem-demand-2",
+          "l": "Digital Service Ecosystem Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "CN",
+          "d": "Digital Service Ecosystem Demand",
+          "s": "0941.HK serves this node.",
+          "sourceId": "cm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-china-tower-corporation-limited-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed supplier dependency for 0941.HK."
+        },
+        {
+          "s": "supplier-in-china-mobile-international-limited-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed supplier dependency for 0941.HK."
+        },
+        {
+          "s": "supplier-in-migu-co-ltd-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed supplier dependency for 0941.HK."
+        },
+        {
+          "s": "supplier-in-china-mobile-group-design-institute-co-ltd-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed supplier dependency for 0941.HK."
+        },
+        {
+          "s": "supplier-in-china-mobile-hong-kong-bvi-limited-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed supplier dependency for 0941.HK."
+        },
+        {
+          "s": "service-in-network-operations-and-optimization-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed service dependency for 0941.HK."
+        },
+        {
+          "s": "service-in-enterprise-connectivity-and-cloud-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed service dependency for 0941.HK."
+        },
+        {
+          "s": "service-in-regulatory-and-compliance-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed service dependency for 0941.HK."
+        },
+        {
+          "s": "service-in-treasury-and-procurement-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed service dependency for 0941.HK."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-consumer-mobile-service-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed channel route for 0941.HK."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-enterprise-and-government-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed channel route for 0941.HK."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-home-broadband-and-integrated-service-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed channel route for 0941.HK."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-digital-platform-and-value-added-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ar2024",
+          "n": "Source-backed channel route for 0941.HK."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-mobile-data-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ir",
+          "n": "Source-backed demand route for 0941.HK."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-enterprise-connectivity-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ir",
+          "n": "Source-backed demand route for 0941.HK."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-digital-service-ecosystem-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ir",
+          "n": "Source-backed demand route for 0941.HK."
+        },
+        {
+          "s": "channel-out-consumer-mobile-service-channels-0",
+          "t": "demand-out-mobile-data-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for 0941.HK."
+        },
+        {
+          "s": "channel-out-enterprise-and-government-channels-1",
+          "t": "demand-out-enterprise-connectivity-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for 0941.HK."
+        },
+        {
+          "s": "channel-out-home-broadband-and-integrated-service-channels-2",
+          "t": "demand-out-digital-service-ecosystem-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "cm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for 0941.HK."
+        }
+      ],
+      "sources": [
+        {
+          "id": "cm-ir",
+          "title": "China Mobile investor relations",
+          "url": "https://www.chinamobileltd.com/en/ir/",
+          "note": "Financial and segment demand context."
+        },
+        {
+          "id": "cm-reports",
+          "title": "China Mobile annual/interim reports",
+          "url": "https://www.chinamobileltd.com/en/ir/reports.php",
+          "note": "Official annual report repository."
+        },
+        {
+          "id": "cm-ar2024",
+          "title": "China Mobile 2024 Annual Report",
+          "url": "https://www.chinamobileltd.com/en/ir/reports/ar2024.pdf",
+          "note": "Names key ecosystem entities including China Tower Corporation Limited, China Mobile International Limited and MIGU Co., Ltd."
+        }
+      ]
+    },
     "TM": {
       "symbol": "TM",
       "company": "Toyota",
-      "rank": 81,
+      "rank": 84,
       "category": "Automotive Manufacturing (Source-backed)",
       "layers": {
         "0": "Company",
@@ -30951,12 +32187,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Toyota\nTM - 225.40B",
+          "l": "Toyota\nTM - 217.20B",
           "tier": 0,
           "kind": "company",
           "c": "JP",
-          "d": "Automotive Manufacturing (Source-backed) anchor company. Rank #81.",
-          "s": "Market cap $225,397,473,280.",
+          "d": "Automotive Manufacturing (Source-backed) anchor company. Rank #84.",
+          "s": "Market cap $217,202,917,376.",
           "z": 23,
           "sourceId": "tm-ir",
           "confidence": "high (company disclosure)"
@@ -31360,422 +32596,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "C": {
-      "symbol": "C",
-      "company": "Citigroup",
-      "rank": 82,
-      "category": "Global Banking (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Citigroup\nC - 225.25B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Global Banking (Source-backed) anchor company. Rank #82.",
-          "s": "Market cap $225,246,216,192.",
-          "z": 23,
-          "sourceId": "citi-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-treasury-and-trade-solutions-tts-0",
-          "l": "Treasury and Trade Solutions (TTS)\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Treasury and Trade Solutions (TTS)",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-securities-services-1",
-          "l": "Securities Services\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Securities Services",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-the-home-depot-2",
-          "l": "The Home Depot\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "The Home Depot",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-core-banking-and-technology-platforms-3",
-          "l": "Core Banking and Technology Platforms\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Core Banking and Technology Platforms",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-cloud-and-cybersecurity-partners-4",
-          "l": "Cloud and Cybersecurity Partners\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Cloud and Cybersecurity Partners",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-transaction-banking-and-treasury-services-0",
-          "l": "Transaction Banking and Treasury Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Transaction Banking and Treasury Services",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-and-financial-crime-services-1",
-          "l": "Regulatory and Financial Crime Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Regulatory and Financial Crime Services",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-funding-and-liquidity-management-services-2",
-          "l": "Funding and Liquidity Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Funding and Liquidity Management Services",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-wealth-and-advisory-services-3",
-          "l": "Wealth and Advisory Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Wealth and Advisory Services",
-          "s": "C depends on this node.",
-          "sourceId": "citi-filings",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-retail-banking-and-card-channels-0",
-          "l": "Retail Banking and Card Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Retail Banking and Card Channels",
-          "s": "C serves this node.",
-          "sourceId": "citi-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-institutional-client-channels-1",
-          "l": "Institutional Client Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Institutional Client Channels",
-          "s": "C serves this node.",
-          "sourceId": "citi-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-treasury-and-trade-solutions-channels-2",
-          "l": "Treasury and Trade Solutions Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Treasury and Trade Solutions Channels",
-          "s": "C serves this node.",
-          "sourceId": "citi-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-private-bank-and-wealth-channels-3",
-          "l": "Private Bank and Wealth Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Private Bank and Wealth Channels",
-          "s": "C serves this node.",
-          "sourceId": "citi-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-consumer-banking-demand-0",
-          "l": "Consumer Banking Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Consumer Banking Demand",
-          "s": "C serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-corporate-treasury-demand-1",
-          "l": "Corporate Treasury Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Corporate Treasury Demand",
-          "s": "C serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-cross-border-finance-demand-2",
-          "l": "Cross-border Finance Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Cross-border Finance Demand",
-          "s": "C serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-treasury-and-trade-solutions-tts-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed supplier dependency for C."
-        },
-        {
-          "s": "supplier-in-securities-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed supplier dependency for C."
-        },
-        {
-          "s": "supplier-in-the-home-depot-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed supplier dependency for C."
-        },
-        {
-          "s": "supplier-in-core-banking-and-technology-platforms-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed supplier dependency for C."
-        },
-        {
-          "s": "supplier-in-cloud-and-cybersecurity-partners-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed supplier dependency for C."
-        },
-        {
-          "s": "service-in-transaction-banking-and-treasury-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed service dependency for C."
-        },
-        {
-          "s": "service-in-regulatory-and-financial-crime-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed service dependency for C."
-        },
-        {
-          "s": "service-in-funding-and-liquidity-management-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed service dependency for C."
-        },
-        {
-          "s": "service-in-wealth-and-advisory-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "citi-filings",
-          "n": "Source-backed service dependency for C."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-retail-banking-and-card-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "citi-business",
-          "n": "Source-backed channel route for C."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-institutional-client-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "citi-business",
-          "n": "Source-backed channel route for C."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-treasury-and-trade-solutions-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "citi-business",
-          "n": "Source-backed channel route for C."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-private-bank-and-wealth-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "citi-business",
-          "n": "Source-backed channel route for C."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-consumer-banking-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for C."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-corporate-treasury-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for C."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-cross-border-finance-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for C."
-        },
-        {
-          "s": "channel-out-retail-banking-and-card-channels-0",
-          "t": "demand-out-consumer-banking-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for C."
-        },
-        {
-          "s": "channel-out-institutional-client-channels-1",
-          "t": "demand-out-corporate-treasury-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for C."
-        },
-        {
-          "s": "channel-out-treasury-and-trade-solutions-channels-2",
-          "t": "demand-out-cross-border-finance-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for C."
-        }
-      ],
-      "sources": [
-        {
-          "id": "citi-ir",
-          "title": "Citigroup investor relations",
-          "url": "https://www.citigroup.com/global/investors",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "citi-filings",
-          "title": "Citigroup SEC filings",
-          "url": "https://www.citigroup.com/global/investors/sec-filings",
-          "note": "Risk and operating disclosures."
-        },
-        {
-          "id": "citi-business",
-          "title": "Citi businesses",
-          "url": "https://www.citigroup.com/global/about-us/global-presence",
-          "note": "Channel footprint and business context."
-        }
-      ]
-    },
     "AMGN": {
       "symbol": "AMGN",
       "company": "Amgen",
-      "rank": 83,
+      "rank": 85,
       "category": "Biopharma Pipeline (Source-backed)",
       "layers": {
         "0": "Company",
@@ -31787,12 +32611,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Amgen\nAMGN - 224.15B",
+          "l": "Amgen\nAMGN - 216.56B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #83.",
-          "s": "Market cap $224,151,420,928.",
+          "d": "Biopharma Pipeline (Source-backed) anchor company. Rank #85.",
+          "s": "Market cap $216,555,552,768.",
           "z": 23,
           "sourceId": "amgn-ir",
           "confidence": "high (company disclosure)"
@@ -32184,830 +33008,6 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "MC.PA": {
-      "symbol": "MC.PA",
-      "company": "LVMH",
-      "rank": 84,
-      "category": "Luxury Goods Portfolio (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "LVMH\nMC.PA - 223.04B",
-          "tier": 0,
-          "kind": "company",
-          "c": "FR",
-          "d": "Luxury Goods Portfolio (Source-backed) anchor company. Rank #84.",
-          "s": "Market cap $223,042,779,127.",
-          "z": 23,
-          "sourceId": "lvmh-investors",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-louis-vuitton-0",
-          "l": "Louis Vuitton\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "FR",
-          "d": "Louis Vuitton",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-houses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-christian-dior-couture-1",
-          "l": "Christian Dior Couture\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "FR",
-          "d": "Christian Dior Couture",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-houses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-premium-raw-materials-and-fabric-inputs-2",
-          "l": "Premium Raw Materials and Fabric Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "FR",
-          "d": "Premium Raw Materials and Fabric Inputs",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-commitments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-packaging-and-fragrance-component-inputs-3",
-          "l": "Packaging and Fragrance Component Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "FR",
-          "d": "Packaging and Fragrance Component Inputs",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-commitments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-jewelry-and-watchmaking-component-inputs-4",
-          "l": "Jewelry and Watchmaking Component Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "FR",
-          "d": "Jewelry and Watchmaking Component Inputs",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-commitments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-responsible-sourcing-and-esg-programs-0",
-          "l": "Responsible Sourcing and ESG Programs\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "FR",
-          "d": "Responsible Sourcing and ESG Programs",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-commitments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-global-luxury-logistics-and-distribution-1",
-          "l": "Global Luxury Logistics and Distribution\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "FR",
-          "d": "Global Luxury Logistics and Distribution",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-commitments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-brand-protection-and-compliance-services-2",
-          "l": "Brand Protection and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "FR",
-          "d": "Brand Protection and Compliance Services",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-commitments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-fx-risk-management-3",
-          "l": "Treasury and FX Risk Management\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "FR",
-          "d": "Treasury and FX Risk Management",
-          "s": "MC.PA depends on this node.",
-          "sourceId": "lvmh-commitments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-sephora-0",
-          "l": "Sephora\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "FR",
-          "d": "Sephora",
-          "s": "MC.PA serves this node.",
-          "sourceId": "lvmh-houses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-wines-and-spirits-distribution-channels-1",
-          "l": "Wines and Spirits Distribution Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "FR",
-          "d": "Wines and Spirits Distribution Channels",
-          "s": "MC.PA serves this node.",
-          "sourceId": "lvmh-houses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-travel-retail-and-duty-free-channels-2",
-          "l": "Travel Retail and Duty-Free Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "FR",
-          "d": "Travel Retail and Duty-Free Channels",
-          "s": "MC.PA serves this node.",
-          "sourceId": "lvmh-houses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-selective-retail-and-e-commerce-channels-3",
-          "l": "Selective Retail and E-commerce Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "FR",
-          "d": "Selective Retail and E-commerce Channels",
-          "s": "MC.PA serves this node.",
-          "sourceId": "lvmh-houses",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-global-luxury-consumption-demand-0",
-          "l": "Global Luxury Consumption Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "FR",
-          "d": "Global Luxury Consumption Demand",
-          "s": "MC.PA serves this node.",
-          "sourceId": "lvmh-investors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-travel-retail-demand-1",
-          "l": "Travel Retail Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "FR",
-          "d": "Travel Retail Demand",
-          "s": "MC.PA serves this node.",
-          "sourceId": "lvmh-investors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-beauty-and-personal-luxury-demand-2",
-          "l": "Beauty and Personal Luxury Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "FR",
-          "d": "Beauty and Personal Luxury Demand",
-          "s": "MC.PA serves this node.",
-          "sourceId": "lvmh-investors",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-louis-vuitton-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-houses",
-          "n": "Source-backed supplier dependency for MC.PA."
-        },
-        {
-          "s": "supplier-in-christian-dior-couture-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-houses",
-          "n": "Source-backed supplier dependency for MC.PA."
-        },
-        {
-          "s": "supplier-in-premium-raw-materials-and-fabric-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-commitments",
-          "n": "Source-backed supplier dependency for MC.PA."
-        },
-        {
-          "s": "supplier-in-packaging-and-fragrance-component-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-commitments",
-          "n": "Source-backed supplier dependency for MC.PA."
-        },
-        {
-          "s": "supplier-in-jewelry-and-watchmaking-component-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-commitments",
-          "n": "Source-backed supplier dependency for MC.PA."
-        },
-        {
-          "s": "service-in-responsible-sourcing-and-esg-programs-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-commitments",
-          "n": "Source-backed service dependency for MC.PA."
-        },
-        {
-          "s": "service-in-global-luxury-logistics-and-distribution-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-commitments",
-          "n": "Source-backed service dependency for MC.PA."
-        },
-        {
-          "s": "service-in-brand-protection-and-compliance-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-commitments",
-          "n": "Source-backed service dependency for MC.PA."
-        },
-        {
-          "s": "service-in-treasury-and-fx-risk-management-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-commitments",
-          "n": "Source-backed service dependency for MC.PA."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-sephora-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-houses",
-          "n": "Source-backed channel route for MC.PA."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-wines-and-spirits-distribution-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-houses",
-          "n": "Source-backed channel route for MC.PA."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-travel-retail-and-duty-free-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-houses",
-          "n": "Source-backed channel route for MC.PA."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-selective-retail-and-e-commerce-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-houses",
-          "n": "Source-backed channel route for MC.PA."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-global-luxury-consumption-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-investors",
-          "n": "Source-backed demand route for MC.PA."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-travel-retail-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-investors",
-          "n": "Source-backed demand route for MC.PA."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-beauty-and-personal-luxury-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-investors",
-          "n": "Source-backed demand route for MC.PA."
-        },
-        {
-          "s": "channel-out-sephora-0",
-          "t": "demand-out-global-luxury-consumption-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-investors",
-          "n": "Source-backed demand transfer from channel to end-demand for MC.PA."
-        },
-        {
-          "s": "channel-out-wines-and-spirits-distribution-channels-1",
-          "t": "demand-out-travel-retail-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-investors",
-          "n": "Source-backed demand transfer from channel to end-demand for MC.PA."
-        },
-        {
-          "s": "channel-out-travel-retail-and-duty-free-channels-2",
-          "t": "demand-out-beauty-and-personal-luxury-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "lvmh-investors",
-          "n": "Source-backed demand transfer from channel to end-demand for MC.PA."
-        }
-      ],
-      "sources": [
-        {
-          "id": "lvmh-investors",
-          "title": "LVMH investor relations",
-          "url": "https://www.lvmh.com/investors/",
-          "note": "Financial performance and demand context across business groups."
-        },
-        {
-          "id": "lvmh-commitments",
-          "title": "LVMH commitments",
-          "url": "https://www.lvmh.com/group/lvmh-commitments/",
-          "note": "Sourcing, environmental, and operational responsibility framework."
-        },
-        {
-          "id": "lvmh-houses",
-          "title": "LVMH Houses",
-          "url": "https://www.lvmh.com/houses/",
-          "note": "Brand/channel architecture across fashion, wines, and selective retailing."
-        }
-      ]
-    },
-    "0941.HK": {
-      "symbol": "0941.HK",
-      "company": "China Mobile",
-      "rank": 85,
-      "category": "Telecom Network Platform (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "China Mobile\n0941.HK - 219.07B",
-          "tier": 0,
-          "kind": "company",
-          "c": "CN",
-          "d": "Telecom Network Platform (Source-backed) anchor company. Rank #85.",
-          "s": "Market cap $219,066,875,273.",
-          "z": 23,
-          "sourceId": "cm-ar2024",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-china-tower-corporation-limited-0",
-          "l": "China Tower Corporation Limited\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "China Tower Corporation Limited",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-china-mobile-international-limited-1",
-          "l": "China Mobile International Limited\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "China Mobile International Limited",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-migu-co-ltd-2",
-          "l": "MIGU Co., Ltd.\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "MIGU Co., Ltd.",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-china-mobile-group-design-institute-co-ltd-3",
-          "l": "China Mobile Group Design Institute Co., Ltd.\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "China Mobile Group Design Institute Co., Ltd.",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-china-mobile-hong-kong-bvi-limited-4",
-          "l": "China Mobile Hong Kong (BVI) Limited\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CN",
-          "d": "China Mobile Hong Kong (BVI) Limited",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-network-operations-and-optimization-services-0",
-          "l": "Network Operations and Optimization Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Network Operations and Optimization Services",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-enterprise-connectivity-and-cloud-services-1",
-          "l": "Enterprise Connectivity and Cloud Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Enterprise Connectivity and Cloud Services",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-and-compliance-services-2",
-          "l": "Regulatory and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Regulatory and Compliance Services",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-procurement-services-3",
-          "l": "Treasury and Procurement Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Treasury and Procurement Services",
-          "s": "0941.HK depends on this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-consumer-mobile-service-channels-0",
-          "l": "Consumer Mobile Service Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Consumer Mobile Service Channels",
-          "s": "0941.HK serves this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-enterprise-and-government-channels-1",
-          "l": "Enterprise and Government Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Enterprise and Government Channels",
-          "s": "0941.HK serves this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-home-broadband-and-integrated-service-channels-2",
-          "l": "Home Broadband and Integrated Service Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Home Broadband and Integrated Service Channels",
-          "s": "0941.HK serves this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-digital-platform-and-value-added-channels-3",
-          "l": "Digital Platform and Value-Added Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "CN",
-          "d": "Digital Platform and Value-Added Channels",
-          "s": "0941.HK serves this node.",
-          "sourceId": "cm-ar2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-mobile-data-demand-0",
-          "l": "Mobile Data Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Mobile Data Demand",
-          "s": "0941.HK serves this node.",
-          "sourceId": "cm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-enterprise-connectivity-demand-1",
-          "l": "Enterprise Connectivity Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Enterprise Connectivity Demand",
-          "s": "0941.HK serves this node.",
-          "sourceId": "cm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-digital-service-ecosystem-demand-2",
-          "l": "Digital Service Ecosystem Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "CN",
-          "d": "Digital Service Ecosystem Demand",
-          "s": "0941.HK serves this node.",
-          "sourceId": "cm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-china-tower-corporation-limited-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed supplier dependency for 0941.HK."
-        },
-        {
-          "s": "supplier-in-china-mobile-international-limited-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed supplier dependency for 0941.HK."
-        },
-        {
-          "s": "supplier-in-migu-co-ltd-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed supplier dependency for 0941.HK."
-        },
-        {
-          "s": "supplier-in-china-mobile-group-design-institute-co-ltd-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed supplier dependency for 0941.HK."
-        },
-        {
-          "s": "supplier-in-china-mobile-hong-kong-bvi-limited-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed supplier dependency for 0941.HK."
-        },
-        {
-          "s": "service-in-network-operations-and-optimization-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed service dependency for 0941.HK."
-        },
-        {
-          "s": "service-in-enterprise-connectivity-and-cloud-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed service dependency for 0941.HK."
-        },
-        {
-          "s": "service-in-regulatory-and-compliance-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed service dependency for 0941.HK."
-        },
-        {
-          "s": "service-in-treasury-and-procurement-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed service dependency for 0941.HK."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-consumer-mobile-service-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed channel route for 0941.HK."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-enterprise-and-government-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed channel route for 0941.HK."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-home-broadband-and-integrated-service-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed channel route for 0941.HK."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-digital-platform-and-value-added-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ar2024",
-          "n": "Source-backed channel route for 0941.HK."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-mobile-data-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ir",
-          "n": "Source-backed demand route for 0941.HK."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-enterprise-connectivity-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ir",
-          "n": "Source-backed demand route for 0941.HK."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-digital-service-ecosystem-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ir",
-          "n": "Source-backed demand route for 0941.HK."
-        },
-        {
-          "s": "channel-out-consumer-mobile-service-channels-0",
-          "t": "demand-out-mobile-data-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for 0941.HK."
-        },
-        {
-          "s": "channel-out-enterprise-and-government-channels-1",
-          "t": "demand-out-enterprise-connectivity-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for 0941.HK."
-        },
-        {
-          "s": "channel-out-home-broadband-and-integrated-service-channels-2",
-          "t": "demand-out-digital-service-ecosystem-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "cm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for 0941.HK."
-        }
-      ],
-      "sources": [
-        {
-          "id": "cm-ir",
-          "title": "China Mobile investor relations",
-          "url": "https://www.chinamobileltd.com/en/ir/",
-          "note": "Financial and segment demand context."
-        },
-        {
-          "id": "cm-reports",
-          "title": "China Mobile annual/interim reports",
-          "url": "https://www.chinamobileltd.com/en/ir/reports.php",
-          "note": "Official annual report repository."
-        },
-        {
-          "id": "cm-ar2024",
-          "title": "China Mobile 2024 Annual Report",
-          "url": "https://www.chinamobileltd.com/en/ir/reports/ar2024.pdf",
-          "note": "Names key ecosystem entities including China Tower Corporation Limited, China Mobile International Limited and MIGU Co., Ltd."
-        }
-      ]
-    },
     "IHC.AE": {
       "symbol": "IHC.AE",
       "company": "International Holding Company",
@@ -33023,12 +33023,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "International Holding Company\nIHC.AE - 217.22B",
+          "l": "International Holding Company\nIHC.AE - 216.15B",
           "tier": 0,
           "kind": "company",
           "c": "AE",
           "d": "Holding Company Portfolio (Source-backed) anchor company. Rank #86.",
-          "s": "Market cap $217,215,868,616.",
+          "s": "Market cap $216,146,731,256.",
           "z": 23,
           "sourceId": "ihc-ir",
           "confidence": "high (company disclosure)"
@@ -33420,2115 +33420,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "LIN": {
-      "symbol": "LIN",
-      "company": "Linde",
-      "rank": 87,
-      "category": "Industrial Gases Platform (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Linde\nLIN - 216.61B",
-          "tier": 0,
-          "kind": "company",
-          "c": "UK",
-          "d": "Industrial Gases Platform (Source-backed) anchor company. Rank #87.",
-          "s": "Market cap $216,609,980,416.",
-          "z": 23,
-          "sourceId": "lin-10k-2024",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-linde-engineering-0",
-          "l": "Linde Engineering\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "DE",
-          "d": "Linde Engineering",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-linde-gas-north-america-1",
-          "l": "Linde Gas North America\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Linde Gas North America",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-hydrogen-feedstock-inputs-2",
-          "l": "Hydrogen Feedstock Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "Hydrogen Feedstock Inputs",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-helium-sourcing-streams-3",
-          "l": "Helium Sourcing Streams\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "Helium Sourcing Streams",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-electricity-and-utility-inputs-4",
-          "l": "Electricity and Utility Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "Electricity and Utility Inputs",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-praxair-0",
-          "l": "Praxair\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Praxair",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-boc-india-1",
-          "l": "BOC India\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "IN",
-          "d": "BOC India",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-safety-reliability-and-plant-operations-services-2",
-          "l": "Safety, Reliability, and Plant Operations Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Safety, Reliability, and Plant Operations Services",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-logistics-and-distribution-services-3",
-          "l": "Logistics and Distribution Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "UK",
-          "d": "Logistics and Distribution Services",
-          "s": "LIN depends on this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-linde-u-s-gas-applications-0",
-          "l": "Linde U.S. Gas Applications\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Linde U.S. Gas Applications",
-          "s": "LIN serves this node.",
-          "sourceId": "lin-lindeus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-chemicals-and-refining-channels-1",
-          "l": "Chemicals and Refining Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Chemicals and Refining Channels",
-          "s": "LIN serves this node.",
-          "sourceId": "lin-lindeus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-healthcare-and-life-sciences-channels-2",
-          "l": "Healthcare and Life Sciences Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Healthcare and Life Sciences Channels",
-          "s": "LIN serves this node.",
-          "sourceId": "lin-lindeus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-electronics-and-manufacturing-channels-3",
-          "l": "Electronics and Manufacturing Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "UK",
-          "d": "Electronics and Manufacturing Channels",
-          "s": "LIN serves this node.",
-          "sourceId": "lin-lindeus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-industrial-production-gas-demand-0",
-          "l": "Industrial Production Gas Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Industrial Production Gas Demand",
-          "s": "LIN serves this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-healthcare-oxygen-and-specialty-gas-demand-1",
-          "l": "Healthcare Oxygen and Specialty Gas Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Healthcare Oxygen and Specialty Gas Demand",
-          "s": "LIN serves this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-clean-energy-and-hydrogen-demand-2",
-          "l": "Clean Energy and Hydrogen Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "UK",
-          "d": "Clean Energy and Hydrogen Demand",
-          "s": "LIN serves this node.",
-          "sourceId": "lin-10k-2024",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-linde-engineering-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed supplier dependency for LIN."
-        },
-        {
-          "s": "supplier-in-linde-gas-north-america-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed supplier dependency for LIN."
-        },
-        {
-          "s": "supplier-in-hydrogen-feedstock-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed supplier dependency for LIN."
-        },
-        {
-          "s": "supplier-in-helium-sourcing-streams-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed supplier dependency for LIN."
-        },
-        {
-          "s": "supplier-in-electricity-and-utility-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed supplier dependency for LIN."
-        },
-        {
-          "s": "service-in-praxair-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed service dependency for LIN."
-        },
-        {
-          "s": "service-in-boc-india-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed service dependency for LIN."
-        },
-        {
-          "s": "service-in-safety-reliability-and-plant-operations-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed service dependency for LIN."
-        },
-        {
-          "s": "service-in-logistics-and-distribution-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed service dependency for LIN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-linde-u-s-gas-applications-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lin-lindeus",
-          "n": "Source-backed channel route for LIN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-chemicals-and-refining-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lin-lindeus",
-          "n": "Source-backed channel route for LIN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-healthcare-and-life-sciences-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lin-lindeus",
-          "n": "Source-backed channel route for LIN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-electronics-and-manufacturing-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "lin-lindeus",
-          "n": "Source-backed channel route for LIN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-industrial-production-gas-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed demand route for LIN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-healthcare-oxygen-and-specialty-gas-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed demand route for LIN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-clean-energy-and-hydrogen-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed demand route for LIN."
-        },
-        {
-          "s": "channel-out-linde-u-s-gas-applications-0",
-          "t": "demand-out-industrial-production-gas-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed demand transfer from channel to end-demand for LIN."
-        },
-        {
-          "s": "channel-out-chemicals-and-refining-channels-1",
-          "t": "demand-out-healthcare-oxygen-and-specialty-gas-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed demand transfer from channel to end-demand for LIN."
-        },
-        {
-          "s": "channel-out-healthcare-and-life-sciences-channels-2",
-          "t": "demand-out-clean-energy-and-hydrogen-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "lin-10k-2024",
-          "n": "Source-backed demand transfer from channel to end-demand for LIN."
-        }
-      ],
-      "sources": [
-        {
-          "id": "lin-sec-submissions",
-          "title": "Linde SEC submissions index",
-          "url": "https://data.sec.gov/submissions/CIK0001707925.json",
-          "note": "Primary SEC filing index for annual reporting artifacts."
-        },
-        {
-          "id": "lin-10k-2024",
-          "title": "Linde FY2024 Form 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/1707925/000162828025007990/lin-20241231.htm",
-          "note": "Primary filing with named references to Linde Engineering, Praxair legacy context, BOC India career history, and Linde Gas North America operating context."
-        },
-        {
-          "id": "lin-lindeus",
-          "title": "Linde U.S. market applications",
-          "url": "https://www.lindeus.com/",
-          "note": "Named channel context for U.S. gas applications and market routes."
-        }
-      ]
-    },
-    "BHP": {
-      "symbol": "BHP",
-      "company": "BHP Group",
-      "rank": 88,
-      "category": "Mining and Materials Platform (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "BHP Group\nBHP - 215.95B",
-          "tier": 0,
-          "kind": "company",
-          "c": "AU",
-          "d": "Mining and Materials Platform (Source-backed) anchor company. Rank #88.",
-          "s": "Market cap $215,949,295,616.",
-          "z": 23,
-          "sourceId": "bhp-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-olympic-dam-0",
-          "l": "Olympic Dam\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "AU",
-          "d": "Olympic Dam",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-escondida-1",
-          "l": "Escondida\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "CL",
-          "d": "Escondida",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-western-australia-iron-ore-2",
-          "l": "Western Australia Iron Ore\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "AU",
-          "d": "Western Australia Iron Ore",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-mining-equipment-and-consumable-suppliers-3",
-          "l": "Mining Equipment and Consumable Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "AU",
-          "d": "Mining Equipment and Consumable Suppliers",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-rail-port-and-export-infrastructure-partners-4",
-          "l": "Rail, Port, and Export Infrastructure Partners\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "AU",
-          "d": "Rail, Port, and Export Infrastructure Partners",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-suppliers",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-operations-processing-and-maintenance-services-0",
-          "l": "Operations, Processing, and Maintenance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "AU",
-          "d": "Operations, Processing, and Maintenance Services",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-safety-environmental-and-compliance-services-1",
-          "l": "Safety, Environmental, and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "AU",
-          "d": "Safety, Environmental, and Compliance Services",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-shipping-and-commodity-logistics-services-2",
-          "l": "Shipping and Commodity Logistics Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "AU",
-          "d": "Shipping and Commodity Logistics Services",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-commodity-risk-services-3",
-          "l": "Treasury and Commodity Risk Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "AU",
-          "d": "Treasury and Commodity Risk Services",
-          "s": "BHP depends on this node.",
-          "sourceId": "bhp-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-iron-ore-and-steelmaking-channels-0",
-          "l": "Iron Ore and Steelmaking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "AU",
-          "d": "Iron Ore and Steelmaking Channels",
-          "s": "BHP serves this node.",
-          "sourceId": "bhp-markets",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-copper-and-battery-metals-channels-1",
-          "l": "Copper and Battery Metals Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "AU",
-          "d": "Copper and Battery Metals Channels",
-          "s": "BHP serves this node.",
-          "sourceId": "bhp-markets",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-coal-and-energy-commodity-channels-2",
-          "l": "Coal and Energy Commodity Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "AU",
-          "d": "Coal and Energy Commodity Channels",
-          "s": "BHP serves this node.",
-          "sourceId": "bhp-markets",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-global-industrial-customer-channels-3",
-          "l": "Global Industrial Customer Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "AU",
-          "d": "Global Industrial Customer Channels",
-          "s": "BHP serves this node.",
-          "sourceId": "bhp-markets",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-steel-production-demand-0",
-          "l": "Steel Production Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "AU",
-          "d": "Steel Production Demand",
-          "s": "BHP serves this node.",
-          "sourceId": "bhp-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-energy-transition-metals-demand-1",
-          "l": "Energy Transition Metals Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "AU",
-          "d": "Energy Transition Metals Demand",
-          "s": "BHP serves this node.",
-          "sourceId": "bhp-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-industrial-commodity-demand-2",
-          "l": "Industrial Commodity Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "AU",
-          "d": "Industrial Commodity Demand",
-          "s": "BHP serves this node.",
-          "sourceId": "bhp-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-olympic-dam-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-suppliers",
-          "n": "Source-backed supplier dependency for BHP."
-        },
-        {
-          "s": "supplier-in-escondida-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-suppliers",
-          "n": "Source-backed supplier dependency for BHP."
-        },
-        {
-          "s": "supplier-in-western-australia-iron-ore-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-suppliers",
-          "n": "Source-backed supplier dependency for BHP."
-        },
-        {
-          "s": "supplier-in-mining-equipment-and-consumable-suppliers-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-suppliers",
-          "n": "Source-backed supplier dependency for BHP."
-        },
-        {
-          "s": "supplier-in-rail-port-and-export-infrastructure-partners-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-suppliers",
-          "n": "Source-backed supplier dependency for BHP."
-        },
-        {
-          "s": "service-in-operations-processing-and-maintenance-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed service dependency for BHP."
-        },
-        {
-          "s": "service-in-safety-environmental-and-compliance-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed service dependency for BHP."
-        },
-        {
-          "s": "service-in-shipping-and-commodity-logistics-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed service dependency for BHP."
-        },
-        {
-          "s": "service-in-treasury-and-commodity-risk-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed service dependency for BHP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-iron-ore-and-steelmaking-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-markets",
-          "n": "Source-backed channel route for BHP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-copper-and-battery-metals-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-markets",
-          "n": "Source-backed channel route for BHP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-coal-and-energy-commodity-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-markets",
-          "n": "Source-backed channel route for BHP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-global-industrial-customer-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-markets",
-          "n": "Source-backed channel route for BHP."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-steel-production-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed demand route for BHP."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-energy-transition-metals-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed demand route for BHP."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-industrial-commodity-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed demand route for BHP."
-        },
-        {
-          "s": "channel-out-iron-ore-and-steelmaking-channels-0",
-          "t": "demand-out-steel-production-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for BHP."
-        },
-        {
-          "s": "channel-out-copper-and-battery-metals-channels-1",
-          "t": "demand-out-energy-transition-metals-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for BHP."
-        },
-        {
-          "s": "channel-out-coal-and-energy-commodity-channels-2",
-          "t": "demand-out-industrial-commodity-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "bhp-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for BHP."
-        }
-      ],
-      "sources": [
-        {
-          "id": "bhp-ir",
-          "title": "BHP investors",
-          "url": "https://www.bhp.com/investors",
-          "note": "Financial and commodity demand context."
-        },
-        {
-          "id": "bhp-suppliers",
-          "title": "BHP suppliers",
-          "url": "https://www.bhp.com/suppliers",
-          "note": "Supplier and procurement framework context."
-        },
-        {
-          "id": "bhp-markets",
-          "title": "BHP operations",
-          "url": "https://www.bhp.com/what-we-do",
-          "note": "Operating assets include Olympic Dam, Escondida, Spence, Carrapateena (copper) and Western Australia Iron Ore."
-        }
-      ]
-    },
-    "QCOM": {
-      "symbol": "QCOM",
-      "company": "QUALCOMM",
-      "rank": 89,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "QUALCOMM\nQCOM - 215.72B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $215,716,184,064.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
-    "IBM": {
-      "symbol": "IBM",
-      "company": "IBM",
-      "rank": 90,
-      "category": "Enterprise Tech Platform and Ecosystem (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "IBM\nIBM - 212.46B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Enterprise Tech Platform and Ecosystem (Source-backed) anchor company. Rank #90.",
-          "s": "Market cap $212,460,716,032.",
-          "z": 23,
-          "sourceId": "ibm-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-red-hat-0",
-          "l": "Red Hat\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Red Hat",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-redhat",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-hashicorp-1",
-          "l": "HashiCorp\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "HashiCorp",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-hashicorp",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-semiconductor-and-hardware-component-inputs-2",
-          "l": "Semiconductor and Hardware Component Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Semiconductor and Hardware Component Inputs",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-redhat",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-open-source-software-and-developer-ecosystems-3",
-          "l": "Open-Source Software and Developer Ecosystems\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Open-Source Software and Developer Ecosystems",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-redhat",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-ibm-consulting-0",
-          "l": "IBM Consulting\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "IBM Consulting",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-managed-infrastructure-and-operations-services-1",
-          "l": "Managed Infrastructure and Operations Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Managed Infrastructure and Operations Services",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-hashicorp",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-ai-governance-and-compliance-services-2",
-          "l": "AI Governance and Compliance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "AI Governance and Compliance Services",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-hashicorp",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-procurement-services-3",
-          "l": "Treasury and Procurement Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Procurement Services",
-          "s": "IBM depends on this node.",
-          "sourceId": "ibm-hashicorp",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-ibm-partner-plus-ecosystem-0",
-          "l": "IBM Partner Plus Ecosystem\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "IBM Partner Plus Ecosystem",
-          "s": "IBM serves this node.",
-          "sourceId": "ibm-partnerplus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-enterprise-software-and-hybrid-cloud-channels-1",
-          "l": "Enterprise Software and Hybrid Cloud Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Enterprise Software and Hybrid Cloud Channels",
-          "s": "IBM serves this node.",
-          "sourceId": "ibm-partnerplus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-ibm-consulting-delivery-channels-2",
-          "l": "IBM Consulting Delivery Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "IBM Consulting Delivery Channels",
-          "s": "IBM serves this node.",
-          "sourceId": "ibm-partnerplus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-systems-integrator-and-independent-software-vendor-channels-3",
-          "l": "Systems Integrator and Independent Software Vendor Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Systems Integrator and Independent Software Vendor Channels",
-          "s": "IBM serves this node.",
-          "sourceId": "ibm-partnerplus",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-hybrid-cloud-modernization-demand-0",
-          "l": "Hybrid Cloud Modernization Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Hybrid Cloud Modernization Demand",
-          "s": "IBM serves this node.",
-          "sourceId": "ibm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-enterprise-ai-deployment-demand-1",
-          "l": "Enterprise AI Deployment Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Enterprise AI Deployment Demand",
-          "s": "IBM serves this node.",
-          "sourceId": "ibm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-mission-critical-it-operations-demand-2",
-          "l": "Mission-Critical IT Operations Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Mission-Critical IT Operations Demand",
-          "s": "IBM serves this node.",
-          "sourceId": "ibm-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-red-hat-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-redhat",
-          "n": "Source-backed supplier dependency for IBM."
-        },
-        {
-          "s": "supplier-in-hashicorp-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-hashicorp",
-          "n": "Source-backed supplier dependency for IBM."
-        },
-        {
-          "s": "supplier-in-semiconductor-and-hardware-component-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-redhat",
-          "n": "Source-backed supplier dependency for IBM."
-        },
-        {
-          "s": "supplier-in-open-source-software-and-developer-ecosystems-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-redhat",
-          "n": "Source-backed supplier dependency for IBM."
-        },
-        {
-          "s": "service-in-ibm-consulting-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-ir",
-          "n": "Source-backed service dependency for IBM."
-        },
-        {
-          "s": "service-in-managed-infrastructure-and-operations-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-hashicorp",
-          "n": "Source-backed service dependency for IBM."
-        },
-        {
-          "s": "service-in-ai-governance-and-compliance-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-hashicorp",
-          "n": "Source-backed service dependency for IBM."
-        },
-        {
-          "s": "service-in-treasury-and-procurement-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-hashicorp",
-          "n": "Source-backed service dependency for IBM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-ibm-partner-plus-ecosystem-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-partnerplus",
-          "n": "Source-backed channel route for IBM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-enterprise-software-and-hybrid-cloud-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-partnerplus",
-          "n": "Source-backed channel route for IBM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-ibm-consulting-delivery-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-partnerplus",
-          "n": "Source-backed channel route for IBM."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-systems-integrator-and-independent-software-vendor-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-partnerplus",
-          "n": "Source-backed channel route for IBM."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-hybrid-cloud-modernization-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-ir",
-          "n": "Source-backed demand route for IBM."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-enterprise-ai-deployment-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-ir",
-          "n": "Source-backed demand route for IBM."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-mission-critical-it-operations-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-ir",
-          "n": "Source-backed demand route for IBM."
-        },
-        {
-          "s": "channel-out-ibm-partner-plus-ecosystem-0",
-          "t": "demand-out-hybrid-cloud-modernization-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for IBM."
-        },
-        {
-          "s": "channel-out-enterprise-software-and-hybrid-cloud-channels-1",
-          "t": "demand-out-enterprise-ai-deployment-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for IBM."
-        },
-        {
-          "s": "channel-out-ibm-consulting-delivery-channels-2",
-          "t": "demand-out-mission-critical-it-operations-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "ibm-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for IBM."
-        }
-      ],
-      "sources": [
-        {
-          "id": "ibm-ir",
-          "title": "IBM investor relations",
-          "url": "https://www.ibm.com/investor",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "ibm-sec",
-          "title": "IBM SEC filings",
-          "url": "https://www.ibm.com/investor/sec-filings",
-          "note": "Risk and operating disclosures."
-        },
-        {
-          "id": "ibm-redhat",
-          "title": "IBM completes acquisition of Red Hat",
-          "url": "https://www.ibm.com/investor/news/ibm-completes-acquisition-of-red-hat",
-          "note": "Official IBM investor announcement of Red Hat acquisition and hybrid cloud positioning."
-        },
-        {
-          "id": "ibm-hashicorp",
-          "title": "IBM completes acquisition of HashiCorp",
-          "url": "https://newsroom.ibm.com/2025-02-27-IBM-Completes-Acquisition-of-HashiCorp,-Creates-Comprehensive,-End-to-End-Hybrid-Cloud-Platform",
-          "note": "Official IBM newsroom announcement of HashiCorp acquisition."
-        },
-        {
-          "id": "ibm-partnerplus",
-          "title": "IBM Partner Plus",
-          "url": "https://www.ibm.com/partnerplus",
-          "note": "IBM global partner ecosystem and channel program."
-        }
-      ]
-    },
-    "SAN": {
-      "symbol": "SAN",
-      "company": "Santander",
-      "rank": 91,
-      "category": "Global Banking (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Santander\nSAN - 209.04B",
-          "tier": 0,
-          "kind": "company",
-          "c": "ES",
-          "d": "Global Banking (Source-backed) anchor company. Rank #91.",
-          "s": "Market cap $209,038,163,968.",
-          "z": 23,
-          "sourceId": "san-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-digital-consumer-bank-0",
-          "l": "Digital Consumer Bank\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "ES",
-          "d": "Digital Consumer Bank",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-santander-consumer-finance-1",
-          "l": "Santander Consumer Finance\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "ES",
-          "d": "Santander Consumer Finance",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-core-banking-and-digital-platform-inputs-2",
-          "l": "Core Banking and Digital Platform Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "ES",
-          "d": "Core Banking and Digital Platform Inputs",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-credit-and-risk-data-inputs-3",
-          "l": "Credit and Risk Data Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "ES",
-          "d": "Credit and Risk Data Inputs",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-payments-and-settlement-infrastructure-inputs-4",
-          "l": "Payments and Settlement Infrastructure Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "ES",
-          "d": "Payments and Settlement Infrastructure Inputs",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-retail-and-commercial-banking-services-0",
-          "l": "Retail and Commercial Banking Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "ES",
-          "d": "Retail and Commercial Banking Services",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-regulatory-and-risk-management-services-1",
-          "l": "Regulatory and Risk Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "ES",
-          "d": "Regulatory and Risk Management Services",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-liquidity-services-2",
-          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "ES",
-          "d": "Treasury and Liquidity Services",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-wealth-and-insurance-services-3",
-          "l": "Wealth and Insurance Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "ES",
-          "d": "Wealth and Insurance Services",
-          "s": "SAN depends on this node.",
-          "sourceId": "san-reports",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-consumer-banking-channels-0",
-          "l": "Consumer Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "ES",
-          "d": "Consumer Banking Channels",
-          "s": "SAN serves this node.",
-          "sourceId": "san-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-sme-and-corporate-channels-1",
-          "l": "SME and Corporate Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "ES",
-          "d": "SME and Corporate Channels",
-          "s": "SAN serves this node.",
-          "sourceId": "san-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-global-payments-and-trade-channels-2",
-          "l": "Global Payments and Trade Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "ES",
-          "d": "Global Payments and Trade Channels",
-          "s": "SAN serves this node.",
-          "sourceId": "san-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-digital-and-mobile-banking-channels-3",
-          "l": "Digital and Mobile Banking Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "ES",
-          "d": "Digital and Mobile Banking Channels",
-          "s": "SAN serves this node.",
-          "sourceId": "san-business",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-consumer-credit-and-deposit-demand-0",
-          "l": "Consumer Credit and Deposit Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "ES",
-          "d": "Consumer Credit and Deposit Demand",
-          "s": "SAN serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-sme-finance-demand-1",
-          "l": "SME Finance Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "ES",
-          "d": "SME Finance Demand",
-          "s": "SAN serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-international-banking-demand-2",
-          "l": "International Banking Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "ES",
-          "d": "International Banking Demand",
-          "s": "SAN serves this node.",
-          "sourceId": "swift-payments",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-digital-consumer-bank-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed supplier dependency for SAN."
-        },
-        {
-          "s": "supplier-in-santander-consumer-finance-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed supplier dependency for SAN."
-        },
-        {
-          "s": "supplier-in-core-banking-and-digital-platform-inputs-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed supplier dependency for SAN."
-        },
-        {
-          "s": "supplier-in-credit-and-risk-data-inputs-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed supplier dependency for SAN."
-        },
-        {
-          "s": "supplier-in-payments-and-settlement-infrastructure-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed supplier dependency for SAN."
-        },
-        {
-          "s": "service-in-retail-and-commercial-banking-services-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed service dependency for SAN."
-        },
-        {
-          "s": "service-in-regulatory-and-risk-management-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed service dependency for SAN."
-        },
-        {
-          "s": "service-in-treasury-and-liquidity-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed service dependency for SAN."
-        },
-        {
-          "s": "service-in-wealth-and-insurance-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "san-reports",
-          "n": "Source-backed service dependency for SAN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-consumer-banking-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "san-business",
-          "n": "Source-backed channel route for SAN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-sme-and-corporate-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "san-business",
-          "n": "Source-backed channel route for SAN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-global-payments-and-trade-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "san-business",
-          "n": "Source-backed channel route for SAN."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-digital-and-mobile-banking-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "san-business",
-          "n": "Source-backed channel route for SAN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-consumer-credit-and-deposit-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for SAN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-sme-finance-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for SAN."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-international-banking-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand route for SAN."
-        },
-        {
-          "s": "channel-out-consumer-banking-channels-0",
-          "t": "demand-out-consumer-credit-and-deposit-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for SAN."
-        },
-        {
-          "s": "channel-out-sme-and-corporate-channels-1",
-          "t": "demand-out-sme-finance-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for SAN."
-        },
-        {
-          "s": "channel-out-global-payments-and-trade-channels-2",
-          "t": "demand-out-international-banking-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "swift-payments",
-          "n": "Source-backed demand transfer from channel to end-demand for SAN."
-        }
-      ],
-      "sources": [
-        {
-          "id": "san-ir",
-          "title": "Santander investor relations",
-          "url": "https://www.santander.com/en/shareholders-and-investors",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "san-reports",
-          "title": "Santander annual reports",
-          "url": "https://www.santander.com/en/shareholders-and-investors/financial-and-economic-information/annual-report",
-          "note": "Risk and operating disclosures. Digital Consumer Bank and Santander Consumer Finance are key segments."
-        },
-        {
-          "id": "san-business",
-          "title": "Santander businesses",
-          "url": "https://www.santander.com/en/about-us",
-          "note": "Channel and business structure context."
-        }
-      ]
-    },
-    "AXP": {
-      "symbol": "AXP",
-      "company": "American Express",
-      "rank": 92,
-      "category": "Card Network and Issuer (Source-backed)",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "American Express\nAXP - 208.60B",
-          "tier": 0,
-          "kind": "company",
-          "c": "US",
-          "d": "Card Network and Issuer (Source-backed) anchor company. Rank #92.",
-          "s": "Market cap $208,596,467,712.",
-          "z": 23,
-          "sourceId": "axp-10k-2025",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-delta-air-lines-0",
-          "l": "Delta Air Lines\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Delta Air Lines",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-marriott-international-1",
-          "l": "Marriott International\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Marriott International",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-hilton-worldwide-holdings-2",
-          "l": "Hilton Worldwide Holdings\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Hilton Worldwide Holdings",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-british-airways-3",
-          "l": "British Airways\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "UK",
-          "d": "British Airways",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-card-issuance-and-merchant-acquiring-technology-inputs-4",
-          "l": "Card Issuance and Merchant Acquiring Technology Inputs\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Card Issuance and Merchant Acquiring Technology Inputs",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-paypal-0",
-          "l": "PayPal\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "PayPal",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-alipay-1",
-          "l": "Alipay\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "CN",
-          "d": "Alipay",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-shop-pay-2",
-          "l": "Shop Pay\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Shop Pay",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-credit-and-risk-management-services-3",
-          "l": "Credit and Risk Management Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Credit and Risk Management Services",
-          "s": "AXP depends on this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-american-express-travel-0",
-          "l": "American Express Travel\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "American Express Travel",
-          "s": "AXP serves this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-global-merchant-network-1",
-          "l": "Global Merchant Network\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Global Merchant Network",
-          "s": "AXP serves this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-consumer-and-small-business-cobrand-cards-2",
-          "l": "Consumer and Small Business Cobrand Cards\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Consumer and Small Business Cobrand Cards",
-          "s": "AXP serves this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-corporate-card-and-commercial-services-3",
-          "l": "Corporate Card and Commercial Services\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Corporate Card and Commercial Services",
-          "s": "AXP serves this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-consumer-spending-demand-0",
-          "l": "Consumer Spending Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Consumer Spending Demand",
-          "s": "AXP serves this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-business-travel-and-expense-demand-1",
-          "l": "Business Travel and Expense Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Business Travel and Expense Demand",
-          "s": "AXP serves this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-premium-card-membership-demand-2",
-          "l": "Premium Card Membership Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Premium Card Membership Demand",
-          "s": "AXP serves this node.",
-          "sourceId": "axp-10k-2025",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        }
-      ],
-      "links": [
-        {
-          "s": "supplier-in-delta-air-lines-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed supplier dependency for AXP."
-        },
-        {
-          "s": "supplier-in-marriott-international-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed supplier dependency for AXP."
-        },
-        {
-          "s": "supplier-in-hilton-worldwide-holdings-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed supplier dependency for AXP."
-        },
-        {
-          "s": "supplier-in-british-airways-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed supplier dependency for AXP."
-        },
-        {
-          "s": "supplier-in-card-issuance-and-merchant-acquiring-technology-inputs-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed supplier dependency for AXP."
-        },
-        {
-          "s": "service-in-paypal-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed service dependency for AXP."
-        },
-        {
-          "s": "service-in-alipay-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed service dependency for AXP."
-        },
-        {
-          "s": "service-in-shop-pay-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed service dependency for AXP."
-        },
-        {
-          "s": "service-in-credit-and-risk-management-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed service dependency for AXP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-american-express-travel-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed channel route for AXP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-global-merchant-network-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed channel route for AXP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-consumer-and-small-business-cobrand-cards-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed channel route for AXP."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-corporate-card-and-commercial-services-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed channel route for AXP."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-consumer-spending-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed demand route for AXP."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-business-travel-and-expense-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed demand route for AXP."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-premium-card-membership-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed demand route for AXP."
-        },
-        {
-          "s": "channel-out-american-express-travel-0",
-          "t": "demand-out-consumer-spending-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for AXP."
-        },
-        {
-          "s": "channel-out-global-merchant-network-1",
-          "t": "demand-out-business-travel-and-expense-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for AXP."
-        },
-        {
-          "s": "channel-out-consumer-and-small-business-cobrand-cards-2",
-          "t": "demand-out-premium-card-membership-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "axp-10k-2025",
-          "n": "Source-backed demand transfer from channel to end-demand for AXP."
-        }
-      ],
-      "sources": [
-        {
-          "id": "axp-ir",
-          "title": "American Express investor relations",
-          "url": "https://ir.americanexpress.com/",
-          "note": "Financial and demand context."
-        },
-        {
-          "id": "axp-sec-submissions",
-          "title": "American Express SEC submissions index",
-          "url": "https://data.sec.gov/submissions/CIK0000004962.json",
-          "note": "Primary SEC filing index for latest annual report artifacts."
-        },
-        {
-          "id": "axp-10k-2025",
-          "title": "American Express FY2025 Form 10-K",
-          "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
-          "note": "Primary filing naming Delta, Marriott, British Airways, Hilton, PayPal/Alipay/Shop Pay, and network peers Visa/Mastercard."
-        }
-      ]
-    },
-    "STX": {
-      "symbol": "STX",
-      "company": "Seagate Technology",
-      "rank": 93,
-      "category": "Relationship research pending",
-      "layers": {
-        "0": "Company",
-        "1": "Channels",
-        "2": "Demand",
-        "-2": "Upstream Inputs",
-        "-1": "Services & Risk"
-      },
-      "nodes": [
-        {
-          "id": "company",
-          "l": "Seagate Technology\nSTX - 208.48B",
-          "tier": 0,
-          "kind": "company",
-          "c": "IE",
-          "d": "No verified relationship data published.",
-          "s": "Market cap $208,480,731,136.",
-          "z": 22
-        }
-      ],
-      "links": [],
-      "sources": []
-    },
     "APH": {
       "symbol": "APH",
       "company": "Amphenol",
-      "rank": 94,
+      "rank": 87,
       "category": "Interconnect Components Platform (Source-backed)",
       "layers": {
         "0": "Company",
@@ -35540,12 +33435,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Amphenol\nAPH - 207.36B",
+          "l": "Amphenol\nAPH - 216.02B",
           "tier": 0,
           "kind": "company",
           "c": "US",
-          "d": "Interconnect Components Platform (Source-backed) anchor company. Rank #94.",
-          "s": "Market cap $207,363,145,728.",
+          "d": "Interconnect Components Platform (Source-backed) anchor company. Rank #87.",
+          "s": "Market cap $216,018,698,240.",
           "z": 23,
           "sourceId": "aph-ir",
           "confidence": "high (company disclosure)"
@@ -35937,10 +33832,1703 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
+    "C": {
+      "symbol": "C",
+      "company": "Citigroup",
+      "rank": 88,
+      "category": "Global Banking (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Citigroup\nC - 215.37B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Global Banking (Source-backed) anchor company. Rank #88.",
+          "s": "Market cap $215,366,107,136.",
+          "z": 23,
+          "sourceId": "citi-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-treasury-and-trade-solutions-tts-0",
+          "l": "Treasury and Trade Solutions (TTS)\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Treasury and Trade Solutions (TTS)",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-securities-services-1",
+          "l": "Securities Services\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Securities Services",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-the-home-depot-2",
+          "l": "The Home Depot\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "The Home Depot",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-core-banking-and-technology-platforms-3",
+          "l": "Core Banking and Technology Platforms\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Core Banking and Technology Platforms",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-cloud-and-cybersecurity-partners-4",
+          "l": "Cloud and Cybersecurity Partners\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Cloud and Cybersecurity Partners",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-transaction-banking-and-treasury-services-0",
+          "l": "Transaction Banking and Treasury Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Transaction Banking and Treasury Services",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-and-financial-crime-services-1",
+          "l": "Regulatory and Financial Crime Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Regulatory and Financial Crime Services",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-funding-and-liquidity-management-services-2",
+          "l": "Funding and Liquidity Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Funding and Liquidity Management Services",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-wealth-and-advisory-services-3",
+          "l": "Wealth and Advisory Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Wealth and Advisory Services",
+          "s": "C depends on this node.",
+          "sourceId": "citi-filings",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-retail-banking-and-card-channels-0",
+          "l": "Retail Banking and Card Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Retail Banking and Card Channels",
+          "s": "C serves this node.",
+          "sourceId": "citi-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-institutional-client-channels-1",
+          "l": "Institutional Client Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Institutional Client Channels",
+          "s": "C serves this node.",
+          "sourceId": "citi-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-treasury-and-trade-solutions-channels-2",
+          "l": "Treasury and Trade Solutions Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Treasury and Trade Solutions Channels",
+          "s": "C serves this node.",
+          "sourceId": "citi-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-private-bank-and-wealth-channels-3",
+          "l": "Private Bank and Wealth Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Private Bank and Wealth Channels",
+          "s": "C serves this node.",
+          "sourceId": "citi-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-consumer-banking-demand-0",
+          "l": "Consumer Banking Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Consumer Banking Demand",
+          "s": "C serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-corporate-treasury-demand-1",
+          "l": "Corporate Treasury Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Corporate Treasury Demand",
+          "s": "C serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-cross-border-finance-demand-2",
+          "l": "Cross-border Finance Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Cross-border Finance Demand",
+          "s": "C serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-treasury-and-trade-solutions-tts-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed supplier dependency for C."
+        },
+        {
+          "s": "supplier-in-securities-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed supplier dependency for C."
+        },
+        {
+          "s": "supplier-in-the-home-depot-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed supplier dependency for C."
+        },
+        {
+          "s": "supplier-in-core-banking-and-technology-platforms-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed supplier dependency for C."
+        },
+        {
+          "s": "supplier-in-cloud-and-cybersecurity-partners-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed supplier dependency for C."
+        },
+        {
+          "s": "service-in-transaction-banking-and-treasury-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed service dependency for C."
+        },
+        {
+          "s": "service-in-regulatory-and-financial-crime-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed service dependency for C."
+        },
+        {
+          "s": "service-in-funding-and-liquidity-management-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed service dependency for C."
+        },
+        {
+          "s": "service-in-wealth-and-advisory-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "citi-filings",
+          "n": "Source-backed service dependency for C."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-retail-banking-and-card-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "citi-business",
+          "n": "Source-backed channel route for C."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-institutional-client-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "citi-business",
+          "n": "Source-backed channel route for C."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-treasury-and-trade-solutions-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "citi-business",
+          "n": "Source-backed channel route for C."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-private-bank-and-wealth-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "citi-business",
+          "n": "Source-backed channel route for C."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-consumer-banking-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for C."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-corporate-treasury-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for C."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-cross-border-finance-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for C."
+        },
+        {
+          "s": "channel-out-retail-banking-and-card-channels-0",
+          "t": "demand-out-consumer-banking-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for C."
+        },
+        {
+          "s": "channel-out-institutional-client-channels-1",
+          "t": "demand-out-corporate-treasury-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for C."
+        },
+        {
+          "s": "channel-out-treasury-and-trade-solutions-channels-2",
+          "t": "demand-out-cross-border-finance-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for C."
+        }
+      ],
+      "sources": [
+        {
+          "id": "citi-ir",
+          "title": "Citigroup investor relations",
+          "url": "https://www.citigroup.com/global/investors",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "citi-filings",
+          "title": "Citigroup SEC filings",
+          "url": "https://www.citigroup.com/global/investors/sec-filings",
+          "note": "Risk and operating disclosures."
+        },
+        {
+          "id": "citi-business",
+          "title": "Citi businesses",
+          "url": "https://www.citigroup.com/global/about-us/global-presence",
+          "note": "Channel footprint and business context."
+        }
+      ]
+    },
+    "MC.PA": {
+      "symbol": "MC.PA",
+      "company": "LVMH",
+      "rank": 89,
+      "category": "Luxury Goods Portfolio (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "LVMH\nMC.PA - 209.96B",
+          "tier": 0,
+          "kind": "company",
+          "c": "FR",
+          "d": "Luxury Goods Portfolio (Source-backed) anchor company. Rank #89.",
+          "s": "Market cap $209,956,438,388.",
+          "z": 23,
+          "sourceId": "lvmh-investors",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-louis-vuitton-0",
+          "l": "Louis Vuitton\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "FR",
+          "d": "Louis Vuitton",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-houses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-christian-dior-couture-1",
+          "l": "Christian Dior Couture\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "FR",
+          "d": "Christian Dior Couture",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-houses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-premium-raw-materials-and-fabric-inputs-2",
+          "l": "Premium Raw Materials and Fabric Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "FR",
+          "d": "Premium Raw Materials and Fabric Inputs",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-commitments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-packaging-and-fragrance-component-inputs-3",
+          "l": "Packaging and Fragrance Component Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "FR",
+          "d": "Packaging and Fragrance Component Inputs",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-commitments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-jewelry-and-watchmaking-component-inputs-4",
+          "l": "Jewelry and Watchmaking Component Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "FR",
+          "d": "Jewelry and Watchmaking Component Inputs",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-commitments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-responsible-sourcing-and-esg-programs-0",
+          "l": "Responsible Sourcing and ESG Programs\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "FR",
+          "d": "Responsible Sourcing and ESG Programs",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-commitments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-global-luxury-logistics-and-distribution-1",
+          "l": "Global Luxury Logistics and Distribution\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "FR",
+          "d": "Global Luxury Logistics and Distribution",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-commitments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-brand-protection-and-compliance-services-2",
+          "l": "Brand Protection and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "FR",
+          "d": "Brand Protection and Compliance Services",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-commitments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-fx-risk-management-3",
+          "l": "Treasury and FX Risk Management\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "FR",
+          "d": "Treasury and FX Risk Management",
+          "s": "MC.PA depends on this node.",
+          "sourceId": "lvmh-commitments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-sephora-0",
+          "l": "Sephora\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "FR",
+          "d": "Sephora",
+          "s": "MC.PA serves this node.",
+          "sourceId": "lvmh-houses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-wines-and-spirits-distribution-channels-1",
+          "l": "Wines and Spirits Distribution Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "FR",
+          "d": "Wines and Spirits Distribution Channels",
+          "s": "MC.PA serves this node.",
+          "sourceId": "lvmh-houses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-travel-retail-and-duty-free-channels-2",
+          "l": "Travel Retail and Duty-Free Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "FR",
+          "d": "Travel Retail and Duty-Free Channels",
+          "s": "MC.PA serves this node.",
+          "sourceId": "lvmh-houses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-selective-retail-and-e-commerce-channels-3",
+          "l": "Selective Retail and E-commerce Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "FR",
+          "d": "Selective Retail and E-commerce Channels",
+          "s": "MC.PA serves this node.",
+          "sourceId": "lvmh-houses",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-global-luxury-consumption-demand-0",
+          "l": "Global Luxury Consumption Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "FR",
+          "d": "Global Luxury Consumption Demand",
+          "s": "MC.PA serves this node.",
+          "sourceId": "lvmh-investors",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-travel-retail-demand-1",
+          "l": "Travel Retail Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "FR",
+          "d": "Travel Retail Demand",
+          "s": "MC.PA serves this node.",
+          "sourceId": "lvmh-investors",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-beauty-and-personal-luxury-demand-2",
+          "l": "Beauty and Personal Luxury Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "FR",
+          "d": "Beauty and Personal Luxury Demand",
+          "s": "MC.PA serves this node.",
+          "sourceId": "lvmh-investors",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-louis-vuitton-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-houses",
+          "n": "Source-backed supplier dependency for MC.PA."
+        },
+        {
+          "s": "supplier-in-christian-dior-couture-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-houses",
+          "n": "Source-backed supplier dependency for MC.PA."
+        },
+        {
+          "s": "supplier-in-premium-raw-materials-and-fabric-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-commitments",
+          "n": "Source-backed supplier dependency for MC.PA."
+        },
+        {
+          "s": "supplier-in-packaging-and-fragrance-component-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-commitments",
+          "n": "Source-backed supplier dependency for MC.PA."
+        },
+        {
+          "s": "supplier-in-jewelry-and-watchmaking-component-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-commitments",
+          "n": "Source-backed supplier dependency for MC.PA."
+        },
+        {
+          "s": "service-in-responsible-sourcing-and-esg-programs-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-commitments",
+          "n": "Source-backed service dependency for MC.PA."
+        },
+        {
+          "s": "service-in-global-luxury-logistics-and-distribution-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-commitments",
+          "n": "Source-backed service dependency for MC.PA."
+        },
+        {
+          "s": "service-in-brand-protection-and-compliance-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-commitments",
+          "n": "Source-backed service dependency for MC.PA."
+        },
+        {
+          "s": "service-in-treasury-and-fx-risk-management-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-commitments",
+          "n": "Source-backed service dependency for MC.PA."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-sephora-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-houses",
+          "n": "Source-backed channel route for MC.PA."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-wines-and-spirits-distribution-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-houses",
+          "n": "Source-backed channel route for MC.PA."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-travel-retail-and-duty-free-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-houses",
+          "n": "Source-backed channel route for MC.PA."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-selective-retail-and-e-commerce-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-houses",
+          "n": "Source-backed channel route for MC.PA."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-global-luxury-consumption-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-investors",
+          "n": "Source-backed demand route for MC.PA."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-travel-retail-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-investors",
+          "n": "Source-backed demand route for MC.PA."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-beauty-and-personal-luxury-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-investors",
+          "n": "Source-backed demand route for MC.PA."
+        },
+        {
+          "s": "channel-out-sephora-0",
+          "t": "demand-out-global-luxury-consumption-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-investors",
+          "n": "Source-backed demand transfer from channel to end-demand for MC.PA."
+        },
+        {
+          "s": "channel-out-wines-and-spirits-distribution-channels-1",
+          "t": "demand-out-travel-retail-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-investors",
+          "n": "Source-backed demand transfer from channel to end-demand for MC.PA."
+        },
+        {
+          "s": "channel-out-travel-retail-and-duty-free-channels-2",
+          "t": "demand-out-beauty-and-personal-luxury-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "lvmh-investors",
+          "n": "Source-backed demand transfer from channel to end-demand for MC.PA."
+        }
+      ],
+      "sources": [
+        {
+          "id": "lvmh-investors",
+          "title": "LVMH investor relations",
+          "url": "https://www.lvmh.com/investors/",
+          "note": "Financial performance and demand context across business groups."
+        },
+        {
+          "id": "lvmh-commitments",
+          "title": "LVMH commitments",
+          "url": "https://www.lvmh.com/group/lvmh-commitments/",
+          "note": "Sourcing, environmental, and operational responsibility framework."
+        },
+        {
+          "id": "lvmh-houses",
+          "title": "LVMH Houses",
+          "url": "https://www.lvmh.com/houses/",
+          "note": "Brand/channel architecture across fashion, wines, and selective retailing."
+        }
+      ]
+    },
+    "IBM": {
+      "symbol": "IBM",
+      "company": "IBM",
+      "rank": 90,
+      "category": "Enterprise Tech Platform and Ecosystem (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "IBM\nIBM - 208.43B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Enterprise Tech Platform and Ecosystem (Source-backed) anchor company. Rank #90.",
+          "s": "Market cap $208,428,384,256.",
+          "z": 23,
+          "sourceId": "ibm-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-red-hat-0",
+          "l": "Red Hat\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Red Hat",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-redhat",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-hashicorp-1",
+          "l": "HashiCorp\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "HashiCorp",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-hashicorp",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-semiconductor-and-hardware-component-inputs-2",
+          "l": "Semiconductor and Hardware Component Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Semiconductor and Hardware Component Inputs",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-redhat",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-open-source-software-and-developer-ecosystems-3",
+          "l": "Open-Source Software and Developer Ecosystems\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Open-Source Software and Developer Ecosystems",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-redhat",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-ibm-consulting-0",
+          "l": "IBM Consulting\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "IBM Consulting",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-managed-infrastructure-and-operations-services-1",
+          "l": "Managed Infrastructure and Operations Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Managed Infrastructure and Operations Services",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-hashicorp",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-ai-governance-and-compliance-services-2",
+          "l": "AI Governance and Compliance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "AI Governance and Compliance Services",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-hashicorp",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-procurement-services-3",
+          "l": "Treasury and Procurement Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Treasury and Procurement Services",
+          "s": "IBM depends on this node.",
+          "sourceId": "ibm-hashicorp",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-ibm-partner-plus-ecosystem-0",
+          "l": "IBM Partner Plus Ecosystem\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "IBM Partner Plus Ecosystem",
+          "s": "IBM serves this node.",
+          "sourceId": "ibm-partnerplus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-enterprise-software-and-hybrid-cloud-channels-1",
+          "l": "Enterprise Software and Hybrid Cloud Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Enterprise Software and Hybrid Cloud Channels",
+          "s": "IBM serves this node.",
+          "sourceId": "ibm-partnerplus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-ibm-consulting-delivery-channels-2",
+          "l": "IBM Consulting Delivery Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "IBM Consulting Delivery Channels",
+          "s": "IBM serves this node.",
+          "sourceId": "ibm-partnerplus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-systems-integrator-and-independent-software-vendor-channels-3",
+          "l": "Systems Integrator and Independent Software Vendor Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Systems Integrator and Independent Software Vendor Channels",
+          "s": "IBM serves this node.",
+          "sourceId": "ibm-partnerplus",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-hybrid-cloud-modernization-demand-0",
+          "l": "Hybrid Cloud Modernization Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Hybrid Cloud Modernization Demand",
+          "s": "IBM serves this node.",
+          "sourceId": "ibm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-enterprise-ai-deployment-demand-1",
+          "l": "Enterprise AI Deployment Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Enterprise AI Deployment Demand",
+          "s": "IBM serves this node.",
+          "sourceId": "ibm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-mission-critical-it-operations-demand-2",
+          "l": "Mission-Critical IT Operations Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Mission-Critical IT Operations Demand",
+          "s": "IBM serves this node.",
+          "sourceId": "ibm-ir",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-red-hat-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-redhat",
+          "n": "Source-backed supplier dependency for IBM."
+        },
+        {
+          "s": "supplier-in-hashicorp-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-hashicorp",
+          "n": "Source-backed supplier dependency for IBM."
+        },
+        {
+          "s": "supplier-in-semiconductor-and-hardware-component-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-redhat",
+          "n": "Source-backed supplier dependency for IBM."
+        },
+        {
+          "s": "supplier-in-open-source-software-and-developer-ecosystems-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-redhat",
+          "n": "Source-backed supplier dependency for IBM."
+        },
+        {
+          "s": "service-in-ibm-consulting-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-ir",
+          "n": "Source-backed service dependency for IBM."
+        },
+        {
+          "s": "service-in-managed-infrastructure-and-operations-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-hashicorp",
+          "n": "Source-backed service dependency for IBM."
+        },
+        {
+          "s": "service-in-ai-governance-and-compliance-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-hashicorp",
+          "n": "Source-backed service dependency for IBM."
+        },
+        {
+          "s": "service-in-treasury-and-procurement-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-hashicorp",
+          "n": "Source-backed service dependency for IBM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-ibm-partner-plus-ecosystem-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-partnerplus",
+          "n": "Source-backed channel route for IBM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-enterprise-software-and-hybrid-cloud-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-partnerplus",
+          "n": "Source-backed channel route for IBM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-ibm-consulting-delivery-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-partnerplus",
+          "n": "Source-backed channel route for IBM."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-systems-integrator-and-independent-software-vendor-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-partnerplus",
+          "n": "Source-backed channel route for IBM."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-hybrid-cloud-modernization-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-ir",
+          "n": "Source-backed demand route for IBM."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-enterprise-ai-deployment-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-ir",
+          "n": "Source-backed demand route for IBM."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-mission-critical-it-operations-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-ir",
+          "n": "Source-backed demand route for IBM."
+        },
+        {
+          "s": "channel-out-ibm-partner-plus-ecosystem-0",
+          "t": "demand-out-hybrid-cloud-modernization-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for IBM."
+        },
+        {
+          "s": "channel-out-enterprise-software-and-hybrid-cloud-channels-1",
+          "t": "demand-out-enterprise-ai-deployment-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for IBM."
+        },
+        {
+          "s": "channel-out-ibm-consulting-delivery-channels-2",
+          "t": "demand-out-mission-critical-it-operations-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "ibm-ir",
+          "n": "Source-backed demand transfer from channel to end-demand for IBM."
+        }
+      ],
+      "sources": [
+        {
+          "id": "ibm-ir",
+          "title": "IBM investor relations",
+          "url": "https://www.ibm.com/investor",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "ibm-sec",
+          "title": "IBM SEC filings",
+          "url": "https://www.ibm.com/investor/sec-filings",
+          "note": "Risk and operating disclosures."
+        },
+        {
+          "id": "ibm-redhat",
+          "title": "IBM completes acquisition of Red Hat",
+          "url": "https://www.ibm.com/investor/news/ibm-completes-acquisition-of-red-hat",
+          "note": "Official IBM investor announcement of Red Hat acquisition and hybrid cloud positioning."
+        },
+        {
+          "id": "ibm-hashicorp",
+          "title": "IBM completes acquisition of HashiCorp",
+          "url": "https://newsroom.ibm.com/2025-02-27-IBM-Completes-Acquisition-of-HashiCorp,-Creates-Comprehensive,-End-to-End-Hybrid-Cloud-Platform",
+          "note": "Official IBM newsroom announcement of HashiCorp acquisition."
+        },
+        {
+          "id": "ibm-partnerplus",
+          "title": "IBM Partner Plus",
+          "url": "https://www.ibm.com/partnerplus",
+          "note": "IBM global partner ecosystem and channel program."
+        }
+      ]
+    },
+    "AXP": {
+      "symbol": "AXP",
+      "company": "American Express",
+      "rank": 91,
+      "category": "Card Network and Issuer (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "American Express\nAXP - 203.86B",
+          "tier": 0,
+          "kind": "company",
+          "c": "US",
+          "d": "Card Network and Issuer (Source-backed) anchor company. Rank #91.",
+          "s": "Market cap $203,855,773,696.",
+          "z": 23,
+          "sourceId": "axp-10k-2025",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-delta-air-lines-0",
+          "l": "Delta Air Lines\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Delta Air Lines",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-marriott-international-1",
+          "l": "Marriott International\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Marriott International",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-hilton-worldwide-holdings-2",
+          "l": "Hilton Worldwide Holdings\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Hilton Worldwide Holdings",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-british-airways-3",
+          "l": "British Airways\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "UK",
+          "d": "British Airways",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-card-issuance-and-merchant-acquiring-technology-inputs-4",
+          "l": "Card Issuance and Merchant Acquiring Technology Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "US",
+          "d": "Card Issuance and Merchant Acquiring Technology Inputs",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-paypal-0",
+          "l": "PayPal\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "PayPal",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-alipay-1",
+          "l": "Alipay\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "CN",
+          "d": "Alipay",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-shop-pay-2",
+          "l": "Shop Pay\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Shop Pay",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-credit-and-risk-management-services-3",
+          "l": "Credit and Risk Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "US",
+          "d": "Credit and Risk Management Services",
+          "s": "AXP depends on this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-american-express-travel-0",
+          "l": "American Express Travel\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "American Express Travel",
+          "s": "AXP serves this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-global-merchant-network-1",
+          "l": "Global Merchant Network\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Global Merchant Network",
+          "s": "AXP serves this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-consumer-and-small-business-cobrand-cards-2",
+          "l": "Consumer and Small Business Cobrand Cards\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Consumer and Small Business Cobrand Cards",
+          "s": "AXP serves this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-corporate-card-and-commercial-services-3",
+          "l": "Corporate Card and Commercial Services\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "US",
+          "d": "Corporate Card and Commercial Services",
+          "s": "AXP serves this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-consumer-spending-demand-0",
+          "l": "Consumer Spending Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Consumer Spending Demand",
+          "s": "AXP serves this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-business-travel-and-expense-demand-1",
+          "l": "Business Travel and Expense Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Business Travel and Expense Demand",
+          "s": "AXP serves this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-premium-card-membership-demand-2",
+          "l": "Premium Card Membership Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "US",
+          "d": "Premium Card Membership Demand",
+          "s": "AXP serves this node.",
+          "sourceId": "axp-10k-2025",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-delta-air-lines-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed supplier dependency for AXP."
+        },
+        {
+          "s": "supplier-in-marriott-international-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed supplier dependency for AXP."
+        },
+        {
+          "s": "supplier-in-hilton-worldwide-holdings-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed supplier dependency for AXP."
+        },
+        {
+          "s": "supplier-in-british-airways-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed supplier dependency for AXP."
+        },
+        {
+          "s": "supplier-in-card-issuance-and-merchant-acquiring-technology-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed supplier dependency for AXP."
+        },
+        {
+          "s": "service-in-paypal-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed service dependency for AXP."
+        },
+        {
+          "s": "service-in-alipay-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed service dependency for AXP."
+        },
+        {
+          "s": "service-in-shop-pay-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed service dependency for AXP."
+        },
+        {
+          "s": "service-in-credit-and-risk-management-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed service dependency for AXP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-american-express-travel-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed channel route for AXP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-global-merchant-network-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed channel route for AXP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-consumer-and-small-business-cobrand-cards-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed channel route for AXP."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-corporate-card-and-commercial-services-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed channel route for AXP."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-consumer-spending-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed demand route for AXP."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-business-travel-and-expense-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed demand route for AXP."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-premium-card-membership-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed demand route for AXP."
+        },
+        {
+          "s": "channel-out-american-express-travel-0",
+          "t": "demand-out-consumer-spending-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for AXP."
+        },
+        {
+          "s": "channel-out-global-merchant-network-1",
+          "t": "demand-out-business-travel-and-expense-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for AXP."
+        },
+        {
+          "s": "channel-out-consumer-and-small-business-cobrand-cards-2",
+          "t": "demand-out-premium-card-membership-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "axp-10k-2025",
+          "n": "Source-backed demand transfer from channel to end-demand for AXP."
+        }
+      ],
+      "sources": [
+        {
+          "id": "axp-ir",
+          "title": "American Express investor relations",
+          "url": "https://ir.americanexpress.com/",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "axp-sec-submissions",
+          "title": "American Express SEC submissions index",
+          "url": "https://data.sec.gov/submissions/CIK0000004962.json",
+          "note": "Primary SEC filing index for latest annual report artifacts."
+        },
+        {
+          "id": "axp-10k-2025",
+          "title": "American Express FY2025 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+          "note": "Primary filing naming Delta, Marriott, British Airways, Hilton, PayPal/Alipay/Shop Pay, and network peers Visa/Mastercard."
+        }
+      ]
+    },
+    "SHOP": {
+      "symbol": "SHOP",
+      "company": "Shopify",
+      "rank": 92,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Shopify\nSHOP - 203.29B",
+          "tier": 0,
+          "kind": "company",
+          "c": "CA",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $203,289,739,264.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
+    "STX": {
+      "symbol": "STX",
+      "company": "Seagate Technology",
+      "rank": 93,
+      "category": "Relationship research pending",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Seagate Technology\nSTX - 202.65B",
+          "tier": 0,
+          "kind": "company",
+          "c": "IE",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $202,646,962,176.",
+          "z": 22
+        }
+      ],
+      "links": [],
+      "sources": []
+    },
     "300750.SZ": {
       "symbol": "300750.SZ",
       "company": "CATL",
-      "rank": 95,
+      "rank": 94,
       "category": "Battery Manufacturing and OEM Customer Network (Source-backed)",
       "layers": {
         "0": "Company",
@@ -35952,12 +35540,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "CATL\n300750.SZ - 201.70B",
+          "l": "CATL\n300750.SZ - 201.16B",
           "tier": 0,
           "kind": "company",
           "c": "CN",
-          "d": "Battery Manufacturing and OEM Customer Network (Source-backed) anchor company. Rank #95.",
-          "s": "Market cap $201,700,453,897.",
+          "d": "Battery Manufacturing and OEM Customer Network (Source-backed) anchor company. Rank #94.",
+          "s": "Market cap $201,161,627,081.",
           "z": 23,
           "sourceId": "stla-20f-2024",
           "confidence": "high (company disclosure)"
@@ -36328,10 +35916,10 @@ window.SUPPLY_MAP_DATA = {
         }
       ]
     },
-    "TTE": {
-      "symbol": "TTE",
-      "company": "TotalEnergies",
-      "rank": 96,
+    "ADI": {
+      "symbol": "ADI",
+      "company": "Analog Devices",
+      "rank": 95,
       "category": "Relationship research pending",
       "layers": {
         "0": "Company",
@@ -36343,21 +35931,433 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "TotalEnergies\nTTE - 200.82B",
+          "l": "Analog Devices\nADI - 200.99B",
           "tier": 0,
           "kind": "company",
-          "c": "FR",
+          "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $200,820,064,256.",
+          "s": "Market cap $200,990,490,624.",
           "z": 22
         }
       ],
       "links": [],
       "sources": []
     },
-    "TD": {
-      "symbol": "TD",
-      "company": "Toronto Dominion Bank",
+    "SAN": {
+      "symbol": "SAN",
+      "company": "Santander",
+      "rank": 96,
+      "category": "Global Banking (Source-backed)",
+      "layers": {
+        "0": "Company",
+        "1": "Channels",
+        "2": "Demand",
+        "-2": "Upstream Inputs",
+        "-1": "Services & Risk"
+      },
+      "nodes": [
+        {
+          "id": "company",
+          "l": "Santander\nSAN - 197.59B",
+          "tier": 0,
+          "kind": "company",
+          "c": "ES",
+          "d": "Global Banking (Source-backed) anchor company. Rank #96.",
+          "s": "Market cap $197,586,010,112.",
+          "z": 23,
+          "sourceId": "san-ir",
+          "confidence": "high (company disclosure)"
+        },
+        {
+          "id": "supplier-in-digital-consumer-bank-0",
+          "l": "Digital Consumer Bank\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "ES",
+          "d": "Digital Consumer Bank",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-santander-consumer-finance-1",
+          "l": "Santander Consumer Finance\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "ES",
+          "d": "Santander Consumer Finance",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-core-banking-and-digital-platform-inputs-2",
+          "l": "Core Banking and Digital Platform Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "ES",
+          "d": "Core Banking and Digital Platform Inputs",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-credit-and-risk-data-inputs-3",
+          "l": "Credit and Risk Data Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "ES",
+          "d": "Credit and Risk Data Inputs",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "supplier-in-payments-and-settlement-infrastructure-inputs-4",
+          "l": "Payments and Settlement Infrastructure Inputs\nUpstream or enabling dependency",
+          "tier": -2,
+          "kind": "supplier",
+          "c": "ES",
+          "d": "Payments and Settlement Infrastructure Inputs",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-retail-and-commercial-banking-services-0",
+          "l": "Retail and Commercial Banking Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "ES",
+          "d": "Retail and Commercial Banking Services",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-regulatory-and-risk-management-services-1",
+          "l": "Regulatory and Risk Management Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "ES",
+          "d": "Regulatory and Risk Management Services",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-treasury-and-liquidity-services-2",
+          "l": "Treasury and Liquidity Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "ES",
+          "d": "Treasury and Liquidity Services",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "service-in-wealth-and-insurance-services-3",
+          "l": "Wealth and Insurance Services\nUpstream or enabling dependency",
+          "tier": -1,
+          "kind": "service",
+          "c": "ES",
+          "d": "Wealth and Insurance Services",
+          "s": "SAN depends on this node.",
+          "sourceId": "san-reports",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-consumer-banking-channels-0",
+          "l": "Consumer Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "ES",
+          "d": "Consumer Banking Channels",
+          "s": "SAN serves this node.",
+          "sourceId": "san-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-sme-and-corporate-channels-1",
+          "l": "SME and Corporate Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "ES",
+          "d": "SME and Corporate Channels",
+          "s": "SAN serves this node.",
+          "sourceId": "san-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-global-payments-and-trade-channels-2",
+          "l": "Global Payments and Trade Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "ES",
+          "d": "Global Payments and Trade Channels",
+          "s": "SAN serves this node.",
+          "sourceId": "san-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "channel-out-digital-and-mobile-banking-channels-3",
+          "l": "Digital and Mobile Banking Channels\nDownstream channel",
+          "tier": 1,
+          "kind": "channel",
+          "c": "ES",
+          "d": "Digital and Mobile Banking Channels",
+          "s": "SAN serves this node.",
+          "sourceId": "san-business",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-consumer-credit-and-deposit-demand-0",
+          "l": "Consumer Credit and Deposit Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "ES",
+          "d": "Consumer Credit and Deposit Demand",
+          "s": "SAN serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-sme-finance-demand-1",
+          "l": "SME Finance Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "ES",
+          "d": "SME Finance Demand",
+          "s": "SAN serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        },
+        {
+          "id": "demand-out-international-banking-demand-2",
+          "l": "International Banking Demand\nDownstream channel",
+          "tier": 2,
+          "kind": "demand",
+          "c": "ES",
+          "d": "International Banking Demand",
+          "s": "SAN serves this node.",
+          "sourceId": "swift-payments",
+          "confidence": "medium (source-backed)",
+          "z": 11
+        }
+      ],
+      "links": [
+        {
+          "s": "supplier-in-digital-consumer-bank-0",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed supplier dependency for SAN."
+        },
+        {
+          "s": "supplier-in-santander-consumer-finance-1",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed supplier dependency for SAN."
+        },
+        {
+          "s": "supplier-in-core-banking-and-digital-platform-inputs-2",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed supplier dependency for SAN."
+        },
+        {
+          "s": "supplier-in-credit-and-risk-data-inputs-3",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed supplier dependency for SAN."
+        },
+        {
+          "s": "supplier-in-payments-and-settlement-infrastructure-inputs-4",
+          "t": "company",
+          "v": 2,
+          "k": "supplier-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed supplier dependency for SAN."
+        },
+        {
+          "s": "service-in-retail-and-commercial-banking-services-0",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed service dependency for SAN."
+        },
+        {
+          "s": "service-in-regulatory-and-risk-management-services-1",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed service dependency for SAN."
+        },
+        {
+          "s": "service-in-treasury-and-liquidity-services-2",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed service dependency for SAN."
+        },
+        {
+          "s": "service-in-wealth-and-insurance-services-3",
+          "t": "company",
+          "v": 2,
+          "k": "service-input",
+          "cf": "medium (source-backed)",
+          "sf": "san-reports",
+          "n": "Source-backed service dependency for SAN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-consumer-banking-channels-0",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "san-business",
+          "n": "Source-backed channel route for SAN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-sme-and-corporate-channels-1",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "san-business",
+          "n": "Source-backed channel route for SAN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-global-payments-and-trade-channels-2",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "san-business",
+          "n": "Source-backed channel route for SAN."
+        },
+        {
+          "s": "company",
+          "t": "channel-out-digital-and-mobile-banking-channels-3",
+          "v": 2,
+          "k": "channel-output",
+          "cf": "medium (source-backed)",
+          "sf": "san-business",
+          "n": "Source-backed channel route for SAN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-consumer-credit-and-deposit-demand-0",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for SAN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-sme-finance-demand-1",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for SAN."
+        },
+        {
+          "s": "company",
+          "t": "demand-out-international-banking-demand-2",
+          "v": 2,
+          "k": "demand-output",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand route for SAN."
+        },
+        {
+          "s": "channel-out-consumer-banking-channels-0",
+          "t": "demand-out-consumer-credit-and-deposit-demand-0",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for SAN."
+        },
+        {
+          "s": "channel-out-sme-and-corporate-channels-1",
+          "t": "demand-out-sme-finance-demand-1",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for SAN."
+        },
+        {
+          "s": "channel-out-global-payments-and-trade-channels-2",
+          "t": "demand-out-international-banking-demand-2",
+          "v": 1,
+          "k": "channel-to-demand",
+          "cf": "medium (source-backed)",
+          "sf": "swift-payments",
+          "n": "Source-backed demand transfer from channel to end-demand for SAN."
+        }
+      ],
+      "sources": [
+        {
+          "id": "san-ir",
+          "title": "Santander investor relations",
+          "url": "https://www.santander.com/en/shareholders-and-investors",
+          "note": "Financial and demand context."
+        },
+        {
+          "id": "san-reports",
+          "title": "Santander annual reports",
+          "url": "https://www.santander.com/en/shareholders-and-investors/financial-and-economic-information/annual-report",
+          "note": "Risk and operating disclosures. Digital Consumer Bank and Santander Consumer Finance are key segments."
+        },
+        {
+          "id": "san-business",
+          "title": "Santander businesses",
+          "url": "https://www.santander.com/en/about-us",
+          "note": "Channel and business structure context."
+        }
+      ]
+    },
+    "QCOM": {
+      "symbol": "QCOM",
+      "company": "QUALCOMM",
       "rank": 97,
       "category": "Relationship research pending",
       "layers": {
@@ -36370,23 +36370,23 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Toronto Dominion Bank\nTD - 197.69B",
+          "l": "QUALCOMM\nQCOM - 196.62B",
           "tier": 0,
           "kind": "company",
-          "c": "CA",
+          "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $197,686,345,728.",
+          "s": "Market cap $196,620,320,768.",
           "z": 22
         }
       ],
       "links": [],
       "sources": []
     },
-    "VZ": {
-      "symbol": "VZ",
-      "company": "Verizon",
+    "285A.T": {
+      "symbol": "285A.T",
+      "company": "KIOXIA Holdings Corporation",
       "rank": 98,
-      "category": "Telecom Network Platform (Source-backed)",
+      "category": "Relationship research pending",
       "layers": {
         "0": "Company",
         "1": "Channels",
@@ -36397,402 +36397,17 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Verizon\nVZ - 195.61B",
+          "l": "KIOXIA Holdings Corporation\n285A.T - 193.40B",
           "tier": 0,
           "kind": "company",
-          "c": "US",
-          "d": "Telecom Network Platform (Source-backed) anchor company. Rank #98.",
-          "s": "Market cap $195,606,822,912.",
-          "z": 23,
-          "sourceId": "vz-ir",
-          "confidence": "high (company disclosure)"
-        },
-        {
-          "id": "supplier-in-american-tower-corporation-0",
-          "l": "American Tower Corporation\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "American Tower Corporation",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-verizon-consumer-group-1",
-          "l": "Verizon Consumer Group\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Verizon Consumer Group",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-verizon-business-group-2",
-          "l": "Verizon Business Group\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Verizon Business Group",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-network-equipment-and-infrastructure-suppliers-3",
-          "l": "Network Equipment and Infrastructure Suppliers\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Network Equipment and Infrastructure Suppliers",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "supplier-in-cloud-and-edge-technology-partners-4",
-          "l": "Cloud and Edge Technology Partners\nUpstream or enabling dependency",
-          "tier": -2,
-          "kind": "supplier",
-          "c": "US",
-          "d": "Cloud and Edge Technology Partners",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-network-operations-and-field-service-0",
-          "l": "Network Operations and Field Service\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Network Operations and Field Service",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-enterprise-connectivity-and-managed-services-1",
-          "l": "Enterprise Connectivity and Managed Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Enterprise Connectivity and Managed Services",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-cybersecurity-and-fraud-prevention-services-2",
-          "l": "Cybersecurity and Fraud Prevention Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Cybersecurity and Fraud Prevention Services",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "service-in-treasury-and-procurement-services-3",
-          "l": "Treasury and Procurement Services\nUpstream or enabling dependency",
-          "tier": -1,
-          "kind": "service",
-          "c": "US",
-          "d": "Treasury and Procurement Services",
-          "s": "VZ depends on this node.",
-          "sourceId": "vz-sec",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-consumer-wireless-channels-0",
-          "l": "Consumer Wireless Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Consumer Wireless Channels",
-          "s": "VZ serves this node.",
-          "sourceId": "vz-network",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-fiber-and-broadband-channels-1",
-          "l": "Fiber and Broadband Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Fiber and Broadband Channels",
-          "s": "VZ serves this node.",
-          "sourceId": "vz-network",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-enterprise-and-government-channels-2",
-          "l": "Enterprise and Government Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Enterprise and Government Channels",
-          "s": "VZ serves this node.",
-          "sourceId": "vz-network",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "channel-out-wholesale-and-iot-channels-3",
-          "l": "Wholesale and IoT Channels\nDownstream channel",
-          "tier": 1,
-          "kind": "channel",
-          "c": "US",
-          "d": "Wholesale and IoT Channels",
-          "s": "VZ serves this node.",
-          "sourceId": "vz-network",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-mobile-data-demand-0",
-          "l": "Mobile Data Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Mobile Data Demand",
-          "s": "VZ serves this node.",
-          "sourceId": "vz-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-enterprise-connectivity-demand-1",
-          "l": "Enterprise Connectivity Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Enterprise Connectivity Demand",
-          "s": "VZ serves this node.",
-          "sourceId": "vz-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
-        },
-        {
-          "id": "demand-out-broadband-and-fixed-wireless-demand-2",
-          "l": "Broadband and Fixed Wireless Demand\nDownstream channel",
-          "tier": 2,
-          "kind": "demand",
-          "c": "US",
-          "d": "Broadband and Fixed Wireless Demand",
-          "s": "VZ serves this node.",
-          "sourceId": "vz-ir",
-          "confidence": "medium (source-backed)",
-          "z": 11
+          "c": "JP",
+          "d": "No verified relationship data published.",
+          "s": "Market cap $193,397,865,631.",
+          "z": 22
         }
       ],
-      "links": [
-        {
-          "s": "supplier-in-american-tower-corporation-0",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed supplier dependency for VZ."
-        },
-        {
-          "s": "supplier-in-verizon-consumer-group-1",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed supplier dependency for VZ."
-        },
-        {
-          "s": "supplier-in-verizon-business-group-2",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed supplier dependency for VZ."
-        },
-        {
-          "s": "supplier-in-network-equipment-and-infrastructure-suppliers-3",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed supplier dependency for VZ."
-        },
-        {
-          "s": "supplier-in-cloud-and-edge-technology-partners-4",
-          "t": "company",
-          "v": 2,
-          "k": "supplier-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed supplier dependency for VZ."
-        },
-        {
-          "s": "service-in-network-operations-and-field-service-0",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed service dependency for VZ."
-        },
-        {
-          "s": "service-in-enterprise-connectivity-and-managed-services-1",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed service dependency for VZ."
-        },
-        {
-          "s": "service-in-cybersecurity-and-fraud-prevention-services-2",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed service dependency for VZ."
-        },
-        {
-          "s": "service-in-treasury-and-procurement-services-3",
-          "t": "company",
-          "v": 2,
-          "k": "service-input",
-          "cf": "medium (source-backed)",
-          "sf": "vz-sec",
-          "n": "Source-backed service dependency for VZ."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-consumer-wireless-channels-0",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "vz-network",
-          "n": "Source-backed channel route for VZ."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-fiber-and-broadband-channels-1",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "vz-network",
-          "n": "Source-backed channel route for VZ."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-enterprise-and-government-channels-2",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "vz-network",
-          "n": "Source-backed channel route for VZ."
-        },
-        {
-          "s": "company",
-          "t": "channel-out-wholesale-and-iot-channels-3",
-          "v": 2,
-          "k": "channel-output",
-          "cf": "medium (source-backed)",
-          "sf": "vz-network",
-          "n": "Source-backed channel route for VZ."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-mobile-data-demand-0",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "vz-ir",
-          "n": "Source-backed demand route for VZ."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-enterprise-connectivity-demand-1",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "vz-ir",
-          "n": "Source-backed demand route for VZ."
-        },
-        {
-          "s": "company",
-          "t": "demand-out-broadband-and-fixed-wireless-demand-2",
-          "v": 2,
-          "k": "demand-output",
-          "cf": "medium (source-backed)",
-          "sf": "vz-ir",
-          "n": "Source-backed demand route for VZ."
-        },
-        {
-          "s": "channel-out-consumer-wireless-channels-0",
-          "t": "demand-out-mobile-data-demand-0",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "vz-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for VZ."
-        },
-        {
-          "s": "channel-out-fiber-and-broadband-channels-1",
-          "t": "demand-out-enterprise-connectivity-demand-1",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "vz-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for VZ."
-        },
-        {
-          "s": "channel-out-enterprise-and-government-channels-2",
-          "t": "demand-out-broadband-and-fixed-wireless-demand-2",
-          "v": 1,
-          "k": "channel-to-demand",
-          "cf": "medium (source-backed)",
-          "sf": "vz-ir",
-          "n": "Source-backed demand transfer from channel to end-demand for VZ."
-        }
-      ],
-      "sources": [
-        {
-          "id": "vz-ir",
-          "title": "Verizon investor relations",
-          "url": "https://www.verizon.com/about/investors",
-          "note": "Financial and segment demand context."
-        },
-        {
-          "id": "vz-sec",
-          "title": "Verizon SEC filings",
-          "url": "https://www.verizon.com/about/investors/sec-filings",
-          "note": "Operational and risk disclosures."
-        },
-        {
-          "id": "vz-network",
-          "title": "Verizon network and technology",
-          "url": "https://www.verizon.com/about/our-company/network-and-technology",
-          "note": "Service delivery and channel context."
-        }
-      ]
+      "links": [],
+      "sources": []
     },
     "CRM": {
       "symbol": "CRM",
@@ -36809,21 +36424,21 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Salesforce\nCRM - 192.60B",
+          "l": "Salesforce\nCRM - 193.07B",
           "tier": 0,
           "kind": "company",
           "c": "US",
           "d": "No verified relationship data published.",
-          "s": "Market cap $192,598,458,368.",
+          "s": "Market cap $193,074,970,624.",
           "z": 22
         }
       ],
       "links": [],
       "sources": []
     },
-    "ADI": {
-      "symbol": "ADI",
-      "company": "Analog Devices",
+    "TD": {
+      "symbol": "TD",
+      "company": "Toronto Dominion Bank",
       "rank": 100,
       "category": "Relationship research pending",
       "layers": {
@@ -36836,12 +36451,12 @@ window.SUPPLY_MAP_DATA = {
       "nodes": [
         {
           "id": "company",
-          "l": "Analog Devices\nADI - 190.72B",
+          "l": "Toronto Dominion Bank\nTD - 191.32B",
           "tier": 0,
           "kind": "company",
-          "c": "US",
+          "c": "CA",
           "d": "No verified relationship data published.",
-          "s": "Market cap $190,724,980,736.",
+          "s": "Market cap $191,324,241,920.",
           "z": 22
         }
       ],
